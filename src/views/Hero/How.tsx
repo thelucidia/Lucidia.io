@@ -47,7 +47,7 @@ const How = () => {
 
 
                         <div className=" flex flex-col gap-y-4 mt-14 sm:mt-20 ">
-                            <a href="https://drive.google.com/file/d/1pT08KRpvPwnQcxwyGktETCeH8HtZi08v/view" target='_blank' rel="noopener noreferrer" className="">
+                            <a href="https://drive.google.com/file/d/1xXjWFQoPwON15ug-cTOD0RV1bCjSA31g/view" target='_blank' rel="noopener noreferrer" className="">
                                 <button className="w-full lg:w-[15rem] h-11 clipped2 bg-gradient-to-bl from-white to-[#0ED4FF] relative group font-bold flex items-center justify-center scale-x-[-1]">
                                     <div className="absolute bg-black w-[98%] h-[93%] left-0 top-0 right-0 bottom-0 m-auto clipped2">
 

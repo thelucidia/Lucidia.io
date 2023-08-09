@@ -14,13 +14,13 @@ const Nav = () => {
             name: 'pitchdeck',
             slug: 'pitchdeck',
             type: 'external',
-            link: 'https://drive.google.com/file/d/1n1ddGOA5tTXVhK6zu7962QLSJBUev0aA/view'
+            link: 'https://drive.google.com/file/d/1IVxxaVEdeZfwCFvRiwWVqtaXA4H68mn1/view'
         },
         {
             name: 'roadmap',
             slug: 'roadmap',
             type: 'external',
-            link: 'https://drive.google.com/file/d/1j_jqFpZlgmppz9CElg4KeSnmoR4uneqp/view'
+            link: 'https://drive.google.com/file/d/1vSePaNb3F91F2ZlTXAP5eT5N1QfhQgI1/view'
         },
         {
             name: 'our team',
@@ -40,13 +40,13 @@ const Nav = () => {
             name: 'pitchdeck',
             slug: 'pitchdeck',
             type: 'external',
-            link: 'https://drive.google.com/file/d/1n1ddGOA5tTXVhK6zu7962QLSJBUev0aA/view'
+            link: 'https://drive.google.com/file/d/1IVxxaVEdeZfwCFvRiwWVqtaXA4H68mn1/view'
         },
         {
             name: 'roadmap',
             slug: 'roadmap',
             type: 'external',
-            linl: 'https://drive.google.com/file/d/1j_jqFpZlgmppz9CElg4KeSnmoR4uneqp/view'
+            linl: 'https://drive.google.com/file/d/1vSePaNb3F91F2ZlTXAP5eT5N1QfhQgI1/view'
         },
         {
             name: 'our team',
@@ -56,7 +56,8 @@ const Nav = () => {
         {
             name: 'whitepaper',
             slug: 'whitepaper',
-            type: 'external'
+            type: 'external',
+            link: 'https://drive.google.com/file/d/171DBd1AvAKk3m7bn1kmtm40dnVFkHRcB/view'
         },
         {
             name: 'audit',
