@@ -37,16 +37,16 @@ const Nav = () => {
 
     const navMobile = [
         {
-            name: 'roadmap',
-            slug: 'roadmap',
-            type: 'external',
-            linl: 'https://drive.google.com/file/d/1vSePaNb3F91F2ZlTXAP5eT5N1QfhQgI1/view'
-        },
-        {
             name: 'pitchdeck',
             slug: 'pitchdeck',
             type: 'external',
             link: 'https://drive.google.com/file/d/1IVxxaVEdeZfwCFvRiwWVqtaXA4H68mn1/view'
+        },
+        {
+            name: 'roadmap',
+            slug: 'roadmap',
+            type: 'external',
+            link: 'https://drive.google.com/file/d/1vSePaNb3F91F2ZlTXAP5eT5N1QfhQgI1/view'
         },
         {
             name: 'our team',
