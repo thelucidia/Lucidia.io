@@ -1,0 +1,488 @@
+{
+  "hero_title": "AI DRIVEN GAMEFI GOVERNED BY YOU",
+  "hero_desc1": "We are not looking to reinvent the wheel of Gamification and game plots - just to give you the power and ownership over what you have already been doing for years.",
+  "hero_desc2": "Our goal is to put fun back into GameFi and make the Metaverse experience accessible to any user with a mobile device from any corner of the world.",
+  "buy_lucid": "BUY $LUCID",
+  "token_allocation": "Token allocation",
+  "join_community": "Join community of 100k+ Lucidians",
+  "audited_by": "Audited by",
+  "how_to_buy": "How to buy $LUCID",
+  "to_be": "To Be Unlocked by Users",
+  "in_game": "In Game Assets",
+  "game_inside": "Game Inside Metaverse",
+  "maps": "Maps",
+  "free2play": "Free2Play Open World",
+  "zombie": "Zombie Outbreak",
+  "lucid": "Lucidcraft",
+  "battle": "Battlefury",
+  "canyon": "Canyon Drift",
+  "details": "See details",
+  "more_games": "See more games",
+  "diaries": "Developer Diaries",
+  "partners": "Our Partners",
+  "jurisdiction": "Your Jurisdiction May Not Regulate Cryptocurrencies. The Value Of Cryptocurrencies May Rise And Fall. Profits May Be Subject To Capital Gains Taxes Or Other Local Taxes.",
+  "rights": "All Rights Reserved.",
+  "general": "General",
+  "privacy": "Privacy Policy",
+  "terms": "Terms and Condition",
+  "token_sale": "Token Sale Terms and Condition",
+  "company": "Company",
+  "contact": "Contact Us",
+  "frequent": "Frequently Asked Questions",
+  "anti": "Anti-Money-laundering Policy",
+  "overview": "Game Overview",
+  "other": "Other Games",
+  "game_details": "Game details",
+  "games": {
+    "play_game": "Play Game",
+    "zombie": {
+      "title": "You Have to Survive",
+      "desc": "Zombie Outbreak is an action/adventure/survival game set in a post-apocalyptic world overrun by zombies. Collect weapon, bullet, and fuel props. Travel throuhg open-world environment with different biomes.",
+      "overview": "Zombie Outbreak is an action/adventure/survival game set in a post-apocalyptic world overrun by zombies. Gameplay and Gameplay Mechanisms Players control multiple distinct characters, each with unique abilities. The game features an open-world environment with different biomes. Players collect weapons, bullets, and fuel props. Combat involves firearms, melee weapons, and knives. Three types of vehicles (helicopter, car, horse) for traversal. Approximately 10 small in-game missions. Lucidcraft",
+      "details": [
+        {
+          "title": "Game",
+          "value": "Zombie Outbreak"
+        },
+        {
+          "title": "Genre",
+          "value": "Action/Adventure/Survival"
+        },
+        {
+          "title": "Cross-platform",
+          "value": "PC, Console, Virtual Reality"
+        },
+        {
+          "title": "Audience",
+          "value": "15 y.o and above"
+        }
+      ],
+      "details2": [
+        "Almost open world map with three different biomes",
+        "Three playable characters with unique missions",
+        "Collection of weapons and bullets from the environment",
+        "Combat against zombies with weapons or knives",
+        "Fuel props for vehicles",
+        "Armed cars",
+        "Five different weapons",
+        "Three types of vehicles (helicopter, car, horse) depending on the biome",
+        "Around 10 small in-game missions"
+      ]
+    },
+    "lucid": {
+      "title": "Craft tools, create blocks",
+      "desc": "Lucidcraft is a sandbox adventure survival game set in a procedurally generated world. You can craft tools like pickaxe, axe, and shovel. Create a block and gather all the recourses as much as you need.",
+      "overview": "Lucidcraft is a sandbox adventure survival game set in a procedurally generated world.",
+      "mech": "Mechanisms and Gameplay",
+      "overview2": "Procedurally generated, virtually infinite world. Three types of tools for gathering resources. Crafting system for creating new blocks. Approximately 50 types of blocks, with most needing crafting. Dynamic weather system for changing game graphics.",
+      "details": [
+        {
+          "title": "Genre",
+          "value": "Adventure, Survival"
+        },
+        {
+          "title": "Cross-platform",
+          "value": "PC, Console, Virtual Reality"
+        },
+        {
+          "title": "Audience",
+          "value": "All ages, Sandbox, Construction, and Survival Game Fans."
+        }
+      ],
+      "details2": [
+        "Procedurally generated world.",
+        "Three types of tools (shovel, axe, pickaxe).",
+        "Crafting system for creating new blocks.",
+        "Approximately 50 types of blocks (90% need to be crafted).",
+        "Dynamic weather system for changing game graphics."
+      ]
+    },
+    "battle": {
+      "title": "Team up, win a deathmatch",
+      "desc": "Battlefury is a game for emphasizing strategy, cooperation, and quick reflexes. You can choose one of four character and team up with other players in a deathmatch, free for all, and capture flag game mode.",
+      "overview": "Game emphasizing strategy, cooperation, and quick reflexes. Account and Session Creation Players need an Epic Games account to play. Create game sessions for multiplayer, prioritizing player count and ping.",
+      "overview_data": [
+        {
+          "title": "Character Assignment",
+          "value": "Four characters to choose from, each with unique characteristics."
+        },
+
+        {
+          "title": "Game Modes",
+          "value": "Team Deathmatch, Free For All, Capture Flag, with varying bot numbers."
+        },
+        {
+          "title": "Weapons",
+          "value": "Different weapon sets for each match."
+        }
+      ],
+      "details": [
+        {
+          "title": "Cross-platform",
+          "value": "PC, Console, Virtual Reality"
+        },
+        {
+          "title": "Audience",
+          "value": "Gamers 15 and older who enjoy competitive FPS games"
+        },
+        {
+          "title": "Game modes",
+          "value": "Team Deathmatch, Free For All, Capture Flag"
+        }
+      ],
+      "details2": [
+        "Requires signing in with an Epic Games account.",
+        "Four playable characters.",
+        "Bots included (varying numbers based on game mode).",
+        "Different sets of weapons for each match."
+      ]
+    },
+    "canyon": {
+      "title": "Pick a car and race!",
+      "desc": "Canyon Drift is a race game that bring players to race on looped track with canyon-style environtment. You can choose one car in the showroom as your car and race with other players.",
+
+      "details": [
+        "Choose one of the cars in the showroom",
+        "Spawn in a looped driving arena with a canyon-style environment",
+        "Playable in both first person and third-person modes"
+      ]
+    }
+  },
+  "games_content": [
+    {
+      "title": "",
+      "subHeader": "You Have to Survive!",
+      "description": "Zombie Outbreak is an action/adventure/survival game set in a post-apocalyptic world overrun by zombies. Collect weapon, bullet, and fuel props. Travel throuhg open-world environment with different biomes.",
+      "slug": "zombie-outbreak",
+      "link": "",
+      "image": "zombie"
+    },
+    {
+      "title": "lucidcraft",
+      "subHeader": "Craft tools, create blocks",
+      "description": "Lucidcraft is a sandbox adventure survival game set in a procedurally generated world. You can craft tools like pickaxe, axe, and shovle. Create a block and gather all the recourses as much as you need.",
+      "slug": "lucidcraft",
+      "link": "",
+      "image": "minecraft"
+    },
+    {
+      "title": "battlefury",
+      "subHeader": "Team up, win a deathmatch",
+      "description": "Battlefury is a game for emphasizing strategy, cooperation, and quick reflexes. You can choose one of four character and team up with other players in a deathmatch, free for all, and capture flag game mode.",
+      "slug": "battlefury",
+      "link": "",
+      "image": "battlefury"
+    },
+    {
+      "title": "Canyon Drift",
+      "subHeader": "Pick a car and race!",
+      "description": "Canyon Drift is a race game that bring players to race on looped track with canyon-style environtment. You can choose one car in the showroom as your car and race with other players.",
+      "slug": "canyon-drift",
+      "link": "",
+      "image": "race"
+    }
+  ],
+  "team": {
+    "about": "About us",
+    "about_data": [
+      {
+        "title": "Our Journey",
+        "value": "Lucidia was founded with a revolutionary intent: to redefine the landscape of gaming in the Middle East and usher it into the Web3 era. Our journey began as a modest development studio, and we have since evolved into a pioneering game publisher with a unique focus on community-driven governance. Utilizing the robust capabilities of blockchain technology, we introduced LUCID tokens and gameplay-based NFTs to enable direct participation of both players and developers in our ecosystem."
+      },
+      {
+        "title": "Our Vision",
+        "value": "We envision a gaming world where players are not just consumers but active contributors to the gaming experience. Our Web3 platform provides a decentralized, transparent, and inclusive arena that transcends traditional gaming paradigms. By becoming the first Web3 game studio publisher in the Middle East, we aim to accelerate the adoption of blockchain technology in gaming, enrich the quality of content, and expand the possibilities of true ownership and participative decision-making."
+      }
+    ],
+    "mission": "Our Mission",
+    "mission_data": [
+      {
+        "bold": "Empower the Community:",
+        "normal": "To grant players and developers significant decision-making power through tokenomics and governance models, ensuring games are built and improved by the very people who play and love them."
+      },
+
+      {
+        "bold": "Attract and Support Talent:",
+        "normal": "To bring more game developers into the decentralized space, offering them the tools, resources, and freedom to create, innovate, and succeed."
+      },
+      {
+        "bold": "Catalyze Innovation:",
+        "normal": "To continually push the boundaries of what's possible in Web3 gaming by developing and publishing high-quality, engaging titles that can be improved upon collaboratively."
+      },
+      {
+        "bold": "Democratize Gaming:",
+        "normal": "To level the playing field, removing traditional barriers to entry and granting opportunities for creators and players alike, particularly in the underrepresented Middle East region."
+      },
+      {
+        "bold": "Build a Sustainable Ecosystem:",
+        "normal": "To create a self-sustaining loop of development and improvement, financed and directed by community governance and tokenomics, ensuring long-term viability."
+      }
+    ],
+    "meet": "Meet Our Crypt Experts",
+    "meet_desc": "At Lucidia we believe that the true, fully immersive metaverse is just around the corner.",
+    "want": "Want to join our team?",
+    "apply": "Apply Now"
+  },
+  "table": "Table of Content",
+  "contact_desc1": "If you have any questions about this Policy, please contact us at [Contact@lucidia.com].",
+  "contact_desc2": "This is a sample of privacy policy, you should consult with a legal professional to ensure that your privacy policy complies with your jurisdiction laws and that it covers all aspects of your service.",
+  "privacy_page": {
+    "title": "Privacy Policy and Terms",
+    "desc": "This privacy policy (\"Policy\") describes how our website (the \"Website\") collects, uses, and protects the personal information of our users. By accessing or using the Website, you agree to be bound by this Policy. If you do not agree to this Policy, please do not use the Website.",
+    "privacy_data": [
+      {
+        "title": "Information We Collect",
+        "value": "We may collect personal information from you when you use the Website, including your name, email address, and any other information you choose to provide. We may also collect information about your use of the Website, such as the pages you visit and the actions you take."
+      },
+
+      {
+        "title": "Use of Information",
+        "value": "We may use the information we collect to operate and improve the Website, to personalize your experience, and to communicate with you. We may also use the information for research and analysis, to prevent fraud or illegal activities, and as required by law."
+      },
+      {
+        "title": "Sharing of Information",
+        "value": "We may share your personal information with third parties for the purpose of providing the Website and its features, such as hosting, payment processing, and customer support. We may also share your information with third parties for research and analysis, or as required by law."
+      },
+      {
+        "title": "Security",
+        "value": "We take reasonable measures to protect the personal information we collect from unauthorized access, use, or disclosure. However, no data transmission over the internet can be guaranteed to be 100% secure. As a result, while we strive to protect your personal information, we cannot ensure or warrant the security of any information you transmit to us, and you do so at your own risk."
+      },
+      {
+        "title": "Retention of Information",
+        "value": "We will retain your personal information for as long as necessary to provide the Website and its features, or as required by law."
+      },
+      {
+        "title": "Changes to Policy",
+        "value": "We reserve the right to make changes to this Policy at any time. Your continued use of the Website following any changes to this Policy will be deemed acceptance of those changes."
+      }
+    ]
+  },
+  "terms_page": {
+    "title": "Terms and Condition",
+    "terms_data": [
+      {
+        "title": "Introduction",
+        "value": "Welcome to Lucidia website. By accessing or using the Website, you agree to be bound by these terms of use (the \"Terms\"). If you do not agree to these Terms, please do not use the Website."
+      },
+
+      {
+        "title": "User Conduct",
+        "value": "You agree to use the Website only for lawful purposes and in a way that does not infringe the rights of, restrict or inhibit anyone else's use and enjoyment of the Website. Prohibited behavior includes, but is not limited to, harassment, hate speech, and discrimination."
+      },
+      {
+        "title": "Sharing of Information",
+        "value": "We may share your personal information with third parties for the purpose of providing the Website and its features, such as hosting, payment processing, and customer support. We may also share your information with third parties for research and analysis, or as required by law."
+      },
+      {
+        "title": "User-Generated Content",
+        "value": "The Website may allow users to upload, post, or transmit content, including text, images, and video (collectively, \"User Content\"). By uploading, posting, or transmitting User Content, you represent and warrant that you have the right to do so and that such User Content does not infringe any intellectual property rights or other rights of any third party. You also agree that any User Content you upload, post, or transmit may be used, modified, and shared by us and other users of the Website"
+      },
+      {
+        "title": "Intelectual Party",
+        "value": "The Website and its content are protected by intellectual property laws. You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Website without our express written permission."
+      },
+      {
+        "title": "Third Party Links",
+        "value": "The Website may contain links to third-party websites. We are not responsible for the content or practices of any third-party website, and you access any such third-party website at your own risk."
+      },
+      {
+        "title": "Disclaimer",
+        "value": "The Website is provided on an \"as is\" and \"as available\" basis. We make no representations or warranties of any kind, express or implied, as to the operation of the Website or the information, content, materials, or products included on the Website."
+      },
+      {
+        "title": "Limitation of Liability",
+        "value": "In no event shall we be liable for any damages whatsoever, including but not limited to any direct, indirect, special, consequential, punitive or incidental damages, or damages for loss of use, profits, data or other intangibles, or the cost of procurement of substitute goods and services, arising out of or related to the use, inability to use, unauthorized access to or use, or misuse of the Website, or any other claim related in any way to your use of the Website, even if we have been advised of the possibility of such damages."
+      },
+      {
+        "title": "Changes to Terms",
+        "value": "We reserve the right to make changes to these Terms at any time. Your continued use of the Website following any changes to these Terms will be deemed acceptance of those changes."
+      },
+      {
+        "title": "Governing Law and Jurisdiction",
+        "value": "These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which the Website is operated, without giving effect to any principles of conflicts of law."
+      }
+    ]
+  },
+  "nav": {
+    "home": "Home",
+    "pitchdeck": "Pitchdeck",
+    "roadmap": "Roadmap",
+    "games": "Games",
+    "team": "Our Team",
+    "faq": "FAQ",
+    "audit": "Audit",
+    "gameplay": "Gameplay",
+    "meet": "Meet the community"
+  },
+  "join": "Join the community",
+  "for": "For more details about our progress and workflow be sure to follow",
+  "buy": {
+    "step": "Step",
+    "go": "Go to",
+    "recommend": "We recommend using MetaMask on desktop for a smoother experience, or Trust Wallet on mobile.",
+    "click": "Click the \"Connect Wallet\" button in the top right corner and log in using your preferred wallet. Make sure you have a browser extension wallet like",
+    "installed": " installed on your desktop or use a supported mobile wallet like",
+    "click_the": "Click the",
+    "button": "button",
+    "step2": [
+      {
+        "title": "Option 1: Buy ETH or BNB with a Card",
+        "value": [
+          "Go to https://moonpay.com/buy and purchase ETH or BNB using your card. The purchased ETH or BNB will be sent to your wallet. It is recommended to buy a minimum of $20 worth of ETH or $5 worth of BNB to cover the minimum purchase of $LUCID tokens.",
+          "Enter the amount you wish to invest",
+          "Choose your bonus option - it will be available one month after TGE"
+        ]
+      },
+      {
+        "title": "Option 2: Buy $LUCID with ETH or BNB",
+        "value": [
+          "Ensure you have enough ETH or BNB in your wallet (if not, refer to option 1). Enter the amount of $LUCID you want to purchase (minimum $15) and click Buy with ETH or Buy with BNB. Confirm the transaction in your wallet and review the gas cost",
+          "Enter the amount you wish to invest",
+          "Choose your bonus option - it will be available one month after TGE"
+        ]
+      },
+      {
+        "title": "Option 3: Buy $LUCID with USDT",
+        "value": [
+          "Make sure you have at least $20 worth of USDT in your wallet.",
+          "Enter the amount you wish to invest",
+          "Choose your bonus option - it will be available one month after TGE",
+          "You will need to approve the purchase twice. The first approval is for the USDT contract, and the second is for the transaction amount. Complete both approval steps to finalize the transaction."
+        ]
+      }
+    ],
+    "step3": [
+      "Enter your Telegram username to receive an additional 5% bonus for each user you refer. A referral link will be generated after this step.",
+      "Copy your referral link from the bottom of the page, and you're all set!"
+    ]
+  },
+  "members": [
+    {
+      "name": "Adel Khatib",
+      "position": "CHIEF EXECUTIVE OFFICER",
+      "link": "https://www.linkedin.com/in/adel-khatib-b2b136180/",
+      "desc": [
+        "Samsung Mena Partner (6 yrs)",
+        "Electric fleet partner with Uber (2 yrs)",
+        "Crypto/blockchain expert (10 yrs)",
+        "Serial entrepreneur & gamer (15 yrs)"
+      ]
+    },
+    {
+      "name": "Feras Nimer",
+      "position": "CHIEF OPERATION OFFICER",
+      "link": "https://www.linkedin.com/in/feras-nimer-691a3258/",
+      "desc": [
+        "Business transformation at EY (5 yrs)",
+        "Project management (6 yrs)",
+        "Crypto investor (4 yrs)",
+        "Entrepreneur (5 yrs)"
+      ]
+    },
+    {
+      "name": "Ahmad Assaf",
+      "position": "CHIEF TECHNOLOGY OFFICER",
+      "link": "https://www.linkedin.com/in/ahmadassaf/",
+      "desc": [
+        "AI & data expert (14 yrs)",
+        "Crypto/tech enthusiast (5 yrs)",
+        "Software engineer (18 yrs)",
+        "Entrepreneur (10 yrs)"
+      ]
+    },
+    {
+      "name": "Den Smolonski",
+      "position": "SENIOR BLOCKCHAIN DEVELOPER",
+      "link": "https://www.linkedin.com/in/den-smolonski-648051100/",
+      "desc": [
+        "Full Stack Developer (8 yrs)",
+        "DeFi Developer",
+        "GameFi Developer",
+        "Blockchain industry (4 yrs)"
+      ]
+    },
+    {
+      "name": "Jahongir Erkinov",
+      "position": "CHIEF METAVERSE OFFICER",
+      "link": "https://www.linkedin.com/in/jakhongirerkinov/",
+      "desc": [
+        "Unreal Engine developer (6 yrs)",
+        "Unity Engine developer (4 yrs)",
+        "Mobile/PC/VR game dev (4 yrs)",
+        "Gamer (10 yrs)"
+      ]
+    },
+    {
+      "name": "Matsushima Goro",
+      "position": "BLOCKCHAIN DEVELOPER",
+      "link": "https://www.linkedin.com/in/matsushima-goro-bb6b2326b/",
+      "desc": [
+        "Blockchain expert (4 yrs)",
+        "Rust specialist (2 yrs)",
+        "Solidity proficient (4 yrs)",
+        "Frontend developer (6 yrs)"
+      ]
+    },
+    {
+      "name": "Oskar Krzak",
+      "position": "BUSINESS DEVELOPMENT MANAGER",
+      "link": "https://www.linkedin.com/in/krzakoskar/",
+      "desc": [
+        "Product Manager (7 yrs)",
+        "Blockchain industry (6 yrs)",
+        "Gamer (15  yrs)"
+      ]
+    },
+    {
+      "name": "Marius Dommersnes",
+      "position": "CHIEF MARKETING OFFICER",
+      "link": "https://www.linkedin.com/in/marius-dommersnes-455a30177/",
+      "desc": [
+        "Blockchain industry (3 yrs)",
+        "Presales & IDO (2 yrs)",
+        "Web3 marketing (2 yrs)"
+      ]
+    },
+    {
+      "name": "Victoria Iskiyaeva",
+      "position": "CHIEF MARKETING OFFICER",
+      "link": "https://www.linkedin.com/in/victoria-iskiyaeva-851359213/",
+      "desc": [
+        "Web3 Marketing (3 yrs)",
+        "Social Media Management (4 yrs)",
+        "Digital Marketing (4 yrs)"
+      ]
+    },
+    {
+      "name": "Rula Madi",
+      "position": "HEAD OF LEGAL",
+      "link": "https://www.linkedin.com/in/rolamadi/",
+      "desc": [
+        "Corporate & tech/IP law (20 yrs)",
+        "Senior management adviser",
+        "Legal associations member"
+      ]
+    },
+    {
+      "name": "Al Rizqi",
+      "position": "ASIA & CIS COMMUNITY MANAGER",
+      "link": "https://www.linkedin.com/in/al-rizqi/",
+      "desc": [
+        "Community Manager (2 yrs)",
+        "Project Management (3 yrs)",
+        "Marketing (5 yrs)"
+      ]
+    },
+    {
+      "name": "Sander Kloet",
+      "position": "EMEA & NA COMMUNITY MANAGER",
+      "link": "https://www.linkedin.com/in/sander-kloet-278b68278/",
+      "desc": [
+        "Community Manager (4 yrs)",
+        "Social Media Manager (4 yrs)",
+        "Digital Marketing (3 yrs)"
+      ]
+    }
+  ],
+  "profile": "See Profile"
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    scroll-behavior: smooth;
+    background: #0D0D0D;
+  }
+
+  .noscroll::-webkit-scrollbar {
+      display: none;
+  }
+
+  .backdrop {
+    backdrop-filter: blur(10px) !important;
+  }
+
+  .clip-top {
+    clip-path: polygon(92% 0, 100% 100%, 0 100%, 8% 1%);
+  }
+
+  .clip-bottom {
+    clip-path: polygon(100% 0, 92% 100%, 8% 100%, 0 0);
+  }
+
+  .my-container {
+    @apply max-w-[1500px] w-full mx-auto h-auto relative z-10
+  }
+
+  .slick-track, .slick-list, .slick-slider, .slick-initialized {
+    height: fit-content !important;
+    padding-bottom: 0 !important
+  }
+
+  /* Hide the default scrollbar */
+  ::-webkit-scrollbar {
+    width: 0.8rem;
+    height: 0.5rem;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #121212;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 1rem;
+    transition: background-color 0.2s;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #999;
+  }
+}
