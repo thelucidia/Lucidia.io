@@ -49,30 +49,30 @@ const Nav = () => {
       paths: ["/"],
       type: "internal",
     },
-    {
-      name: t("nav.pitchdeck"),
-      slug: "pitchdeck",
-      type: "external",
-      link: "https://drive.google.com/file/d/1n1ddGOA5tTXVhK6zu7962QLSJBUev0aA/view",
-    },
-    {
-      name: t("nav.roadmap"),
-      slug: "roadmap",
-      type: "external",
-      link: "https://drive.google.com/file/d/1j_jqFpZlgmppz9CElg4KeSnmoR4uneqp/view",
-    },
-    {
-      name: t("nav.games"),
-      slug: "games",
-      paths: [
-        "/games",
-        "/games/zombie-outbreak",
-        "/games/lucidcraft",
-        "/games/battlefury",
-        "/games/canyon-drift",
-      ],
-      type: "internal",
-    },
+    // {
+    //   name: t("nav.pitchdeck"),
+    //   slug: "pitchdeck",
+    //   type: "external",
+    //   link: "https://drive.google.com/file/d/1n1ddGOA5tTXVhK6zu7962QLSJBUev0aA/view",
+    // },
+    // {
+    //   name: t("nav.roadmap"),
+    //   slug: "roadmap",
+    //   type: "external",
+    //   link: "https://drive.google.com/file/d/1j_jqFpZlgmppz9CElg4KeSnmoR4uneqp/view",
+    // },
+    // {
+    //   name: t("nav.games"),
+    //   slug: "games",
+    //   paths: [
+    //     "/games",
+    //     "/games/zombie-outbreak",
+    //     "/games/lucidcraft",
+    //     "/games/battlefury",
+    //     "/games/canyon-drift",
+    //   ],
+    //   type: "internal",
+    // },
     {
       name: t("nav.team"),
       slug: "team",
@@ -114,28 +114,28 @@ const Nav = () => {
       slug: "",
       type: "internal",
     },
-    {
-      name: t("nav.pitchdeck"),
-      slug: "pitchdeck",
-      type: "external",
-      link: "https://drive.google.com/file/d/1n1ddGOA5tTXVhK6zu7962QLSJBUev0aA/view",
-    },
-    {
-      name: t("nav.roadmap"),
-      slug: "roadmap",
-      type: "external",
-      link: "https://drive.google.com/file/d/1j_jqFpZlgmppz9CElg4KeSnmoR4uneqp/view",
-    },
+    // {
+    //   name: t("nav.pitchdeck"),
+    //   slug: "pitchdeck",
+    //   type: "external",
+    //   link: "https://drive.google.com/file/d/1n1ddGOA5tTXVhK6zu7962QLSJBUev0aA/view",
+    // },
+    // {
+    //   name: t("nav.roadmap"),
+    //   slug: "roadmap",
+    //   type: "external",
+    //   link: "https://drive.google.com/file/d/1j_jqFpZlgmppz9CElg4KeSnmoR4uneqp/view",
+    // },
     {
       name: t("nav.team"),
       slug: "team",
       type: "internal",
     },
-    {
-      name: t("nav.games"),
-      slug: "games",
-      type: "internal",
-    },
+    // {
+    //   name: t("nav.games"),
+    //   slug: "games",
+    //   type: "internal",
+    // },
     {
       name: t("nav.gameplay"),
       slug: "gameplay",
@@ -469,17 +469,19 @@ const Nav = () => {
               {!secondNav.includes(pathname)
                 ? navList.map((items, i) => {
                     return items.type === "external" ? (
-                      <a
-                        href={items.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-primary"
-                        key={i}
-                      >
-                        <li className="cursor-pointer" key={i}>
-                          {items.name}
-                        </li>
-                      </a>
+                      <>
+                        {/* <a
+                          href={items.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-primary"
+                          key={i}
+                        >
+                          <li className="cursor-pointer" key={i}>
+                            {items.name}
+                          </li>
+                        </a> */}
+                      </>
                     ) : (
                       <li
                         key={i}
