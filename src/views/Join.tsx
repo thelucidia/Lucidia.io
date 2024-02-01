@@ -44,20 +44,25 @@ const Join = () => {
 
   return (
     <section className="w-full md:h-[16rem] h-[5rem] sm:h-[10rem] bg-black2 relative mt-9 sm:mt-20 flex justify-between">
-      <img src="/joinleft.webp" alt="JoinLeft" className="" />
-    
-      <div className="w-full h-full text-center flex justify-center flex-col gap-y-5 md:gap-y-24">
-        <h1 className=" text-sm sm:text-2xl md:text-4xl lg:text-5xl font-bold text-secondary">
-          {t("join_community")}
+      {/* <img src="/joinleft.webp" alt="JoinLeft" className="" /> */}
+
+      <div className="w-full h-full pl-[12.5%] flex justify-center flex-col gap-y-5 md:gap-y-24">
+        <h1 className=" text-sm sm:text-2xl md:text-2xl lg:text-3xl font-bold text-secondary">
+          {/* {t("join_community")} */}
+          {t("join1")}{" "}
+          <span className="transition-all ease-in-out duration-400 text-primary">
+            {t("join2")}
+          </span>{" "}
+          {t("join3")}
         </h1>
 
-        <div className="flex justify-center items-center lg:gap-12 gap-4 sm:gap-7 text-secondary">
+        <div className="flex justify-start items-center lg:gap-12 gap-4 sm:gap-7 text-secondary">
           {icons.map((items, i) => (
             <a
               href={items.link}
               target="_blank"
               rel="noreferrer"
-              className="md:text-3xl sm:text-xl text-base hover:scale-[1.1] hover:text-primary transition-all ease-in-out duration-300"
+              className="md:text-2xl sm:text-xl text-base hover:scale-[1.1] hover:text-primary transition-all ease-in-out duration-300"
               key={i}
             >
               {items.icon}
@@ -65,7 +70,7 @@ const Join = () => {
           ))}
         </div>
       </div>
-      <img src="/joinright.webp" alt="JoinRight" className="" />
+      <img src="/hero/soldiers.png" alt="JoinRight" className="" />
     </section>
   );
 };

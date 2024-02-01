@@ -63,16 +63,15 @@ const Hero = () => {
           </div>
 
           <div className="flex gap-x-3 mt-10 md:flex-row flex-col md:text-2xl">
-            <a
-              href="https://finance.lucidia.io/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className=""
+            <Button
+              onClick={() => {
+                navigate(`/games`);
+              }}
+              className="w-full md:w-60"
+              stretchOnMobile
             >
-              <Button className="w-full md:w-60" stretchOnMobile>
-                {t("explore_now")}
-              </Button>
-            </a>
+              {t("explore_now")}
+            </Button>
 
             {/* <a
               href="https://drive.google.com/file/d/1pT08KRpvPwnQcxwyGktETCeH8HtZi08v/view"

@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import Banner1 from "../views/Banner1";
+import GameIntro from "../views/GameIntro";
 import Diaries from "../views/Diaries";
 import Free2Play from "../views/Free2Play";
 import Hero from "../views/Hero";
@@ -11,13 +12,20 @@ import PartnersUpper from "../views/PartnersUpper";
 
 const MainPage = () => {
   return (
-    <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} transition={{duration: 0.7}} className="w-full h-auto bg-bg">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.7 }}
+      className="w-full h-auto bg-bg"
+    >
       <Nav />
       <Hero />
       <Banner1 />
-      <Free2Play />
-      <PartnersUpper />
+      <GameIntro />
       <Diaries />
+      {/* <Free2Play /> */}
+      {/* <PartnersUpper /> */}
       <Partners />
       <Join />
       <Footer />
