@@ -65,7 +65,7 @@ const Hero = () => {
           <div className="flex gap-x-3 mt-10 md:flex-row flex-col md:text-2xl">
             <Button
               onClick={() => {
-                navigate(`/games`);
+                navigate(`/games/zombie-outbreak`);
               }}
               className="w-full md:w-60"
               stretchOnMobile

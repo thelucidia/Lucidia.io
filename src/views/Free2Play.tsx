@@ -65,17 +65,17 @@ const Free2Play = () => {
     },
     {
       title: t("zombie"),
-      image: "/free/zombie.webp",
+      image: "/games/zombie/1.webp",
       link: "/zombie-outbreak",
     },
     {
       title: t("lucid"),
-      image: "/free/minecraft.webp",
+      image: "/games/lucidcraft/banner.png",
       link: "/lucidcraft",
     },
     {
       title: t("battle"),
-      image: "/free/battlefury.webp",
+      image: "/games/battlefury/banner.png",
       link: "/battlefury",
     },
   ];

@@ -65,12 +65,12 @@ const OtherGames = ({ initialSlide }: { initialSlide?: number }) => {
     },
     {
       title: t("lucid"),
-      image: "/free/minecraft.webp",
+      image: "/games/lucidcraft/banner.png",
       link: "/lucidcraft",
     },
     {
       title: t("battle"),
-      image: "/free/battlefury.webp",
+      image: "/games/battlefury/banner.png",
       link: "/battlefury",
     },
     {
