@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Button from "../../components/Button";
+// import Button from "../../components/Button";
 import Footer from "../../components/Footer";
 import Nav from "../../components/Nav";
 import OtherGames from "../../components/OtherGames";

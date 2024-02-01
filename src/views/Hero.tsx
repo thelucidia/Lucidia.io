@@ -1,10 +1,10 @@
 import { BsDiscord, BsTwitterX } from "react-icons/bs";
 import { FaTelegramPlane } from "react-icons/fa";
 import Button from "../components/Button";
-import { cn } from "../utils";
+// import { cn } from "../utils";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-import Button2 from "../components/Button2";
+// import Button2 from "../components/Button2";
 
 const Hero = () => {
   const navigate = useNavigate();
@@ -24,16 +24,16 @@ const Hero = () => {
     },
   ];
 
-  const audited = [
-    {
-      name: "inter",
-      link: "https://www.interfi.network/audits",
-    },
-    {
-      name: "rev",
-      link: "https://www.revoluzion.io/audit",
-    },
-  ];
+  // const audited = [
+  //   {
+  //     name: "inter",
+  //     link: "https://www.interfi.network/audits",
+  //   },
+  //   {
+  //     name: "rev",
+  //     link: "https://www.revoluzion.io/audit",
+  //   },
+  // ];
 
   return (
     <section className="w-full min-h-screen px-8 sm:px-auto p-5 relative text-secondary flex items-start justify-center">
