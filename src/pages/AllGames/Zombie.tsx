@@ -34,7 +34,7 @@ const Zombie = () => {
           className="h-[25%] object-cover absolute top-[30%] left-[12.5%] object-top z-30"
         />
         <div className="absolute top-[55%] left-[12.5%] z-30 text-xl">
-          is coming soon. Denend yourself
+          {t("zombie_desc1")}
         </div>
         <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-l from-transparent via-transparent to-black/80 z-10" />
 
@@ -53,9 +53,15 @@ const Zombie = () => {
         <div className="max-w-[1100px] pb-14 sm:pb-20 w-full min-h-screen mx-auto text-secondary font-primary justify-between flex gap-10 pt-16 md:flex-row flex-col-reverse">
           <div className="w-full md:space-y-7 space-y-4">
             <div className="border-primary border-[1px]">
-              <h1 className="text-xl md:text-5xl text-primary font-bold text-center p-4">
+              {/* <h1 className="text-xl md:text-5xl text-primary font-bold text-center p-4">
                 {t("games.zombie.title")}
-              </h1>
+              </h1> */}
+              <div className="p-4">
+                <img
+                  src={"/games/zombie/title2.png"}
+                  className="h-[25%] object-cover"
+                />
+              </div>
               <p className="mt-2 p-4 bg-primary text-black text-base md:text-xl">
                 {t("games.zombie.desc")}
               </p>
