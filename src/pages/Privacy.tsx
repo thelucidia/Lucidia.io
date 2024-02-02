@@ -46,13 +46,13 @@ const Privacy = () => {
       className="w-full bg-bg min-h-screen font-primary"
     >
       <Nav />
-      <div className="w-full min-h-[20vh] md:min-h-[38vh] border-red-500 h-full px-5 py-8 font-primary flex items-end justifty-center text-secondary sticky top-0 z-10">
+      <div className="w-full min-h-[20vh] md:min-h-[30vh] border-red-500 h-full px-5 py-8 font-primary flex items-end justifty-center text-secondary sticky top-0 z-10">
         <img
-          src={"/hero/background.webp"}
+          src={"/games/canyondrift/privacy_banner.png"}
           className="w-full h-full object-cover object-top absolute top-0 left-0"
         />
 
-        <div className="w-full h-full absolute top-0 left-0 bg-black/20 z-10"></div>
+        {/* <div className="w-full h-full absolute top-0 left-0 bg-black/20 z-10"></div> */}
 
         <h1 className="font-bold md:text-5xl text-2xl text-secondary relative z-10 w-fit h-fit text-center mx-auto md:mb-5">
           {t("privacy_page.title")}
@@ -72,7 +72,9 @@ const Privacy = () => {
               setOpen((curr) => !curr);
             }}
           >
-            <h1 className="md:text-[28px] text-base font-bold">{t("table")}</h1>
+            <h1 className="md:text-[28px] text-base font-bold text-primary">
+              {t("table")}
+            </h1>
             <MdKeyboardArrowDown className="text-3xl lg:hidden block" />
           </div>
 

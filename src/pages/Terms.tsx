@@ -24,7 +24,7 @@ const Terms = () => {
           top: topPos - 60,
           behavior: "smooth",
         });
-        setOpen(false)
+        setOpen(false);
       } else {
         if (ref.current) {
           ref.current.scrollTo({
@@ -33,7 +33,6 @@ const Terms = () => {
           });
         }
       }
-     
     }
   }
 
@@ -46,9 +45,9 @@ const Terms = () => {
       className="w-full bg-bg min-h-screen font-primary"
     >
       <Nav />
-      <div className="w-full min-h-[20vh] md:min-h-[38vh] border-red-500 h-full px-5 py-8 font-primary flex items-end justifty-center text-secondary sticky top-0 z-10">
+      <div className="w-full min-h-[20vh] md:min-h-[30vh] border-red-500 h-full px-5 py-8 font-primary flex items-end justifty-center text-secondary sticky top-0 z-10">
         <img
-          src={"/hero/background.webp"}
+          src={"/games/battlefury/terms_banner.png"}
           className="w-full h-full object-cover object-top absolute top-0 left-0"
         />
 
@@ -60,7 +59,7 @@ const Terms = () => {
       </div>
 
       <div className="flex max-w-[1100px] mx-auto md:mt-6 text-secondary md:pb-20 lg:flex-row flex-col">
-      <div
+        <div
           className={cn(
             "lg:w-[50%] w-full xl:-ml-28 lg:max-h-full max-h-12 overflow-hidden px-10 transition-all ease-in-out duration-300 pb-7 lg:pb-0 fixed lg:relative bg-black lg:bg-transparent",
             { "max-h-[29rem]": open }
@@ -72,7 +71,9 @@ const Terms = () => {
               setOpen((curr) => !curr);
             }}
           >
-            <h1 className="md:text-[28px] text-base font-bold">{t("table")}</h1>
+            <h1 className="md:text-[28px] text-base font-bold text-primary">
+              {t("table")}
+            </h1>
             <MdKeyboardArrowDown className="text-3xl lg:hidden block" />
           </div>
 
@@ -81,28 +82,29 @@ const Terms = () => {
               t("terms_page.terms_data", { returnObjects: true }) as details[]
             ).map((item) => (
               <React.Fragment key={item.title}>
-              <a
-                href={`#${item.title}`}
-                className="hover:text-primary lg:block hidden"
-                onClick={(e) => scrollToElement(item.title, e, false)}
-                
-              >
-                <li className="">{item.title}</li>
-              </a>
+                <a
+                  href={`#${item.title}`}
+                  className="hover:text-primary lg:block hidden"
+                  onClick={(e) => scrollToElement(item.title, e, false)}
+                >
+                  <li className="">{item.title}</li>
+                </a>
 
-              <a
-                className="hover:text-primary lg:hidden"
-                onClick={(e) => scrollToElement(item.title, e, true)}
-                
-              >
-                <li className="">{item.title}</li>
-              </a>
-            </React.Fragment>
+                <a
+                  className="hover:text-primary lg:hidden"
+                  onClick={(e) => scrollToElement(item.title, e, true)}
+                >
+                  <li className="">{item.title}</li>
+                </a>
+              </React.Fragment>
             ))}
           </ul>
         </div>
         <div className="w-full h-[1px] mb-8 mt-12 fixed bg-primary lg:hidden block"></div>
-        <div className="w-full xl:-ml-2 pr-10 lg:pl-0 pl-10 lg:max-h-[30rem] overflow-y-scroll noscroll" ref={ref}>
+        <div
+          className="w-full xl:-ml-2 pr-10 lg:pl-0 pl-10 lg:max-h-[30rem] overflow-y-scroll noscroll"
+          ref={ref}
+        >
           <div className="md:text-lg text-base flex flex-col gap-y-4 md:gap-y-10">
             {(
               t("terms_page.terms_data", { returnObjects: true }) as details[]

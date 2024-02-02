@@ -100,12 +100,12 @@ const Nav = () => {
       slug: "terms",
       type: "internal",
     },
-    {
-      name: t("nav.faq"),
-      slug: "FAQ",
-      paths: ["/team"],
-      type: "internal",
-    },
+    // {
+    //   name: t("nav.faq"),
+    //   slug: "FAQ",
+    //   paths: ["/team"],
+    //   type: "internal",
+    // },
   ];
 
   const navMobile = [
@@ -170,11 +170,11 @@ const Nav = () => {
       slug: "terms",
       type: "internal",
     },
-    {
-      name: t("nav.faq"),
-      slug: "faq",
-      type: "internal",
-    },
+    // {
+    //   name: t("nav.faq"),
+    //   slug: "faq",
+    //   type: "internal",
+    // },
   ];
 
   const navDesktop = [
@@ -212,11 +212,11 @@ const Nav = () => {
       slug: "terms",
       type: "internal",
     },
-    {
-      name: t("nav.faq"),
-      slug: "faq",
-      type: "internal",
-    },
+    // {
+    //   name: t("nav.faq"),
+    //   slug: "faq",
+    //   type: "internal",
+    // },
   ];
 
   const icons = [
