@@ -130,8 +130,8 @@ const Battlefury = () => {
             </div>
           </div>
         </div>
-        <OtherGames initialSlide={3} />
       </div>
+      <OtherGames initialSlide={2} />
 
       <Footer />
     </motion.section>

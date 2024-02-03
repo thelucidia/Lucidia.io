@@ -21,7 +21,7 @@ const CanyonDrift = () => {
       <div className="w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 font-primary relative text-secondary flex  justify-center bg-bg">
         <Nav />
         <img
-          src={"/canyon.png"}
+          src={"/games/canyondrift/banner.png"}
           className="w-full h-full object-cover absolute top-0 left-0 object-top"
         />
         <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-b from-transparent via-transparent to-black/80 z-10"></div>
@@ -37,6 +37,47 @@ const CanyonDrift = () => {
         </div>
       </div>
 
+      <div className="relative w-full h-[calc(100vw*1002/1440)] bg-[url('/games/canyondrift/background.png')] bg-cover flex justify-center">
+        <div className="w-[72.5%] h-[30%] mt-[20%] flex justify-between gap-20">
+          <div className="h-[80%] flex flex-col justify-center gap-10">
+            <h1 className="text-xl md:text-4xl text-primary font-bold">
+              {t("games.canyon.title")}
+            </h1>
+            <p className=" text-base md:text-xl">{t("games.canyon.desc")}</p>
+          </div>
+          <img
+            src={`/games/canyondrift/2.webp`}
+            alt={`Image`}
+            className={cn("w-1/2 md:w-auto")}
+          />
+        </div>
+      </div>
+
+      <div className="relative w-full h-[calc(100vw*1002/1440)] bg-[url('/games/canyondrift/background.png')] scale-x-[-1] bg-cover flex justify-center">
+        <div className="w-[72.5%] h-[30%] mt-[20%] flex justify-between gap-20 scale-x-[-1]">
+          <img
+            src={`/games/canyondrift/1.webp`}
+            alt={`Image`}
+            className={cn("w-1/2 md:w-auto")}
+          />
+          <div className="h-[80%] flex flex-col justify-center gap-10">
+            <h2 className="md:text-2xl text-xl text-primary font-bold">
+              {t("game_details")} :
+            </h2>
+
+            <div className=" text-base md:text-xl">
+              {(
+                t("games.canyon.details", { returnObjects: true }) as string[]
+              ).map((items, i) => (
+                <p className="" key={i}>
+                  {items}
+                </p>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* 
       <div className="w-full h-auto px-8 py-10 -mb-20 md:mb-0">
         <div className="max-w-[1100px] pb-14 sm:pb-20 w-full min-h-screen mx-auto text-secondary font-primary justify-between flex gap-10 pt-16 md:flex-row flex-col-reverse">
           <div className="w-full md:space-y-7 space-y-4">
@@ -72,8 +113,8 @@ const CanyonDrift = () => {
           </div>
         </div>
 
-        <OtherGames initialSlide={0} />
-      </div>
+      </div> */}
+      <OtherGames initialSlide={0} />
 
       <Footer />
     </motion.section>
