@@ -6,6 +6,8 @@ import OtherGames from "../../components/OtherGames";
 import { cn } from "../../utils";
 import { useTranslation } from "react-i18next";
 import { details } from "../../utils/types";
+import Button from "../../components/Button";
+import { IoIosArrowRoundDown } from "react-icons/io";
 
 const Zombie = () => {
   const { t } = useTranslation();
@@ -28,25 +30,39 @@ const Zombie = () => {
           >
             <source src="/video/zombie.mp4" type="video/mp4" />
           </video>
+          <img
+            src={"/games/zombie/title.png"}
+            className="h-[25%] object-cover absolute top-[30%] left-[12.5%] object-top z-30"
+          />
+          <div className="absolute top-[55%] left-[12.5%] z-30 text-xl">
+            {t("zombie_desc1")}
+          </div>
         </div>
-        <img
-          src={"/games/zombie/title.png"}
-          className="h-[25%] object-cover absolute top-[30%] left-[12.5%] object-top z-30"
-        />
-        <div className="absolute top-[55%] left-[12.5%] z-30 text-xl">
-          {t("zombie_desc1")}
-        </div>
-        <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-l from-transparent via-transparent to-black/80 z-10" />
 
-        {/* <div className="max-w-xs sm:max-w-full w-full flex flex-col justify-end gap-y-8 sm:gap-y-8 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-12 md:pb-10 items-center h-auto mx-auto z-10 mt-[4.5rem] sm:mt-[7rem] md:mt-[10rem] absolute bottom-5 ">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[96px] text-center font-bold left-0 right-0">
-            {t("zombie")}
-          </h1>
-
+        <div className="max-w-xs sm:max-w-full w-full flex flex-col justify-end gap-y-8 sm:gap-y-8 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-12 md:pb-10 items-center h-auto mx-auto z-10 mt-[4.5rem] sm:mt-[7rem] md:mt-[10rem] absolute bottom-5 ">
           <Button className="w-full md:w-56" stretchOnMobile>
             {t("games.play_game")}
           </Button>
-        </div> */}
+          <div className="   flex justify-center items-center bottom-0	text-white	">
+            <div className="relative">
+              See Details{" "}
+              <motion.span
+                initial={{ y: -10,opacity: 0 }}
+                animate={{ y: 10 , opacity: 1 }}
+                transition={{
+                  duration: 1,
+                  ease: "easeInOut",
+                  times: [0, 0.2, 0.5, 0.8, 1],
+                  repeat: Infinity,
+                  // repeatDelay: 0.1,
+                }}
+                className="absolute"
+              >
+                <IoIosArrowRoundDown />
+              </motion.span>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="w-full h-auto px-8 py-10 -mb-20 md:mb-0">

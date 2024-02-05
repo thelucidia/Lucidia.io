@@ -1,0 +1,21 @@
+.number-loop--outer {
+  /* border: 2px solid red; */
+  position: relative;
+  overflow: hidden;
+}
+.number-loop {
+  overflow: hidden;
+  position: relative;
+  transition: all 0.2s linear;
+  animation: Loop 0.3s linear 10;
+}
+
+@keyframes Loop {
+  0% {
+    top: -10px;
+  }
+
+  100% {
+    top: 100px;
+  }
+}

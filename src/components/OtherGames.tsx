@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { cn } from "../utils";
-
+import { motion } from "framer-motion";
 const OtherGames = ({ initialSlide }: { initialSlide?: number }) => {
   const { t } = useTranslation();
   const settings = {
@@ -98,7 +98,7 @@ const OtherGames = ({ initialSlide }: { initialSlide?: number }) => {
         >
           {gamesData.map((items, i) => (
             <div
-              className="scale-[0.97] relative group/main cursor-pointer"
+              className="scale-[0.97] relative group/main cursor-pointer "
               style={{ width: 700 }}
               key={i}
               onClick={() => {
@@ -118,10 +118,12 @@ const OtherGames = ({ initialSlide }: { initialSlide?: number }) => {
               }}
             >
               {/* Game title and button */}
-              <div
-                className={cn(
-                  "transition-all ease-in-out duration-400 absolute w-fit flex-col mx-auto left-0 right-0 bottom-8 translate-y-0 sm:translate-y-[77%] duration-500 group-hover/main:translate-y-0 z-20 items-center sm:gap-5 sm:group-hover/main:gap-2 flex"
-                )}
+              <motion.div
+              initial={{backgroundColor:"rgba(0,0,0,0.2)"}}
+              
+                className={
+                  "transition-all  ease-in-out duration-400    absolute w-full flex-col mx-auto left-0 right-0 bottom-0  translate-y-0 sm:translate-y-[77%] duration-500 group-hover/main:translate-y-0 z-20 items-center sm:gap-5 sm:group-hover/main:gap-2 flex"
+              }
               >
                 <h1 className="font-bold text-2xl sm:text-5xl">
                   {items.title}
@@ -143,11 +145,11 @@ const OtherGames = ({ initialSlide }: { initialSlide?: number }) => {
                   {t("details")}
                   {/* <div className="w-full h-[1px] absolute bottom-0 left-0 bg-primary group-hover/button:translate-x-0 -translate-x-full transition-all ease-in-out duration-500 opacity-0 group-hover/button:opacity-100"></div> */}
                 </button>
-              </div>
+              </motion.div>
 
               <div
                 style={windowWidth < 640 ? { height: 200 } : { height: 400 }}
-                className="relative"
+                className="relative "
               >
                 <div className="absolute top-0 left-0 z-10 w-full h-full bg-gradient-to-b from-transparent to-black/70"></div>
                 <img

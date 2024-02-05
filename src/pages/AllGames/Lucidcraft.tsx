@@ -6,6 +6,8 @@ import OtherGames from "../../components/OtherGames";
 // import { cn } from "../../utils";
 import { useTranslation } from "react-i18next";
 import { details } from "../../utils/types";
+import Button from "../../components/Button";
+import { IoIosArrowRoundDown } from "react-icons/io";
 
 const Lucidcraft = () => {
   const { t } = useTranslation();
@@ -18,40 +20,45 @@ const Lucidcraft = () => {
       transition={{ duration: 0.7 }}
       className="w-full min-h-screen bg-bg"
     >
-      <div className="w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 font-primary relative text-secondary flex  justify-center bg-bg">
+      <div className="w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 font-primary relative text-secondary flex flex-col  justify-center bg-bg">
         <Nav />
         <img
           src={"/games/lucidcraft/banner.png"}
           className="w-full h-full object-cover absolute top-0 left-0 object-top"
         />
-        {/* <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-b from-transparent via-transparent to-black/80 z-10"></div> */}
+
         <img
           src={"/games/lucidcraft/title.png"}
           className="w-[40%] object-cover absolute top-[45%] left-[30%] object-top"
         />
-        {/* <div className="max-w-xs sm:max-w-full w-full flex flex-col justify-end gap-y-8 sm:gap-y-8 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-12 md:pb-10 items-center h-auto mx-auto  z-10 mt-[4.5rem] sm:mt-[7rem] md:mt-[10rem] absolute bottom-5">
-          <p className="text-3xl text-center left-0 right-0">
-            {t("coming_soon")}
-          </p>
-        </div> */}
-        {/* <div className="max-w-xs sm:max-w-full w-full flex flex-col justify-end gap-y-8 sm:gap-y-8 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-12 md:pb-10 items-center h-auto mx-auto  z-10 mt-[4.5rem] sm:mt-[7rem] md:mt-[10rem] absolute bottom-5">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[96px] text-center font-bold left-0 right-0">
-            {t("lucid")}
-          </h1>
-
-          <Button className="w-full md:w-56" stretchOnMobile>
-            {t("games.play_game")}
-          </Button>
-        </div> */}
+        <div className="flex justify-center mt-52 flex-col items-center">
+          <Button children="Play Game" />
+          <div className="   flex justify-center items-center bottom-0	text-white	">
+            <div className="relative">
+              See Details{" "}
+              <motion.span
+                  initial={{ y: -10,opacity: 0 }}
+                  animate={{ y: 10 , opacity: 1 }}
+                transition={{
+                  duration: 1,
+                  ease: "easeInOut",
+                  times: [0, 0.2, 0.5, 0.8, 1],
+                  repeat: Infinity,
+                  // repeatDelay: 0.1,
+                }}
+                className="absolute"
+              >
+                <IoIosArrowRoundDown />
+              </motion.span>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="w-full px-8 py-10 bg-[url('/games/lucidcraft/grid_background.png')]">
         <div className="max-w-[1100px] w-full mx-auto text-secondary font-primary justify-between flex gap-10 pt-16 md:flex-row flex-col-reverse">
           <div className="w-full md:space-y-7 space-y-4">
             <div className="flex flex-col justify-center items-center text-center md:space-y-7 space-y-4">
-              {/* <h1 className="text-xl md:text-6xl text-primary font-bold">
-              {t("games.lucid.title")}
-            </h1> */}
               <img
                 src={"/games/lucidcraft/title2.png"}
                 className="w-[40%] object-cover"
@@ -60,9 +67,6 @@ const Lucidcraft = () => {
             </div>
             <div className="grid md:grid-cols-2 grid-cols-1 gap-16">
               <div className="flex flex-col md:space-y-7 space-y-4">
-                {/* <h2 className="text-primary md:text-2xl text-xl font-bold">
-                  {t("overview")} :
-                </h2> */}
                 <img
                   src={"/games/lucidcraft/game_overview.png"}
                   className="w-full object-cover"
