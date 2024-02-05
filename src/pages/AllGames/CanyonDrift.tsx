@@ -3,7 +3,7 @@ import Button from "../../components/Button";
 import Footer from "../../components/Footer";
 import Nav from "../../components/Nav";
 import OtherGames from "../../components/OtherGames";
-import { cn } from "../../utils";
+// import { cn } from "../../utils";
 
 import { useTranslation } from "react-i18next";
 import { IoIosArrowRoundDown } from "react-icons/io";
