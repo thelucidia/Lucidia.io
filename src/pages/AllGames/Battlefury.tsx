@@ -48,8 +48,8 @@ const Battlefury = () => {
             <div className="relative">
               See Details{" "}
               <motion.span
-                 initial={{ y: -10,opacity: 0 }}
-                 animate={{ y: 10 , opacity: 1 }}
+                initial={{ y: -10, opacity: 0 }}
+                animate={{ y: 10, opacity: 1 }}
                 transition={{
                   duration: 1,
                   ease: "easeIn",
@@ -77,7 +77,11 @@ const Battlefury = () => {
           {t("games.battle.desc")}
         </p>
       </div>
-      <Marquee   play autoFill={true} className="text-primary font-semibold	 text-7xl     ">
+      <Marquee
+        play
+        autoFill={true}
+        className="text-primary font-semibold	 text-7xl     "
+      >
         <Slider />
         <Slider />
         <Slider />
@@ -170,8 +174,8 @@ const Battlefury = () => {
             </div>
           </div>
         </div>
-        <OtherGames initialSlide={3} />
       </div>
+      <OtherGames initialSlide={2} />
 
       <Footer />
     </motion.section>

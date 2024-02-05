@@ -1,8 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { NumberLoop } from "../components/BattlerfurySlider/BattleFurySlider";
+// import { NumberLoop } from "../components/BattlerfurySlider/BattleFurySlider";
 import { useEffect, useState } from "react";
-import "../styles/banner1.css";
 const Banner1 = () => {
   const [animationCount, setAnimationCount] = useState(0);
   const { t } = useTranslation();
@@ -31,6 +30,7 @@ const Banner1 = () => {
   ];
 
   useEffect(() => {
+    console.log(animationCount);
     const interval = setInterval(() => {
       setAnimationCount((prevCount) => prevCount + 1);
     }, 2000); // Adjust the interval time as needed (2000 milliseconds = 2 seconds)

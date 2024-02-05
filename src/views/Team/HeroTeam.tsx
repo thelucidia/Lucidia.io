@@ -62,7 +62,6 @@ const HeroTeam = () => {
                     initial={{ y: 0, x: 0 }}
                     whileInView={{ y: 400, x: -420 }}
                     transition={{ ease: "linear", duration: 1 }}
-                    
                     className="absolute  border-l-2 border-b-2 border-white h-24 w-24 right-0 "
                   ></motion.div>
                   <motion.h1

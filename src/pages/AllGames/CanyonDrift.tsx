@@ -22,7 +22,7 @@ const CanyonDrift = () => {
       <div className="w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 font-primary relative text-secondary flex  justify-center bg-bg">
         <Nav />
         <img
-          src={"/canyon.png"}
+          src={"/games/canyondrift/banner.png"}
           className="w-full h-full object-cover absolute top-0 left-0 object-top"
         />
         <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-b from-transparent via-transparent to-black/80 z-10"></div>
@@ -39,8 +39,8 @@ const CanyonDrift = () => {
             <div className="relative">
               See Details{" "}
               <motion.span
-                initial={{ y: -10,opacity: 0 }}
-                animate={{ y: 10 , opacity: 1 }}
+                initial={{ y: -10, opacity: 0 }}
+                animate={{ y: 10, opacity: 1 }}
                 transition={{
                   duration: 1,
                   ease: "easeIn",
@@ -59,34 +59,32 @@ const CanyonDrift = () => {
 
       <div className="w-full h-auto px-8 py-10 -mb-20 md:mb-0 bg-cover	 bg-no-repeat	  bg-[url('/games/canyondrift/bg-1.png')]">
         <div className="max-w-[1100px] pb-14 sm:pb-20 w-full min-h-screen mx-auto text-secondary font-primary justify-between flex gap-10 pt-16 md:flex-row flex-col-reverse ">
-          <motion.div 
-          initial={{x:-300}}
-          whileInView={{x:0}}
-          transition={{  type: "spring", stiffness: 100 }}
-          className="w-full md:space-y-7 space-y-4 flex justify-center flex-col max-w-md	">
+          <motion.div
+            initial={{ x: -300 }}
+            whileInView={{ x: 0 }}
+            transition={{ type: "spring", stiffness: 100 }}
+            className="w-full md:space-y-7 space-y-4 flex justify-center flex-col max-w-md	"
+          >
             <h1 className="text-xl md:text-6xl text-primary font-bold  ">
               {t("games.canyon.title")}
             </h1>
-            <p className="text-black text-base md:text-xl">{t("games.canyon.desc")}</p>
-
-          
-
-           
+            <p className="text-black text-base md:text-xl">
+              {t("games.canyon.desc")}
+            </p>
           </motion.div>
-          
-          <div className="w-full flex items-center md:flex-col md:gap-10 gap-4 justify-center md:justify-start">
-          </div>
+
+          <div className="w-full flex items-center md:flex-col md:gap-10 gap-4 justify-center md:justify-start"></div>
         </div>
       </div>
 
       <div className="w-full h-auto px-8 py-10 -mb-20 md:mb-0 bg-cover	 bg-no-repeat	  bg-[url('/games/canyondrift/bg-2.png')]">
         <div className="max-w-[1100px] pb-14 sm:pb-20 w-full min-h-screen mx-auto text-secondary font-primary justify-between flex gap-10 pt-16   flex-row-reverse">
-          <motion.div 
-            initial={{x:300}}
-            whileInView={{x:0}}
-            transition={{  type: "spring", stiffness: 100 }}
-          className="w-full md:space-y-7 space-y-4 flex justify-center flex-col max-w-md">
-            
+          <motion.div
+            initial={{ x: 300 }}
+            whileInView={{ x: 0 }}
+            transition={{ type: "spring", stiffness: 100 }}
+            className="w-full md:space-y-7 space-y-4 flex justify-center flex-col max-w-md"
+          >
             <h1 className="text-xl md:text-6xl text-primary font-bold  ">
               {t("game_details")} :
             </h1>
@@ -101,13 +99,12 @@ const CanyonDrift = () => {
               ))}
             </div>
           </motion.div>
-          
-          <div className="w-full flex items-center md:flex-col md:gap-10 gap-4 justify-center md:justify-start">
-          </div>
+
+          <div className="w-full flex items-center md:flex-col md:gap-10 gap-4 justify-center md:justify-start"></div>
         </div>
       </div>
 
-        <OtherGames initialSlide={0} />
+      <OtherGames initialSlide={0} />
       <Footer />
     </motion.section>
   );

@@ -6,7 +6,7 @@ import SubtleButton from "../components/SubtleButton";
 import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { cn } from "../utils";
+// import { cn } from "../utils";
 import { motion } from "framer-motion";
 const OtherGames = ({ initialSlide }: { initialSlide?: number }) => {
   const { t } = useTranslation();
@@ -119,11 +119,10 @@ const OtherGames = ({ initialSlide }: { initialSlide?: number }) => {
             >
               {/* Game title and button */}
               <motion.div
-              initial={{backgroundColor:"rgba(0,0,0,0.2)"}}
-              
+                initial={{ backgroundColor: "rgba(0,0,0,0.2)" }}
                 className={
                   "transition-all  ease-in-out duration-400    absolute w-full flex-col mx-auto left-0 right-0 bottom-0  translate-y-0 sm:translate-y-[77%] duration-500 group-hover/main:translate-y-0 z-20 items-center sm:gap-5 sm:group-hover/main:gap-2 flex"
-              }
+                }
               >
                 <h1 className="font-bold text-2xl sm:text-5xl">
                   {items.title}
