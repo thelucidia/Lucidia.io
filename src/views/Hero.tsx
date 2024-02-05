@@ -5,10 +5,26 @@ import Button from "../components/Button";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 // import Button2 from "../components/Button2";
+import { motion, AnimatePresence } from "framer-motion";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
+
+  // testing by freelancer
+  const words = ["greatness", "tools", "games", "races"];
+
+  const [currentWordIndex, setCurrentWordIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
+    }, 3000); // Change word every 3 seconds
+
+    return () => clearInterval(interval);
+  }, []);
+
   const community = [
     {
       link: "https://t.me/Lucidia_io",
@@ -48,14 +64,36 @@ const Hero = () => {
 
       <div className="md:max-w-[75%] w-full h-auto mx-auto relative z-10 flex mt-[9rem] md:mt-[12rem] flex-col-reverse md:flex-row">
         <div className="w-full">
+          <div className="flex">
+            <h1 className="font-primary text-3xl md:text-5xl 2xl:text-[55px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden">
+              {t("hero_title1")}
+            </h1>
+
+            <AnimatePresence>
+              {Array.from(
+                { length: 5 },
+                (_, index) =>
+                  index === currentWordIndex && (
+                    <motion.div
+                      key={`word-${index}`}
+                      initial={{ y: 40, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{
+                        duration: 1,
+                        ease: "easeInOut",
+                      }}
+                      exit={{ opacity: 0 }}
+                      className="font-primary text-3xl md:text-5xl 2xl:text-[55px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden text-primary absolute top-0 left-64"
+                    >
+                      {t(`hero_title2.${index}`)}
+                    </motion.div>
+                  )
+              )}
+            </AnimatePresence>
+          </div>
           <h1 className="font-primary text-3xl md:text-5xl 2xl:text-[55px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden">
-            {t("hero_title1")}{" "}
-            <span className="transition-all ease-in-out duration-400 text-primary">
-              {t("hero_title2")}
-            </span>{" "}
             {t("hero_title3")}
           </h1>
-
           <div className="max-w-[32rem] font-primary flex flex-col md:flex gap-y-4 md:gap-y-0 md:text-2xl mt-12">
             <p className="">{t("main_desc1")}</p>
 
