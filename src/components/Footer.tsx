@@ -55,21 +55,21 @@ const Footer = () => {
               </a>
             </div>
 
-            <div className="flex items-center gap-x-[5px]">
+            {/* <div className="flex items-center gap-x-[5px]">
               <HiOutlineDevicePhoneMobile className="text-secondary text-xl" />
               <p className="font-medium font-primary">347-519-5430</p>
-            </div>
+            </div> */}
           </div>
         </div>
 
         <div className="font-primary flex gap-x-20 lg:flex-row flex-col gap-y-8 mt-11 lg:mt-14 ">
           <div className="">
-            <h2 className="font-semibold text-[22px]">{t("general")}</h2>
+            <h2 className="font-semibold text-[36px]">{t("general")}</h2>
             <ul className="flex flex-col gap-y-2 sm:gap-y-3 mt-4">
               {general.map((items, i) => {
                 return (
                   <li
-                    className="font-secondary cursor-pointer font-regular text-base relative w-fit hover:text-secondary transition-colors ease-in-out duration-300"
+                    className="font-secondary cursor-pointer font-regular text-base text-[20px] relative w-fit hover:text-primary transition-colors ease-in-out duration-300"
                     key={i}
                     onClick={() => {
                       navigate(`/${items.link}`);
@@ -83,12 +83,12 @@ const Footer = () => {
           </div>
 
           <div className="">
-            <h2 className="font-semibold text-[22px]">{t("company")}</h2>
+            <h2 className="font-semibold text-[36px]">{t("company")}</h2>
             <ul className="flex flex-col gap-y-2 sm:gap-y-3 mt-4">
               {company.map((items, i) => {
                 return (
                   <li
-                    className="font-secondary font-regular text-base relative w-fit hover:text-secondary transition-colors ease-in-out duration-300"
+                    className="font-secondary font-regular text-base text-[20px] relative w-fit hover:text-primary transition-colors ease-in-out duration-300"
                     key={i}
                   >
                     <a

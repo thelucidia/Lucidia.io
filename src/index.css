@@ -66,4 +66,26 @@
   clip-path: polygon(0 0, 100% 100%, 100% 0);
 }
 
- 
+.padding_bottom{
+  padding-bottom: 120px !important;
+  padding-top: 120px !important;
+}
+.margin_top_88{
+  margin-top: 120px;
+}
+@media (max-width: 1280px){
+  .margin_top_88{
+    margin-top: 88px;
+  }
+}
+@media (max-width: 768px){
+  .margin_top_88{
+    margin-top: 68px;
+  }
+}
+.top_p{
+  top: -30px;
+}
+.right_p{
+  right: -20px;
+}
