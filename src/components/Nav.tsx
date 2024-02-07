@@ -212,11 +212,11 @@ const Nav = () => {
       slug: "terms",
       type: "internal",
     },
-    // {
-    //   name: t("nav.faq"),
-    //   slug: "faq",
-    //   type: "internal",
-    // },
+    {
+      name: t("nav.faq"),
+      slug: "faq",
+      type: "internal",
+    },
   ];
 
   const icons = [
@@ -270,9 +270,8 @@ const Nav = () => {
     <div className="w-full h-fit relative">
       <nav
         ref={navRef}
-        className={`-full w-[80vw] font-primary h-screen right-0 top-0 bottom-0 bg-bg z-30 fixed transition-all  ease-in-out duration-500 ${
-          navActive ? "translate-x-0" : "translate-x-full"
-        }`}
+        className={`-full w-[80vw] font-primary h-screen right-0 top-0 bottom-0 bg-bg z-30 fixed transition-all  ease-in-out duration-500 ${navActive ? "translate-x-0" : "translate-x-full"
+          }`}
       >
         <div className="w-full h-[5rem] bg-prpl flex items-center justify-between px-4">
           <img src="/hero/logo.webp" alt="Logo" className="w-24" />
@@ -301,9 +300,8 @@ const Nav = () => {
                       delay: 0.5 * (i * 0.1),
                       ease: [0.16, 0.77, 0.47, 0.97],
                     }}
-                    className={`border-t-[1px] border-white/10 py-5 ${
-                      items.name === "faq" ? "border-b-[1px]" : ""
-                    } `}
+                    className={`border-t-[1px] border-white/10 py-5 ${items.name === "faq" ? "border-b-[1px]" : ""
+                      } `}
                   >
                     {items.name}
                   </motion.li>
@@ -321,9 +319,8 @@ const Nav = () => {
                   onClick={() => {
                     navigate(`/${items.slug}`);
                   }}
-                  className={`border-t-[1px] border-white/10 py-5 ${
-                    items.name === "faq" ? "border-b-[1px]" : ""
-                  } `}
+                  className={`border-t-[1px] border-white/10 py-5 ${items.name === "faq" ? "border-b-[1px]" : ""
+                    } `}
                 >
                   {items.name}
                 </motion.li>
@@ -343,15 +340,13 @@ const Nav = () => {
                   <div className="w-full flex justify-between items-center cursor-pointer text-white">
                     <p className="">{items.name}</p>
                     <MdKeyboardArrowUp
-                      className={`text-2xl transition-all ease-in-out duration-300  ${
-                        audit ? "rotate-0" : "rotate-180"
-                      }`}
+                      className={`text-2xl transition-all ease-in-out duration-300  ${audit ? "rotate-0" : "rotate-180"
+                        }`}
                     />
                   </div>
                   <div
-                    className={`text-footergry  flex flex-col gap-y-2  overflow-hidden transition-all ease-in-out duration-300 ${
-                      audit ? "max-h-[5rem] mt-4" : "max-h-0 mt-0"
-                    } `}
+                    className={`text-footergry  flex flex-col gap-y-2  overflow-hidden transition-all ease-in-out duration-300 ${audit ? "max-h-[5rem] mt-4" : "max-h-0 mt-0"
+                      } `}
                   >
                     {items.sub?.map((items, i) => {
                       return (
@@ -401,9 +396,8 @@ const Nav = () => {
           </ul>
 
           <div
-            className={`w-full bg-bl z-10 transition-height ease-in-out duration-300 overflow-hidden ${
-              active ? "max-h-[10rem]" : "max-h-0"
-            }`}
+            className={`w-full bg-bl z-10 transition-height ease-in-out duration-300 overflow-hidden ${active ? "max-h-[10rem]" : "max-h-0"
+              }`}
           >
             <div className="overflow-x-hidden max-h-[100%] w-full">
               <ul className="font-secondary text-lg p-4 px-7 space-y-2 w-full text-secondary">
@@ -468,9 +462,9 @@ const Nav = () => {
             <ul className="font-primary font-semibold text-sm sm:text-lg capitalize items-center gap-x-7 text-secondary xl:flex hidden">
               {!secondNav.includes(pathname)
                 ? navList.map((items, i) => {
-                    return items.type === "external" ? (
-                      <>
-                        {/* <a
+                  return items.type === "external" ? (
+                    <>
+                      {/* <a
                           href={items.link}
                           target="_blank"
                           rel="noopener noreferrer"
@@ -481,24 +475,8 @@ const Nav = () => {
                             {items.name}
                           </li>
                         </a> */}
-                      </>
-                    ) : (
-                      <li
-                        key={i}
-                        onClick={() => {
-                          navigate(`/${items.slug}`);
-                        }}
-                        className={cn("cursor-pointer hover:text-primary", {
-                          "text-primary":
-                            items.paths?.includes(pathname) ||
-                            items.slug === pathname,
-                        })}
-                      >
-                        {items.name}
-                      </li>
-                    );
-                  })
-                : navPrivacy.map((items, i) => (
+                    </>
+                  ) : (
                     <li
                       key={i}
                       onClick={() => {
@@ -512,7 +490,23 @@ const Nav = () => {
                     >
                       {items.name}
                     </li>
-                  ))}
+                  );
+                })
+                : navPrivacy.map((items, i) => (
+                  <li
+                    key={i}
+                    onClick={() => {
+                      navigate(`/${items.slug}`);
+                    }}
+                    className={cn("cursor-pointer hover:text-primary", {
+                      "text-primary":
+                        items.paths?.includes(pathname) ||
+                        items.slug === pathname,
+                    })}
+                  >
+                    {items.name}
+                  </li>
+                ))}
             </ul>
 
             <a
@@ -554,9 +548,8 @@ const Nav = () => {
 
       <div className="fixed max-w-[1400px] mx-auto w-full top-0 xl:top-7 z-20 left-0 right-0">
         <div
-          className={`w-[8rem] h-[8rem] md:block hidden backdrop-blur-md clipped bg-bl absolute z-20 top-24 transition-height ease-in-out duration-300 right-12 ${
-            langActive ? "max-h-[23rem]" : "max-h-0"
-          }`}
+          className={`w-[8rem] h-[8rem] md:block hidden backdrop-blur-md clipped bg-bl absolute z-20 top-24 transition-height ease-in-out duration-300 right-12 ${langActive ? "max-h-[23rem]" : "max-h-0"
+            }`}
         >
           <div
             className=" bg-black/30 backdrop-blur-md rounded-2xl w-32 h-[99%] m-auto clipped"
@@ -590,12 +583,11 @@ const Nav = () => {
         </div>
 
         <div
-          className={`w-[16rem] h-[23rem] clipped bg-bl absolute z-20 top-24 transition-height ease-in-out duration-300 right-0 ${
-            navDesktopActive ? "max-h-[22rem]" : "max-h-0"
-          }`}
+          className={`w-[16rem] h-[23rem] clipped bg-bl absolute z-20 top-24 transition-height ease-in-out duration-300 right-0 ${navDesktopActive ? "max-h-[22rem]" : "max-h-0"
+            }`}
         >
           <div
-            className="absolute bg-black/10 backdrop-blur-md rounded-2xl w-[98%] h-[99%] left-0 top-0 right-0 bottom-0 m-auto clipped"
+            className="absolute bg-black/10 backdrop-blur-md rounded-2xl w-[98%] h-[65%] left-0 top-0 right-0 bottom-0 clipped"
             ref={ref}
           >
             <div className="overflow-x-hidden max-h-[100%] w-full top-0 right-0">
@@ -609,7 +601,7 @@ const Nav = () => {
                       className="w-full h-full hover:text-primary"
                       key={i}
                     >
-                      <motion.li
+                      {/* <motion.li
                         initial={{ x: 100, opacity: 0 }}
                         animate={navDesktopActive ? { x: 0, opacity: 1 } : {}}
                         transition={{
@@ -620,69 +612,72 @@ const Nav = () => {
                         className={`border-b-[1px] border-white/10 py-5 `}
                       >
                         {items.name}
-                      </motion.li>
+                      </motion.li> */}
                     </a>
                   ) : items.type === "internal" ? (
-                    <button
-                      onClick={() => navigate(`/${items.slug}`)}
-                      className="w-full h-full hover:text-primary text-left uppercase"
-                      key={i}
-                    >
-                      <motion.li
-                        initial={{ x: 100, opacity: 0 }}
-                        animate={navDesktopActive ? { x: 0, opacity: 1 } : {}}
-                        transition={{
-                          duration: 0.7,
-                          delay: 0.5 * (i * 0.1),
-                          ease: [0.16, 0.77, 0.47, 0.97],
-                        }}
-                        className={`border-b-[1px] border-white/10 py-5`}
+                    <>
+                      <button
+                        onClick={() => navigate(`/${items.slug}`)}
+                        className="w-full h-full hover:text-primary text-left uppercase"
+                        key={i}
                       >
-                        {items.name}
-                      </motion.li>
-                    </button>
-                  ) : items.slug === "audit" ? (
-                    <motion.li
-                      initial={{ x: 100, opacity: 0 }}
-                      animate={navDesktopActive ? { x: 0, opacity: 1 } : {}}
-                      transition={{
-                        duration: 0.7,
-                        delay: 0.5 * (i * 0.1),
-                        ease: [0.16, 0.77, 0.47, 0.97],
-                      }}
-                      className={`border-b-[1px] border-white/10 py-5 group`}
-                      onClick={handleAudit}
-                      key={i}
-                    >
-                      <div className="w-full flex justify-between items-center cursor-pointer  hover:text-primary">
-                        <p className="">{items.name}</p>
-                        <MdKeyboardArrowUp
-                          className={`text-2xl transition-all ease-in-out duration-300  ${
-                            audit ? "rotate-0" : "rotate-180"
-                          }`}
-                        />
-                      </div>
-                      <div
-                        className={`text-footergry  flex flex-col gap-y-2  overflow-hidden transition-all ease-in-out duration-300 ${
-                          audit ? "max-h-[5rem] mt-4" : "max-h-0 mt-0"
-                        } `}
-                      >
-                        {items.sub?.map((items, i) => {
-                          return (
-                            <a
-                              href={items.link}
-                              target="_blank"
-                              rel="noreferrer noopener"
-                              className="  hover:text-primary"
-                              key={i}
-                            >
-                              {items.title}
-                            </a>
-                          );
-                        })}
-                      </div>
-                    </motion.li>
-                  ) : null;
+                        <motion.li
+                          initial={{ x: 100, opacity: 0 }}
+                          animate={navDesktopActive ? { x: 0, opacity: 1 } : {}}
+                          transition={{
+                            duration: 0.7,
+                            delay: 0.5 * (i * 0.1),
+                            ease: [0.16, 0.77, 0.47, 0.97],
+                          }}
+                          className={`border-b-[1px] border-white/10 py-5`}
+                        >
+                          {items.name}
+                        </motion.li>
+                      </button>
+                    </>
+
+                  )
+                    // : items.slug === "audit" ? (
+                    //   <motion.li
+                    //     initial={{ x: 100, opacity: 0 }}
+                    //     animate={navDesktopActive ? { x: 0, opacity: 1 } : {}}
+                    //     transition={{
+                    //       duration: 0.7,
+                    //       delay: 0.5 * (i * 0.1),
+                    //       ease: [0.16, 0.77, 0.47, 0.97],
+                    //     }}
+                    //     className={`border-b-[1px] border-white/10 py-5 group`}
+                    //     onClick={handleAudit}
+                    //     key={i}
+                    //   >
+                    //     <div className="w-full flex justify-between items-center cursor-pointer  hover:text-primary">
+                    //       <p className="">{items.name}</p>
+                    //       <MdKeyboardArrowUp
+                    //         className={`text-2xl transition-all ease-in-out duration-300  ${audit ? "rotate-0" : "rotate-180"
+                    //           }`}
+                    //       />
+                    //     </div>
+                    //     <div
+                    //       className={`text-footergry  flex flex-col gap-y-2  overflow-hidden transition-all ease-in-out duration-300 ${audit ? "max-h-[5rem] mt-4" : "max-h-0 mt-0"
+                    //         } `}
+                    //     >
+                    //       {items.sub?.map((items, i) => {
+                    //         return (
+                    //           <a
+                    //             href={items.link}
+                    //             target="_blank"
+                    //             rel="noreferrer noopener"
+                    //             className="  hover:text-primary"
+                    //             key={i}
+                    //           >
+                    //             {items.title}
+                    //           </a>
+                    //         );
+                    //       })}
+                    //     </div>
+                    //   </motion.li>
+                    // ) 
+                    : null;
                 })}
               </ul>
             </div>

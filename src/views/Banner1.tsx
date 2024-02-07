@@ -38,7 +38,7 @@ const Banner1 = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <section className="w-full h-auto pt-10 sm:pt-20 lg:pt-20 lg:pb-14 bg-bg relative flex items-center font-primary text-secondary px-5">
+    <section className="w-full h-auto pt-10 sm:pt-20 lg:pt-20 lg:pb-14 bg-bg relative flex items-center font-primary text-secondary px-5 padding_bottom">
       <div className="mx-auto w-fit flex text-center gap-4 sm:gap-10 md:gap-16">
         {bannerData.map((items, i) => (
           <div className="flex flex-col justify-start gap-2" key={i}>

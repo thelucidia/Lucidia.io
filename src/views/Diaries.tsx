@@ -1,11 +1,12 @@
-import { FaPlayCircle } from "react-icons/fa";
-import { useTranslation } from "react-i18next";
+// import { FaPlayCircle } from "react-icons/fa";
+// import { useTranslation } from "react-i18next";
 
 const Diaries = () => {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
   return (
-    <section className="w-full relative min-h-auto p-5 bg-bg font-primary text-secondary pt-5 sm:pt-24">
-      <div className="max-w-[1140px] mx-auto w-full">
+    <section className="">
+      {/* <section className="w-full relative min-h-auto p-5 bg-bg font-primary text-secondary pt-5 sm:pt-24"> */}
+      {/* <div className="max-w-[1140px] mx-auto w-full">
         <h1 className="md:text-5xl sm:text-4xl text-2xl font-bold">
           {t("diaries")}
         </h1>
@@ -22,7 +23,7 @@ const Diaries = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

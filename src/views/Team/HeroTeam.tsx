@@ -12,7 +12,7 @@ const HeroTeam = () => {
     <>
       <Nav />
       <div className="relative">
-        <img src={"/team.png"} className="w-full object-cover" />
+        <img src={"/team.png"} className="w-full object-cover margin_top_88" />
         <div className="absolute w-full	h-full top-0 flex justify-center items-center flex-col	">
           <div className="relative ml-5 left-40">
             <div className="absolute border-l-4 border-black h-full right-72		 "></div>
@@ -26,7 +26,7 @@ const HeroTeam = () => {
             </motion.div>
           </div>
         </div>
-        <div className="absolute h-full w-full flex justify-center items-end bottom-0	text-black	">
+        <div className="absolute h-full w-full flex justify-center items-end bottom-0	text-black	mb-5">
           <div className="relative">
             Scroll Down{" "}
             <motion.span
@@ -57,7 +57,7 @@ const HeroTeam = () => {
               (items, i) => (
                 <div className="relative md:p-6 p-2" key={i}>
                   {/* additon by freelancer */}
-                  <div className="absolute  bg-white h-24 w-24 right-0   team-clip--triangle"></div>
+                  <div className="absolute  bg-white h-24 w-24 top_p right_p  team-clip--triangle"></div>
                   <motion.div
                     initial={{ y: 0, x: 0 }}
                     whileInView={{ y: 400, x: -420 }}
