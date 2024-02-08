@@ -365,6 +365,7 @@ const Nav = () => {
                 </motion.li>
               ) : null;
             })}
+            ====
             <motion.li
               initial={{ x: 100, opacity: 0 }}
               animate={navActive ? { x: 0, opacity: 1 } : {}}
@@ -482,8 +483,8 @@ const Nav = () => {
                       onClick={() => {
                         navigate(`/${items.slug}`);
                       }}
-                      className={cn("cursor-pointer hover:text-primary", {
-                        "text-primary":
+                      className={cn("cursor-pointer hover:text-primary hover_text_border_bottom", {
+                        "text-primary text_border_bottom":
                           items.paths?.includes(pathname) ||
                           items.slug === pathname,
                       })}

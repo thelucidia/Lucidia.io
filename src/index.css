@@ -89,3 +89,10 @@
 .right_p{
   right: -20px;
 }
+
+.text_border_bottom{
+  border-bottom: 2px solid ;
+}
+.hover_text_border_bottom:hover{
+  border-bottom: 2px solid ;
+}

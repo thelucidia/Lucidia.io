@@ -3,8 +3,22 @@ import { useTranslation } from "react-i18next";
 import { details } from "../../utils/types";
 import { motion } from "framer-motion";
 import { IoIosArrowRoundDown } from "react-icons/io";
+import { useEffect, useRef, useState } from "react";
 
 const HeroTeam = () => {
+  const myRef = useRef();
+  const [showContent,setShowContent] = useState(false)
+  
+  useEffect(() => {
+    const observer = new IntersectionObserver((enteries)=>{
+      const entry = enteries[0]
+      if(entry && entry.isIntersecting){
+        setShowContent(true)
+      }
+    })
+    observer.observe(myRef.current)
+  }, [])
+
   const { t } = useTranslation("");
   // update by freelance
 
@@ -52,16 +66,17 @@ const HeroTeam = () => {
         <div className="max-w-[1100px] w-full h-auto mx-auto relative px-5 z-10 mt-[4.5rem] sm:mt-[7rem] md:mt-[10rem]">
           {/* <h1 className="sm:text-5xl text-2xl font-bold">{t("team.about")}</h1> */}
 
-          <div className="sm:mt-7 mt-4 md:space-x-20 md:space-y-0 space-y-10 md:flex ">
+          <div ref={myRef} className="sm:mt-7 mt-4 md:space-x-20 md:space-y-0 space-y-10 md:flex ">
             {(t("team.about_data", { returnObjects: true }) as details[]).map(
               (items, i) => (
                 <div className="relative md:p-6 p-2" key={i}>
                   {/* additon by freelancer */}
                   <div className="absolute  bg-white h-24 w-24 top_p right_p  team-clip--triangle"></div>
                   <motion.div
+                  viewport={{ once: true }}
                     initial={{ y: 0, x: 0 }}
                     whileInView={{ y: 400, x: -420 }}
-                    transition={{ ease: "linear", duration: 1 }}
+                    transition={{ ease: "linear", duration: 1, }}
                     className="absolute  border-l-2 border-b-2 border-white h-24 w-24 right-0 "
                   ></motion.div>
                   <motion.h1
@@ -72,7 +87,7 @@ const HeroTeam = () => {
                   >
                     {items.title}
                   </motion.h1>
-                  <p className="mt-4 text-base sm:text-2xl">{items.value}</p>
+                  <p className="mt-4 text-base sm:text-2xl" style={{opacity: `${showContent ? "100%" : " 0%"}`, transition:"all 4s"}}>{items.value}</p>
                 </div>
               )
             )}
