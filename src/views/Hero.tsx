@@ -189,9 +189,30 @@ const Hero = () => {
         <div className="w-auto relative flex">
           <h1 className="font-primary text-3xl md:text-5xl 2xl:text-[72px] max-w-[40rem] 2xl:leading-[5.5rem] font-semibold md:hidden block">
             {t("hero_title1")}{" "}
-            <span className="transition-all ease-in-out duration-400 text-primary">
+            {/* <span className="transition-all ease-in-out duration-400 text-primary">
               {t("hero_title2")}
-            </span>{" "}
+            </span>{" "} */}
+            <AnimatePresence>
+              {Array.from(
+                { length: 5 },
+                (_, index) =>
+                  index === currentWordIndex && (
+                    <motion.div
+                      key={`word-${index}`}
+                      initial={{ y: -40, display: "none" }}
+                      animate={{ y: 0, display: "block" }}
+                      transition={{
+                        duration: 0.4,
+                        ease: "easeIn",
+                      }}
+                      exit={{ display: "none" }}
+                      className="font-primary text-3xl md:text-5xl 2xl:text-[55px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block text-primary s top-0 left-64"
+                    >
+                      {t(`hero_title2.${index}`)}
+                    </motion.div>
+                  )
+              )}
+            </AnimatePresence>
             {t("hero_title3")}
           </h1>
           {/* <img

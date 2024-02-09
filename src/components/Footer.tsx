@@ -69,7 +69,7 @@ const Footer = () => {
               {general.map((items, i) => {
                 return (
                   <li
-                    className="font-secondary cursor-pointer font-regular text-base text-[20px] relative w-fit hover:text-primary transition-colors ease-in-out duration-300"
+                    className="font-secondary cursor-pointer font-regular text-[20px] relative w-fit hover:text-primary transition-colors ease-in-out duration-300"
                     key={i}
                     onClick={() => {
                       navigate(`/${items.link}`);
@@ -88,7 +88,7 @@ const Footer = () => {
               {company.map((items, i) => {
                 return (
                   <li
-                    className="font-secondary font-regular text-base text-[20px] relative w-fit hover:text-primary transition-colors ease-in-out duration-300"
+                    className="font-secondary font-regular text-[20px] relative w-fit hover:text-primary transition-colors ease-in-out duration-300"
                     key={i}
                   >
                     <a
