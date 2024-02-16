@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import OtherGames from "../components/OtherGames";
 import Button from "../components/Button";
-import { cn } from "../utils/index";
+// import { cn } from "../utils/index";
 
 const Cryptocraft = () => {
   const { t } = useTranslation();
@@ -68,31 +68,31 @@ const Cryptocraft = () => {
 
 
 
-        <div class="max-w-[1100px] pb-8 md:pb-14 sm:pb-20 w-full min-h-screen mx-auto flex gap-10 pt-10">
-          <div class="">
+        <div className="max-w-[1100px] pb-8 md:pb-14 sm:pb-20 w-full min-h-screen mx-auto flex gap-10 pt-10">
+          <div className="">
             <div className="minecrafterfonts discovery text-primary text-3xl lg:text-5xl xl:text-6xl 2xl:text-8xl text-center mt-3 items-center">
               {t("DISCOVER CAYPTOCRAFT")}
             </div>
-            <p class="text-lg text-white text-center pt-4">Lucidcraft is a sandbox adventure survival game set in a procedurally generated world.
+            <p className="text-lg text-white text-center pt-4">Lucidcraft is a sandbox adventure survival game set in a procedurally generated world.
               You can craft tools like pickaxe, axe, and shovel. Create a block and gather all the recourses as much
               as you need.</p>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-5">
-              <div class="pt-5 lg:pt-10">
-                <img class="max-w-full mb-5 md:mb-9" src={"/games/cryptcoraftImg/gameGue.png"} alt="" />
-                <div class="overview text-white">
-                  <h2 class="text-2xl lg:text-3xl text-primary mb-3 minecrafterfonts">Game Overview :</h2>
-                  <p class="text-base md:text-xl text-secondary font-primary">Curse Of The Pharaoh combines the fast-paced action of FPS games with the
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-5">
+              <div className="pt-5 lg:pt-10">
+                <img className="max-w-full mb-5 md:mb-9" src={"/games/cryptcoraftImg/gameGue.png"} alt="" />
+                <div className="overview text-white">
+                  <h2 className="text-2xl lg:text-3xl text-primary mb-3 minecrafterfonts">Game Overview :</h2>
+                  <p className="text-base md:text-xl text-secondary font-primary">Curse Of The Pharaoh combines the fast-paced action of FPS games with the
                     mystery of ancient mythology, all set in a futuristic Dubai landscape. Inspired by the intense
                     cooperative gameplay of Left 4 Dead 2, navigate through ancient curses and futuristic challenges
-                    in this adrenaline-fueled adventure. Dive into <span class="text-primary">Curse Of The Pharaoh</span>
+                    in this adrenaline-fueled adventure. Dive into <span className="text-primary">Curse Of The Pharaoh</span>
                   </p>
                 </div>
               </div>
-              <div class="pt-5 lg:pt-10">
-                <img class="max-w-full mb-5 md:mb-9" src={"/games/cryptcoraftImg/gameFeat.png"} alt="" />
-                <div class="Feature text-white">
-                  <h2 class="text-2xl lg:text-3xl text-primary mb-3 minecrafterfonts">Game Feature :</h2>
-                  <ul class="text-base md:text-xl list-disc pl-3 text-secondary font-primary">
+              <div className="pt-5 lg:pt-10">
+                <img className="max-w-full mb-5 md:mb-9" src={"/games/cryptcoraftImg/gameFeat.png"} alt="" />
+                <div className="Feature text-white">
+                  <h2 className="text-2xl lg:text-3xl text-primary mb-3 minecrafterfonts">Game Feature :</h2>
+                  <ul className="text-base md:text-xl list-disc pl-3 text-secondary font-primary">
                     <li>Blend of FPS action and ancient mythology</li>
                     <li>Cooperative gameplay against mythical foes</li>
                     <li>Set in a beautifully reimagined Dubai</li>
