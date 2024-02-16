@@ -89,3 +89,20 @@
 .right_p{
   right: -20px;
 }
+
+@font-face {
+  font-family: Minecrafter;
+  src: url('../src/fonts/Minecrafter.Alt.ttf');
+}
+.minecrafterfonts{
+  font-family: Minecrafter;
+}
+.cryptc{
+  font-size: 96px;
+}
+
+@media (max-width: 768px){
+  .cryptc{
+    font-size: 38px;
+  }
+}

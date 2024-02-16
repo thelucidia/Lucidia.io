@@ -10,6 +10,8 @@ import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import { AnimatePresence } from "framer-motion";
 import HowToBuy from "./pages/HowToBuy";
+import CurseOfThe from "./pages/CurseOfThe";
+import Cryptocraft from "./pages/Cryptocraft";
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
         <Route path="/" element={<MainPage />} key="main" />
         <Route path="/team" element={<Team />} key="teampage" />
         <Route path="/how" element={<HowToBuy />} key="teampage" />
+        <Route path="/CurseOfThe" element={<CurseOfThe />} key="teampage" />
+        <Route path="/Cryptocraft" element={<Cryptocraft />} key="teampage" />
 
         <Route path="games">
           <Route index element={<Games />} key="gamespage" />

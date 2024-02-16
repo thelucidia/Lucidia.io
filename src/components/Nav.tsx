@@ -79,6 +79,18 @@ const Nav = () => {
       paths: ["/team"],
       type: "internal",
     },
+    {
+      name: t("CurseOfThe"),
+      slug: "CurseOfThe",
+      paths: ["/CurseOfThe"],
+      type: "internal",
+    },
+    {
+      name: t("Cryptocraft"),
+      slug: "Cryptocraft",
+      paths: ["/Cryptocraft"],
+      type: "internal",
+    },
   ];
 
   const navPrivacy = [

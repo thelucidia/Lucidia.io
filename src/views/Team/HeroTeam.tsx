@@ -13,7 +13,7 @@ const HeroTeam = () => {
       <Nav />
       <div className="relative">
         <img src={"/team.png"} className="w-full object-cover margin_top_88" />
-        <div className="absolute w-full	h-full top-0 flex justify-center items-center flex-col	">
+        <div className="absolute w-full	h-full top-0 flex justify-center items-center flex-col">
           <div className="relative ml-5 left-40">
             <div className="absolute border-l-4 border-black h-full right-72		 "></div>
             <motion.div
