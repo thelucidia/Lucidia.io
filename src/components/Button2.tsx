@@ -18,7 +18,7 @@ export const Button2: FunctionComponent<ButtonProps> = ({
   return (
     <button
       className={cn(
-        'w-44 py-4 relative flex items-center justify-center font-primary text-center rounded-sm hover:bg-grn transition-all ease-in-out duration-300 text-secondary group',
+        'w-44 py-4 relative flex items-center justify-center font-primary text-center rounded-sm hover:bg-grn transition-all ease-in-out duration-300 text-secondary group m-auto',
         className,
       )}
       {...props}

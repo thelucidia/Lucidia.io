@@ -4,6 +4,7 @@ import Nav from '../components/Nav';
 import { IoIosArrowRoundDown } from 'react-icons/io';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import Button2 from '../components/Button2';
 
 interface detail {
   image: string;
@@ -85,8 +86,28 @@ const OurProduct = () => {
           </div>
         </div>
       </section>
-      <section>
-        <h1></h1>
+      <section className="w-full h-[22.7%] px-8 sm:px-auto p-5 relative text-secondary flex items-start justify-center">
+        <img className="w-full h-full object-cover absolute top-0 left-0" src="/our-product/ecosystem.png" />
+        <div className="md:max-w-[50%] w-full h-auto m-auto relative z-10 flex mt-[2rem] md:mt-[3rem] flex-col-reverse md:flex-row">
+          <div className="w-full">
+            <div className="flex flex-row justify-center gap-x-4">
+              <h1 className="font-primary text-3xl md:text-5xl 2xl:text-[48px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden">
+                {t('our_product.join')}
+              </h1>
+            </div>
+            <div className="font-primary md:text-2xl mt-12 text-center tracking-wide">
+              <p>{t('our_product.join-content')}</p>
+            </div>
+            <a
+              href="https://t.me/Lucidia_io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="md:block mt-10 hidden"
+            >
+              <Button2 removeOnMobile>{t('our_product.get-started')}</Button2>
+            </a>
+          </div>
+        </div>
       </section>
       <Footer />
     </motion.div>
