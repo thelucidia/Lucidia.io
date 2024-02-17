@@ -28,12 +28,12 @@ const OurProduct = () => {
         <div className="md:max-w-[50%] w-full h-auto m-auto relative z-10 flex mt-[12rem] md:mt-[15rem] flex-col-reverse md:flex-row">
           <div className="w-full">
             <div className="flex flex-row justify-center gap-x-4">
-              <h1 className="font-primary text-3xl md:text-5xl 2xl:text-[55px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden">
+              <h2 className="font-primary text-3xl md:text-5xl 2xl:text-[52px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden">
                 {t('our_product.welcome')}
-              </h1>
-              <h1 className="font-primary color-primary text-3xl md:text-5xl 2xl:text-[55px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden text-primary">
+              </h2>
+              <h2 className="font-primary color-primary text-3xl md:text-5xl 2xl:text-[52px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden text-primary">
                 {t('our_product.ecosystem')}
-              </h1>
+              </h2>
             </div>
             <div className="font-primary md:text-2xl mt-12 text-center font-medium tracking-wide">
               <p>{t('our_product.description')}</p>
@@ -59,9 +59,9 @@ const OurProduct = () => {
           </div>
         </div>
       </section>
-      <section className="w-full h-auto pt-10 sm:pt-20 lg:pt-12 lg:pb-16 bg-bg relative flex items-center font-primary text-secondary px-5">
+      <section className="w-full h-auto pt-10 sm:pt-12 lg:pt-16 lg:pb-16 bg-bg relative flex items-center font-primary text-secondary px-5">
         <div className="md:w-[75%] w-fit mx-auto flex flex-col">
-          <h2 className="font-bold text-3xl sm:text-2xl md:text-3xl">{t('our_product.our-product')}</h2>
+          <h3 className="font-bold text-3xl sm:text-2xl md:text-3xl">{t('our_product.our-product')}</h3>
           <div className="pt-8 grid md:grid-cols-4 grid-cols-1 gap-x-12 2 gap-y-8 justify-items-stretch">
             {(
               (t('our_product.products', {
@@ -79,8 +79,28 @@ const OurProduct = () => {
                     minHeight: 168,
                   }}
                 ></div>
-                <h3 className="font-primary font-bold text-xl px-4">{title}</h3>
-                <p className="px-4">{desc}</p>
+                <h3
+                  className="line-clamp-2 font-primary font-bold text-xl mx-4 flex flex-col"
+                  style={{
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                    display: '-webkit-box',
+                    height: 48,
+                  }}
+                >
+                  {title}
+                </h3>
+                <p
+                  className="mx-4 mb-4 line-clamp-2 flex flex-col"
+                  style={{
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                    display: '-webkit-box',
+                    height: 44,
+                  }}
+                >
+                  {desc}
+                </p>
               </Link>
             ))}
           </div>
@@ -95,7 +115,7 @@ const OurProduct = () => {
                 {t('our_product.join')}
               </h1>
             </div>
-            <div className="font-primary md:text-2xl mt-12 text-center tracking-wide">
+            <div className="font-primary md:text-3xl mt-12 text-center tracking-wide">
               <p>{t('our_product.join-content')}</p>
             </div>
             <a

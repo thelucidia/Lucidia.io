@@ -11,6 +11,7 @@ import Terms from './pages/Terms';
 import { AnimatePresence } from 'framer-motion';
 import HowToBuy from './pages/HowToBuy';
 import OurProduct from './pages/OurProduct';
+import Career from './pages/Career';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/team" element={<Team />} key="teampage" />
         <Route path="/how" element={<HowToBuy />} key="teampage" />
         <Route path="/our-product" element={<OurProduct />} key="our-product" />
+        <Route path="/career" element={<Career />} key="career" />
         <Route path="games">
           <Route index element={<Games />} key="gamespage" />
           <Route path="zombie-outbreak" element={<Zombie />} key="zombiepage" />
