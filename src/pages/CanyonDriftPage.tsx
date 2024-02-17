@@ -5,7 +5,6 @@ import Nav from "../components/Nav";
 import OtherGames from "../components/OtherGames";
 import { useTranslation } from "react-i18next";
 import { IoIosArrowRoundDown } from "react-icons/io";
-// import { cn } from "../../utils";
 
 const CanyonDriftPage = () => {
   const { t } = useTranslation();

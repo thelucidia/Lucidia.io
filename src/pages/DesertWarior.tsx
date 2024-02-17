@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect } from "react";
-import 'swiper/css';
+import "swiper/css";
 import { useTranslation } from "react-i18next";
 import { IoIosArrowRoundDown } from "react-icons/io";
 import Footer from "../components/Footer";
@@ -8,13 +8,11 @@ import Nav from "../components/Nav";
 import OtherGames from "../components/OtherGames";
 import Button from "../components/Button";
 import Swiper from "swiper/bundle";
-import 'swiper/css/pagination';
-import { Navigation, Pagination } from 'swiper/modules';
-
+import "swiper/css/pagination";
+import { Navigation, Pagination } from "swiper/modules";
 
 const DesertWarior = () => {
   const { t } = useTranslation();
-
 
   useEffect(() => {
     const mySwiper = new Swiper(".Game_Featues", {
@@ -33,7 +31,6 @@ const DesertWarior = () => {
     };
   }, []);
 
-
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -50,7 +47,6 @@ const DesertWarior = () => {
         />
 
         <div className="max-w-xs sm:max-w-full w-full flex flex-col justify-end gap-y-2 sm:gap-y-7 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-7 md:pb-10 items-center h-auto mx-auto z-10 mt-[.0rem] sm:mt-[6rem] md:mt-[10rem] absolute top-9">
-
           <div className="AndromedaFonts text-4xl sm:text-7xl md:text-5xl lg:text-[96px] text-left font-bold left-0 right-0 items-center">
             {t("desertW")}
           </div>
@@ -80,7 +76,6 @@ const DesertWarior = () => {
         </div>
       </div>
 
-
       <div className="w-full h-auto px-8 lg:py-10 md:py-[100px] py-[70px] bg-cover bg-center bg-no-repeat bg-[url('/games/desertwarior/DesertWariorsendlesstext.png')] mt-[-30px] relative z-200">
         <div className="max-w-[1100px] w-full mx-auto text-secondary font-primary">
           <motion.div
@@ -98,7 +93,6 @@ const DesertWarior = () => {
           </motion.div>
         </div>
       </div>
-
 
       <div className="w-full h-auto px-8 lg:pt-10 bg-cover bg-top bg-center bg-no-repeat bg-[url('/games/desertwarior/deserGameOverview.png')] mt-[-50px]">
         <div className="max-w-[1100px] w-full mx-auto text-secondary font-primary py-[110px]">
@@ -118,28 +112,22 @@ const DesertWarior = () => {
         </div>
       </div>
 
-
       <div className="w-full h-auto px-8 lg:pt-10">
         <div className="max-w-[1100px] w-full mx-auto text-secondary font-primary py-[90px] relative overflow-hidden">
-
-
           <div className="swiper-container Game_Featues">
             <div className="swiper-wrapper">
-
               <div className="swiper-slide">
                 <div className="w-full mx-auto text-secondary font-primary justify-between md:flex gap-10 md:flex-row">
-                
-                  <motion.div
-                  
-                    className="w-full lg:space-y-7 space-y-2 flex justify-center flex-col max-w-md"
-                  >
+                  <motion.div className="w-full lg:space-y-7 space-y-2 flex justify-center flex-col max-w-md">
                     <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold">
                       {t("games.desertWarior.title")} :
                     </h1>
 
                     <div className="text-white text-base md:text-xl">
                       {(
-                        t("games.desertWarior.Featuesdetails", { returnObjects: true }) as string[]
+                        t("games.desertWarior.Featuesdetails", {
+                          returnObjects: true,
+                        }) as string[]
                       ).map((items, i) => (
                         <ul className="list-disc pl-3" key={i}>
                           <li>{items}</li>
@@ -155,23 +143,20 @@ const DesertWarior = () => {
                   </div>
                 </div>
               </div>
-              
 
               {/* tow */}
               <div className="swiper-slide">
                 <div className="w-full mx-auto text-secondary font-primary justify-between md:flex gap-10 md:flex-row">
-                
-                  <motion.div
-                   
-                    className="w-full lg:space-y-7 space-y-2 flex justify-center flex-col max-w-md"
-                  >
+                  <motion.div className="w-full lg:space-y-7 space-y-2 flex justify-center flex-col max-w-md">
                     <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold">
                       {t("games.desertWarior.title")} :
                     </h1>
 
                     <div className="text-white text-base md:text-xl">
                       {(
-                        t("games.desertWarior.Featuesdetails", { returnObjects: true }) as string[]
+                        t("games.desertWarior.Featuesdetails", {
+                          returnObjects: true,
+                        }) as string[]
                       ).map((items, i) => (
                         <ul className="list-disc pl-3" key={i}>
                           <li>{items}</li>
@@ -187,22 +172,20 @@ const DesertWarior = () => {
                   </div>
                 </div>
               </div>
-              
+
               {/* three */}
               <div className="swiper-slide">
                 <div className="w-full mx-auto text-secondary font-primary justify-between md:flex gap-10 md:flex-row">
-                
-                  <motion.div
-                   
-                    className="w-full lg:space-y-7 space-y-2 flex justify-center flex-col max-w-md"
-                  >
+                  <motion.div className="w-full lg:space-y-7 space-y-2 flex justify-center flex-col max-w-md">
                     <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold">
                       {t("games.desertWarior.title")} :
                     </h1>
 
                     <div className="text-white text-base md:text-xl">
                       {(
-                        t("games.desertWarior.Featuesdetails", { returnObjects: true }) as string[]
+                        t("games.desertWarior.Featuesdetails", {
+                          returnObjects: true,
+                        }) as string[]
                       ).map((items, i) => (
                         <ul className="list-disc pl-3" key={i}>
                           <li>{items}</li>
@@ -218,15 +201,11 @@ const DesertWarior = () => {
                   </div>
                 </div>
               </div>
-              
             </div>
             <div className="swiper-pagination desertSwiperDot"></div>
           </div>
-
-
         </div>
       </div>
-
 
       <OtherGames />
       <Footer />
