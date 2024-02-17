@@ -1,6 +1,6 @@
-import React from 'react';
-import { ImageProps } from '../utils/types';
-import { motion } from 'framer-motion';
+import React from "react";
+import { ImageProps } from "../utils/types";
+import { motion } from "framer-motion";
 export function Images({ hoverSrc, defaultSrc }: ImageProps) {
   const [isHovered, setIsHovered] = React.useState(false);
 
@@ -33,17 +33,17 @@ export function BattleImages({ hoverSrc, defaultSrc }: ImageProps) {
       setCurrentImage(hoverSrc);
     }, 200);
     setTimeout(() => {
-      setCurrentImage('/games/battlefury/layout1.png');
+      setCurrentImage("/games/battlefury/layout1.png");
     }, 500);
 
     setTimeout(() => {
-      setCurrentImage('/games/battlefury/layoutb2.png');
+      setCurrentImage("/games/battlefury/layoutb2.png");
     }, 700);
     setTimeout(() => {
-      setCurrentImage('/games/battlefury/layoutb3.png');
+      setCurrentImage("/games/battlefury/layoutb3.png");
     }, 800);
     setTimeout(() => {
-      setCurrentImage('/games/battlefury/layout.png');
+      setCurrentImage("/games/battlefury/layout.png");
     }, 1000);
   };
 
@@ -60,7 +60,7 @@ export function BattleImages({ hoverSrc, defaultSrc }: ImageProps) {
       whileInView={{ scale: 1.1 }}
       whileHover={{ scale: 1.1 }}
       initial={{ scale: 1 }}
-      transition={{ type: 'spring', stiffness: 300 }}
+      transition={{ type: "spring", stiffness: 300 }}
     />
   );
 }

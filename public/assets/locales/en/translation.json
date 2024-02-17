@@ -411,7 +411,12 @@
       "name": "Den Smolonski",
       "position": "SENIOR BLOCKCHAIN DEVELOPER",
       "link": "https://www.linkedin.com/in/den-smolonski-648051100/",
-      "desc": ["Full Stack Developer (8 yrs)", "DeFi Developer", "GameFi Developer", "Blockchain industry (4 yrs)"]
+      "desc": [
+        "Full Stack Developer (8 yrs)",
+        "DeFi Developer",
+        "GameFi Developer",
+        "Blockchain industry (4 yrs)"
+      ]
     },
     {
       "name": "Jahongir Erkinov",
@@ -439,37 +444,61 @@
       "name": "Oskar Krzak",
       "position": "BUSINESS DEVELOPMENT MANAGER",
       "link": "https://www.linkedin.com/in/krzakoskar/",
-      "desc": ["Product Manager (7 yrs)", "Blockchain industry (6 yrs)", "Gamer (15  yrs)"]
+      "desc": [
+        "Product Manager (7 yrs)",
+        "Blockchain industry (6 yrs)",
+        "Gamer (15  yrs)"
+      ]
     },
     {
       "name": "Marius Dommersnes",
       "position": "CHIEF MARKETING OFFICER",
       "link": "https://www.linkedin.com/in/marius-dommersnes-455a30177/",
-      "desc": ["Blockchain industry (3 yrs)", "Presales & IDO (2 yrs)", "Web3 marketing (2 yrs)"]
+      "desc": [
+        "Blockchain industry (3 yrs)",
+        "Presales & IDO (2 yrs)",
+        "Web3 marketing (2 yrs)"
+      ]
     },
     {
       "name": "Victoria Iskiyaeva",
       "position": "CHIEF MARKETING OFFICER",
       "link": "https://www.linkedin.com/in/victoria-iskiyaeva-851359213/",
-      "desc": ["Web3 Marketing (3 yrs)", "Social Media Management (4 yrs)", "Digital Marketing (4 yrs)"]
+      "desc": [
+        "Web3 Marketing (3 yrs)",
+        "Social Media Management (4 yrs)",
+        "Digital Marketing (4 yrs)"
+      ]
     },
     {
       "name": "Rula Madi",
       "position": "HEAD OF LEGAL",
       "link": "https://www.linkedin.com/in/rolamadi/",
-      "desc": ["Corporate & tech/IP law (20 yrs)", "Senior management adviser", "Legal associations member"]
+      "desc": [
+        "Corporate & tech/IP law (20 yrs)",
+        "Senior management adviser",
+        "Legal associations member"
+      ]
     },
     {
       "name": "Al Rizqi",
       "position": "ASIA & CIS COMMUNITY MANAGER",
       "link": "https://www.linkedin.com/in/al-rizqi/",
-      "desc": ["Community Manager (2 yrs)", "Project Management (3 yrs)", "Marketing (5 yrs)"]
+      "desc": [
+        "Community Manager (2 yrs)",
+        "Project Management (3 yrs)",
+        "Marketing (5 yrs)"
+      ]
     },
     {
       "name": "Sander Kloet",
       "position": "EMEA & NA COMMUNITY MANAGER",
       "link": "https://www.linkedin.com/in/sander-kloet-278b68278/",
-      "desc": ["Community Manager (4 yrs)", "Social Media Manager (4 yrs)", "Digital Marketing (3 yrs)"]
+      "desc": [
+        "Community Manager (4 yrs)",
+        "Social Media Manager (4 yrs)",
+        "Digital Marketing (3 yrs)"
+      ]
     }
   ],
   "profile": "See Profile"

@@ -1,15 +1,15 @@
-import { Route, Routes } from 'react-router-dom';
-import MainPage from './pages/MainPage';
-import Team from './pages/Team';
-import Games from './pages/Games';
-import Zombie from './pages/AllGames/Zombie';
-import Lucidcraft from './pages/AllGames/Lucidcraft';
-import Battlefury from './pages/AllGames/Battlefury';
-import CanyonDrift from './pages/AllGames/CanyonDrift';
-import Privacy from './pages/Privacy';
-import Terms from './pages/Terms';
-import { AnimatePresence } from 'framer-motion';
-import HowToBuy from './pages/HowToBuy';
+import { Route, Routes } from "react-router-dom";
+import MainPage from "./pages/MainPage";
+import Team from "./pages/Team";
+import Games from "./pages/Games";
+import Zombie from "./pages/AllGames/Zombie";
+import Lucidcraft from "./pages/AllGames/Lucidcraft";
+import Battlefury from "./pages/AllGames/Battlefury";
+import CanyonDrift from "./pages/AllGames/CanyonDrift";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
+import { AnimatePresence } from "framer-motion";
+import HowToBuy from "./pages/HowToBuy";
 
 const App = () => {
   return (
@@ -28,7 +28,7 @@ const App = () => {
         </Route>
         <Route path="privacy" element={<Privacy />} key="privacypage" />
         <Route path="terms" element={<Terms />} key="termspage " />
-      </Routes>
+      </Routes> 
     </AnimatePresence>
   );
 };

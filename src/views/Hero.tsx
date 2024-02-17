@@ -1,19 +1,19 @@
-import { BsDiscord, BsTwitterX } from 'react-icons/bs';
-import { FaTelegramPlane } from 'react-icons/fa';
-import Button from '../components/Button';
+import { BsDiscord, BsTwitterX } from "react-icons/bs";
+import { FaTelegramPlane } from "react-icons/fa";
+import Button from "../components/Button";
 // import { cn } from "../utils";
-import { useTranslation } from 'react-i18next';
-import { useNavigate } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 // import Button2 from "../components/Button2";
-import { motion, AnimatePresence } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import { motion, AnimatePresence } from "framer-motion";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
 
   // testing by freelancer
-  const words = ['greatness', 'tools', 'games', 'races'];
+  const words = ["greatness", "tools", "games", "races"];
 
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
@@ -27,15 +27,15 @@ const Hero = () => {
 
   const community = [
     {
-      link: 'https://t.me/Lucidia_io',
+      link: "https://t.me/Lucidia_io",
       icon: <FaTelegramPlane />,
     },
     {
-      link: 'https://discord.com/invite/lucidia',
+      link: "https://discord.com/invite/lucidia",
       icon: <BsDiscord />,
     },
     {
-      link: 'https://twitter.com/lucidia_io',
+      link: "https://twitter.com/lucidia_io",
       icon: <BsTwitterX />,
     },
   ];
@@ -53,7 +53,10 @@ const Hero = () => {
 
   return (
     <section className="w-full min-h-screen px-8 sm:px-auto p-5 relative text-secondary flex items-start justify-center">
-      <img src={'/hero/background1.png'} className="w-full h-full object-cover absolute top-0 left-0" />
+      <img
+        src={"/hero/background1.png"}
+        className="w-full h-full object-cover absolute top-0 left-0"
+      />
 
       {/* <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-b from-transparent to-bg z-10"></div> */}
 
@@ -63,7 +66,7 @@ const Hero = () => {
         <div className="w-full">
           <div className="flex">
             <h1 className="font-primary text-3xl md:text-5xl 2xl:text-[55px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden">
-              {t('hero_title1')}
+              {t("hero_title1")}
             </h1>
 
             <AnimatePresence>
@@ -79,22 +82,22 @@ const Hero = () => {
                       animate={{ y: 0, opacity: 1 }}
                       transition={{
                         duration: 0.4,
-                        ease: 'easeIn',
+                        ease: "easeIn",
                       }}
                       exit={{ opacity: 0 }}
                       className="font-primary text-3xl md:text-5xl 2xl:text-[55px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden text-primary absolute top-0 left-64"
                     >
                       {t(`hero_title2.${index}`)}
                     </motion.div>
-                  ),
+                  )
               )}
             </AnimatePresence>
           </div>
           <h1 className="font-primary text-3xl md:text-5xl 2xl:text-[55px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden">
-            {t('hero_title3')}
+            {t("hero_title3")}
           </h1>
           <div className="max-w-[32rem] font-primary flex flex-col md:flex gap-y-4 md:gap-y-0 md:text-2xl mt-12">
-            <p className="">{t('main_desc1')}</p>
+            <p className="">{t("main_desc1")}</p>
 
             {/* <p className="">{t("hero_desc2")}</p> */}
           </div>
@@ -107,7 +110,7 @@ const Hero = () => {
               className="w-full md:w-60"
               stretchOnMobile
             >
-              {t('explore_now')}
+              {t("explore_now")}
             </Button>
 
             {/* <a
@@ -133,7 +136,9 @@ const Hero = () => {
 
           <div className="mt-14 flex sm:items-start gap-x-4 md:justify-normal justify-between flex-row">
             <div className="">
-              <h1 className="font-primary font-medium sm:text-xl text-sm">{t('join_community')}</h1>
+              <h1 className="font-primary font-medium sm:text-xl text-sm">
+                {t("join_community")}
+              </h1>
               <ul className="flex items-center gap-x-5 sm:gap-x-11 text-3xl mt-4">
                 {community.map((items, i) => {
                   return (
@@ -183,9 +188,11 @@ const Hero = () => {
 
         <div className="w-auto relative flex">
           <h1 className="font-primary text-3xl md:text-5xl 2xl:text-[72px] max-w-[40rem] 2xl:leading-[5.5rem] font-semibold md:hidden block">
-            {t('hero_title1')}{' '}
-            <span className="transition-all ease-in-out duration-400 text-primary">{t('hero_title2')}</span>{' '}
-            {t('hero_title3')}
+            {t("hero_title1")}{" "}
+            <span className="transition-all ease-in-out duration-400 text-primary">
+              {t("hero_title2")}
+            </span>{" "}
+            {t("hero_title3")}
           </h1>
           {/* <img
             src="/hero/hero.webp"

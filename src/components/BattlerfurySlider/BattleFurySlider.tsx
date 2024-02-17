@@ -1,4 +1,4 @@
-import Marquee from 'react-fast-marquee';
+import Marquee from "react-fast-marquee";
 
 interface NumberLoopProp {
   children: string;
@@ -26,7 +26,7 @@ export function NumberLoop({ children }: NumberLoopProp) {
       className="looop overflow-x-visible	flex justify-center items-center    "
       loop={10}
       speed={500}
-      style={{ width: '100%' }}
+      style={{ width: "100%" }}
       direction="up"
     >
       {children}

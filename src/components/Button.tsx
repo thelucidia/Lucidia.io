@@ -1,7 +1,7 @@
-import { FunctionComponent, ReactNode } from 'react';
-import { cn } from '../utils';
+import { FunctionComponent, ReactNode } from "react";
+import { cn } from "../utils";
 
-interface ButtonProps extends React.ComponentPropsWithoutRef<'button'> {
+interface ButtonProps extends React.ComponentPropsWithoutRef<"button"> {
   children: ReactNode;
   className?: string;
   stretchOnMobile?: boolean;
@@ -18,19 +18,19 @@ export const Button: FunctionComponent<ButtonProps> = ({
   return (
     <button
       className={cn(
-        'w-44 relative flex items-center justify-center font-primary text-center rounded-sm hover:bg-grn transition-all ease-in-out duration-300 text-secondary group py-4 sm:hover:text-primary',
-        className,
+        "w-44 relative flex items-center justify-center font-primary text-center rounded-sm hover:bg-grn transition-all ease-in-out duration-300 text-secondary group py-4 sm:hover:text-primary",
+        className
       )}
       {...props}
     >
       <div
         className={cn(
-          'w-full h-[calc(50%-0.48rem)] top-2 bg-primary absolute clip-top opacity-0 transition-ll ease-in-out duration-500 sm:group-hover:opacity-100 sm:group-hover:scale-y-[0.1] origin-top',
+          "w-full h-[calc(50%-0.48rem)] top-2 bg-primary absolute clip-top opacity-0 transition-ll ease-in-out duration-500 sm:group-hover:opacity-100 sm:group-hover:scale-y-[0.1] origin-top"
         )}
       ></div>
       <div
-        className={cn(
-          'w-full h-[calc(50%-0.48rem)] bottom-2 bg-primary absolute  clip-bottom opacity-0 transition-all ease-in-out duration-500 sm:group-hover:opacity-100  sm:group-hover:scale-y-[0.1] origin-bottom',
+        className={cn( 
+          "w-full h-[calc(50%-0.48rem)] bottom-2 bg-primary absolute  clip-bottom opacity-0 transition-all ease-in-out duration-500 sm:group-hover:opacity-100  sm:group-hover:scale-y-[0.1] origin-bottom"
         )}
       ></div>
       <div className="sm:group-hover:opacity-0 opacity-100 transition-all duration-500">
@@ -40,8 +40,8 @@ export const Button: FunctionComponent<ButtonProps> = ({
           viewBox="0 0 280 36"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className={cn('w-full h-full absolute top-0 left-0 hidden', {
-            'md:hidden block': stretchOnMobile,
+          className={cn("w-full h-full absolute top-0 left-0 hidden", {
+            "md:hidden block": stretchOnMobile,
           })}
         >
           <path
@@ -58,11 +58,17 @@ export const Button: FunctionComponent<ButtonProps> = ({
             viewBox="0 0 268 28"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className={cn('w-full h-full absolute top-0 left-0 hidden  scale-x-[0.96]', {
-              'md:hidden block': stretchOnMobile,
-            })}
+            className={cn(
+              "w-full h-full absolute top-0 left-0 hidden  scale-x-[0.96]",
+              {
+                "md:hidden block": stretchOnMobile,
+              }
+            )}
           >
-            <path d="M15.9125 0H252.087L268 14L252.087 28H15.9125L0 14L15.9125 0Z" fill="#B38539" />
+            <path
+              d="M15.9125 0H252.087L268 14L252.087 28H15.9125L0 14L15.9125 0Z"
+              fill="#B38539"
+            />
           </svg>
         </div>
 
@@ -72,8 +78,8 @@ export const Button: FunctionComponent<ButtonProps> = ({
           viewBox="0 0 169 36"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className={cn('absolute top-0 left-0 w-full h-full block', {
-            'md:block hidden': stretchOnMobile || removeOnMobile,
+          className={cn("absolute top-0 left-0 w-full h-full block", {
+            "md:block hidden": stretchOnMobile || removeOnMobile,
           })}
         >
           <path
@@ -89,11 +95,17 @@ export const Button: FunctionComponent<ButtonProps> = ({
             viewBox="0 0 161 28"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className={cn('absolute top-0 left-0 w-full h-full block scale-x-[0.957]', {
-              'md:block hidden': stretchOnMobile,
-            })}
+            className={cn(
+              "absolute top-0 left-0 w-full h-full block scale-x-[0.957]",
+              {
+                "md:block hidden": stretchOnMobile,
+              }
+            )}
           >
-            <path d="M10 0H151L160.5 14L151 28H10L0.5 14L10 0Z" fill="#B38539" />
+            <path
+              d="M10 0H151L160.5 14L151 28H10L0.5 14L10 0Z"
+              fill="#B38539"
+            />
           </svg>
         </div>
       </div>
