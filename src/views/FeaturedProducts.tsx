@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 // import React from "react";
-import { Images } from "../components/Images";
+// import { Images } from "../components/Images";
 import { ProductCard } from "../components/ProductCard";
 const FeaturedProducts = () => {
   const { t } = useTranslation();

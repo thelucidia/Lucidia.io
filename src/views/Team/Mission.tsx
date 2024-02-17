@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
 
-interface MissionInterface {
-  bold: string;
-  normal: string;
-}
+// interface MissionInterface {
+//   bold: string;
+//   normal: string;
+// }
 
 const Mission = () => {
   const { t } = useTranslation("");

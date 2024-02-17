@@ -1,4 +1,4 @@
-import { FaPlayCircle } from "react-icons/fa";
+// import { FaPlayCircle } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
 const LatestNews = () => {

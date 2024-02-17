@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { ProductCardProps } from "../utils/types";
 
 // export function ProductCard({ hoverSrc, defaultSrc }: ImageProps) {

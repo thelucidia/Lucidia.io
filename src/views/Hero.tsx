@@ -5,7 +5,7 @@ import Button from "../components/Button";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 // import Button2 from "../components/Button2";
-import { motion, AnimatePresence } from "framer-motion";
+// import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const Hero = () => {
@@ -18,6 +18,7 @@ const Hero = () => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
   useEffect(() => {
+    console.log(currentWordIndex);
     const interval = setInterval(() => {
       setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
     }, 3000); // Change word every 3 seconds
