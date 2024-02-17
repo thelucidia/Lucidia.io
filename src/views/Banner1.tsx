@@ -1,31 +1,31 @@
-import { useTranslation } from "react-i18next";
-import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
 // import { NumberLoop } from "../components/BattlerfurySlider/BattleFurySlider";
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 const Banner1 = () => {
   const [animationCount, setAnimationCount] = useState(0);
   const { t } = useTranslation();
   const bannerData = [
     {
-      title: "$1M+",
-      desc: t("to_be"),
+      title: '$1M+',
+      desc: t('to_be'),
     },
     {
-      title: "115M",
-      desc: t("in_game"),
+      title: '115M',
+      desc: t('in_game'),
     },
 
     {
       // testing
       // title: "6+",
-      title: "116+",
-      desc: t("game_inside"),
+      title: '116+',
+      desc: t('game_inside'),
     },
     {
       // testing
       // title: "60+",
-      title: "160+",
-      desc: t("maps"),
+      title: '160+',
+      desc: t('maps'),
     },
   ];
 
