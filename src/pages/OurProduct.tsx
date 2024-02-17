@@ -29,10 +29,10 @@ const OurProduct = () => {
           <div className="w-full">
             <div className="flex flex-row justify-center gap-x-4">
               <h1 className="font-primary text-3xl md:text-5xl 2xl:text-[55px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden">
-                {t('our_product.welcome')}
+                {t('our_product.title1')}
               </h1>
               <h1 className="font-primary color-primary text-3xl md:text-5xl 2xl:text-[55px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden text-primary">
-                {t('our_product.ecosystem')}
+                {t('our_product.title2')}
               </h1>
             </div>
             <div className="font-primary md:text-2xl mt-12 text-center font-medium tracking-wide">
