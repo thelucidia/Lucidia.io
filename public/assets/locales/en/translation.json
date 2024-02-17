@@ -488,6 +488,41 @@
       }
     ]
   },
+  "games_page": {
+    "feature": "Featured Games",
+    "all_play": "All Game You Can Play!",
+    "category": ["All Games", "Trendings", "New", "Survival", "FPS", "Racing"],
+    "category_all": "All Games",
+    "category_trendings": "Trendings",
+    "category_new": "New",
+    "category_survival": "Survival",
+    "category_fps": "FPS",
+    "category_racing": "Racing",
+    "desktop": "Desktop",
+    "title_pharaoh_curse": "Curse Of The Pharaoh",
+    "title_cryptocraft": "Cryptocraft",
+    "title_desert_warriors": "Desert Warriors",
+    "title_sandstore_racers": "Sandstorm Racers",
+    "section1_title": "Expand Your Game's Reach",
+    "section1_description": "Cross-Platform Compatibility: A Game Changer Introduces the Cross-Platform Compatibility feature, explaining how it allows for a unified gaming experience across multiple titles within the Lucidia ecosystem through a single Lucidia account. This system is integrated with popular social media platforms for ease of access, ensuring a seamless login process for users.",
+    "section2_title1": "Benefits For",
+    "section2_title2": "Game",
+    "section2_title3": "Developer",
+    "section2_description": [
+      "Wider Audience Reach: Highlight how joining Lucidia provides games with instant exposure to over 30,000 users, addressing the challenge of attracting players that many Web3 games face.",
+      "Enhanced Player Experience: Explain how the unified login and cross-platform compatibility enhance the user experience, making it easier for players to explore and engage with multiple games within the Lucidia ecosystem.",
+      "Community Engagement: Emphasize the active and growing community within Lucidia, providing developers with a direct line to feedback, support, and engagement from a dedicated user base.",
+      "Innovative Features: Detail additional benefits such as access to Lucidia's NFT Integration Toolkit, marketplaces, and community-driven platforms, which can enrich games with new monetization strategies and engagement mechanisms."
+    ],
+    "join_us": "Developers, Join Us!",
+    "studio_name": "Studio name",
+    "email": "email",
+    "website": "Website/Twitter (opt)",
+    "game_description": "game description",
+    "submit": "Submit",
+    "how_join": "How to join?",
+    "join_description": "Create a form by submit your studio name, your email, your website or twitter (optional), and the description of your game."
+  },
   "nav": {
     "home": "Home",
     "pitchdeck": "Pitchdeck",
