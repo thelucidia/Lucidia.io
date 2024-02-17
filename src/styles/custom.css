@@ -1,0 +1,15 @@
+li + li.step::before {
+  display: block;
+  content: '';
+  width: 64px;
+  height: 2px;
+  position: absolute;
+  background-color: #f0f0f0;
+  left: 0;
+  top: 50%;
+  transform: translate(-100%, -50%);
+}
+
+li.step {
+  position: relative;
+}

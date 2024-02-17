@@ -8,9 +8,11 @@ import Battlefury from './pages/AllGames/Battlefury';
 import CanyonDrift from './pages/AllGames/CanyonDrift';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
+import Roadmap from './pages/Roadmap';
 import { AnimatePresence } from 'framer-motion';
 import HowToBuy from './pages/HowToBuy';
 import OurProduct from './pages/OurProduct';
+import './styles/custom.css';
 
 const App = () => {
   return (
@@ -29,6 +31,7 @@ const App = () => {
         </Route>
         <Route path="privacy" element={<Privacy />} key="privacypage" />
         <Route path="terms" element={<Terms />} key="termspage " />
+        <Route path="roadmap" element={<Roadmap />} key="roadmappage " />
       </Routes>
     </AnimatePresence>
   );
