@@ -27,14 +27,10 @@ const OurProduct = () => {
         <img className="w-full h-full object-cover absolute top-0 left-0" src="/our-product/background.jpg" />
         <div className="md:max-w-[50%] w-full h-auto m-auto relative z-10 flex mt-[12rem] md:mt-[15rem] flex-col-reverse md:flex-row">
           <div className="w-full">
-            <div className="flex flex-row justify-center gap-x-4">
-              <h2 className="font-primary text-3xl md:text-5xl 2xl:text-[52px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden">
-                {t('our_product.welcome')}
-              </h2>
-              <h2 className="font-primary color-primary text-3xl md:text-5xl 2xl:text-[52px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden text-primary">
-                {t('our_product.ecosystem')}
-              </h2>
-            </div>
+            <h2
+              className="font-primary text-3xl md:text-5xl 2xl:text-[52px] 2xl:leading-[3.6rem] font-semibold md:block text-center"
+              dangerouslySetInnerHTML={{ __html: t('our_product.title') }}
+            ></h2>
             <div className="font-primary md:text-2xl mt-12 text-center font-medium tracking-wide">
               <p>{t('our_product.description')}</p>
             </div>
@@ -116,7 +112,7 @@ const OurProduct = () => {
               </h1>
             </div>
             <div className="font-primary md:text-3xl mt-12 text-center tracking-wide">
-              <p>{t('our_product.join-content')}</p>
+              <p dangerouslySetInnerHTML={{ __html: t('our_product.join-content') }}></p>
             </div>
             <a
               href="https://t.me/Lucidia_io"

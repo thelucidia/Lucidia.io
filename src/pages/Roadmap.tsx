@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import Footer2 from '../components/Footer2';
 import Nav from '../components/Nav';
 import { IoIosArrowRoundDown } from 'react-icons/io';
-import { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
@@ -112,10 +111,7 @@ const RoadComponent = ({
 };
 
 const Roadmap = () => {
-  const [open, setOpen] = useState(false);
   const { t } = useTranslation();
-  const ref = useRef<HTMLDivElement | null>(null);
-
   return (
     <motion.section
       initial={{ opacity: 0 }}

@@ -363,14 +363,13 @@
         "desc": "Encourage community participation in game improvement with a bug bounty system, rewarding contributions to game integrity."
       }
     ],
-    "title1": "Welcome to Lucidia's",
-    "title2": "Ecosystem",
+    "title": "Welcome to Lucidia's <span style='color: #B28539'>Ecosystem</span>",
     "description": "Explore our suite of innovative products designed for the vibrant Middle Eastern gaming community. From unique marketplaces to advanced NFT tools, Lucidia is your gateway to the future of gaming.",
     "scroll": "Scroll Down",
     "our-product": "Our Product",
     "bg-path": "/our-product/background.jpg",
     "join": "Join Lucidia's Ecosystem",
-    "join-content": "Ready to transform your gaming experience? Connect, Create, and Trade in the Middle East's premier gaming ecosystem.",
+    "join-content": "Ready to transform your gaming experience? <span style='color: #B28539'>Connect, Create,</span> and <span style='color: #B28539'>Trade</span> in the Middle East's premier gaming ecosystem.",
     "get-started": "Get Started"
   },
   "career": {
@@ -384,14 +383,11 @@
     "raphael_role": "Community Manager",
     "raphael_content": "Working with Lucidia has been a game-changer for me as a Community Manager! The innovative tools and collaborative environment have empowered me to build thriving communities seamlessly. The support from the team is unmatched. Together, we're turning visions into vibrant, engaged communities. Proud to be part of this revolution!",
     "meera": "Meera Anderson",
+    "meera_role": "Blockchain Developer",
+    "meera_content": "Being a Blockchain Developer with Lucidia is like diving into the future of tech! The cutting-edge solutions and forward-thinking mindset have elevated my coding experience. The synergy within the team is phenomenal, fostering an environment where groundbreaking ideas come to life. Lucidia is not just a workplace; it's a blockchain innovation powerhouse!",
     "our_journey": "Be Part Of Our Journey",
     "journey_content": "We're on the lookout for dynamic individuals with a passion for gaming and a flair for the crypto world to join our innovative team, no matter where you from.",
     "roles": [
-      {
-        "role": "Blockchain Developer",
-        "content": "Being a Blockchain Developer with Lucidia is like diving into the future of tech! The cutting-edge solutions and forward-thinking mindset have elevated my coding experience. The synergy within the team is phenomenal, fostering an environment where groundbreaking ideas come to life. Lucidia is not just a workplace; it's a blockchain innovation powerhouse!",
-        "opened": 1
-      },
       {
         "role": "Community Manager",
         "content": "As a Community Manager, You will have a responsibility to manage our community on different platform like Discord, Telegram, etc. You will also need to create some post to post it on our community chanel",

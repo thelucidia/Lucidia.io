@@ -25,12 +25,10 @@ const Career = () => {
         <img className="w-full h-full object-cover absolute top-0 left-0" src="/career/background.jpg" />
         <div className="w-full h-auto m-auto relative z-10 flex mt-[12rem] md:mt-[20rem] flex-col-reverse md:flex-row">
           <div className="w-full">
-            <div className="flex flex-row justify-center gap-x-4">
-              <h2
-                dangerouslySetInnerHTML={{ __html: t('career.title') }}
-                className="font-primary text-3xl md:text-5xl 2xl:text-[52px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden"
-              ></h2>
-            </div>
+            <h2
+              dangerouslySetInnerHTML={{ __html: t('career.title') }}
+              className="font-primary text-3xl md:text-5xl 2xl:text-[52px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden"
+            ></h2>
             <div className="mt-[4rem] flex justify-center items-center bottom-0	text-white">
               <div className="relative">
                 {t('career.scroll')}{' '}
