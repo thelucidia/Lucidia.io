@@ -363,8 +363,8 @@
         "desc": "Encourage community participation in game improvement with a bug bounty system, rewarding contributions to game integrity."
       }
     ],
-    "welcome": "Welcome to Lucidia's",
-    "ecosystem": "Ecosystem",
+    "title1": "Welcome to Lucidia's",
+    "title2": "Ecosystem",
     "description": "Explore our suite of innovative products designed for the vibrant Middle Eastern gaming community. From unique marketplaces to advanced NFT tools, Lucidia is your gateway to the future of gaming.",
     "scroll": "Scroll Down",
     "our-product": "Our Product",
@@ -423,6 +423,41 @@
   "table": "Table of Content",
   "contact_desc1": "If you have any questions about this Policy, please contact us at [Contact@lucidia.com].",
   "contact_desc2": "This is a sample of privacy policy, you should consult with a legal professional to ensure that your privacy policy complies with your jurisdiction laws and that it covers all aspects of your service.",
+  "roadmap_page": {
+    "title1": "Road",
+    "title2": "Map",
+    "scroll": "Scroll Down",
+    "quarter": "Quarter",
+    "road1": [
+      "Release Alpha Limited Access To Games",
+      "Seed Round",
+      "Launch Ecosystem App (Beta)",
+      "Private Beta Testing of Games: Zombie Outbreak, Lucidcraft, NFT Racing, Lucidia FPS",
+      "Listing on CoinMarketCap and CoinGecko",
+      "Presale Using IDO Platforms",
+      "User Education Portal for Web3 Gaming"
+    ],
+    "road2": [
+      "Token TGE",
+      "Implement Staking",
+      "First game with Blockchain integration on mainnet",
+      "First CEX and DEX Listings",
+      "Mobile Closed Beta",
+      "Development of Marketplace for Middle-Eastern Developers and In-Game Assets and Code",
+      "Launch Lucidia's In-Game Purchase System Token Integration",
+      "Start development of Web3 Game Marketing Hub"
+    ],
+    "road3": [
+      "Mainnet Launch, CEX Listing, NFT Tools",
+      "Cross-Platform Login, Funding Platform, Play-to-Earn",
+      "Game Inventory, DAO Tools, Bug Bounty, Tournament API",
+      "Cross-Game Assets, Marketing Hub, DAO Vote",
+      "Incubator Program, Account Sharing, Translation Product",
+      "Expand Offline Events, Top 10 Ranking",
+      "Scale Platforms, Leverage Feedback",
+      "Strategize, Engage Community, Explore Tech"
+    ]
+  },
   "privacy_page": {
     "title": "Privacy Policy and Terms",
     "desc": "This privacy policy (\"Policy\") describes how our website (the \"Website\") collects, uses, and protects the personal information of our users. By accessing or using the Website, you agree to be bound by this Policy. If you do not agree to this Policy, please do not use the Website.",

@@ -67,12 +67,6 @@ const Nav = () => {
     //   type: "external",
     //   link: "https://drive.google.com/file/d/1n1ddGOA5tTXVhK6zu7962QLSJBUev0aA/view",
     // },
-    // {
-    //   name: t("nav.roadmap"),
-    //   slug: "roadmap",
-    //   type: "external",
-    //   link: "https://drive.google.com/file/d/1j_jqFpZlgmppz9CElg4KeSnmoR4uneqp/view",
-    // },
     {
       name: t('nav.team'),
       slug: 'team',
@@ -83,6 +77,12 @@ const Nav = () => {
       name: t('nav.games'),
       slug: 'games',
       paths: ['/games', '/games/zombie-outbreak', '/games/lucidcraft', '/games/battlefury', '/games/canyon-drift'],
+      type: 'internal',
+    },
+    {
+      name: t('nav.roadmap'),
+      slug: 'roadmap',
+      paths: ['/roadmap'],
       type: 'internal',
     },
   ];
