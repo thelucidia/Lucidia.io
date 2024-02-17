@@ -373,6 +373,53 @@
     "join-content": "Ready to transform your gaming experience? Connect, Create, and Trade in the Middle East's premier gaming ecosystem.",
     "get-started": "Get Started"
   },
+  "career": {
+    "bg-path": "/career/background.jpg",
+    "title": "Join Us As <span style='color: #B28539'>Lucidian</span>",
+    "scroll": "Scroll Down",
+    "culture_Benefits": "Culture & <br>Benefits",
+    "culture_content": "Emphasize Lucidia's collaborative culture, commitment to innovation, and benefits like remote work options, continuous learning opportunities, and participation in groundbreaking projects.",
+    "the_feeling_work_with_us": "<span style='color: #B28539'>The Feelings</span><br> When They Worked With Us",
+    "raphael": "Raphael Chung",
+    "raphael_role": "Community Manager",
+    "raphael_content": "Working with Lucidia has been a game-changer for me as a Community Manager! The innovative tools and collaborative environment have empowered me to build thriving communities seamlessly. The support from the team is unmatched. Together, we're turning visions into vibrant, engaged communities. Proud to be part of this revolution!",
+    "meera": "Meera Anderson",
+    "our_journey": "Be Part Of Our Journey",
+    "journey_content": "We're on the lookout for dynamic individuals with a passion for gaming and a flair for the crypto world to join our innovative team, no matter where you from.",
+    "roles": [
+      {
+        "role": "Blockchain Developer",
+        "content": "Being a Blockchain Developer with Lucidia is like diving into the future of tech! The cutting-edge solutions and forward-thinking mindset have elevated my coding experience. The synergy within the team is phenomenal, fostering an environment where groundbreaking ideas come to life. Lucidia is not just a workplace; it's a blockchain innovation powerhouse!",
+        "opened": 1
+      },
+      {
+        "role": "Community Manager",
+        "content": "As a Community Manager, You will have a responsibility to manage our community on different platform like Discord, Telegram, etc. You will also need to create some post to post it on our community chanel",
+        "opened": 1
+      },
+      {
+        "role": "Blockchain Developer",
+        "content": "As a Community Manager, You will have a responsibility to manage our community on different platform like Discord, Telegram, etc. You will also need to create some post to post it on our community chanel",
+        "opened": 1
+      },
+      {
+        "role": "UI/UX Developer",
+        "content": "As a Community Manager, You will have a responsibility to manage our community on different platform like Discord, Telegram, etc. You will also need to create some post to post it on our community chanel",
+        "opened": 1
+      },
+      {
+        "role": "Game Developer",
+        "content": "As a Community Manager, You will have a responsibility to manage our community on different platform like Discord, Telegram, etc. You will also need to create some post to post it on our community chanel",
+        "opened": 1
+      },
+      {
+        "role": "Marketing Manager",
+        "content": "As a Community Manager, You will have a responsibility to manage our community on different platform like Discord, Telegram, etc. You will also need to create some post to post it on our community chanel",
+        "opened": 1
+      }
+    ],
+    "open_position": "Open Position"
+  },
   "table": "Table of Content",
   "contact_desc1": "If you have any questions about this Policy, please contact us at [Contact@lucidia.com].",
   "contact_desc2": "This is a sample of privacy policy, you should consult with a legal professional to ensure that your privacy policy complies with your jurisdiction laws and that it covers all aspects of your service.",
@@ -493,6 +540,7 @@
     "pitchdeck": "Pitchdeck",
     "roadmap": "Roadmap",
     "our-product": "Our Product",
+    "career": "Career",
     "games": "Games",
     "team": "Our Team",
     "faq": "FAQ",

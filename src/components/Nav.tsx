@@ -55,6 +55,12 @@ const Nav = () => {
       paths: ['/our-product'],
       type: 'internal',
     },
+    {
+      name: t('nav.career'),
+      slug: 'career',
+      paths: ['/career'],
+      type: 'internal',
+    },
     // {
     //   name: t("nav.pitchdeck"),
     //   slug: "pitchdeck",
