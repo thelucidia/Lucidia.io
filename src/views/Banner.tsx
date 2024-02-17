@@ -4,7 +4,6 @@ import { IoIosArrowRoundDown } from 'react-icons/io';
 
 const Banner = ({ bg_path, title, content }: any) => {
   const { t } = useTranslation();
-  console.log('console', bg_path, title, content);
   return (
     <section className="w-full min-h-screen px-8 sm:px-auto p-5 relative text-secondary flex items-start justify-center">
       <img className="w-full h-full object-cover absolute top-0 left-0" src={bg_path} />
