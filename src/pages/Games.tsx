@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import Footer from '../components/Footer';
 import GamesContent from '../views/Games/GamesContent';
 import HeroGame from '../views/Games/HeroGame';
+import GamesTitle from '../views/Games/GamesTitle';
 
 const Games = () => {
   return (
@@ -13,6 +14,7 @@ const Games = () => {
       className="bg-bg h-auto"
     >
       <HeroGame />
+      <GamesTitle />
       <GamesContent />
       <Footer />
     </motion.div>
