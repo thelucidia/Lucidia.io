@@ -9,7 +9,7 @@ const GameIntro = () => {
   //   setIsHover(!isHover);
   // };
   return (
-    <section className="w-full h-auto pt-10 sm:pt-20 lg:pt-12 lg:pb-16 bg-[#171717] relative flex items-center font-primary text-secondary px-5">
+    <section className="w-full h-auto pt-10 sm:pt-20 lg:pt-12 lg:pb-16 relative flex items-center font-primary text-secondary px-5">
       <div className="md:w-[75%] w-fit mx-auto flex flex-col">
         <h1 className="font-bold text-2xl sm:text-2xl md:text-3xl">
           {t("game")}
