@@ -106,3 +106,28 @@
     font-size: 38px;
   }
 }
+
+@font-face {
+  font-family: Ghostclan;
+  src: url('../src/fonts/ghostclan.ttf')
+  /* Add other font properties if needed */
+}
+.GhostclanFonts{
+  font-family: Ghostclan;
+}
+
+@font-face {
+  font-family: Andromeda;
+  src: url('../src/fonts/Andromeda-Wyr1E.otf')
+  /* Add other font properties if needed */
+}
+.AndromedaFonts{
+  font-family: Andromeda;
+}
+
+.desertSwiperDot .swiper-pagination-bullet{
+background-color: orange !important;
+border-radius: 2px !important;
+height: 12px !important;
+width: 12px !important;
+}

@@ -12,6 +12,8 @@ import { AnimatePresence } from "framer-motion";
 import HowToBuy from "./pages/HowToBuy";
 import CurseOfThe from "./pages/CurseOfThe";
 import Cryptocraft from "./pages/Cryptocraft";
+import CanyonDriftPage from "./pages/CanyonDriftPage";
+import DesertWarior from "./pages/DesertWarior";
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
         <Route path="/how" element={<HowToBuy />} key="teampage" />
         <Route path="/CurseOfThe" element={<CurseOfThe />} key="teampage" />
         <Route path="/Cryptocraft" element={<Cryptocraft />} key="teampage" />
+        <Route path="/CanyonDriftPage" element={<CanyonDriftPage />} key="teampage" />
+        <Route path="/DesertWarior" element={<DesertWarior />} key="teampage" />
 
         <Route path="games">
           <Route index element={<Games />} key="gamespage" />

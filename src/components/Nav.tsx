@@ -80,15 +80,27 @@ const Nav = () => {
       type: "internal",
     },
     {
-      name: t("CurseOfThe"),
+      name: t("Curse"),
       slug: "CurseOfThe",
       paths: ["/CurseOfThe"],
       type: "internal",
     },
     {
-      name: t("Cryptocraft"),
+      name: t("Crypto"),
       slug: "Cryptocraft",
       paths: ["/Cryptocraft"],
+      type: "internal",
+    },
+    {
+      name: t("Desert"),
+      slug: "DesertWarior",
+      paths: ["/DesertWarior"],
+      type: "internal",
+    },
+    {
+      name: t("Canyon"),
+      slug: "CanyonDriftPage",
+      paths: ["/CanyonDriftPage"],
       type: "internal",
     },
   ];

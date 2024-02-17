@@ -6,7 +6,6 @@ import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import OtherGames from "../components/OtherGames";
 import Button from "../components/Button";
-// import { cn } from "../utils/index";
 
 const Cryptocraft = () => {
   const { t } = useTranslation();
@@ -18,8 +17,7 @@ const Cryptocraft = () => {
       transition={{ duration: 0.7 }}
       className="w-full min-h-screen bg-bg"
     >
-      <div className="w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 font-primary relative text-secondary flex  justify-center bg-bg">
-        <Nav />
+      <div className="w-full min-h-[40vh] md:min-h-[48vh] lg:min-h-[48vh] xl:min-h-screen px-8 sm:px-auto p-5 font-primary relative text-secondary flex  justify-center bg-bg">
         <Nav />
         <div className="bg-video">
           <video
@@ -32,16 +30,16 @@ const Cryptocraft = () => {
           </video>
         </div>
 
-        <div className="max-w-xs sm:max-w-full w-full flex flex-col justify-end gap-y-8 sm:gap-y-8 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-12 md:pb-10 items-center h-auto mx-auto z-10 mt-[4.5rem] sm:mt-[6rem] md:mt-[10rem] absolute bottom-9 ">
+        <div className="max-w-xs sm:max-w-full w-full flex flex-col justify-end gap-y-3 sm:gap-y-7 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-7 md:pb-10 items-center h-auto mx-auto z-10 mt-[0rem] sm:mt-[6rem] md:mt-[10rem] absolute top-9 ">
 
-          <div className="minecrafterfonts cryptc text-xl items-center">
+          <div className="minecrafterfonts text-4xl sm:text-6xl md:text-7xl lg:text-[96px] text-left font-bold left-0 right-0 items-center">
             {t("CAYPTDCRAFT")}
           </div>
 
           <Button className="w-full md:w-56" stretchOnMobile>
             {t("games.play_game")}
           </Button>
-          <div className="   flex justify-center items-center bottom-0	text-white	">
+          <div className="flex justify-center items-center bottom-0	text-white	">
             <div className="relative">
               See Details{" "}
               <motion.span
