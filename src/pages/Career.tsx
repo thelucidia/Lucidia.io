@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
-import { IoIosArrowRoundDown } from 'react-icons/io';
 import { useTranslation } from 'react-i18next';
+import Banner from '../views/Banner';
 
-interface role {
+interface Role {
   role: string;
   opened: Number;
   content: string;
@@ -21,35 +21,7 @@ const Career = () => {
       className="bg-bg h-auto"
     >
       <Nav />
-      <section className="w-full min-h-screen px-8 sm:px-auto p-5 relative text-secondary flex items-start justify-center">
-        <img className="w-full h-full object-cover absolute top-0 left-0" src="/career/background.jpg" />
-        <div className="w-full h-auto m-auto relative z-10 flex mt-[12rem] md:mt-[20rem] flex-col-reverse md:flex-row">
-          <div className="w-full">
-            <h2
-              dangerouslySetInnerHTML={{ __html: t('career.title') }}
-              className="font-primary text-3xl md:text-5xl 2xl:text-[52px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden"
-            ></h2>
-            <div className="mt-[4rem] flex justify-center items-center bottom-0	text-white">
-              <div className="relative">
-                {t('career.scroll')}{' '}
-                <motion.span
-                  initial={{ y: -10, opacity: 0 }}
-                  animate={{ y: 10, opacity: 1 }}
-                  transition={{
-                    duration: 1,
-                    ease: 'easeIn',
-                    times: [0, 0.2, 0.5, 0.8, 1],
-                    repeat: Infinity,
-                  }}
-                  className="absolute"
-                >
-                  <IoIosArrowRoundDown />
-                </motion.span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Banner bg_path="/career/background.jpg" title={t('career.title')} content="" />
       <section className="w-full h-auto pt-62px sm:pt-[62px] lg:pt-[124px] lg:pb-[162px] bg-bg relative flex items-center font-primary text-secondary px-5">
         <div className="md:w-[75%] w-fit mx-auto flex flex-row gap-x-[156px] justify-center">
           <h2
@@ -105,7 +77,7 @@ const Career = () => {
             {(
               (t('career.roles', {
                 returnObjects: true,
-              }) as role[]) ?? []
+              }) as Role[]) ?? []
             ).map(({ role, opened, content }, i) => (
               <div className="flex flex-row gap-x-[220px]" key={`roles-${i}`}>
                 <div className="flex flex-col gap-y-5">

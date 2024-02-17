@@ -420,8 +420,7 @@
   "contact_desc1": "If you have any questions about this Policy, please contact us at [Contact@lucidia.com].",
   "contact_desc2": "This is a sample of privacy policy, you should consult with a legal professional to ensure that your privacy policy complies with your jurisdiction laws and that it covers all aspects of your service.",
   "roadmap_page": {
-    "title1": "Road",
-    "title2": "Map",
+    "title": "Road <span style='color: #B28539'>Map</span>",
     "scroll": "Scroll Down",
     "quarter": "Quarter",
     "road1": [

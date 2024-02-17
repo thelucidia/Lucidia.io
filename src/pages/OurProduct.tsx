@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
-import { IoIosArrowRoundDown } from 'react-icons/io';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import Button2 from '../components/Button2';
+import Banner from '../views/Banner';
 
 interface detail {
   image: string;
@@ -23,38 +23,11 @@ const OurProduct = () => {
       className="bg-bg h-auto"
     >
       <Nav />
-      <section className="w-full min-h-screen px-8 sm:px-auto p-5 relative text-secondary flex items-start justify-center">
-        <img className="w-full h-full object-cover absolute top-0 left-0" src="/our-product/background.jpg" />
-        <div className="md:max-w-[50%] w-full h-auto m-auto relative z-10 flex mt-[12rem] md:mt-[15rem] flex-col-reverse md:flex-row">
-          <div className="w-full">
-            <h2
-              className="font-primary text-3xl md:text-5xl 2xl:text-[52px] 2xl:leading-[3.6rem] font-semibold md:block text-center"
-              dangerouslySetInnerHTML={{ __html: t('our_product.title') }}
-            ></h2>
-            <div className="font-primary md:text-2xl mt-12 text-center font-medium tracking-wide">
-              <p>{t('our_product.description')}</p>
-            </div>
-            <div className="mt-[4rem] flex justify-center items-center bottom-0	text-white	">
-              <div className="relative">
-                {t('our_product.scroll')}{' '}
-                <motion.span
-                  initial={{ y: -10, opacity: 0 }}
-                  animate={{ y: 10, opacity: 1 }}
-                  transition={{
-                    duration: 1,
-                    ease: 'easeIn',
-                    times: [0, 0.2, 0.5, 0.8, 1],
-                    repeat: Infinity,
-                  }}
-                  className="absolute"
-                >
-                  <IoIosArrowRoundDown />
-                </motion.span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Banner
+        bg_path="/our-product/background.jpg"
+        title={t('our_product.title')}
+        content={t('our_product.description')}
+      />
       <section className="w-full h-auto pt-10 sm:pt-12 lg:pt-16 lg:pb-16 bg-bg relative flex items-center font-primary text-secondary px-5">
         <div className="md:w-[75%] w-fit mx-auto flex flex-col">
           <h3 className="font-bold text-3xl sm:text-2xl md:text-3xl">{t('our_product.our-product')}</h3>

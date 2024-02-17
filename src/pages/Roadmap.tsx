@@ -1,10 +1,9 @@
 import clsx from 'clsx';
-
-import Footer2 from '../components/Footer2';
+import Footer from '../components/Footer2';
 import Nav from '../components/Nav';
-import { IoIosArrowRoundDown } from 'react-icons/io';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import Banner from '../views/Banner';
 
 const StepComponent = ({ steps, active }: { steps: number; active: number }) => {
   // Generate an array of length equal to the 'steps' prop
@@ -121,40 +120,7 @@ const Roadmap = () => {
       className="w-full bg-bg min-h-screen font-primary"
     >
       <Nav />
-      <section className="w-full min-h-screen px-8 sm:px-auto p-5 relative text-secondary flex items-start justify-center">
-        <img className="w-full h-full object-cover absolute top-0 left-0" src="/roadmap/banner.png" />
-        <div className="md:max-w-[50%] w-full h-auto m-auto relative z-10 flex mt-[12rem] md:mt-[15rem] flex-col-reverse md:flex-row">
-          <div className="w-full">
-            <div className="flex flex-row justify-center gap-x-4">
-              <h1 className="font-primary text-3xl md:text-5xl 2xl:text-[55px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden">
-                {t('roadmap_page.title1')}
-              </h1>
-              <h1 className="font-primary color-primary text-3xl md:text-5xl 2xl:text-[55px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden text-primary">
-                {t('roadmap_page.title2')}
-              </h1>
-            </div>
-            <div className="mt-[4rem] flex justify-center items-center bottom-0	text-white	">
-              <div className="relative">
-                {t('roadmap_page.scroll')}{' '}
-                <motion.span
-                  initial={{ y: -10, opacity: 0 }}
-                  animate={{ y: 10, opacity: 1 }}
-                  transition={{
-                    duration: 1,
-                    ease: 'easeIn',
-                    times: [0, 0.2, 0.5, 0.8, 1],
-                    repeat: Infinity,
-                  }}
-                  className="absolute"
-                >
-                  <IoIosArrowRoundDown />
-                </motion.span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <Banner bg_path="/roadmap/banner.png" title={t('roadmap_page.title')} content="" />
       <div className="flex max-w-[1100px] mx-auto md:mt-6 text-secondary md:pb-20 flex-col ">
         <RoadComponent
           className="mt-24 py-1"
@@ -199,7 +165,7 @@ const Roadmap = () => {
           direction="right"
         />
       </div>
-      <Footer2 />
+      <Footer />
     </motion.section>
   );
 };

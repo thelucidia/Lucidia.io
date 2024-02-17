@@ -49,18 +49,7 @@ const Nav = () => {
       paths: ['/'],
       type: 'internal',
     },
-    {
-      name: t('nav.our-product'),
-      slug: 'our-product',
-      paths: ['/our-product'],
-      type: 'internal',
-    },
-    {
-      name: t('nav.career'),
-      slug: 'career',
-      paths: ['/career'],
-      type: 'internal',
-    },
+
     // {
     //   name: t("nav.pitchdeck"),
     //   slug: "pitchdeck",
@@ -80,9 +69,21 @@ const Nav = () => {
       type: 'internal',
     },
     {
+      name: t('nav.our-product'),
+      slug: 'our-product',
+      paths: ['/our-product'],
+      type: 'internal',
+    },
+    {
       name: t('nav.roadmap'),
       slug: 'roadmap',
       paths: ['/roadmap'],
+      type: 'internal',
+    },
+    {
+      name: t('nav.career'),
+      slug: 'career',
+      paths: ['/career'],
       type: 'internal',
     },
   ];
