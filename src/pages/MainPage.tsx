@@ -1,13 +1,13 @@
-import { motion } from "framer-motion";
-import Footer from "../components/Footer";
-import Nav from "../components/Nav";
-import Banner1 from "../views/Banner1";
-import GameIntro from "../views/GameIntro";
-import Diaries from "../views/Diaries";
+import { motion } from 'framer-motion';
+import Footer from '../components/Footer';
+import Nav from '../components/Nav';
+import Banner1 from '../views/Banner1';
+import GameIntro from '../views/GameIntro';
+import Diaries from '../views/Diaries';
 // import Free2Play from "../views/Free2Play";
-import Hero from "../views/Hero";
-import Join from "../views/Join";
-import Partners from "../views/Partners";
+import Hero from '../views/Hero';
+import Join from '../views/Join';
+import Partners from '../views/Partners';
 // import PartnersUpper from "../views/PartnersUpper";
 
 const MainPage = () => {

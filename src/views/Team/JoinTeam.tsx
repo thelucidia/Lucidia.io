@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 
 const JoinTeam = () => {
   const { t } = useTranslation();
@@ -8,9 +8,7 @@ const JoinTeam = () => {
         {/* <img src="/joinleft.webp" alt="JoinLeft" className="" /> */}
 
         <div className="w-full h-full pl-[12.5%] flex justify-center flex-col gap-y-3 md:gap-y-16">
-          <h1 className=" text-base sm:text-2xl md:text-4xl lg:text-5xl font-bold text-secondary">
-            {t("team.want")}
-          </h1>
+          <h1 className=" text-base sm:text-2xl md:text-4xl lg:text-5xl font-bold text-secondary">{t('team.want')}</h1>
 
           <div className="relative w-[200px] lg:w-[523px] sm:scale-1 grayscale brightness-50">
             <svg
@@ -26,10 +24,7 @@ const JoinTeam = () => {
                 stroke="#F0F0F0"
                 strokeWidth="2"
               />
-              <path
-                d="M39.8656 6H483.134L513 31.5L483.134 57H39.8656L10 31.5L39.8656 6Z"
-                fill="#B38539"
-              />
+              <path d="M39.8656 6H483.134L513 31.5L483.134 57H39.8656L10 31.5L39.8656 6Z" fill="#B38539" />
             </svg>
 
             <svg
@@ -40,10 +35,7 @@ const JoinTeam = () => {
               xmlns="http://www.w3.org/2000/svg"
               className="lg:hidden block"
             >
-              <path
-                d="M21.9125 4H258.087L274 18L258.087 32H21.9125L6 18L21.9125 4Z"
-                fill="#B38539"
-              />
+              <path d="M21.9125 4H258.087L274 18L258.087 32H21.9125L6 18L21.9125 4Z" fill="#B38539" />
               <path
                 d="M1.48997 18L20.2671 1H259.733L278.51 18L259.733 35H20.2671L1.48997 18Z"
                 stroke="#F0F0F0"
@@ -52,7 +44,7 @@ const JoinTeam = () => {
             </svg>
 
             <h1 className="absolute top-0 left-0 bottom-0 right-0 m-auto h-fit lg:text-3xl text-sm font-medium text-center">
-              {t("team.apply")}
+              {t('team.apply')}
             </h1>
           </div>
         </div>
