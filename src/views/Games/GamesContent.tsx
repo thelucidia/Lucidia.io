@@ -66,7 +66,7 @@ const GamesContent = () => {
                 />
               </div>
               <Button className="w-full md:w-56" stretchOnMobile>
-                {t('games.play_game')}
+                {t('games_page.submit')}
               </Button>
             </div>
           </div>
