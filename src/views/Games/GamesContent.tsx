@@ -29,8 +29,12 @@ const GamesContent = () => {
           <ol className="font-medium text-xl leading-6 flex flex-col gap-y-12">
             {(t('games_page.section2_description', { returnObjects: true }) as string[]).map(
               (item: string, i: number) => (
-                <li key={i} className="w-[600px]">
+                <li key={i} className="relative w-[600px]">
                   {item}
+                  <span
+                    className="absolute w-[46px] h-[80px] -left-7 -top-5 bg-no-repeat"
+                    style={{ backgroundImage: `url("/games/${i + 1}.svg")` }}
+                  ></span>
                 </li>
               ),
             )}
