@@ -51,6 +51,8 @@
   "other": "Other Games",
   "game_details": "Game details",
   "games": {
+    "featured_games": "Featured Games",
+    "see_details": "See details",
     "play_game": "Play Game",
     "zombie": {
       "title": "You Have to Survive",
