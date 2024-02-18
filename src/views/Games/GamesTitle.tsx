@@ -32,7 +32,7 @@ const GamesTitle = () => {
               <span className="font-medium text-base leading-6 ml-[20px]">{t('games_page.desktop')}</span>
             </div>
           </div>
-          <div className="relative w-[270px] h-[299px]" style={{ background: 'rgba(30, 30, 30, 0.52)' }} onClick={() => {navigate('/Cryptocraft')}}>
+          <div className="relative w-[270px] h-[299px]" style={{ background: 'rgba(30, 30, 30, 0.52)' }} onClick={() => {navigate('/games/lucidcraft')}}>
             <img src="/games/cryptocraft.png" width={270} height={222} />
             <span className="font-bold text-2xl leading-[76px] pl-5">{t('games_page.title_cryptocraft')}</span>
             <div className="absolute w-[100px] h-6 left-5 top-[186px]" style={{ background: 'rgba(30, 30, 30, 0.92)' }}>

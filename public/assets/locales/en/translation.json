@@ -590,8 +590,8 @@
     "category_fps": "FPS",
     "category_racing": "Racing",
     "desktop": "Desktop",
-    "title_pharaoh_curse": "Curse Of The Pharaoh",
-    "title_cryptocraft": "Cryptocraft",
+    "title_pharaoh_curse": "C.O.T.P.",
+    "title_cryptocraft": "Lucidcraft",
     "title_desert_warriors": "Desert Warriors",
     "title_sandstore_racers": "Sandstorm Racers",
     "section1_title": "Expand Your Game's Reach",
@@ -625,7 +625,7 @@
     "faq": "FAQ",
     "audit": "Audit",
     "gameplay": "Gameplay",
-    "meet": "Meet the community"
+    "meet": "Launch App"
   },
   "join": "Join the community",
   "for": "For more details about our progress and workflow be sure to follow",
