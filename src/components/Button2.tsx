@@ -1,7 +1,7 @@
-import { FunctionComponent, ReactNode } from "react";
-import { cn } from "../utils";
+import { FunctionComponent, ReactNode } from 'react';
+import { cn } from '../utils';
 
-interface ButtonProps extends React.ComponentPropsWithoutRef<"button"> {
+interface ButtonProps extends React.ComponentPropsWithoutRef<'button'> {
   children: ReactNode;
   className?: string;
   stretchOnMobile?: boolean;
@@ -18,8 +18,8 @@ export const Button2: FunctionComponent<ButtonProps> = ({
   return (
     <button
       className={cn(
-        "w-44 py-4 relative flex items-center justify-center font-primary text-center rounded-sm hover:bg-grn transition-all ease-in-out duration-300 text-secondary group",
-        className
+        'w-44 py-4 relative flex items-center justify-center font-primary text-center rounded-sm hover:bg-grn transition-all ease-in-out duration-300 text-secondary group m-auto',
+        className,
       )}
       {...props}
     >
@@ -29,8 +29,8 @@ export const Button2: FunctionComponent<ButtonProps> = ({
         viewBox="0 0 280 36"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className={cn("w-full h-full absolute top-0 left-0 hidden", {
-          "md:hidden block": stretchOnMobile,
+        className={cn('w-full h-full absolute top-0 left-0 hidden', {
+          'md:hidden block': stretchOnMobile,
         })}
       >
         <path
@@ -47,17 +47,11 @@ export const Button2: FunctionComponent<ButtonProps> = ({
           viewBox="0 0 280 36"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className={cn(
-            "w-full h-full absolute top-0 left-0 hidden",
-            {
-              "md:hidden block": stretchOnMobile,
-            }
-          )}
+          className={cn('w-full h-full absolute top-0 left-0 hidden', {
+            'md:hidden block': stretchOnMobile,
+          })}
         >
-          <path
-            d="M16.625 0H263.375L280 18L263.375 36H16.625L0 18L16.625 0Z"
-            fill="#B38539"
-          />
+          <path d="M16.625 0H263.375L280 18L263.375 36H16.625L0 18L16.625 0Z" fill="#B38539" />
         </svg>
       </div>
 
@@ -67,8 +61,8 @@ export const Button2: FunctionComponent<ButtonProps> = ({
         viewBox="0 0 169 36"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className={cn("absolute top-0 left-0 w-full h-full block", {
-          "md:block hidden": stretchOnMobile || removeOnMobile,
+        className={cn('absolute top-0 left-0 w-full h-full block', {
+          'md:block hidden': stretchOnMobile || removeOnMobile,
         })}
       >
         <path
@@ -84,14 +78,11 @@ export const Button2: FunctionComponent<ButtonProps> = ({
           viewBox="0 0 169 36"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className={cn("absolute top-0 left-0 w-full h-full block", {
-            "md:block hidden": stretchOnMobile,
+          className={cn('absolute top-0 left-0 w-full h-full block', {
+            'md:block hidden': stretchOnMobile,
           })}
         >
-          <path
-            d="M10.0344 0H158.966L169 18L158.966 36H10.0344L0 18L10.0344 0Z"
-            fill="#B38539"
-          />
+          <path d="M10.0344 0H158.966L169 18L158.966 36H10.0344L0 18L10.0344 0Z" fill="#B38539" />
         </svg>
       </div>
 

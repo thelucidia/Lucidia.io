@@ -14,6 +14,10 @@ import CurseOfThe from "./pages/CurseOfThe";
 import Cryptocraft from "./pages/Cryptocraft";
 import CanyonDriftPage from "./pages/CanyonDriftPage";
 import DesertWarior from "./pages/DesertWarior";
+import Roadmap from './pages/Roadmap';
+import OurProduct from './pages/OurProduct';
+import Career from './pages/Career';
+import './styles/custom.css';
 
 const App = () => {
   return (
@@ -27,6 +31,8 @@ const App = () => {
         <Route path="/CanyonDriftPage" element={<CanyonDriftPage />} key="teampage" />
         <Route path="/DesertWarior" element={<DesertWarior />} key="teampage" />
 
+        <Route path="/our-product" element={<OurProduct />} key="our-product" />
+        <Route path="/career" element={<Career />} key="career" />
         <Route path="games">
           <Route index element={<Games />} key="gamespage" />
           <Route path="zombie-outbreak" element={<Zombie />} key="zombiepage" />
@@ -36,7 +42,8 @@ const App = () => {
         </Route>
         <Route path="privacy" element={<Privacy />} key="privacypage" />
         <Route path="terms" element={<Terms />} key="termspage " />
-      </Routes> 
+        <Route path="roadmap" element={<Roadmap />} key="roadmappage " />
+      </Routes>
     </AnimatePresence>
   );
 };
