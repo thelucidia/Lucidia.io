@@ -1,4 +1,9 @@
 {
+  "boss_name": "Adel Khatib",
+  "boss_position": "CEO Lucidia",
+  "boss_desc1": "At Lucidia, we're not just creating games;",
+  "boss_desc2": "we're building the future of gaming in the Middle East, where tradition meets innovation.",
+  "team_title": "We are <span style='color: #B28539'>Lucidia</span>",
   "vision_for": "Vision for",
   "future": "The Future",
   "mission": "Mission",
@@ -86,7 +91,7 @@
   "desertW": "Desert Wevrridrs",
   "ExploreDesert": "Explore Desert Warriors",
   "ExploreDesertTitle": "Welcome to Desert Warriors, where the thrill of first-person shooters meets the groundbreaking possibilities of Web3 and NFTs. Set against the backdrop of vast and diverse desert landscapes, this game invites you into a world of strategic combat, team-based challenges, and a vibrant player-driven economy. Here, every decision, every battle, and every alliance holds the weight of your legacy.",
-  "DesertGameOverview":"Game Overview :",
+  "DesertGameOverview": "Game Overview :",
   "DesertGameOverviewTitle": "Desert Warriors is a cutting-edge first-person shooter set in a vast desert landscape, where tactical gameplay meets the innovation of Web3 and NFTs. Engage in intense strategic combat and team-based challenges, all while navigating a player-driven economy enabled by blockchain technology.",
   "games": {
     "featured_games": "Featured Games",
@@ -211,7 +216,8 @@
         "Tactical FPS gameplay in a rich desert environment",
         "Team-based missions and objectives",
         "A dynamic, player-driven economy through NFT integration",
-        "Blockchain Integration: Experience ownership like never before with unique in-game assets and rewards, tradable as NFTs within the Lucidia ecosystem"      ]
+        "Blockchain Integration: Experience ownership like never before with unique in-game assets and rewards, tradable as NFTs within the Lucidia ecosystem"
+      ]
     }
   },
   "games_content": [
