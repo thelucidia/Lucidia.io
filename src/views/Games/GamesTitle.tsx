@@ -1,8 +1,10 @@
 import clsx from 'clsx';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
 const GamesTitle = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   return (
     <section className="w-full mt-6 text-[#F0F0F0]">
@@ -22,7 +24,7 @@ const GamesTitle = () => {
           ))}
         </ul>
         <div className="flex flex-row gap-x-[20px] mt-6">
-          <div className="relative w-[270px] h-[299px]" style={{ background: 'rgba(30, 30, 30, 0.52)' }}>
+          <div className="relative w-[270px] h-[299px]" style={{ background: 'rgba(30, 30, 30, 0.52)' }} onClick={() => {navigate('/CurseOfThe')}} >
             <img src="/games/curse_of_the_pharaoh.png" width={270} height={222} />
             <span className="font-bold text-2xl leading-[76px] pl-5">{t('games_page.title_pharaoh_curse')}</span>
             <div className="absolute w-[100px] h-6 left-5 top-[186px]" style={{ background: 'rgba(30, 30, 30, 0.92)' }}>
@@ -30,7 +32,7 @@ const GamesTitle = () => {
               <span className="font-medium text-base leading-6 ml-[20px]">{t('games_page.desktop')}</span>
             </div>
           </div>
-          <div className="relative w-[270px] h-[299px]" style={{ background: 'rgba(30, 30, 30, 0.52)' }}>
+          <div className="relative w-[270px] h-[299px]" style={{ background: 'rgba(30, 30, 30, 0.52)' }} onClick={() => {navigate('/games/lucidcraft')}}>
             <img src="/games/cryptocraft.png" width={270} height={222} />
             <span className="font-bold text-2xl leading-[76px] pl-5">{t('games_page.title_cryptocraft')}</span>
             <div className="absolute w-[100px] h-6 left-5 top-[186px]" style={{ background: 'rgba(30, 30, 30, 0.92)' }}>
@@ -38,7 +40,7 @@ const GamesTitle = () => {
               <span className="font-medium text-base leading-6 ml-[20px]">{t('games_page.desktop')}</span>
             </div>
           </div>
-          <div className="relative w-[270px] h-[299px]" style={{ background: 'rgba(30, 30, 30, 0.52)' }}>
+          <div className="relative w-[270px] h-[299px]" style={{ background: 'rgba(30, 30, 30, 0.52)' }} onClick={() => {navigate('/DesertWarior')}}>
             <img src="/games/desert_warriors.png" width={270} height={222} />
             <span className="font-bold text-2xl leading-[76px] pl-5">{t('games_page.title_desert_warriors')}</span>
             <div className="absolute w-[100px] h-6 left-5 top-[186px]" style={{ background: 'rgba(30, 30, 30, 0.92)' }}>
@@ -46,7 +48,7 @@ const GamesTitle = () => {
               <span className="font-medium text-base leading-6 ml-[20px]">{t('games_page.desktop')}</span>
             </div>
           </div>
-          <div className="relative w-[270px] h-[299px]" style={{ background: 'rgba(30, 30, 30, 0.52)' }}>
+          <div className="relative w-[270px] h-[299px]" style={{ background: 'rgba(30, 30, 30, 0.52)' }} onClick={() => {navigate('/CanyonDriftPage')}}>
             <img src="/games/sandstorm_racers.png" width={270} height={222} />
             <span className="font-bold text-2xl leading-[76px] pl-5">{t('games_page.title_sandstore_racers')}</span>
             <div className="absolute w-[100px] h-6 left-5 top-[186px]" style={{ background: 'rgba(30, 30, 30, 0.92)' }}>

@@ -11,19 +11,19 @@ const Mission = () => {
   return (
     <section className="w-full h-auto bg-[#1E1E1E] relative py-20 px-8 font-primary text-secondary">
       <div className="max-w-[1100px] w-full mx-auto">
-        <div className="flex justify-between">
-          <div className="font-bold text-3xl text-right pr-16 border-r-2">
+        <div className="md:flex justify-between gap-4">
+          <div className="font-bold text-3xl md:text-right pr-16 md:border-r-2">
             <div className="">{t('mission')}</div>
             <div className="">{t('statement')}</div>
           </div>
-          <div className="w-[500px]">{t('mission_statement')}</div>
+          <div className="md:w-[500px]">{t('mission_statement')}</div>
         </div>
-        <div className="flex justify-between mt-16">
-          <div className="font-bold text-3xl text-right pr-16 border-r-2">
+        <div className="md:flex justify-between mt-16 gap-4">
+          <div className="font-bold text-3xl md:text-right pr-16 md:border-r-2">
             <div className="">{t('mission')}</div>
             <div className="">{t('statement')}</div>
           </div>
-          <div className="w-[500px]">{t('mission_statement')}</div>
+          <div className="md:w-[500px]">{t('mission_statement')}</div>
         </div>
         {/* <h1 className="sm:text-5xl text-2xl font-bold">{t("team.mission")}</h1>
         <div className="mt-10 space-y-3 sm:space-y-8">

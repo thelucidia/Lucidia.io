@@ -27,7 +27,7 @@ const CanyonDrift = () => {
         />
         <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-b from-transparent via-transparent to-black/80 z-10"></div>
 
-        <div className=" bg-[url('/games/canyondrift/arrow.png')] bg-no-repeat bg-bottom		 max-w-xs sm:max-w-full w-full flex flex-col justify-end gap-y-8 sm:gap-y-8 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-12 md:pb-10 items-center h-auto mx-auto  z-10 mt-[4.5rem] sm:mt-[7rem] md:mt-[10rem]  absolute bottom-5">
+        <div className="bg-[url('/games/canyondrift/arrow.png')] bg-no-repeat bg-bottom		 max-w-xs sm:max-w-full w-full flex flex-col justify-end gap-y-8 sm:gap-y-8 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-12 md:pb-10 items-center h-auto mx-auto  z-10 mt-[4.5rem] sm:mt-[7rem] md:mt-[10rem]  absolute bottom-5">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[96px] text-center font-bold left-0 right-0">
             {t('canyon')}
           </h1>
@@ -35,7 +35,7 @@ const CanyonDrift = () => {
           <Button className="w-full md:w-56" stretchOnMobile>
             {t('games.play_game')}
           </Button>
-          <div className="   flex justify-center items-center bottom-0	text-white	">
+          <div className="flex justify-center items-center bottom-0	text-white	">
             <div className="relative">
               See Details{' '}
               <motion.span

@@ -1,4 +1,9 @@
 {
+  "boss_name": "Adel Khatib",
+  "boss_position": "CEO Lucidia",
+  "boss_desc1": "At Lucidia, we're not just creating games;",
+  "boss_desc2": "we're building the future of gaming in the Middle East, where tradition meets innovation.",
+  "team_title": "We are <span style='color: #B28539'>Lucidia</span>",
   "vision_for": "Vision for",
   "future": "The Future",
   "mission": "Mission",
@@ -65,7 +70,7 @@
   "zombie": "Zombie Outbreak",
   "lucid": "Lucidcraft",
   "battle": "Battlefury",
-  "canyon": "Canyon Drift",
+  "canyon": "SANDSTORM RACERS",
   "details": "See details",
   "more_games": "See more games",
   "diaries": "Developer Diaries",
@@ -83,6 +88,11 @@
   "overview": "Game Overview",
   "other": "Other Games",
   "game_details": "Game details",
+  "desertW": "Desert Wevrridrs",
+  "ExploreDesert": "Explore Desert Warriors",
+  "ExploreDesertTitle": "Welcome to Desert Warriors, where the thrill of first-person shooters meets the groundbreaking possibilities of Web3 and NFTs. Set against the backdrop of vast and diverse desert landscapes, this game invites you into a world of strategic combat, team-based challenges, and a vibrant player-driven economy. Here, every decision, every battle, and every alliance holds the weight of your legacy.",
+  "DesertGameOverview": "Game Overview :",
+  "DesertGameOverviewTitle": "Desert Warriors is a cutting-edge first-person shooter set in a vast desert landscape, where tactical gameplay meets the innovation of Web3 and NFTs. Engage in intense strategic combat and team-based challenges, all while navigating a player-driven economy enabled by blockchain technology.",
   "games": {
     "featured_games": "Featured Games",
     "see_details": "See details",
@@ -190,13 +200,23 @@
       ]
     },
     "canyon": {
-      "title": "Pick a car and race!",
+      "title": "Experience Sandstorm Racer",
       "desc": "Canyon Drift is a race game that bring players to race on looped track with canyon-style environtment. You can choose one car in the showroom as your car and race with other players.",
 
       "details": [
-        "Choose one of the cars in the showroom",
-        "Spawn in a looped driving arena with a canyon-style environment",
-        "Playable in both first person and third-person modes"
+        "Realistic physics engine for authentic vehicle handling",
+        "Dynamic weather effects, including signature sandstorms",
+        "Competitive races and challenges",
+        "Blockchain Integration: Compete in races, earn unique NFT rewards, and customize your vehicles with tradable assets that showcase your achievements."
+      ]
+    },
+    "desertWarior": {
+      "title": "Game Featues",
+      "Featuesdetails": [
+        "Tactical FPS gameplay in a rich desert environment",
+        "Team-based missions and objectives",
+        "A dynamic, player-driven economy through NFT integration",
+        "Blockchain Integration: Experience ownership like never before with unique in-game assets and rewards, tradable as NFTs within the Lucidia ecosystem"
       ]
     }
   },
@@ -576,8 +596,8 @@
     "category_fps": "FPS",
     "category_racing": "Racing",
     "desktop": "Desktop",
-    "title_pharaoh_curse": "Curse Of The Pharaoh",
-    "title_cryptocraft": "Cryptocraft",
+    "title_pharaoh_curse": "C.O.T.P.",
+    "title_cryptocraft": "Lucidcraft",
     "title_desert_warriors": "Desert Warriors",
     "title_sandstore_racers": "Sandstorm Racers",
     "section1_title": "Expand Your Game's Reach",
@@ -611,7 +631,7 @@
     "faq": "FAQ",
     "audit": "Audit",
     "gameplay": "Gameplay",
-    "meet": "Meet the community"
+    "meet": "Launch App"
   },
   "join": "Join the community",
   "for": "For more details about our progress and workflow be sure to follow",
