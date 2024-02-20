@@ -1,0 +1,37 @@
+.sandstorm-advert.after-login .main-advert {
+  position: relative;
+}
+
+.sub-dashboard .mission {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 652px;
+  height: 397px;
+  background-image: url(../../images/adverts/sandstorm_mission.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sub-dashboard .mission h3 {
+  position: absolute;
+  color: #f0f0f0;
+  font-family: GhostClanItalic;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  bottom: 12px;
+}
+
+h3.cars {
+  right: 376px;
+}
+
+h3.tracks {
+  right: 28px;
+}
+
+.go-play .detail-box {
+  max-width: 400px;
+}

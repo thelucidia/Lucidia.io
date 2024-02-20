@@ -499,12 +499,12 @@ const Nav = () => {
                   ))}
             </ul>
 
-            <a href="https://t.me/Lucidia_io" target="_blank" rel="noopener noreferrer" className="md:block hidden">
+            <a href="/home" target="_blank" rel="noopener noreferrer" className="md:block hidden">
               <Button2 removeOnMobile>{t('nav.meet')}</Button2>
             </a>
 
             <a
-              href="https://t.me/Lucidia_io"
+              href="/home"
               target="_blank"
               rel="noopener noreferrer"
               className="md:hidden block text-xs text-white mr-4"

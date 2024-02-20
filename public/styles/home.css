@@ -1,0 +1,223 @@
+.home h2 {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 18px;
+}
+
+.home p {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+.home .welcome {
+  background: rgba(240, 240, 240, 0.24);
+  backdrop-filter: blur(10px);
+  padding: 20px 132px 30px 40px;
+  margin: 15px 0 50px 0;
+  clip-path: polygon(0 0, 100% 0, 100% 67.4%, 91.7% 100%, 0 100%);
+}
+
+.home .welcome h1 {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.home .welcome p {
+  margin: 0;
+}
+
+.home .section {
+  margin: 28px 0 52px 0;
+}
+
+.home .section a,
+.home .section .blog {
+  display: inline-block;
+  background: rgba(30, 30, 30, 0.52);
+  text-decoration: none;
+  width: 100%;
+}
+
+.home .community.section .blog {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  column-gap: 16px;
+}
+
+.home .section a > *,
+.home .section .blog > * {
+  margin: 0 16px 16px;
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-style: normal;
+  line-height: normal;
+}
+
+.home .section a > .image,
+.home .section .blog > .image {
+  background-color: lightgray;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 168px;
+  margin: 0 0 16px;
+}
+
+.home .stay-updated.section a > .image {
+  background-color: #0d0d0d;
+  background-size: auto;
+  height: 196px;
+}
+
+.home .community.section .blog > .image {
+  background-size: cover;
+  flex-shrink: 0;
+  width: 112px;
+  height: 112px;
+}
+
+.home .community.section .blog > .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.home .community.section .blog > * {
+  margin: 0;
+}
+
+.home .community.section .blog > .content > h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.home .community.section .blog > .content > .authors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home .community.section .blog > .content > .authors > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  margin: 0;
+}
+
+.home .community.section .blog > .content > .authors > ul > li {
+  display: block;
+  position: relative;
+}
+
+.home .community.section .blog > .content > .authors > ul > li + li:not(.count) {
+  margin-left: -13px;
+}
+
+.home .community.section .blog > .content > .authors > ul > li.count {
+  margin-left: 8px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.home .community.section .blog > .content > .authors > ul > li > img {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+}
+
+.home .community.section .blog > .content > .authors > a {
+  color: #f0f0f0;
+  font-size: 16px;
+  font-weight: 500;
+  width: auto;
+  background-color: transparent;
+}
+
+.home .section a > h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.home .section a > h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.home .section a > p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.home .section a > ul {
+  list-style-type: '-';
+  padding: 0 0 0 5px;
+  text-indent: 5px;
+}
+
+.home .section a > ul > li {
+  line-height: 20px;
+}
+
+.home .section a > .game {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 8px;
+  font-size: 12px;
+}
+
+.home .section a > .game > img {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+}
+
+.home .success-in-action > ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.home .success-in-action > ul > li {
+  display: block;
+  position: relative;
+}
+
+.home .success-in-action > ul .background {
+  background-size: cover;
+  width: 448px;
+  height: 225px;
+}
+
+.home .success-in-action > ul .character {
+  position: absolute;
+}

@@ -1,0 +1,111 @@
+.educational-portal h2 {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 18px;
+}
+
+.educational-portal p {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+.educational-portal .welcome {
+  background: rgba(240, 240, 240, 0.24);
+  backdrop-filter: blur(10px);
+  padding: 20px 132px 30px 40px;
+  clip-path: polygon(0 0, 93% 0, 100% 18%, 100% 100%, 0 100%);
+  outline: 1px solid #000000;
+}
+
+.educational-portal .welcome h1 {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 16px;
+  width: 500px;
+}
+
+.educational-portal .welcome p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.joinus:hover,
+.joinus {
+  background: url('../images/buttons/joinus.svg') no-repeat center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 262px;
+  height: 36px;
+  margin-top: 100px;
+  font-size: 16px;
+  font-style: normal;
+  text-decoration: none;
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.gamer {
+  background: rgba(240, 240, 240, 0.24);
+  backdrop-filter: blur(10px);
+  padding: 20px 132px 30px 40px;
+  width: 570px;
+  height: 582px;
+}
+
+.coming,
+.about {
+  background: rgba(240, 240, 240, 0.24);
+  backdrop-filter: blur(10px);
+  padding: 28px 33px 66px 28px;
+  clip-path: polygon(0 0, 85% 0, 100% 17.2%, 100% 100%, 0 100%);
+}
+
+.container.educational-advert {
+  display: flex;
+  flex-direction: row;
+  column-gap: 122px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.educational-portal .portal {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.educational-portal .description {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.educational-portal .right-side {
+  background: rgba(217, 217, 217, 0.24);
+  backdrop-filter: blur(10px);
+  width: 448px;
+  flex-basis: 448px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.educational-portal .right-side img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

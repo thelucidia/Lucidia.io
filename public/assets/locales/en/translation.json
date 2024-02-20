@@ -633,6 +633,16 @@
     "gameplay": "Gameplay",
     "meet": "Launch App"
   },
+  "app-nav": {
+    "home": "Home",
+    "games": "Games",
+    "tournaments": "Tournaments",
+    "marketplace": "Marketplace",
+    "dev-tools": "Dev Tools",
+    "educational-portal": "Educational Portal",
+    "dao": "Dao",
+    "eng": "Eng"
+  },
   "join": "Join the community",
   "for": "For more details about our progress and workflow be sure to follow",
   "buy": {
