@@ -1,0 +1,157 @@
+body.marketplace {
+  background: linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/sandstorm_01.jpg) no-repeat top, #0d0d0d 50% / cover no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+body::before {
+  display: block;
+  content: '';
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(13, 13, 13, 0.16);
+  backdrop-filter: blur(10px);
+  z-index: -100;
+}
+
+.marketplace h2 {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 18px;
+}
+
+.marketplace p {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+
+  margin: 0;
+}
+
+.marketplace .welcome {
+  background: rgba(240, 240, 240, 0.24);
+  backdrop-filter: blur(10px);
+  padding: 20px 132px 30px 40px;
+  margin: 15px 0 50px 0;
+  clip-path: polygon(0 0, 100% 0, 100% 67.4%, 91.7% 100%, 0 100%);
+}
+
+.marketplace .welcome h1 {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.marketplace .welcome p {
+  margin: 0;
+}
+
+.marketplace .section {
+  margin: 28px 0 52px 0;
+}
+
+.marketplace .section .item {
+  display: inline-block;
+  background: rgba(30, 30, 30, 0.52);
+  text-decoration: none;
+  width: 100%;
+}
+
+.marketplace .section .item > * {
+  margin: 0 16px 16px;
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-style: normal;
+  line-height: normal;
+}
+
+.marketplace .section .item > .icon {
+  background-color: #0d0d0d;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+  height: 168px;
+  margin: 0 0 16px;
+}
+
+.marketplace .marketplace.section .item p {
+  overflow: hidden;
+  color: #f0f0f0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Tajawal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.marketplace .marketplace.section .item .discount {
+  color: rgba(170, 170, 170, 0.67);
+  font-family: Tajawal;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: right;
+  text-decoration: line-through;
+}
+
+.marketplace .section .item > h3 {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.marketplace .section .item .details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.marketplace .section .item .details .field {
+  display: flex;
+  column-gap: 8px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.marketplace .section .item .details .field img {
+  border-radius: 100%;
+}
+
+.marketplace .section .item .details .field p {
+  margin-top: 8px;
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+.marketplace .section .item .details .buy {
+  text-decoration: none;
+  background-color: #b28539;
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 4px 5px;
+}

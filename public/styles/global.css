@@ -1,0 +1,993 @@
+@font-face {
+  font-family: CallofOpsDutyII;
+  src: url('fonts/call-of-ops-duty-ii.otf') format('opentype');
+}
+
+@font-face {
+  font-family: PerfectDark;
+  src: url('./fonts/perfect-dark.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: GhostClanItalic;
+  src: url('fonts/ghostclanital.ttf') format('truetype');
+}
+
+* {
+  line-height: 1;
+  font-family: Tajawal;
+  outline: none;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+body {
+  padding-bottom: 100px;
+}
+
+body.home,
+body.games,
+body.DevTools {
+  background: linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/games.jpg) no-repeat top, #0d0d0d 50% / cover no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+body.curse {
+  background: linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/games.jpg) no-repeat top, #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+body.curse_bg1 {
+  background: linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/curse_bg01.jpg) no-repeat top, #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+body.curse_bg2 {
+  background: linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/curse_bg02.jpg) no-repeat top, #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+body.crypto_bg1 {
+  background: linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/crypto_bg01.jpg) no-repeat top, #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+body.crypto_bg2 {
+  background: linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/crypto_bg02.jpg) no-repeat top, #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+body.crypto_bg3 {
+  background: linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/crypto_bg03.jpg) no-repeat top, #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+body.desert_bg1 {
+  background: linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/desert_bg01.jpg) no-repeat top, #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+body.desert_bg2 {
+  background: linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/desert_bg02.jpg) no-repeat top, #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+body.desert_bg3 {
+  background: linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/desert_bg03.jpg) no-repeat top, #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+body.sandstorm_bg1,
+body.educational-portal {
+  background: linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/sandstorm_01.jpg) no-repeat top, #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+body.sandstorm_bg2 {
+  background: linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/sandstorm_02.jpg) no-repeat top, #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+body.sandstorm_bg3 {
+  background: linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/sandstorm_03.jpg) no-repeat top, #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+body.dao::before,
+body.home::before,
+body.games::before,
+body.DevTools::before,
+body.educational-portal:before {
+  display: block;
+  content: '';
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(13, 13, 13, 0.16);
+  backdrop-filter: blur(10px);
+  z-index: -100;
+}
+
+body.desert::before,
+body.crypto::before,
+body.curse::before {
+  display: block;
+  content: '';
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(13, 13, 13, 0.16);
+  z-index: -100;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar .navbar-brand {
+  margin-right: 0;
+}
+
+.navbar .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar .container-fluid {
+  padding: 26px 58px 25px 40px;
+}
+
+.navbar .navbar-brand {
+  padding: 0;
+}
+
+.navbar .navbar-nav .nav-item {
+  position: relative;
+  padding: 0;
+  margin: 0 10px;
+}
+
+.navbar .navbar-nav .nav-item:first-child {
+  margin-left: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #f0f0f0;
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 5px 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link::after {
+  display: block;
+  content: '';
+  /* position: absolute; */
+  border-bottom: 2px solid #b28539;
+  left: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.4s;
+  width: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active,
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #b28539;
+  font-weight: 700;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active::after,
+.navbar .navbar-nav .nav-item .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.locale {
+  display: flex;
+  flex-direction: row;
+  column-gap: 6px;
+  align-items: center;
+  align-content: center;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.locale i.fa-solid {
+  margin-top: 4px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.default-button,
+.default-button:hover {
+  background: transparent url(../images/buttons/default.svg) no-repeat center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 169px;
+  min-height: 36px;
+  color: #f0f0f0;
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.search-form {
+  margin-bottom: 28px;
+}
+
+.search-form input[name='q'] {
+  background: rgba(240, 240, 240, 0.24) url(../images/icons/search.svg) no-repeat 16px center;
+  padding: 0 46px;
+  backdrop-filter: blur(10px);
+  color: #aaa;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  width: 287px;
+  border: 0;
+}
+
+.advert {
+  clip-path: polygon(0 0, 93% 0, 100% 18%, 100% 100%, 0 100%);
+  overflow: hidden;
+  position: relative;
+}
+
+.advert::before {
+  display: block;
+  background: linear-gradient(90deg, rgba(13, 13, 13, 0.8) 48.38%, rgba(13, 13, 13, 0) 98.98%);
+  content: '';
+  height: 100%;
+  width: 77%;
+  position: absolute;
+}
+
+.player-status {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 36px;
+}
+
+.advert .device-desktop,
+.game-sections .device-desktop {
+  background: rgba(30, 30, 30, 0.92);
+  width: 100px;
+  line-height: 24px;
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  position: absolute;
+  top: 56px;
+  left: 53px;
+  padding: 0 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.advert .device-desktop::before,
+.game-sections .device-desktop::before {
+  display: block;
+  content: url(../images/icons/desktop.svg);
+  line-height: 1;
+  padding: 4px 0 0;
+}
+
+.advert .device-desktop::after,
+.game-sections .device-desktop::after {
+  display: block;
+  content: 'Desktop';
+}
+
+.advert .title {
+  left: 52px;
+  top: 92px;
+  position: absolute;
+}
+
+.advert .description {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 185px;
+  left: 52px;
+  max-width: 416px;
+}
+
+.advert .default-button {
+  position: absolute;
+  bottom: 71px;
+  left: 52px;
+}
+
+.social-links {
+  position: fixed;
+  top: 189px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: block;
+}
+
+h2 {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 28px;
+}
+
+.game-sections {
+  margin-top: 52px;
+}
+
+.game-sections .game-item {
+  display: block;
+  background: rgba(30, 30, 30, 0.52);
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.game-sections .game-item .image {
+  position: relative;
+}
+
+.game-sections .game-item .image .device-desktop {
+  top: unset;
+  bottom: 12px;
+  left: 20px;
+}
+
+.game-sections .game-item .title {
+  display: block;
+  padding: 20px 24px 24px 20px;
+  line-height: 29px;
+}
+
+.crypto-advert,
+.curse-advert {
+  margin-top: 35px;
+}
+
+.crypto-advert {
+  margin-top: 50px;
+}
+
+.crypto-title,
+.curse-title {
+  margin-bottom: 28px;
+}
+
+.game-menu {
+  margin-top: 52px;
+}
+
+.game-menu .item .image.active {
+  border: #f0f0f0 2px solid;
+}
+
+.game-sections .live-game-item,
+.game-sections .live-game-item {
+  display: block;
+  background: transparent;
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  max-width: 270px;
+  padding-bottom: 1px;
+}
+
+.live-game-item .game-description,
+.live-game-item .game-description {
+  margin-top: 16px;
+}
+
+.live-game-item .description,
+.live-game-item .description {
+  overflow: hidden;
+  color: #f0f0f0;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  font-family: Tajawal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 4px;
+  line-height: 1;
+}
+
+/** --------------------------------------------------------- **\
+START: logged-in user information section in navigation
+\** --------------------------------------------------------- **/
+
+.gray-blur {
+  background: rgba(240, 240, 240, 0.24);
+  backdrop-filter: blur(10px);
+  padding: 6px 8px;
+}
+
+.navbar .navbar-nav .coin {
+  display: flex;
+  column-gap: 4px;
+  flex-direction: row;
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.navbar .navbar-nav .coin .balance {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 4px;
+}
+
+.navbar .navbar-nav .coin .add {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar .navbar-nav .user {
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+}
+
+.navbar .navbar-nav .user .avatar {
+  width: 36px;
+  height: 36px;
+}
+
+.navbar .navbar-nav .user .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-style: normal;
+  line-height: normal;
+}
+
+.navbar .navbar-nav .user .info .name {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.red-bullet::after {
+  display: block;
+  background: #e24f4e;
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  margin: 4px;
+}
+
+.navbar .navbar-nav .user .info .wallet-address {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/** --------------------------------------------------------- **\
+END: logged-in user information section in navigation
+\** --------------------------------------------------------- **/
+
+.logout {
+  position: fixed;
+  bottom: 69px;
+  left: 40px;
+}
+
+.go-play {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.go-play .detail-box {
+  margin-left: 28px;
+  max-height: 40px;
+  border-left: solid 1px #aaa;
+  max-width: 200px;
+  padding-left: 13px;
+}
+
+.go-play .detail-box .description {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.after-login {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  column-gap: 100px;
+}
+
+.main-advert {
+  max-width: 492px;
+}
+
+.sub-dashboard {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  max-width: 709px;
+}
+
+.sub-dashboard .users-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 8px;
+  flex-basis: 210px;
+}
+
+.blur-pane {
+  background: rgba(13, 13, 13, 0.52);
+  backdrop-filter: blur(10px);
+  padding: 16px;
+  padding-right: 18px;
+}
+
+.sub-dashboard .users-info .user-friends {
+  display: flex;
+  flex-direction: column;
+  row-gap: 11px;
+}
+
+.sub-dashboard .users-info .user-friends .user-level {
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+  margin-bottom: 17px;
+}
+
+.sub-dashboard .users-info .user-friends .user-level span {
+  overflow: hidden;
+  color: #f0f0f0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Tajawal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sub-dashboard .users-info .user-friends .user-level .level {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+}
+
+.sub-dashboard .users-info .user-friends .user-level .level .level-progress {
+  margin-top: 5px;
+  background: rgba(240, 240, 240, 0.24);
+  backdrop-filter: blur(10px);
+  min-width: 94px;
+  max-height: 4px;
+}
+
+.sub-dashboard .users-info .user-friends .user-level .level span {
+  margin-top: 3px;
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sub-dashboard .users-info .user-friends .add-friend {
+  display: flex;
+  align-items: start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub-dashboard .users-info .user-friends .add-friend span {
+  overflow: hidden;
+  color: #f0f0f0;
+  text-overflow: ellipsis;
+  font-family: Tajawal;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sub-dashboard .users-info .user-friends .add-friend .plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  background: rgba(240, 240, 240, 0.24);
+  backdrop-filter: blur(10px);
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.friend-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+}
+
+.friend-list .item {
+  display: flex;
+  flex-direction: row;
+  column-gap: 4px;
+}
+
+.friend-list .item .friend-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.friend-list .item .friend-info .name {
+  overflow: hidden;
+  color: #f0f0f0;
+  text-overflow: ellipsis;
+  font-family: Tajawal;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.friend-list .item .friend-info .level {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sub-dashboard .users-info .top-player,
+.sub-dashboard .users-info .user-stats {
+  display: flex;
+  flex-direction: column;
+  row-gap: 11px;
+}
+
+.sub-dashboard .users-info .top-player {
+  padding: 8px 16px;
+}
+
+.sub-dashboard .users-info .user-stats {
+  padding: 11px 16px;
+}
+
+.sub-dashboard .users-info .top-player .title,
+.sub-dashboard .users-info .user-stats .title {
+  display: block;
+  overflow: hidden;
+  color: #f0f0f0;
+  text-overflow: ellipsis;
+  font-family: Tajawal;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sub-dashboard .users-info .user-stats .stats-pane {
+  display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+}
+
+.sub-dashboard .users-info .user-stats .stats-pane .item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+.sub-dashboard .users-info .user-stats .stats-pane .item span {
+  display: flex;
+  background: rgba(240, 240, 240, 0.24);
+  backdrop-filter: blur(10px);
+  align-items: center;
+  justify-content: center;
+  letter-spacing: normal;
+}
+
+.sub-dashboard .users-info .user-stats .stats-pane .item span.score {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  min-height: 58px;
+}
+
+.sub-dashboard .users-info .user-stats .stats-pane .item span.label {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 6px 11px;
+}
+
+.sub-dashboard .detail-scores {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.sub-dashboard .detail-scores h3 {
+  padding: 10px 9px 7px 9px;
+  margin: 0;
+  color: var(--text-sea-shell, #f0f0f0);
+  font-family: CallofOpsDutyII;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-dashboard .detail-scores .scores {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  margin: 0;
+  list-style: none;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.sub-dashboard .detail-scores .scores li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 8px;
+  flex-wrap: nowrap;
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sub-dashboard .detail-scores .scores li .item {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 29px;
+}
+
+.sub-dashboard .detail-scores .scores li .item span {
+  white-space: nowrap;
+}
+
+.sub-dashboard .detail-scores .scores li .item span.label {
+  text-transform: capitalize;
+}
+
+.sub-dashboard .curse.character {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 0px;
+  padding-right: 43px;
+}
+
+.sub-dashboard .curse.character h3 {
+  text-transform: uppercase;
+  color: #f0f0f0;
+  text-align: left;
+  font-family: CallofOpsDutyII;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sub-dashboard .curse.character .soldier {
+  margin-left: 20px;
+  background-image: url(../images/adverts/curse_soldier.svg);
+  background-size: cover;
+  background-position: center;
+  width: 125px;
+  height: 270px;
+}
+
+.clipeffect {
+  clip-path: polygon(0 0, 94% 0, 100% 6%, 100% 100%, 0 100%);
+  overflow: hidden;
+}
+
+.sub-dashboard .desert.character {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px 0px 10px;
+}
+
+.sub-dashboard .desert-map h3,
+.sub-dashboard .desert.character h3 {
+  text-transform: uppercase;
+  color: #f0f0f0;
+  margin: 0px;
+  font-family: PerfectDark;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sub-dashboard .desert.character .soldier {
+  background-image: url(../images/adverts/desert_soldier.svg);
+  background-size: cover;
+  background-position: center;
+  width: 190px;
+  height: 329px;
+}
+
+.sub-dashboard .desert-map {
+  background-image: url(../images/adverts/desert_maps.svg);
+  background-size: cover;
+  background-position: center;
+  width: 210px;
+  height: 376px;
+  padding: 20px 12px;
+}
+
+.desert-advert .player-status {
+  margin-top: 28px;
+}
+
+.navbar-login {
+  justify-items: center;
+  align-items: center;
+  row-gap: 12px;
+}
+
+.navbar .container-fluid {
+  align-items: center;
+}
+
+.navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.navbar-nav.me-auto .nav-item {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border: none;
+}
+
+@media only screen and (max-width: 1180px) {
+}
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 600px) {
+}
+
+@media (min-width: 390px) {
+}
+
+@media (max-width: 650px) and (min-width: 390px) {
+  .social-links {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 840px) {
+  .social-links {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-nav.me-auto .nav-item {
+    flex-direction: column;
+  }
+  .navbar .container-fluid {
+    align-items: flex-start;
+  }
+}

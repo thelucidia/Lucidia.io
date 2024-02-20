@@ -64,6 +64,290 @@
   }
 }
 
+* {
+  line-height: 1;
+  font-family: Tajawal;
+  outline: none;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+div.login {
+  background:
+    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(/assets/image/games.jpg) no-repeat top,
+    #0d0d0d 50% / cover no-repeat;
+  background-attachment: scroll;
+  background-size: '100%';
+  min-height: 100vh;
+}
+
+div.login::before {
+  display: block;
+  content: '';
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(13, 13, 13, 0.16);
+  backdrop-filter: blur(10px);
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar .navbar-brand {
+  margin-right: 0;
+}
+
+.navbar .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar .container-fluid {
+  padding: 26px 58px 25px 40px;
+}
+
+.navbar .navbar-brand {
+  padding: 0;
+}
+
+.navbar .navbar-nav .nav-item {
+  position: relative;
+  padding: 0;
+  margin: 0 10px;
+}
+
+.navbar .navbar-nav .nav-item:first-child {
+  margin-left: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #f0f0f0;
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 5px 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link::after {
+  display: block;
+  content: '';
+  /* position: absolute; */
+  border-bottom: 2px solid #b28539;
+  left: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.4s;
+  width: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active,
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #b28539;
+  font-weight: 700;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active::after,
+.navbar .navbar-nav .nav-item .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.locale {
+  display: flex;
+  flex-direction: row;
+  column-gap: 6px;
+  align-items: center;
+  align-content: center;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.locale i.fa-solid {
+  margin-top: 4px;
+}
+
+.social-links {
+  position: fixed;
+  top: 189px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  list-style: none;
+  padding: 0;
+}
+
+.login-pane {
+  background-color: rgba(240, 240, 240, 0.12);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  padding: 52px 116px 62px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 12% 100%, 0 85%);
+}
+
+.login-pane h1 {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.login-pane h3 {
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0 16px;
+  margin-bottom: 20px;
+}
+
+.login-pane a.button,
+.login-pane a.button::before,
+.login-pane a.button::after {
+  display: block;
+  background-color: rgba(30, 30, 30, 0.52);
+}
+
+.metamask {
+  background-image: url(/app/metamask_icon.svg);
+  background-repeat: no-repeat;
+  background-position: 20px center;
+}
+
+.wallet-connect {
+  background-image: url(/app/walletconnect_icon.svg);
+  background-repeat: no-repeat;
+  background-position: 20px center;
+  margin-bottom: 24px;
+}
+
+.login-pane a.button {
+  margin: 0 16px;
+  position: relative;
+  margin-bottom: 12px;
+  min-height: 40px;
+  color: #f0f0f0;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login-pane a.button::before,
+.login-pane a.button::after {
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  display: block;
+  content: '';
+  position: absolute;
+  background-color: transparent;
+  backdrop-filter: none;
+  top: 0;
+}
+
+.login-pane a.button::before {
+  border-right: 16px solid rgba(30, 30, 30, 0.52);
+  left: -16px;
+}
+
+.login-pane a.button::after {
+  border-left: 16px solid rgba(30, 30, 30, 0.52);
+  right: -16px;
+}
+
+.connect-failed {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+
+.connect-failed .icon {
+  background-image: url(/app/failed_icon.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 18px;
+  margin-left: 16px;
+}
+
+.connect-failed h4 {
+  color: #ed5a59;
+  font-family: Tajawal;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  .login-pane {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1170px) {
+  .login-pane {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1170px) {
+  .login-pane {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-pane {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+.logout {
+  background-color: rgb(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  color: #f0f0f0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: +1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.relative {
+  position: relative;
+}
+
+.mt-100px {
+  margin-top: 100px !important;
+}
+
 /* by freelance */
 .team-clip--triangle {
   clip-path: polygon(0 0, 100% 100%, 100% 0);

@@ -1,0 +1,128 @@
+body.dao {
+  background: linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/curse_bg01.jpg) no-repeat top, #0d0d0d 50% / cover no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+.dao h1 {
+  font-family: Tajawal;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #f0f0f0;
+  margin-bottom: 32px;
+}
+
+.dao h2 {
+  font-family: Tajawal;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #f0f0f0;
+  margin-bottom: 28px;
+}
+
+.dao .gray-pane {
+  background-color: rgba(30, 30, 30, 0.52);
+  padding: 23px 20px 71px 20px;
+}
+
+.dao .voting-pane {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.dao .voting-pane .status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Tajawal;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #aaaaaa;
+  margin-bottom: 24px;
+}
+
+.dao .voting-pane .status .marked-as {
+  display: flex;
+  flex-direction: row;
+  column-gap: 4px;
+  align-items: center;
+}
+
+.dao .voting-pane h3 {
+  font-family: Tajawal;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f0f0f0;
+  margin-bottom: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 48px;
+}
+
+.dao .voting-pane .game {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 8px;
+  font-family: Tajawal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #f0f0f0;
+  margin-bottom: 44px;
+}
+
+.dao .voting-pane .game > img {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+}
+
+.dao .vote-progress {
+  display: flex;
+  flex-direction: row;
+}
+
+.dao .vote-progress .part {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  font-family: Tajawal;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #f0f0f0;
+}
+
+.dao .vote-progress .part.yes {
+  align-items: end;
+}
+
+.dao .vote-progress .part::after {
+  display: block;
+  content: '';
+  height: 8px;
+  width: 100%;
+}
+
+.dao .vote-progress .part.no::after {
+  background-color: #e24f4e;
+}
+
+.dao .vote-progress .part.yes::after {
+  background-color: #51bb97;
+}
