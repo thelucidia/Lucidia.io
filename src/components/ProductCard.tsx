@@ -1,8 +1,6 @@
-// import React from "react";
 import { ProductCardProps } from '../utils/types';
 
-// export function ProductCard({ hoverSrc, defaultSrc }: ImageProps) {
-export function ProductCard({ title, desc, owner, image, price }: ProductCardProps) {
+export function ProductCard({ title, desc, price }: ProductCardProps) {
   return (
     <div className="w-full">
       <div className="h-[200px] bg-[#0D0D0D] flex justify-center items-center">

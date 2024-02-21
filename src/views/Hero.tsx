@@ -6,24 +6,24 @@ import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 // import Button2 from "../components/Button2";
 // import { motion, AnimatePresence } from "framer-motion";
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 
 const Hero = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
 
   // testing by freelancer
-  const words = ['greatness', 'tools', 'games', 'races'];
+  // const words = ['greatness', 'tools', 'games', 'races'];
 
-  const [currentWordIndex, setCurrentWordIndex] = useState(0);
+  // const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
-    }, 3000); // Change word every 3 seconds
+  // useEffect(() => {
+  // const interval = setInterval(() => {
+  //   setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
+  // }, 3000); // Change word every 3 seconds
 
-    return () => clearInterval(interval);
-  }, []);
+  // return () => clearInterval(interval);
+  // }, []);
 
   const community = [
     {
