@@ -10,7 +10,6 @@ import { cn } from '../utils';
 import LangDropdown from './LangDropdown';
 
 const AppNavbar = ({ loggedin }: any) => {
-  console.log(loggedin);
   const prefix = loggedin ? 'after' : 'before';
   const { t, i18n } = useTranslation();
   const [hovering, setHovering] = useState(false);

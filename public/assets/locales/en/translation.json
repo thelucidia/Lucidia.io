@@ -10,11 +10,11 @@
   "statement": "Statement",
   "mission_statement": "To redefine the gaming landscape in the Middle East by harnessing the power of Web3 technologies, creating unparalleled experiences for developers and players alike.",
   "full_name": "Full Name",
-  "email": "email",
+  "email": "E-mail",
   "discord_name": "Discord Username(opt)",
   "telegram_name": "Telegram Username(opt)",
   "subscribe_button": "Subscribe",
-  "subscribe": "Subscribe for your chance to win interesting products like Tokens, In-Game NFTs, and Others!",
+  "subscribe": "Subscribe for more interesting update from Lucidia!",
   "posted_date1": "30 January 2024",
   "news_title1": "A Whole New Ecosystem For Lucidia: A Complex One Where User Can Experience Gaming and Crypto",
   "latest_news": "Latest News",
@@ -46,7 +46,7 @@
   "hero_title2.4": "Greatness",
   "hero_title3": "Together!",
   "join1": "Join community of",
-  "join2": "100k+",
+  "join2": "20k+",
   "join3": "Lucidians",
   "explore_now": "Explore Now",
   "coming_soon": "Coming soon",
@@ -59,7 +59,7 @@
   "hero_desc2": "Our goal is to put fun back into GameFi and make the Metaverse experience accessible to any user with a mobile device from any corner of the world.",
   "buy_lucid": "BUY $LUCID",
   "token_allocation": "Token allocation",
-  "join_community": "Join community of 100k+ Lucidians",
+  "join_community": "Join community of 20k+ Lucidians",
   "audited_by": "Audited by",
   "how_to_buy": "How to buy $LUCID",
   "to_be": "To Be Unlocked by Users",
@@ -596,8 +596,102 @@
     "category_fps": "FPS",
     "category_racing": "Racing",
     "desktop": "Desktop",
-    "title_pharaoh_curse": "C.O.T.P.",
-    "title_cryptocraft": "Lucidcraft",
+    "games_info": [
+      [
+        {
+          "title": "Curse of the Pharaos",
+          "image": "curse_of_the_pharaoh.png",
+          "path": "/CurseOfThe"
+        },
+        {
+          "title": "Cryptocraft",
+          "image": "cryptocraft.png",
+          "path": "/games/lucidcraft"
+        },
+        {
+          "title": "Desert Warriors",
+          "image": "desert_warriors.png",
+          "path": "/DesertWarior"
+        },
+        {
+          "title": "Sandstorm Racers",
+          "image": "sandstorm_racers.png",
+          "path": "/CanyonDriftPage"
+        }
+      ],
+      [
+        {
+          "title": "Desert Warriors",
+          "image": "desert_warriors.png",
+          "path": "/DesertWarior"
+        },
+        {
+          "title": "Curse of the Pharaos",
+          "image": "curse_of_the_pharaoh.png",
+          "path": "/CurseOfThe"
+        },
+        {
+          "title": "Sandstorm Racers",
+          "image": "sandstorm_racers.png",
+          "path": "/CanyonDriftPage"
+        },
+        {
+          "title": "Cryptocraft",
+          "image": "cryptocraft.png",
+          "path": "/games/lucidcraft"
+        }
+      ],
+      [
+        {
+          "title": "Sandstorm Racers",
+          "image": "sandstorm_racers.png",
+          "path": "/CanyonDriftPage"
+        },
+        {
+          "title": "Desert Warriors",
+          "image": "desert_warriors.png",
+          "path": "/DesertWarior"
+        },
+        {
+          "title": "Curse of the Pharaos",
+          "image": "curse_of_the_pharaoh.png",
+          "path": "/CurseOfThe"
+        },
+        {
+          "title": "Cryptocraft",
+          "image": "cryptocraft.png",
+          "path": "/games/lucidcraft"
+        }
+      ],
+      [
+        {
+          "title": "Curse of the Pharaos",
+          "image": "curse_of_the_pharaoh.png",
+          "path": "/CurseOfThe"
+        },
+        {
+          "title": "Cryptocraft",
+          "image": "cryptocraft.png",
+          "path": "/games/lucidcraft"
+        }
+      ],
+      [
+        {
+          "title": "Desert Warriors",
+          "image": "desert_warriors.png",
+          "path": "/DesertWarior"
+        }
+      ],
+      [
+        {
+          "title": "Sandstorm Racers",
+          "image": "sandstorm_racers.png",
+          "path": "/CanyonDriftPage"
+        }
+      ]
+    ],
+    "title_pharaoh_curse": "Curse Of the Pharaos",
+    "title_cryptocraft": "Cryptocraft",
     "title_desert_warriors": "Desert Warriors",
     "title_sandstore_racers": "Sandstorm Racers",
     "section1_title": "Expand Your Game's Reach",
@@ -613,12 +707,14 @@
     ],
     "join_us": "Developers, Join Us!",
     "studio_name": "Studio name",
-    "email": "email",
+    "email": "E-mail",
     "website": "Website/Twitter (opt)",
     "game_description": "game description",
     "submit": "Submit",
-    "how_join": "How to join?",
-    "join_description": "Create a form by submit your studio name, your email, your website or twitter (optional), and the description of your game."
+    "before_join": "How to join?",
+    "before_join_description": "Create a form by submit your studio name, your email, your website or twitter (optional), and the description of your game.",
+    "after_join": "Thank you for your interest!",
+    "after_join_description": "Our team will be in contact with you as soon as possible."
   },
   "nav": {
     "home": "Home",

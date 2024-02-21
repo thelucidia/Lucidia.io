@@ -1,52 +1,105 @@
+import { useRef } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import Button2 from '../../components/Button2';
 import Nav from '../../components/Nav';
 import { useTranslation } from 'react-i18next';
-import clsx from 'clsx';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import './style.css';
 
-const active_style = 'transform rotate-45 scale-150 bg-primary';
-const active = true;
+const slider_images = [
+  {
+    image: 'games.jpg',
+    title: 'curse-title01.png',
+  },
+  {
+    image: 'crypto_bg01.jpg',
+    title: 'cryptocraft.svg',
+  },
+  {
+    image: 'desert_bg01.jpg',
+    title: 'desert.svg',
+  },
+  {
+    image: 'sandstorm_01.jpg',
+    title: 'stormracer_01.svg',
+  },
+];
 
 const HeroGame = () => {
+  const progressCircle = useRef(null);
+  const progressContent = useRef(null);
   const { t } = useTranslation();
+  const onAutoplayTimeLeft = (s: any, time: number, progress: number) => {
+    (progressCircle as any).current.style.setProperty('--progress', String(1 - progress));
+    (progressContent as any).current.textContent = `${Math.ceil(time / 1000)}s`;
+    console.log(s);
+  };
+
   return (
-    <section className="w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 relative text-secondary flex flex-col bg-bg px-[154px]">
+    <section
+      id="slider"
+      className="slider w-full min-h-[900px] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 relative text-secondary flex flex-col bg-bg px-[154px]"
+    >
       <Nav />
-      <div
-        className="w-full h-full object-cover absolute top-0 left-0 object-top"
-        style={{
-          background:
-            'linear-gradient(90deg, rgba(13, 13, 13, 0.80) 35.14%, rgba(13, 13, 13, 0.00) 65%), url(/zombie.png)',
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
         }}
-      ></div>
-      <div className="w-[85%] h-auto m-auto relative flex mt-[10em] md:mt-[12em] flex-col-reverse md:flex-col">
-        <h2 className="text-[20px] font-bold mb-12">{t('games.featured_games')}</h2>
-        <div
-          className="w-[500px] h-[228px]"
-          style={{
-            background: 'url(./games/curse-title.png)',
-            backgroundSize: 'contain',
-            backgroundRepeat: 'no-repeat',
-          }}
-        ></div>
-        <a
-          href="https://t.me/Lucidia_io"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="md:block mt-14 hidden w-[154px]"
-        >
-          <Button2 removeOnMobile>{t('games.see_details')}</Button2>
-        </a>
-        <div className="mt-16 flex flex-row justify-end">
-          <ul className="mt-[115px] w-[100px] flex flex-row gap-x-4 h-[17px]">
-            <li className={clsx('w-2 h-2 ', active ? active_style : 'bg-secondary')}></li>
-            <li className="w-2 h-2 bg-secondary"></li>
-            <li className="w-2 h-2 bg-secondary"></li>
-            <li className="w-2 h-2 bg-secondary"></li>
-          </ul>
+        pagination={{
+          clickable: true,
+        }}
+        navigation={false}
+        modules={[Autoplay, Pagination, Navigation]}
+        onAutoplayTimeLeft={onAutoplayTimeLeft}
+        className="mySwiper "
+      >
+        {slider_images.map((item) => {
+          return (
+            <>
+              <SwiperSlide>
+                <img
+                  style={{
+                    background: `linear-gradient(90deg, rgba(13, 13, 13, 0.80) 35.14%, rgba(13, 13, 13, 0.00) 65%)`,
+                  }}
+                  className="max-h-[100vh] w-full absolute h-full object-cover top-0 left-0"
+                  src={`images/backgrounds/${item.image}`}
+                />
+                <div
+                  className="absolute inset-0 bg-gradient-to-b from-transparent to-black"
+                  style={{
+                    background: `linear-gradient(90deg, rgba(13, 13, 13, 0.80) 35.14%, rgba(13, 13, 13, 0.00) 65%)`,
+                  }}
+                ></div>
+                <div className="w-[85%] h-auto m-auto relative flex mt-[8em] md:mt-[8em] flex-col-reverse gap-y-8 md:flex-col">
+                  <h2 className="text-[28px] font-bold mb-12 text-left">{t('games.featured_games')}</h2>
+                  <img className="max-w-[600px] max-h-[262px]" src={`images/adverts/${item.title}`} />
+                  <a
+                    href="https://t.me/Lucidia_io"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="md:block mt-14 hidden w-[154px]"
+                  >
+                    <Button2 removeOnMobile>{t('games.see_details')}</Button2>
+                  </a>
+                </div>
+              </SwiperSlide>
+            </>
+          );
+        })}
+
+        <div className="autoplay-progress" slot="container-end">
+          <svg viewBox="0 0 48 48" ref={progressCircle}>
+            <circle cx="24" cy="24" r="20"></circle>
+          </svg>
+          <span ref={progressContent}></span>
         </div>
-      </div>
+      </Swiper>
     </section>
   );
 };

@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import Footer from '../components/Footer';
 import GamesContent from '../views/Games/GamesContent';
-import HeroGame from '../views/Games/HeroGame';
 import GamesTitle from '../views/Games/GamesTitle';
+import HeroGame from '../views/Games/HeroGame';
 
 const Games = () => {
   return (

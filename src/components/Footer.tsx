@@ -2,7 +2,7 @@
 import { MdEmail } from 'react-icons/md';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import Button from '../components/Button';
+import Button3 from './Button3';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -123,9 +123,9 @@ const Footer = () => {
                 placeholder={t('telegram_name')}
               ></input>
             </div>
-            <Button className="w-full md:w-60 mt-2" stretchOnMobile>
+            <Button3 className="w-full md:w-60 mt-9" stretchOnMobile>
               {t('subscribe_button')}
-            </Button>
+            </Button3>
           </div>
         </div>
       </div>

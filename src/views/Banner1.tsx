@@ -1,42 +1,41 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 // import { NumberLoop } from "../components/BattlerfurySlider/BattleFurySlider";
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 const Banner1 = () => {
-  const [animationCount, setAnimationCount] = useState(0);
+  // const [animationCount, setAnimationCount] = useState(0);
   const { t } = useTranslation();
   const bannerData = [
     {
-      title: '$1M+',
+      title: '$420k',
       desc: t('to_be'),
     },
     {
-      title: '115M',
+      title: '15',
       desc: t('in_game'),
     },
 
     {
       // testing
       // title: "6+",
-      title: '116+',
+      title: '4+',
       desc: t('game_inside'),
     },
     {
       // testing
       // title: "60+",
-      title: '160+',
+      title: '20',
       desc: t('maps'),
     },
   ];
 
-  useEffect(() => {
-    console.log(animationCount);
-    const interval = setInterval(() => {
-      setAnimationCount((prevCount) => prevCount + 1);
-    }, 2000); // Adjust the interval time as needed (2000 milliseconds = 2 seconds)
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setAnimationCount((prevCount) => prevCount + 1);
+  //   }, 2000); // Adjust the interval time as needed (2000 milliseconds = 2 seconds)
 
-    return () => clearInterval(interval);
-  }, []);
+  //   return () => clearInterval(interval);
+  // }, []);
   return (
     <section className="w-full h-auto pt-10 sm:pt-20 lg:pt-20 lg:pb-14 bg-bg relative flex items-center font-primary text-secondary px-5 padding_bottom">
       <div className="mx-auto w-fit flex text-center gap-4 sm:gap-10 md:gap-16">

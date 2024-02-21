@@ -13,6 +13,9 @@ export default {
         black3: '#171717',
         bg: '#0D0D0D',
       },
+      text: {
+        primary: 4,
+      },
     },
   },
   plugins: [],
