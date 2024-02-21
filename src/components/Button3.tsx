@@ -29,7 +29,7 @@ export const Button3: FunctionComponent<ButtonProps> = ({
       onClick={handleClick}
       {...props}
     >
-      <div
+      {/* <div
         className={cn(
           'w-full h-[calc(50%-0.48rem)] top-2 bg-primary absolute clip-top opacity-0 transition-ll ease-in-out duration-500 sm:group-hover:opacity-100 sm:group-hover:scale-y-[0.1] origin-top',
         )}
@@ -38,8 +38,8 @@ export const Button3: FunctionComponent<ButtonProps> = ({
         className={cn(
           'w-full h-[calc(50%-0.48rem)] bottom-2 bg-primary absolute  clip-bottom opacity-0 transition-all ease-in-out duration-500 sm:group-hover:opacity-100  sm:group-hover:scale-y-[0.1] origin-bottom',
         )}
-      ></div>
-      <div className="sm:group-hover:opacity-0 opacity-100 transition-all duration-500">
+      ></div> */}
+      <div className="sm:group-hover:opacity-0 hover:border- opacity-100 transition-all duration-500">
         <div className="sm:group-hover:opacity-0 opacity-100 transition-all duration-500">
           <div className="w-full h-full absolute top-0 left-0 transition-all ease-in-out">
             <svg

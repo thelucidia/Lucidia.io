@@ -1,9 +1,13 @@
+import { useRef } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import Button2 from '../../components/Button2';
 import Nav from '../../components/Nav';
 import { useTranslation } from 'react-i18next';
-import clsx from 'clsx';
-import { useEffect, useState } from 'react';
-const active_style = 'transform rotate-45 scale-150 bg-primary';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import './style.css';
 
 const slider_images = [
   {
@@ -25,74 +29,76 @@ const slider_images = [
 ];
 
 const HeroGame = () => {
+  const progressCircle = useRef(null);
+  const progressContent = useRef(null);
   const { t } = useTranslation();
-  const [flag, setFlag] = useState(false);
-  const [slider, setSlider] = useState(0);
-  const handleSlider = (index: number, evt: { preventDefault: () => void; stopPropagation: () => void }) => {
-    evt.preventDefault();
-    evt.stopPropagation();
-    if (slider != index) {
-      setSlider(index);
-      setFlag((prevFlag) => !prevFlag);
-    }
-    // setSlider(index);
-    console.log('index', index, 'slider', slider);
+  const onAutoplayTimeLeft = (s: any, time: number, progress: number) => {
+    (progressCircle as any).current.style.setProperty('--progress', String(1 - progress));
+    (progressContent as any).current.textContent = `${Math.ceil(time / 1000)}s`;
   };
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setSlider((slider) => (slider + 1) % 4);
-      setFlag((prevFlag) => !prevFlag);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, []);
   return (
-    <section className="w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 relative text-secondary flex flex-col bg-bg px-[154px]">
+    <section
+      id="slider"
+      className="slider w-full min-h-[900px] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 relative text-secondary flex flex-col bg-bg px-[154px]"
+    >
       <Nav />
-      <img
-        style={{
-          background: `linear-gradient(90deg, rgba(13, 13, 13, 0.80) 35.14%, rgba(13, 13, 13, 0.00) 65%)`,
-          transition: 'opacity 0.5s ease-in-out',
-          // opacity: flag ? 1 : 0,
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
         }}
-        className="max-h-[100vh] w-full absolute h-full object-cover top-0 left-0 "
-        src={`images/backgrounds/${slider_images[slider].image}`}
-      />
-      <div
-        className="absolute inset-0 bg-gradient-to-b from-transparent to-black"
-        style={{
-          background: `linear-gradient(90deg, rgba(13, 13, 13, 0.80) 35.14%, rgba(13, 13, 13, 0.00) 65%)`,
+        pagination={{
+          clickable: true,
         }}
-      ></div>
-      <div className="w-[85%] h-auto m-auto relative flex mt-[8em] md:mt-[8em] flex-col-reverse gap-y-8 md:flex-col">
-        <h2 className="text-[28px] font-bold mb-12">{t('games.featured_games')}</h2>
-        <img className="max-w-[600px] min-h-[262px]" src={`images/adverts/${slider_images[slider].title}`} />
-        <a
-          href="https://t.me/Lucidia_io"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="md:block mt-14 hidden w-[154px]"
-        >
-          <Button2 removeOnMobile>{t('games.see_details')}</Button2>
-        </a>
-        <div className="flex flex-row justify-end">
-          <ul className="mt-[115px] w-[100px] flex flex-row gap-x-4 h-[17px]">
-            <a href="/" onClick={(evt) => handleSlider(0, evt)} target="_blank" rel="noopener noreferrer">
-              <li className={clsx('w-2 h-2 ', slider === 0 ? active_style : 'bg-secondary')}></li>
-            </a>
+        navigation={false}
+        modules={[Autoplay, Pagination, Navigation]}
+        onAutoplayTimeLeft={onAutoplayTimeLeft}
+        className="mySwiper "
+      >
+        {slider_images.map((item) => {
+          return (
+            <>
+              <SwiperSlide>
+                <img
+                  style={{
+                    background: `linear-gradient(90deg, rgba(13, 13, 13, 0.80) 35.14%, rgba(13, 13, 13, 0.00) 65%)`,
+                  }}
+                  className="max-h-[100vh] w-full absolute h-full object-cover top-0 left-0"
+                  src={`images/backgrounds/${item.image}`}
+                />
+                <div
+                  className="absolute inset-0 bg-gradient-to-b from-transparent to-black"
+                  style={{
+                    background: `linear-gradient(90deg, rgba(13, 13, 13, 0.80) 35.14%, rgba(13, 13, 13, 0.00) 65%)`,
+                  }}
+                ></div>
+                <div className="w-[85%] h-auto m-auto relative flex mt-[8em] md:mt-[8em] flex-col-reverse gap-y-8 md:flex-col">
+                  <h2 className="text-[28px] font-bold mb-12 text-left">{t('games.featured_games')}</h2>
+                  <img className="max-w-[600px] max-h-[262px]" src={`images/adverts/${item.title}`} />
+                  <a
+                    href="https://t.me/Lucidia_io"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="md:block mt-14 hidden w-[154px]"
+                  >
+                    <Button2 removeOnMobile>{t('games.see_details')}</Button2>
+                  </a>
+                </div>
+              </SwiperSlide>
+            </>
+          );
+        })}
 
-            <a href="/" onClick={(evt) => handleSlider(1, evt)} target="_blank" rel="noopener noreferrer">
-              <li className={clsx('w-2 h-2 ', slider === 1 ? active_style : 'bg-secondary')}></li>
-            </a>
-            <a href="/" onClick={(evt) => handleSlider(2, evt)} target="_blank" rel="noopener noreferrer">
-              <li className={clsx('w-2 h-2 ', slider === 2 ? active_style : 'bg-secondary')}></li>
-            </a>
-            <a href="/" onClick={(evt) => handleSlider(3, evt)} target="_blank" rel="noopener noreferrer">
-              <li className={clsx('w-2 h-2 ', slider === 3 ? active_style : 'bg-secondary')}></li>
-            </a>
-          </ul>
+        <div className="autoplay-progress" slot="container-end">
+          <svg viewBox="0 0 48 48" ref={progressCircle}>
+            <circle cx="24" cy="24" r="20"></circle>
+          </svg>
+          <span ref={progressContent}></span>
         </div>
-      </div>
+      </Swiper>
     </section>
   );
 };
