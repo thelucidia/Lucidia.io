@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import GamesContent from '../views/Games/GamesContent';
 import HeroGame from '../views/Games/HeroGame';
 import GamesTitle from '../views/Games/GamesTitle';
+import HeroGame1 from '../views/Games/HeroGame1';
 
 const Games = () => {
   return (
@@ -14,6 +15,7 @@ const Games = () => {
       className="bg-bg h-auto"
     >
       <HeroGame />
+      {/* <HeroGame1 /> */}
       <GamesTitle />
       <GamesContent />
       <Footer />

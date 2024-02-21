@@ -445,7 +445,7 @@ const Nav = () => {
       </nav>
 
       <nav
-        className={cn('w-full h-auto px-3 xl:py-2 sm:px-5 py-0  top-0 left-0 z-20 bg-black/20 backdrop-blur-md fixed')}
+        className={cn('w-full h-auto px-3 xl:py-1 sm:px-5 py-0  top-0 left-0 z-20 bg-black/20 backdrop-blur-md fixed')}
       >
         <div className="max-w-[1400px] w-full mx-auto flex justify-between items-center py-4">
           <a href="/" className="">

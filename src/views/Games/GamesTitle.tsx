@@ -110,7 +110,7 @@ const GamesTitle = () => {
   ];
 
   return (
-    <section className="w-full mt-6 text-[#F0F0F0]">
+    <section className="w-full pt-8 text-[#F0F0F0]">
       <div className="max-w-[1100px] w-full mx-auto flex flex-col gap-y-[10px]">
         <div className="font-bold text-5xl leading-[58px]">{t('games_page.all_play')}</div>
         <ul className="flex flex-row">

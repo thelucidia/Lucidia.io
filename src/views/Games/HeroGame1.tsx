@@ -1,8 +1,22 @@
+import React, { useEffect, useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/navigation';
+import 'swiper/css/thumbs';
+
+import './style.css';
+
+// import required modules
+import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 import Button2 from '../../components/Button2';
 import Nav from '../../components/Nav';
 import { useTranslation } from 'react-i18next';
 import clsx from 'clsx';
-import { useEffect, useState } from 'react';
+
 const active_style = 'transform rotate-45 scale-150 bg-primary';
 
 const slider_images = [
@@ -15,7 +29,7 @@ const slider_images = [
     title: 'cryptocraft.svg',
   },
   {
-    image: 'desert_bg01.jpg',
+    image: 'desert_01.jpg',
     title: 'desert.svg',
   },
   {
@@ -24,40 +38,58 @@ const slider_images = [
   },
 ];
 
-const HeroGame = () => {
+export default function HeroGame() {
+  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
   const { t } = useTranslation();
-  const [flag, setFlag] = useState(false);
   const [slider, setSlider] = useState(0);
   const handleSlider = (index: number, evt: { preventDefault: () => void; stopPropagation: () => void }) => {
     evt.preventDefault();
     evt.stopPropagation();
     if (slider != index) {
       setSlider(index);
-      setFlag((prevFlag) => !prevFlag);
     }
-    // setSlider(index);
+    setSlider(index);
     console.log('index', index, 'slider', slider);
   };
 
   useEffect(() => {
     const interval = setInterval(() => {
       setSlider((slider) => (slider + 1) % 4);
-      setFlag((prevFlag) => !prevFlag);
     }, 3000);
     return () => clearInterval(interval);
   }, []);
+
   return (
     <section className="w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 relative text-secondary flex flex-col bg-bg px-[154px]">
       <Nav />
-      <img
-        style={{
-          background: `linear-gradient(90deg, rgba(13, 13, 13, 0.80) 35.14%, rgba(13, 13, 13, 0.00) 65%)`,
-          transition: 'opacity 0.5s ease-in-out',
-          // opacity: flag ? 1 : 0,
-        }}
-        className="max-h-[100vh] w-full absolute h-full object-cover top-0 left-0 "
-        src={`images/backgrounds/${slider_images[slider].image}`}
-      />
+      <Swiper
+        style={
+          {
+            '--swiper-navigation-color': '#fff',
+            '--swiper-pagination-color': '#fff',
+          } as any
+        }
+        loop={true}
+        spaceBetween={10}
+        navigation={true}
+        thumbs={{ swiper: thumbsSwiper }}
+        modules={[FreeMode, Navigation, Thumbs]}
+        className="mySwiper2"
+      >
+        <SwiperSlide>
+          <img src={`images/backgrounds/${slider_images[0].image}`} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={`images/backgrounds/${slider_images[1].image}`} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={`images/backgrounds/${slider_images[2].image}`} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={`images/backgrounds/${slider_images[3].image}`} />
+        </SwiperSlide>
+      </Swiper>
       <div
         className="absolute inset-0 bg-gradient-to-b from-transparent to-black"
         style={{
@@ -95,6 +127,4 @@ const HeroGame = () => {
       </div>
     </section>
   );
-};
-
-export default HeroGame;
+}
