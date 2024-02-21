@@ -18,6 +18,8 @@ const GamesContent = () => {
           className="relative h-[384px]"
           style={{ background: '#1E1E1E url("/games/car_bg.png") no-repeat left top' }}
         >
+          <img src="games/vector.svg" className="absolute right-0" />
+          <img src="games/vector.svg" className="absolute right-[100px]" />
           <img src="/games/car.png" width={261} height={165} className="absolute left-[113px] top-[142px]" />
           <div className="w-[732px] ml-[470px] pt-[72px] flex flex-col">
             <h3 className="font-bold text-5xl leading-[58px]">{t('games_page.section1_title')}</h3>

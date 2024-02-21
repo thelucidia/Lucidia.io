@@ -7,7 +7,7 @@ const Banner1 = () => {
   const { t } = useTranslation();
   const bannerData = [
     {
-      title: '$20k',
+      title: '$420k',
       desc: t('to_be'),
     },
     {
