@@ -12,8 +12,8 @@ import { RxDiscordLogo } from 'react-icons/rx';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useOutsideClick } from '../hooks/useOutsideHook';
 import { cn } from '../utils';
-import Button2 from './Button2';
 import LangDropdown from './LangDropdown';
+import Button3 from './Button3';
 
 const Nav = () => {
   const { t, i18n } = useTranslation();
@@ -277,7 +277,7 @@ const Nav = () => {
     <div className="w-full h-fit relative">
       <nav
         ref={navRef}
-        className={`-full w-[80vw] font-primary h-screen right-0 top-0 bottom-0 bg-bg z-30 fixed transition-all  ease-in-out duration-500 ${
+        className={`h-full w-[80vw] font-primary h-screen right-0 top-0 bottom-0 bg-bg z-30 fixed transition-all  ease-in-out duration-500 ${
           navActive ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -445,7 +445,7 @@ const Nav = () => {
       </nav>
 
       <nav
-        className={cn('w-full h-auto px-3 sm:px-5 xl:py-4 py-0  top-0 left-0 z-20 bg-black/20 backdrop-blur-md fixed')}
+        className={cn('w-full h-auto px-3 xl:py-2 sm:px-5 py-0  top-0 left-0 z-20 bg-black/20 backdrop-blur-md fixed')}
       >
         <div className="max-w-[1400px] w-full mx-auto flex justify-between items-center py-4">
           <a href="/" className="">
@@ -500,7 +500,7 @@ const Nav = () => {
             </ul>
 
             <a href="/home" target="_blank" rel="noopener noreferrer" className="md:block hidden">
-              <Button2 removeOnMobile>{t('nav.meet')}</Button2>
+              <Button3 removeOnMobile>{t('nav.meet')}</Button3>
             </a>
 
             <a

@@ -7,30 +7,29 @@ const Banner1 = () => {
   const { t } = useTranslation();
   const bannerData = [
     {
-      title: '$1M+',
+      title: '$20k',
       desc: t('to_be'),
     },
     {
-      title: '115M',
+      title: '15',
       desc: t('in_game'),
     },
 
     {
       // testing
       // title: "6+",
-      title: '116+',
+      title: '4+',
       desc: t('game_inside'),
     },
     {
       // testing
       // title: "60+",
-      title: '160+',
+      title: '20',
       desc: t('maps'),
     },
   ];
 
   useEffect(() => {
-    console.log(animationCount);
     const interval = setInterval(() => {
       setAnimationCount((prevCount) => prevCount + 1);
     }, 2000); // Adjust the interval time as needed (2000 milliseconds = 2 seconds)

@@ -18,7 +18,6 @@ const Privacy = () => {
     const element = document.getElementById(id);
     if (element) {
       const topPos = element.offsetTop - ref.current?.offsetTop!;
-      console.log('Clicked');
 
       if (onMobile) {
         window.scrollTo({

@@ -18,7 +18,6 @@ const Hero = () => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
   useEffect(() => {
-    console.log(currentWordIndex);
     const interval = setInterval(() => {
       setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
     }, 3000); // Change word every 3 seconds
@@ -103,7 +102,7 @@ const Hero = () => {
             {/* <p className="">{t("hero_desc2")}</p> */}
           </div>
 
-          <div className="flex gap-x-3 mt-10 md:flex-row flex-col md:text-2xl">
+          <div className="flex gap-x-3 mt-10 md:flex-row flex-col md:text-2xl pt-[5rem]">
             <Button
               onClick={() => {
                 navigate(`/games/zombie-outbreak`);
@@ -137,8 +136,8 @@ const Hero = () => {
 
           <div className="mt-14 flex sm:items-start gap-x-4 md:justify-normal justify-between flex-row">
             <div className="">
-              <h1 className="font-primary font-medium sm:text-xl text-sm">{t('join_community')}</h1>
-              <ul className="flex items-center gap-x-5 sm:gap-x-11 text-3xl mt-4">
+              <h1 className="font-primary font-medium sm:text-xl text-sm pt-8">{t('join_community')}</h1>
+              <ul className="flex items-center gap-x-5 sm:gap-x-11 text-3xl pt-8">
                 {community.map((items, i) => {
                   return (
                     <a
