@@ -27,9 +27,9 @@ const CurseOfThe = () => {
           </video>
         </div>
 
-        <div className="max-w-xs sm:max-w-full w-full flex flex-col justify-end gap-y-3 sm:gap-y-7 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-7 md:pb-10 items-start h-auto mx-auto z-10 mt-[0rem] sm:mt-[7rem] md:mt-[10rem] absolute top-5 md:px-[6rem]">
+        <div className="max-w-xs sm:max-w-full w-full flex flex-col justify-end gap-y-[7rem] sm:gap-y-[7rem] md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-[6.5rem] md:pb-10 items-start h-auto mx-auto z-10 mt-[0rem] sm:mt-[7rem] md:mt-[15rem] absolute top-5 md:px-[8rem]">
           <div className="reltive">
-            <img src={'/curse/curseOFImg.png'} className="lg:h-[170px] h-[80px] object-cover object-top" />
+            <img src={'/curse/curseOFImg.png'} className="lg:h-[170px] h-[80px] pl-12 object-cover object-top" />
           </div>
 
           <Button className="w-full md:w-56" stretchOnMobile>

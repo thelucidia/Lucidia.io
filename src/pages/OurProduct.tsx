@@ -24,7 +24,7 @@ const OurProduct = () => {
       transition={{ duration: 0.7 }}
       className="bg-bg h-auto"
     >
-      <Meta title={t('meta.product.title')} description={t('meta.product.desc')} />
+      <Meta title={t('meta.products.title')} description={t('meta.products.desc')} />
       <Nav />
       <Banner
         bg_path="/our-product/background.jpg"
