@@ -5,7 +5,7 @@ import Nav from '../../components/Nav';
 import OtherGames from '../../components/OtherGames';
 import { cn } from '../../utils';
 import { useTranslation } from 'react-i18next';
-import { details } from '../../utils/types';
+// import { details } from '../../utils/types';
 import Button from '../../components/Button';
 import { IoIosArrowRoundDown } from 'react-icons/io';
 
@@ -26,17 +26,16 @@ const Zombie = () => {
             <source src="/video/zombie.mp4" type="video/mp4" />
           </video>
           <img
-            src={'/games/zombie/title.png'}
+            src="/images/adverts/curse-title01.png"
             className="h-[25%] object-cover absolute top-[30%] left-[12.5%] object-top z-30"
           />
-          <div className="absolute top-[55%] left-[12.5%] z-30 text-xl">{t('zombie_desc1')}</div>
         </div>
 
-        <div className="max-w-xs sm:max-w-full w-full flex flex-col justify-end gap-y-8 sm:gap-y-8 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-12 md:pb-10 items-center h-auto mx-auto z-10 mt-[4.5rem] sm:mt-[7rem] md:mt-[10rem] absolute bottom-5 ">
+        <div className="max-w-xs sm:max-w-full w-full sm:gap-y-8 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-12 md:pb-10 items-center h-auto z-10 absolute left-[12.5%] bottom-[12%] ">
           <Button className="w-full md:w-56" stretchOnMobile>
             {t('games.play_game')}
           </Button>
-          <div className="   flex justify-center items-center bottom-0	text-white	">
+          <div className="mt-[6rem]	text-white">
             <div className="relative">
               See Details{' '}
               <motion.span
@@ -74,7 +73,7 @@ const Zombie = () => {
             <p className=" text-base md:text-xl">{t('games.zombie.overview')}</p>
             <h2 className="md:text-2xl text-xl text-primary font-bold">{t('game_details')} :</h2>
 
-            <div className=" text-base md:text-xl">
+            {/* <div className=" text-base md:text-xl">
               {(t('games.zombie.details', { returnObjects: true }) as details[]).map((items, i) => (
                 <div className="flex gap-1" key={i}>
                   <h1 className="">
@@ -82,15 +81,15 @@ const Zombie = () => {
                   </h1>
                 </div>
               ))}
-            </div>
+            </div> */}
 
-            <div className=" text-base md:text-xl">
+            <ul className=" text-base md:text-xl">
               {(t('games.zombie.details2', { returnObjects: true }) as string[]).map((items, i) => (
-                <p className="" key={i}>
+                <li className="list-disc pb-1" key={i}>
                   {items}
-                </p>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
           <div className="w-full flex items-center md:flex-col md:gap-10 gap-4 justify-center md:justify-start">
             {[...new Array(3)].map((_, i) => (

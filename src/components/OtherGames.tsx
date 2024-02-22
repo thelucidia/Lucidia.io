@@ -84,14 +84,14 @@ const OtherGames = ({ initialSlide }: { initialSlide?: number }) => {
     <>
       <div
         className="max-w-screen-2xl mx-auto relative !overflow-hidden !h-fit mt-6 sm:mt-12 text-secondary font-primary"
-        style={{ height: 400 }}
+        style={{ height: 300 }}
       >
         <h1 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold py-5">{t('other')}</h1>
         <Slider {...settings} initialSlide={initialSlide ?? 1} afterChange={setPage} className="" ref={sliderRef}>
           {gamesData.map((items, i) => (
             <div
               className="scale-[0.97] relative group/main cursor-pointer "
-              style={{ width: 700 }}
+              style={{ width: 640 }}
               key={i}
               onClick={() => {
                 if (i > page) {

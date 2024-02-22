@@ -17,7 +17,7 @@ const Meet = () => {
         <div className="sm:space-y-6 space-y-4 text-center">
           <img src="/lucidians.png" alt="Lucidians" className="mx-auto sm:w-auto w-24" />
           <h1 className="font-bold text-2xl sm:text-5xl">{t('team.meet')}</h1>
-          <p className="sm:text-2xl text-base">{t('team.meet_desc')}</p>
+          {/* <p className="sm:text-2xl text-base">{t('team.meet_desc')}</p> */}
         </div>
 
         <div className="flex flex-wrap gap-8 sm:mt-20 mt-10 justify-center items-center text-black font-primary">

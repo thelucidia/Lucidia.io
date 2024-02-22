@@ -10,20 +10,20 @@ const Mission = () => {
 
   return (
     <section className="w-full h-auto bg-[#1E1E1E] relative py-20 px-8 font-primary text-secondary">
-      <div className="max-w-[1100px] w-full mx-auto">
-        <div className="md:flex justify-between gap-4">
-          <div className="font-bold text-3xl md:text-right pr-16 md:border-r-2">
+      <div className="max-w-[78.5%] w-full mx-auto flex flex-col gap-y-[92px]">
+        <div className="md:flex gap-x-[10rem]">
+          <div className="font-bold text-[52px] md:text-right ">
             <div className="">{t('mission')}</div>
             <div className="">{t('statement')}</div>
           </div>
-          <div className="md:w-[500px]">{t('mission_statement')}</div>
+          <div className="pl-[12rem] w-[720px] md:border-l-2 text-[24px]">{t('mission_statement')}</div>
         </div>
-        <div className="md:flex justify-between mt-16 gap-4">
-          <div className="font-bold text-3xl md:text-right pr-16 md:border-r-2">
-            <div className="">{t('mission')}</div>
-            <div className="">{t('statement')}</div>
+        <div className="md:flex gap-x-[10rem]">
+          <div className="font-bold text-[52px] md:text-right ">
+            <div className="">{t('vision')}</div>
+            <div className="">{t('future')}</div>
           </div>
-          <div className="md:w-[500px]">{t('mission_statement')}</div>
+          <div className="pl-[12rem] md:border-l-2 w-[720px] text-[24px]">{t('vision_content')}</div>
         </div>
         {/* <h1 className="sm:text-5xl text-2xl font-bold">{t("team.mission")}</h1>
         <div className="mt-10 space-y-3 sm:space-y-8">

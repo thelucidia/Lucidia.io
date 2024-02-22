@@ -3,12 +3,15 @@
   "boss_position": "CEO Lucidia",
   "boss_desc1": "At Lucidia, we're not just creating games;",
   "boss_desc2": "we're building the future of gaming in the Middle East, where tradition meets innovation.",
-  "team_title": "We are <span style='color: #B28539'>Lucidia</span>",
+  "team_title": "We Are <span style='color: #B28539'>Lucidia</span>",
   "vision_for": "Vision for",
   "future": "The Future",
   "mission": "Mission",
   "statement": "Statement",
   "mission_statement": "To redefine the gaming landscape in the Middle East by harnessing the power of Web3 technologies, creating unparalleled experiences for developers and players alike.",
+  "vision": "Vision for",
+  "the_future": "The Future",
+  "vision_content": "Empowering a new era of gaming where community, creativity, and blockchain-driven economies converge to define the future of digital entertainment,  bringing unique, engaging experiences to the Middle Eastern community and beyond.",
   "full_name": "Full Name",
   "email": "E-mail",
   "discord_name": "Discord Username(opt)",
@@ -67,10 +70,10 @@
   "game_inside": "Game Inside Metaverse",
   "maps": "Maps",
   "free2play": "Free2Play Open World",
-  "zombie": "Zombie Outbreak",
-  "lucid": "Lucidcraft",
-  "battle": "Battlefury",
-  "canyon": "SANDSTORM RACERS",
+  "zombie": "Curse of the Pharaoh",
+  "lucid": "Cryptocraft",
+  "battle": "Desert Warriors",
+  "canyon": "Sandstorm Racers",
   "details": "See details",
   "more_games": "See more games",
   "diaries": "Developer Diaries",
@@ -99,8 +102,8 @@
     "play_game": "Play Game",
     "zombie": {
       "title": "You Have to Survive",
-      "desc": "Zombie Outbreak is an action/adventure/survival game set in a post-apocalyptic world overrun by zombies. Collect weapon, bullet, and fuel props. Travel throuhg open-world environment with different biomes.",
-      "overview": "Zombie Outbreak is an action/adventure/survival game set in a post-apocalyptic world overrun by zombies. Gameplay and Gameplay Mechanisms Players control multiple distinct characters, each with unique abilities. The game features an open-world environment with different biomes. Players collect weapons, bullets, and fuel props. Combat involves firearms, melee weapons, and knives. Three types of vehicles (helicopter, car, horse) for traversal. Approximately 10 small in-game missions. Lucidcraft",
+      "desc": "Curse Of The Pharaoh is an action/adventure/survival game set in a post-apocalyptic world overrun by zombies. Collect weapon, bullet, and fuel props. Travel throuhg open-world environment with different biomes.",
+      "overview": "Curse Of The Pharaoh combines the fast-paced action of FPS games with the mystery of ancient mythology, all set in a futuristic Dubai landscape. Inspired by the intense cooperative gameplay of Left 4 Dead 2, navigate through ancient curses and futuristic challenges in this adrenaline-fueled adventure. Dive into Curse Of The Pharaoh",
       "details": [
         {
           "title": "Game",
@@ -120,35 +123,30 @@
         }
       ],
       "details2": [
-        "Almost open world map with three different biomes",
-        "Three playable characters with unique missions",
-        "Collection of weapons and bullets from the environment",
-        "Combat against zombies with weapons or knives",
-        "Fuel props for vehicles",
-        "Armed cars",
-        "Five different weapons",
-        "Three types of vehicles (helicopter, car, horse) depending on the biome",
-        "Around 10 small in-game missions"
+        "Blend of FPS action and ancient mythology",
+        "Cooperative gameplay against mythical foes",
+        "Set in a beautifully reimagined Dubai",
+        "Blockchain Integration: Unlock and trade powerful artifacts as NFTs, each with unique abilities and lore, enhancing your gameplay and collection."
       ]
     },
     "lucid": {
       "title": "Craft tools, create blocks",
-      "desc": "Lucidcraft is a sandbox adventure survival game set in a procedurally generated world. You can craft tools like pickaxe, axe, and shovel. Create a block and gather all the recourses as much as you need.",
-      "overview": "Lucidcraft is a sandbox adventure survival game set in a procedurally generated world.",
+      "desc": "Cryptocraft is a sandbox adventure survival game set in a procedurally generated world. You can craft tools like pickaxe, axe, and shovel. Create a block and gather all the recourses as much as you need.",
+      "overview": "Cryptocraft is a sandbox adventure survival game set in a procedurally generated world.",
       "mech": "Mechanisms and Gameplay",
-      "overview2": "Procedurally generated, virtually infinite world. Three types of tools for gathering resources. Crafting system for creating new blocks. Approximately 50 types of blocks, with most needing crafting. Dynamic weather system for changing game graphics.",
+      "overview2": "Enter the world of Cryptocraft, where imagination meets construction. Inspired by the limitless possibilities of games like Minecraft, cryptocraft offers an expansive universe of building, crafting, and creativity, all enhanced by the power of Web3.",
       "details": [
         {
-          "title": "Genre",
-          "value": "Adventure, Survival"
+          "value": "Intuitive building and crafting mechanics"
         },
         {
-          "title": "Cross-platform",
-          "value": "PC, Console, Virtual Reality"
+          "value": "Endless possibilities for creation, from simple tools to architectural marvels"
         },
         {
-          "title": "Audience",
-          "value": "All ages, Sandbox, Construction, and Survival Game Fans."
+          "value": "A vibrant, player-driven world"
+        },
+        {
+          "value": "Blockchain Integration: Forge, trade, and collect unique digital items as NFTs, enriching your crafting journey with real-world value."
         }
       ],
       "details2": [
@@ -290,7 +288,7 @@
         "normal": "To create a self-sustaining loop of development and improvement, financed and directed by community governance and tokenomics, ensuring long-term viability."
       }
     ],
-    "meet": "Meet Our Crypt Experts",
+    "meet": "Meet Our Team",
     "meet_desc": "At Lucidia we believe that the true, fully immersive metaverse is just around the corner.",
     "want": "Want to join our team?",
     "apply": "Apply Now"
@@ -434,12 +432,12 @@
     "culture_Benefits": "Culture & <br>Benefits",
     "culture_content": "Emphasize Lucidia's collaborative culture, commitment to innovation, and benefits like remote work options, continuous learning opportunities, and participation in groundbreaking projects.",
     "the_feeling_work_with_us": "<span style='color: #B28539'>The Feelings</span><br> When They Worked With Us",
-    "raphael": "Raphael Chung",
-    "raphael_role": "Community Manager",
-    "raphael_content": "Working with Lucidia has been a game-changer for me as a Community Manager! The innovative tools and collaborative environment have empowered me to build thriving communities seamlessly. The support from the team is unmatched. Together, we're turning visions into vibrant, engaged communities. Proud to be part of this revolution!",
-    "meera": "Meera Anderson",
-    "meera_role": "Blockchain Developer",
-    "meera_content": "Being a Blockchain Developer with Lucidia is like diving into the future of tech! The cutting-edge solutions and forward-thinking mindset have elevated my coding experience. The synergy within the team is phenomenal, fostering an environment where groundbreaking ideas come to life. Lucidia is not just a workplace; it's a blockchain innovation powerhouse!",
+    "raphael": "Andrii Seliuk",
+    "raphael_role": "Head of Web Development",
+    "raphael_content": "As the Head of Development, steering the ship of innovation, I've found unparalleled support working with Lucidia. Their commitment to excellence in both front-end and back-end development has allowed us to break through barriers and reach new heights. The synergy between our visions and their technical prowess is nothing short of extraordinary. Together, we're crafting the future of digital landscapes.",
+    "meera": "Malek Sharabi",
+    "meera_role": "Head of Game Development",
+    "meera_content": "Joining Lucidia as a Front-end Developer has been a game-changer for me. The creative freedom and collaborative spirit here are invigorating. Working on cutting-edge projects, I've seen my ideas come to life, making every line of code a masterpiece. It's not just a job; it's a front-row seat to the evolution of web development. Proud to be part of a team that turns visions into breathtaking realities.",
     "our_journey": "Be Part Of Our Journey",
     "journey_content": "We're on the lookout for dynamic individuals with a passion for gaming and a flair for the crypto world to join our innovative team, no matter where you from.",
     "roles": [

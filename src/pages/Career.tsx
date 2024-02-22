@@ -42,7 +42,7 @@ const Career = () => {
           <div className="flex flex-row gap-x-8 px-[33px]">
             <div className="flex flex-col gap-y-10 pt-6">
               <div className="flex flex-row gap-x-5">
-                <img src="/career/avatar1.png" width={132} />
+                <img src="/career/avatar1.svg" width={132} />
                 <div className="flex flex-col gap-y-6">
                   <h4 className="text-3xl">{t('career.raphael')}</h4>
                   <p className="text-[24px] text-yellow-700">{t('career.raphael_role')}</p>
@@ -52,7 +52,7 @@ const Career = () => {
             </div>
             <div className="flex flex-col gap-y-10 pt-6">
               <div className="flex flex-row gap-x-5">
-                <img src="/career/avatar2.png" width={132} />
+                <img src="/career/avatar2.svg" width={132} />
                 <div className="flex flex-col gap-y-6">
                   <h4 className="text-3xl">{t('career.meera')}</h4>
                   <p className="text-[24px] text-yellow-700">{t('career.meera_role')}</p>
@@ -79,12 +79,12 @@ const Career = () => {
                 returnObjects: true,
               }) as Role[]) ?? []
             ).map(({ role, opened, content }, i) => (
-              <div className="flex flex-row gap-x-[220px]" key={`roles-${i}`}>
+              <div className="flex flex-row gap-x-[220px] cursor-pointer" key={`roles-${i}`}>
                 <div className="flex flex-col gap-y-5">
-                  <h3 className="text-gray-200 text-[30px] font-semibold min-w-[300px]">{role}</h3>
+                  <h3 className="text-gray-200 text-[30px] font-semibold min-w-[300px] hover:text-primary">{role}</h3>
                   <p className="text-[20px] text-gray-200">{`${t('career.open_position')}: ${opened}`}</p>
                 </div>
-                <p className="text-[20px] text-gray-200 font-medium pl-[92px] border-l border-solid border-gray-300 line-clamp-3">
+                <p className="text-[20px] hover:text-primary text-gray-200 font-medium pl-[92px] border-l border-solid border-gray-300 max-h-[60px] line-clamp-3">
                   {content}
                 </p>
               </div>

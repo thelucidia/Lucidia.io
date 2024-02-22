@@ -21,21 +21,21 @@ const LatestNews = () => {
               <img src="/free/news2.png" className="md:h-full" />
               <div className="mt-4">
                 <div className="text-sm text-[#F0F0F0]">{t('posted_date1')}</div>
-                <div className="mt-4 text-xl font-bold text-primary">{t('news_title1')}</div>
+                <div className="cursor-pointer mt-4 text-xl font-bold hover:text-primary">{t('news_title1')}</div>
               </div>
             </div>
             <div className="w-full lg:h-full md:flex gap-4 items-center">
               <img src="/free/news3.png" className="md:h-full" />
               <div className="mt-4">
                 <div className="text-sm text-[#F0F0F0]">{t('posted_date1')}</div>
-                <div className="mt-4 text-xl font-bold">{t('news_title1')}</div>
+                <div className="mt-4 cursor-pointer text-xl hover:text-primary font-bold">{t('news_title1')}</div>
               </div>
             </div>
             <div className="w-full lg:h-full md:flex gap-4 items-center">
               <img src="/free/news4.png" className="md:h-full" />
               <div className="mt-4">
                 <div className="text-sm text-[#F0F0F0]">{t('posted_date1')}</div>
-                <div className="mt-4 text-xl font-bold">{t('news_title1')}</div>
+                <div className="mt-4 cursor-pointer hover:text-primary text-xl font-bold">{t('news_title1')}</div>
               </div>
             </div>
           </div>

@@ -6,24 +6,27 @@ interface ButtonProps extends React.ComponentPropsWithoutRef<'button'> {
   className?: string;
   stretchOnMobile?: boolean;
   removeOnMobile?: boolean;
+  align?: boolean;
 }
 
-export const Button2: FunctionComponent<ButtonProps> = ({
+export const Button4: FunctionComponent<ButtonProps> = ({
   children,
   className,
   stretchOnMobile,
   removeOnMobile,
+  align,
   ...props
 }) => {
   return (
     <button
       className={cn(
-        'w-44 py-4 relative flex items-center justify-center font-primary text-center rounded-sm hover:bg-grn transition-all ease-in-out duration-300 text-secondary group m-auto',
+        'w-44 py-4 relative flex items-center justify-center font-primary text-center rounded-sm hover:bg-grn transition-all ease-in-out duration-300 text-secondary group',
         className,
+        align ? 'm-auto' : null,
       )}
       {...props}
     >
-      <svg
+      {/* <svg
         width="280"
         height="36"
         viewBox="0 0 280 36"
@@ -40,7 +43,7 @@ export const Button2: FunctionComponent<ButtonProps> = ({
         />
       </svg>
 
-      <div className="w-full h-full absolute top-0 left-0 px-[5px] transition-all ease-in-out opacity-0 sm:group-hover:opacity-100 duration-300 scale-y-50 sm:group-hover:scale-y-100">
+      <div className="w-full h-full absolute top-0 left-0 px-[5px] sm:group-hover:opacity-100 duration-300 scale-y-50 scale-y-100">
         <svg
           width="280"
           height="36"
@@ -53,7 +56,7 @@ export const Button2: FunctionComponent<ButtonProps> = ({
         >
           <path d="M16.625 0H263.375L280 18L263.375 36H16.625L0 18L16.625 0Z" fill="#B38539" />
         </svg>
-      </div>
+      </div> */}
 
       <svg
         width="169"
@@ -61,13 +64,13 @@ export const Button2: FunctionComponent<ButtonProps> = ({
         viewBox="0 0 169 36"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className={cn('absolute top-0 left-0 w-full h-full block', {
+        className={cn('absolute top-0 left-0 w-full h-full block group-hover:hidden', {
           'md:block hidden': stretchOnMobile,
         })}
       >
         <path d="M10.0344 0H158.966L169 18L158.966 36H10.0344L0 18L10.0344 0Z" fill="#B38539" />
       </svg>
-      <div className="w-full h-full absolute top-0 left-0 transition-all ease-in-out opacity-0 sm:group-hover:opacity-100 duration-300 scale-y-50 sm:group-hover:scale-y-100">
+      <div className="w-full h-full absolute top-0 left-0 transition-all ease-in-out opacity-0 sm:group-hover:opacity-100 duration-300 scale-y-50 sm:scale-y-100">
         <svg
           width="169"
           height="45"
@@ -91,4 +94,4 @@ export const Button2: FunctionComponent<ButtonProps> = ({
   );
 };
 
-export default Button2;
+export default Button4;
