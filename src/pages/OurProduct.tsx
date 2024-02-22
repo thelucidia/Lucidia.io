@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 // import Button2 from '../components/Button2';
 import Banner from '../views/Banner';
 import Button4 from '../components/Button4';
+import Meta from '../views/Meta';
 
 interface detail {
   image: string;
@@ -23,6 +24,7 @@ const OurProduct = () => {
       transition={{ duration: 0.7 }}
       className="bg-bg h-auto"
     >
+      <Meta title={t('meta.products.title')} description={t('meta.products.desc')} />
       <Nav />
       <Banner
         bg_path="/our-product/background.jpg"

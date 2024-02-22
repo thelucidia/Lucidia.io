@@ -7,6 +7,7 @@ import OtherGames from '../../components/OtherGames';
 
 import { useTranslation } from 'react-i18next';
 import { IoIosArrowRoundDown } from 'react-icons/io';
+import Meta from '../../views/Meta';
 
 const CanyonDrift = () => {
   const { t } = useTranslation();
@@ -19,6 +20,7 @@ const CanyonDrift = () => {
       transition={{ duration: 0.7 }}
       className="w-full min-h-screen bg-bg"
     >
+      <Meta title={t('meta.sandstorm.title')} description={t('meta.sandstorm.desc')} />
       <div className="w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 font-primary relative text-secondary flex  justify-center bg-bg">
         <Nav />
         <img

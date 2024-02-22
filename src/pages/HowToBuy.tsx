@@ -6,6 +6,7 @@ import Button from '../components/Button';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
 import Button2 from '../components/Button2';
+import Meta from '../views/Meta';
 
 interface stepInterface {
   title: string;
@@ -23,6 +24,7 @@ const HowToBuy = () => {
       transition={{ duration: 0.7 }}
       className="w-full bg-bg min-h-screen font-primary"
     >
+      <Meta title={t('meta.default.title')} description={t('meta.default.desc')} />
       <div className="w-full min-h-[20vh] md:min-h-[38vh] border-red-500 h-full relative px-5 py-8 font-primary flex items-end mx-auto left-0 right-0 justify-center text-secondary">
         <Nav />
 

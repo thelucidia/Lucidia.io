@@ -11,6 +11,7 @@ import { BattleImages } from '../../components/Images';
 import { Slider } from '../../components/BattlerfurySlider/BattleFurySlider';
 import { IoIosArrowRoundDown } from 'react-icons/io';
 import Marquee from 'react-fast-marquee';
+import Meta from '../../views/Meta';
 
 const Battlefury = () => {
   const { t } = useTranslation();
@@ -23,6 +24,7 @@ const Battlefury = () => {
       transition={{ duration: 0.7 }}
       className="w-full min-h-screen bg-[#0F0F0F]"
     >
+      <Meta title={t('meta.desert.title')} description={t('meta.desert.desc')} />
       <div className=" w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 font-primary relative text-secondary flex  justify-center bg-bg">
         <Nav />
         <img

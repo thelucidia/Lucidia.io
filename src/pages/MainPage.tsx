@@ -9,9 +9,12 @@ import LatestNews from '../views/LatestNews';
 import Hero from '../views/Hero';
 import Join from '../views/Join';
 import Partners from '../views/Partners';
+import Meta from '../views/Meta';
+import { useTranslation } from 'react-i18next';
 // import PartnersUpper from "../views/PartnersUpper";
 
 const MainPage = () => {
+  const { t } = useTranslation();
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -20,6 +23,7 @@ const MainPage = () => {
       transition={{ duration: 0.7 }}
       className="w-full h-auto bg-bg"
     >
+      <Meta title={t('meta.home.title')} description={t('meta.home.desc')} />
       <Nav />
       <Hero />
       <Banner1 />

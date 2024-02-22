@@ -7,10 +7,12 @@ import Meet from '../views/Team/Meet';
 import Mission from '../views/Team/Mission';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import Meta from '../views/Meta';
 
 const Team = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
-  console.log('🚀 ~ file: Team.tsx:13 ~ Team ~ scrollPosition:', scrollPosition);
+  const { t } = useTranslation();
   const handleScroll = () => {
     const position = window.scrollY;
     setScrollPosition(position);
@@ -32,6 +34,7 @@ const Team = () => {
       transition={{ duration: 0.7 }}
       className="bg-bg h-auto"
     >
+      <Meta title={t('meta.team.title')} description={t('meta.team.desc')} />
       <HeroTeam />
 
       <Mission />

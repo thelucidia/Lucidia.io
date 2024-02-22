@@ -4,6 +4,7 @@ import Nav from '../components/Nav';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import Banner from '../views/Banner';
+import Meta from '../views/Meta';
 
 const StepComponent = ({ steps, active }: { steps: number; active: number }) => {
   // Generate an array of length equal to the 'steps' prop
@@ -119,6 +120,7 @@ const Roadmap = () => {
       transition={{ duration: 0.7 }}
       className="w-full bg-bg min-h-screen font-primary"
     >
+      <Meta title={t('meta.road_map.title')} description={t('meta.road_map.desc')} />
       <Nav />
       <Banner bg_path="/roadmap/banner.png" title={t('roadmap_page.title')} content="" />
       <div className="flex max-w-[1100px] mx-auto md:mt-6 text-secondary md:pb-20 flex-col ">

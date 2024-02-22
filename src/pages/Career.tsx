@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import Nav from '../components/Nav';
 import { useTranslation } from 'react-i18next';
 import Banner from '../views/Banner';
+import Meta from '../views/Meta';
 
 interface Role {
   role: string;
@@ -20,6 +21,7 @@ const Career = () => {
       transition={{ duration: 0.7 }}
       className="bg-bg h-auto"
     >
+      <Meta title={t('meta.career.title')} description={t('meta.career.desc')} />
       <Nav />
       <Banner bg_path="/career/background.jpg" title={t('career.title')} content="" />
       <section className="w-full h-auto pt-62px sm:pt-[62px] lg:pt-[124px] lg:pb-[162px] bg-bg relative flex items-center font-primary text-secondary px-5">
