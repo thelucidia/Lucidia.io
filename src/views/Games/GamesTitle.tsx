@@ -115,7 +115,13 @@ const GamesTitle = () => {
         <div className="font-bold text-5xl leading-[58px]">{t('games_page.all_play')}</div>
         <ul className="flex flex-row">
           {(t('games_page.category', { returnObjects: true }) as string[]).map((item: string, i: number) => (
-            <a href="/" onClick={(evt) => handleFilter(i, evt)} target="_blank" rel="noopener noreferrer">
+            <a
+              key={`game-link-${i}`}
+              href="/"
+              onClick={(evt) => handleFilter(i, evt)}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <li
                 className={clsx(
                   'w-[124px] h-12 mr-5 bg-[#1E1E1E]',
@@ -137,7 +143,7 @@ const GamesTitle = () => {
                 onClick={() => {
                   navigate(`${e.path}`);
                 }}
-                key={i}
+                key={`game-info-${i}`}
               >
                 <img src={`/games/${e.image}`} width={270} height={222} />
                 <span className="font-bold text-2xl leading-[76px] pl-5">{e.title}</span>

@@ -38,7 +38,7 @@ const GamesContent = () => {
           <ol className="font-medium text-xl leading-6 flex flex-col gap-y-12">
             {(t('games_page.section2_description', { returnObjects: true }) as string[]).map(
               (item: string, i: number) => (
-                <div className="relative">
+                <div key={`game-page-${i}`} className="relative">
                   <img src={`games/number${i + 1}.svg`} className="absolute top-[-20px] left-[-20px]" />
                   <li key={i} className="max-w-[600px]">
                     {item}
