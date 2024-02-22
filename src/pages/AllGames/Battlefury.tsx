@@ -25,7 +25,7 @@ const Battlefury = () => {
       className="w-full min-h-screen bg-[#0F0F0F]"
     >
       <Meta title={t('meta.desert.title')} description={t('meta.desert.desc')} />
-      <div className=" w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 font-primary relative text-secondary flex  justify-center bg-bg">
+      <div className=" w-full min-h-[40vh] md:min-h-[60vh] pt-[8rem] lg:min-h-screen px-8 sm:px-auto p-5 font-primary relative text-secondary flex  justify-center bg-bg">
         <Nav />
         <img
           src={'/games/battlefury/banner.png'}
@@ -34,11 +34,11 @@ const Battlefury = () => {
         <div className="  w-full h-full absolute top-0 left-0 bg-gradient-to-b from-transparent via-transparent to-black/80 z-10"></div>
         <BattleImages defaultSrc="/games/battlefury/bars4.png" hoverSrc="/games/battlefury/layout1.png" />
 
-        <div className="max-w-xs sm:max-w-full w-full flex flex-col justify-center gap-y-8 sm:gap-y-8 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-12 md:pb-10 items-center h-auto mx-auto  z-10 mt-[4.5rem] sm:mt-[7rem] md:mt-[10rem] absolute  ">
+        <div className="max-w-xs sm:max-w-full w-full flex flex-col justify-center gap-y-8 sm:gap-y-12 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-16 md:pb-10 items-center h-auto mx-auto  z-10 mt-[4.5rem] sm:mt-[7rem] md:mt-[10rem] absolute  ">
           {/* <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[96px] text-center font-bold left-0 right-0">
             {t("battle")}
           </h1> */}
-          <img src="/games/battlefury/logo.png" alt="" />
+          <img src="/games/battlefury/desertwarrior.svg" alt="" />
 
           <Button className="w-full md:w-56" stretchOnMobile>
             {t('games.play_game')}
