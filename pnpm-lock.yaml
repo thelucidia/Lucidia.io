@@ -38,9 +38,6 @@ dependencies:
   node-sass:
     specifier: ^9.0.0
     version: 9.0.0
-  pnpm:
-    specifier: ^8.15.3
-    version: 8.15.3
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -7019,12 +7016,6 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       find-up: 3.0.0
-    dev: false
-
-  /pnpm@8.15.3:
-    resolution: {integrity: sha512-3YXNbspkF8b3PbMroetHZ/+0y6T1vwcnhGciyStrnlaizCGLEThbvCsh8YoWpn2nes6um2Gg9WoWQ7JeH7amBQ==}
-    engines: {node: '>=16.14'}
-    hasBin: true
     dev: false
 
   /possible-typed-array-names@1.0.0:
