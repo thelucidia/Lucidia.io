@@ -85,9 +85,9 @@ const Zombie = () => {
 
             <ul className=" text-base md:text-xl">
               {(t('games.zombie.details2', { returnObjects: true }) as string[]).map((items, i) => (
-                <p className="list-disc" key={i}>
+                <li className="list-disc pb-1" key={i}>
                   {items}
-                </p>
+                </li>
               ))}
             </ul>
           </div>

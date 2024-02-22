@@ -70,10 +70,10 @@
   "game_inside": "Game Inside Metaverse",
   "maps": "Maps",
   "free2play": "Free2Play Open World",
-  "zombie": "Zombie Outbreak",
-  "lucid": "Lucidcraft",
-  "battle": "Battlefury",
-  "canyon": "SANDSTORM RACERS",
+  "zombie": "Curse of the Pharaoh",
+  "lucid": "Cryptocraft",
+  "battle": "Desert Warriors",
+  "canyon": "Sandstorm Racers",
   "details": "See details",
   "more_games": "See more games",
   "diaries": "Developer Diaries",
@@ -131,22 +131,22 @@
     },
     "lucid": {
       "title": "Craft tools, create blocks",
-      "desc": "Lucidcraft is a sandbox adventure survival game set in a procedurally generated world. You can craft tools like pickaxe, axe, and shovel. Create a block and gather all the recourses as much as you need.",
-      "overview": "Lucidcraft is a sandbox adventure survival game set in a procedurally generated world.",
+      "desc": "Cryptocraft is a sandbox adventure survival game set in a procedurally generated world. You can craft tools like pickaxe, axe, and shovel. Create a block and gather all the recourses as much as you need.",
+      "overview": "Cryptocraft is a sandbox adventure survival game set in a procedurally generated world.",
       "mech": "Mechanisms and Gameplay",
-      "overview2": "Procedurally generated, virtually infinite world. Three types of tools for gathering resources. Crafting system for creating new blocks. Approximately 50 types of blocks, with most needing crafting. Dynamic weather system for changing game graphics.",
+      "overview2": "Enter the world of Cryptocraft, where imagination meets construction. Inspired by the limitless possibilities of games like Minecraft, cryptocraft offers an expansive universe of building, crafting, and creativity, all enhanced by the power of Web3.",
       "details": [
         {
-          "title": "Genre",
-          "value": "Adventure, Survival"
+          "value": "Intuitive building and crafting mechanics"
         },
         {
-          "title": "Cross-platform",
-          "value": "PC, Console, Virtual Reality"
+          "value": "Endless possibilities for creation, from simple tools to architectural marvels"
         },
         {
-          "title": "Audience",
-          "value": "All ages, Sandbox, Construction, and Survival Game Fans."
+          "value": "A vibrant, player-driven world"
+        },
+        {
+          "value": "Blockchain Integration: Forge, trade, and collect unique digital items as NFTs, enriching your crafting journey with real-world value."
         }
       ],
       "details2": [

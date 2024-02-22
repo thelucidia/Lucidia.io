@@ -28,12 +28,12 @@ const Lucidcraft = () => {
         />
 
         <img
-          src={'/games/lucidcraft/title.png'}
+          src={'/images/adverts/cryptocraft.svg'}
           className="w-[40%] object-cover absolute top-[45%] left-[30%] object-top"
         />
-        <div className="flex justify-center mt-52 flex-col items-center">
-          <Button children="Play Game" />
-          <div className="   flex justify-center items-center bottom-0	text-white	">
+        <div className="flex justify-center mt-[30%] flex-col items-center">
+          <Button children="Play Game" className="mb-16" />
+          <div className="flex justify-center items-center bottom-0	text-white">
             <div className="relative">
               See Details{' '}
               <motion.span
@@ -58,19 +58,17 @@ const Lucidcraft = () => {
       <div className="w-full px-8 py-10 bg-[url('/games/lucidcraft/grid_background.png')]">
         <div className="max-w-[1100px] w-full mx-auto text-secondary font-primary justify-between flex gap-10 pt-16 md:flex-row flex-col-reverse">
           <div className="w-full md:space-y-7 space-y-4">
-            <div className="flex flex-col justify-center items-center text-center md:space-y-7 space-y-4">
-              <img src={'/games/lucidcraft/title2.png'} className="w-[40%] object-cover" />
+            <div className="flex flex-col justify-center items-center text-center mb-20 md:space-y-7 space-y-4">
+              <img src={'/games/lucidcraft/title2.svg'} className="w-[60%] object-cover " />
               <p className=" text-base md:text-xl">{t('games.lucid.desc')}</p>
             </div>
             <div className="grid md:grid-cols-2 grid-cols-1 gap-16">
               <div className="flex flex-col md:space-y-7 space-y-4">
                 <img src={'/games/lucidcraft/game_overview.png'} className="w-full object-cover" />
-                <img src={'/games/lucidcraft/game_overview_text.png'} className="w-[40%] object-cover" />
+                <img src={'/games/lucidcraft/game_overview_text.png'} className="w-[40%] pt-[50px] object-cover" />
                 <div className="text-base md:text-xl">
                   {/* <p className="">{t("games.lucid.overview")}</p> */}
-                  <p className="">
-                    <b className="text-primary">{t('games.lucid.mech')}:</b> {t('games.lucid.overview2')}
-                  </p>
+                  <p className="">{t('games.lucid.overview2')}</p>
                 </div>
               </div>
 
@@ -80,21 +78,19 @@ const Lucidcraft = () => {
                 </h2> */}
                 <img src={'/games/lucidcraft/game_detail.png'} className="w-full object-cover" />
 
-                <img src={'/games/lucidcraft/game_detail_text.png'} className="w-[40%] object-cover" />
+                <img src={'/games/lucidcraft/game_detail_text.png'} className="w-[40%] pt-[50px] object-cover" />
 
-                <div className=" text-base md:text-xl">
+                <ul className=" text-base md:text-xl">
                   {(
                     t('games.lucid.details', {
                       returnObjects: true,
                     }) as details[]
                   ).map((items, i) => (
-                    <div className="flex gap-1" key={i}>
-                      <h1 className="">
-                        <b className="text-primary">{items.title}:</b> <span>{items.value}</span>
-                      </h1>
-                    </div>
+                    <li className="list-disc pb-1" key={i}>
+                      <span className="">{items.value}</span>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
             </div>
 
