@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { details } from '../utils/types';
 import React from 'react';
+import Meta from '../views/Meta';
 
 const Terms = () => {
   const [open, setOpen] = useState(false);
@@ -44,6 +45,7 @@ const Terms = () => {
       transition={{ duration: 0.7 }}
       className="w-full bg-bg min-h-screen font-primary"
     >
+      <Meta title={t('meta.vision.title')} description={t('meta.vision.desc')} />
       <Nav />
       <div className="w-full min-h-[20vh] md:min-h-[30vh] border-red-500 h-full px-5 py-8 font-primary flex items-end justifty-center text-secondary sticky top-0 z-10">
         <img

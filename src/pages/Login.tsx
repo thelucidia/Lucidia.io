@@ -2,6 +2,8 @@ import AppNavbar from '../components/AppNavbar';
 import { Link } from 'react-router-dom';
 import { useSDK } from '@metamask/sdk-react';
 import { useEffect, useState } from 'react';
+import Meta from '../views/Meta';
+import { useTranslation } from 'react-i18next';
 
 const formatAddress = (addr: string | undefined) => {
   return `${addr?.substring(0, 8)}...`;
@@ -11,6 +13,7 @@ const Login = () => {
   const { sdk, connected, account } = useSDK();
   const [failed, setFailed] = useState(false);
   const [fetched, setFetched] = useState(false);
+  const { t } = useTranslation();
   const connectMetaMask = async (evt: { preventDefault: () => void; stopPropagation: () => void }) => {
     evt.preventDefault();
     evt.stopPropagation();
@@ -39,6 +42,7 @@ const Login = () => {
   }, [connected]);
   return (
     <div className="login w-full h-full" style={{}}>
+      <Meta title={t('meta.default.title')} description={t('meta.default.desc')} />
       <AppNavbar loggedin={connected} />
       <div className="relative px-4 pt-[16rem]">
         <div className="login-pane m-auto">

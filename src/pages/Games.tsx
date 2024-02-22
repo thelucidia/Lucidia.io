@@ -4,8 +4,10 @@ import GamesContent from '../views/Games/GamesContent';
 import GamesTitle from '../views/Games/GamesTitle';
 import HeroGame from '../views/Games/HeroGame';
 import Meta from '../views/Meta';
+import { useTranslation } from 'react-i18next';
 
 const Games = () => {
+  const { t } = useTranslation();
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -14,10 +16,7 @@ const Games = () => {
       transition={{ duration: 0.7 }}
       className="bg-bg h-auto"
     >
-      <Meta
-        title="Explore Diverse Games within Lucidia's Web3 Ecosystem"
-        description="Join Lucidia and expand your game's reach across a vibrant Web3 ecosystem, featuring cross-platform compatibility and a unified gaming experience. Benefit from wider audience reach, enhanced player experiences, and innovative features for game developers."
-      />
+      <Meta title={t('meta.games.title')} description={t('meta.games.desc')} />
       <HeroGame />
       <GamesTitle />
       <GamesContent />

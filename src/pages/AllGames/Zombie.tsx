@@ -8,6 +8,7 @@ import { useTranslation } from 'react-i18next';
 // import { details } from '../../utils/types';
 import Button from '../../components/Button';
 import { IoIosArrowRoundDown } from 'react-icons/io';
+import Meta from '../../views/Meta';
 
 const Zombie = () => {
   const { t } = useTranslation();
@@ -19,6 +20,7 @@ const Zombie = () => {
       transition={{ duration: 0.7 }}
       className="w-full min-h-screen bg-bg"
     >
+      <Meta title={t('meta.curse.title')} description={t('meta.curse.desc')} />
       <div className="w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 font-primary relative text-secondary flex  justify-center bg-bg">
         <Nav />
         <div className="bg-video">

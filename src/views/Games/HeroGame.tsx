@@ -64,7 +64,6 @@ const RenderSwiper = (item: any) => {
 const HeroGame = () => {
   const progressCircle = useRef(null);
   const progressContent = useRef(null);
-  const { t } = useTranslation();
   const onAutoplayTimeLeft = (s: any, time: number, progress: number) => {
     (progressCircle as any).current.style.setProperty('--progress', String(1 - progress));
     (progressContent as any).current.textContent = `${Math.ceil(time / 1000)}s${s}`;
