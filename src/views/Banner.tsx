@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { IoIosArrowRoundDown } from 'react-icons/io';
+import clsx from 'clsx';
 
 const Banner = ({ bg_path, title, content }: any) => {
   const { t } = useTranslation();
@@ -11,14 +12,17 @@ const Banner = ({ bg_path, title, content }: any) => {
         <div className="w-[60%] m-auto">
           <h2
             dangerouslySetInnerHTML={{ __html: title }}
-            className="font-primary text-3xl md:text-5xl 2xl:text-[52px] 2xl:leading-[3.6rem] font-semibold md:block text-center"
+            className={clsx(
+              'font-primary text-3xl md:text-5xl 2xl:text-[52px] 2xl:leading-[3.6rem] font-semibold md:block text-center',
+              !content ? 'mt-16' : null,
+            )}
           ></h2>
           {!!content && (
             <div className="font-primary md:text-2xl mt-12 text-center font-medium tracking-wide">
               <p>{t('our_product.description')}</p>
             </div>
           )}
-          <div className="mt-[4rem] flex justify-center items-center bottom-0	text-white">
+          <div className="mt-[10rem] flex justify-center items-center bottom-0	text-white">
             <div className="relative">
               {t('career.scroll')}{' '}
               <motion.span

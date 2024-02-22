@@ -2,7 +2,8 @@
 import { MdEmail } from 'react-icons/md';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import Button3 from './Button3';
+// import Button3 from './Button3';
+import Button4 from './Button4';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -18,7 +19,8 @@ const Footer = () => {
     },
     {
       title: t('token_sale'),
-      link: 'https://lucidia.io/token-sale-terms-and-conditions/',
+      // link: 'https://lucidia.io/token-sale-terms-and-conditions/',
+      link: '/',
     },
   ];
 
@@ -103,7 +105,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="">
+          <div className="relative">
             <h2 className="text-lg">{t('subscribe')}</h2>
             <input
               className="w-full border-[1px] border-[#F0F0F0] py-1 px-2 mt-2 bg-transparent"
@@ -123,9 +125,11 @@ const Footer = () => {
                 placeholder={t('telegram_name')}
               ></input>
             </div>
-            <Button3 className="w-full md:w-60 mt-9" stretchOnMobile>
-              {t('subscribe_button')}
-            </Button3>
+            <div className="flex flex-row justify-start">
+              <Button4 className="w-full md:w-60 mt-9" stretchOnMobile>
+                {t('subscribe_button')}
+              </Button4>
+            </div>
           </div>
         </div>
       </div>
