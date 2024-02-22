@@ -3,7 +3,7 @@ import Footer from '../components/Footer';
 import Nav from '../components/Nav';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import Button2 from '../components/Button2';
+// import Button2 from '../components/Button2';
 import Banner from '../views/Banner';
 import Button4 from '../components/Button4';
 

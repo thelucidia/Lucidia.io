@@ -14,7 +14,7 @@ import { useOutsideClick } from '../hooks/useOutsideHook';
 import { cn } from '../utils';
 import LangDropdown from './LangDropdown';
 // import Button3 from './Button3';
-import Button2 from './Button2';
+// import Button2 from './Button2';
 import Button4 from './Button4';
 
 const Nav = () => {
