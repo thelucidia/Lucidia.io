@@ -48,10 +48,8 @@ const DesertWarior = () => {
           className="w-full h-full object-content absolute left-0 object-top bottom-0"
         />
 
-        <div className="max-w-xs sm:max-w-full w-full flex flex-col justify-end gap-y-2 sm:gap-y-7 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-7 md:pb-10 items-center h-auto mx-auto z-10 mt-[.0rem] sm:mt-[6rem] md:mt-[10rem] absolute top-9">
-          <div className="AndromedaFonts text-4xl sm:text-7xl md:text-5xl lg:text-[96px] text-left font-bold left-0 right-0 items-center">
-            {t('desertW')}
-          </div>
+        <div className="max-w-xs sm:max-w-full w-full flex flex-col justify-end pt-[7rem] gap-y-2 sm:gap-y-7 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-16 md:pb-10 items-center h-auto mx-auto z-10 mt-[.0rem] sm:mt-[6rem] md:mt-[10rem] absolute top-9">
+          <img src="/games/battlefury/desertwarrior.svg" alt="" />
 
           <Button className="w-full md:w-56" stretchOnMobile>
             {t('games.play_game')}

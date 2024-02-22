@@ -28,10 +28,8 @@ const CanyonDriftPage = () => {
 
         <div className="w-full h-full absolute top-0  left-0 bg-gradient-to-b from-transparent via-transparent to-black/80 z-10"></div>
 
-        <div className="bg-[url('/games/canyondrift/ArrowLeft.png')] bg-no-repeat bg-bottom	max-w-xs sm:max-w-full w-full flex flex-col justify-end gap-y-4 sm:gap-y-8 md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-7 md:pb-10 items-start h-auto mx-auto z-10 mt-[0rem] sm:mt-[7rem] md:mt-[10rem] absolute top-5 md:px-[6rem]">
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[96px] text-left font-bold left-0 right-0 GhostclanFonts">
-            <i>{t('canyon')}</i>
-          </h1>
+        <div className="bg-[url('/games/canyondrift/ArrowLeft.png')] bg-no-repeat bg-bottom	max-w-xs sm:max-w-full w-full flex flex-col justify-end gap-y-[6rem] sm:gap-y-[4rem] md:translate-y-0 sm:translate-y-24 translate-y-24 md:gap-y-[8rem] md:pb-10 items-start h-auto mx-auto z-10 mt-[0rem] sm:mt-[7rem] md:mt-[10rem] absolute top-[] md:px-[6rem]">
+          <img src="/games/canyondrift/sandstorm.svg" alt="" />
 
           <Button className="w-full md:w-56" stretchOnMobile>
             {t('games.play_game')}
