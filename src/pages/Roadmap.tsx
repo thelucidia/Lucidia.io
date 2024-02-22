@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import Footer from '../components/Footer2';
+import Footer from '../components/Footer';
 import Nav from '../components/Nav';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
