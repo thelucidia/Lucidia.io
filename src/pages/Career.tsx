@@ -4,6 +4,7 @@ import Nav from '../components/Nav';
 import { useTranslation } from 'react-i18next';
 import Banner from '../views/Banner';
 import Meta from '../views/Meta';
+import clsx from 'clsx';
 
 interface Role {
   role: string;
@@ -81,15 +82,18 @@ const Career = () => {
                 returnObjects: true,
               }) as Role[]) ?? []
             ).map(({ role, opened, content }, i) => (
-              <div className="flex flex-row gap-x-[220px] cursor-pointer" key={`roles-${i}`}>
-                <div className="flex flex-col gap-y-5">
-                  <h3 className="text-gray-200 text-[30px] font-semibold min-w-[300px] hover:text-primary">{role}</h3>
-                  <p className="text-[20px] text-gray-200">{`${t('career.open_position')}: ${opened}`}</p>
+              <>
+                {/* {setIsHovered(false)} */}
+                <div className="flex flex-row gap-x-[220px] cursor-pointer hover:text-primary" key={`roles-${i}`}>
+                  <div className="flex flex-col gap-y-5">
+                    <h3 className={clsx('text-[30px] font-semibold min-w-[300px]')}>{role}</h3>
+                    <p className="text-[20px]">{`${t('career.open_position')}: ${opened}`}</p>
+                  </div>
+                  <p className="text-[20px] font-medium pl-[92px] border-l border-solid border-gray-300 max-h-[60px] line-clamp-3">
+                    {content}
+                  </p>
                 </div>
-                <p className="text-[20px] hover:text-primary text-gray-200 font-medium pl-[92px] border-l border-solid border-gray-300 max-h-[60px] line-clamp-3">
-                  {content}
-                </p>
-              </div>
+              </>
             ))}
           </div>
         </div>
