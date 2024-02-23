@@ -113,7 +113,7 @@ const OtherGames = ({ initialSlide }: { initialSlide?: number }) => {
               <motion.div
                 initial={{ backgroundColor: 'rgba(0,0,0,0.2)' }}
                 className={
-                  'transition-all  ease-in-out duration-400    absolute w-full flex-col mx-auto left-0 right-0 bottom-0  translate-y-0 sm:translate-y-[77%] duration-500 group-hover/main:translate-y-0 z-20 items-center sm:gap-5 sm:group-hover/main:gap-2 flex'
+                  'transition-all ease-in-out duration-400 absolute w-full flex-col mx-auto left-0 right-0 bottom-2  translate-y-0 sm:translate-y-[77%] duration-500 group-hover/main:translate-y-0 z-20 items-center sm:gap-8 sm:group-hover/main:gap-4 sm:group-hover/main:bottom-0 flex'
                 }
               >
                 <h1 className="font-bold text-2xl sm:text-5xl">{items.title}</h1>

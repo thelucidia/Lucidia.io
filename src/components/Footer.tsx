@@ -4,6 +4,9 @@ import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 // import Button3 from './Button3';
 import Button4 from './Button4';
+import { FaDiscord, FaRedditAlien, FaTelegramPlane, FaTiktok, FaYoutube } from 'react-icons/fa';
+import { BsTwitterX } from 'react-icons/bs';
+import { RiInstagramFill } from 'react-icons/ri';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -39,6 +42,37 @@ const Footer = () => {
     },
   ];
 
+  const icons = [
+    {
+      link: 'https://t.me/Lucidia_io',
+      icon: <FaTelegramPlane />,
+    },
+    {
+      link: 'https://discord.gg/lucidia',
+      icon: <FaDiscord />,
+    },
+    {
+      link: 'https://twitter.com/lucidia_io',
+      icon: <BsTwitterX />,
+    },
+    {
+      link: 'https://youtube.com/@lucidia_official',
+      icon: <FaYoutube />,
+    },
+    {
+      link: 'https://www.reddit.com/r/LucidiaMetaverse/',
+      icon: <FaRedditAlien />,
+    },
+    {
+      link: 'https://instagram.com/lucidia_official',
+      icon: <RiInstagramFill />,
+    },
+    {
+      link: 'https://www.tiktok.com/@lucidia.io',
+      icon: <FaTiktok />,
+    },
+  ];
+
   return (
     <footer className="w-full h-auto min-h-auto bg-black2 relative sm:py-12 mt-20">
       <div className="max-w-[90%] mx-auto w-full text-secondary flex px-5 lg:pr-12 gap-x-24 lg:flex-row flex-col ">
@@ -46,11 +80,18 @@ const Footer = () => {
           <img src="/hero/logo.webp" alt="Logo" className="sm:w-auto w-28" />
           <p className="font-primary font-regular max-w-[29rem] mt-3 sm:mt-7 text-xs md:text-xl">{t('jurisdiction')}</p>
           <div className="text-footergry flex items-center gap-x-7 sm:gap-x-16 mt-8">
-            <div className="flex items-center gap-x-[5px]">
-              <MdEmail className="text-secondary text-2xl" />
-              <a href="mailto:hello@lucidia.io" className="font-medium font-primary">
-                hello@lucidia.io
-              </a>
+            <div className="flex items-center max-w-[360px] flex-wrap gap-12 pr-16">
+              {icons.map((items, i) => (
+                <a
+                  href={items.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="md:text-2xl sm:text-xl text-base hover:scale-[1.1] hover:text-primary transition-all ease-in-out duration-300"
+                  key={i}
+                >
+                  {items.icon}
+                </a>
+              ))}
             </div>
 
             {/* <div className="flex items-center gap-x-[5px]">
@@ -134,7 +175,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="max-w-[1400px] mx-auto w-full text-secondary sm:mt-20 flex justify-between items-center sm:pb-0 pb-5 px-5 pt-12 sm:pt-0 ">
+      <div className="max-w-[90%] mx-auto w-full text-secondary sm:mt-20 flex justify-between items-center sm:pb-0 pb-5 px-5 pt-12 sm:pt-0 ">
         <div className="">
           <h3 className="font-secondary text-sm font-semibold flex gap-x-2">
             © Lucidia 2024 <span>|</span> {t('rights')}
