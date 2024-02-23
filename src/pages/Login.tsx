@@ -46,18 +46,18 @@ const Login = () => {
       <AppNavbar loggedin={connected} />
       <div className="relative px-4 pt-[16rem]">
         <div className="login-pane m-auto">
-          <h1>enter lucidia</h1>
-          <h3>Login width</h3>
+          <h1 className="capitalize">{t('login.enter_lucidia')}</h1>
+          <h3>{t('login.login_with')}</h3>
           <a href="/" className="button metamask" onClick={connectMetaMask}>
-            MetaMask {connected && formatAddress(account)}
+            {t('login.metamask')} {connected && formatAddress(account)}
           </a>
           <a href="/" className="button wallet-connect" onClick={(evt) => evt.preventDefault()}>
-            WalletConnect
+            {t('login.walletconnect')}
           </a>
           {failed && (
             <div className="connect-failed">
               <div className="icon"></div>
-              <h4>Failed to connect. You can try again.</h4>
+              <h4 className="capitalize">{t('login.failed')}</h4>
             </div>
           )}
         </div>
