@@ -172,9 +172,9 @@ const AppNavbar = ({ loggedin }: any) => {
         </div>
       </nav>
 
-      <div className="fixed max-w-[1400px] mx-auto w-full top-0 xl:top-7 z-20 left-0 right-0">
+      <div className="fixed w-full mx-auto w-full top-0 xl:top-7 z-20 left-0 right-0">
         <div
-          className={`w-[8rem] h-[8rem] md:block hidden backdrop-blur-md clipped bg-bl absolute z-20 top-24 transition-height ease-in-out duration-300 right-12 ${
+          className={`w-[8rem] h-[8rem] md:block hidden backdrop-blur-md clipped bg-bl absolute z-20 top-16 transition-height ease-in-out duration-300 right-0 ${
             langActive ? 'max-h-[23rem]' : 'max-h-0'
           }`}
         >

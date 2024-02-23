@@ -81,11 +81,12 @@
   "jurisdiction": "Your Jurisdiction May Not Regulate Cryptocurrencies. The Value Of Cryptocurrencies May Rise And Fall. Profits May Be Subject To Capital Gains Taxes Or Other Local Taxes.",
   "rights": "All Rights Reserved.",
   "general": "General",
-  "privacy": "Privacy Policy",
+  "privacy": "Privacy and Policy",
   "terms": "Terms and Condition",
   "token_sale": "Token Sale Terms and Condition",
   "company": "Company",
   "contact": "Contact Us",
+  "careers": "Careers",
   "frequent": "Frequently Asked Questions",
   "anti": "Anti-Money-laundering Policy",
   "overview": "Game Overview",
@@ -736,6 +737,13 @@
     "educational-portal": "Educational Portal",
     "dao": "Dao",
     "eng": "Eng"
+  },
+  "login": {
+    "enter_lucidia": "enter lucidia",
+    "login_with": "Login with",
+    "metamask": "MetaMask",
+    "walletconnect": "WalletConnect",
+    "failed": "Failed to connect. You can try again."
   },
   "join": "Join the community",
   "for": "For more details about our progress and workflow be sure to follow",
