@@ -8,31 +8,31 @@ const Join = () => {
   const icons = [
     {
       link: 'https://t.me/Lucidia_io',
-      icon: <FaTelegramPlane />,
+      icon: <FaTelegramPlane size={32} />,
     },
     {
       link: 'https://discord.gg/lucidia',
-      icon: <FaDiscord />,
+      icon: <FaDiscord size={32} />,
     },
     {
       link: 'https://twitter.com/lucidia_io',
-      icon: <BsTwitterX />,
+      icon: <BsTwitterX size={32} />,
     },
     {
       link: 'https://youtube.com/@lucidia_official',
-      icon: <FaYoutube />,
+      icon: <FaYoutube size={32} />,
     },
     {
       link: 'https://www.reddit.com/r/LucidiaMetaverse/',
-      icon: <FaRedditAlien />,
+      icon: <FaRedditAlien size={32} />,
     },
     {
       link: 'https://instagram.com/lucidia_official',
-      icon: <RiInstagramFill />,
+      icon: <RiInstagramFill size={32} />,
     },
     {
       link: 'https://www.tiktok.com/@lucidia.io',
-      icon: <FaTiktok />,
+      icon: <FaTiktok size={32} />,
     },
   ];
 
@@ -41,7 +41,7 @@ const Join = () => {
       {/* <img src="/joinleft.webp" alt="JoinLeft" className="" /> */}
 
       <div className="w-full h-full pl-[12.5%] flex justify-center flex-col gap-y-5 md:gap-y-24">
-        <h1 className=" text-sm sm:text-2xl md:text-2xl lg:text-3xl font-bold text-secondary">
+        <h1 className=" text-sm sm:text-2xl md:text-3xl lg:text-[48px] font-bold text-secondary">
           {/* {t("join_community")} */}
           {t('join1')} <span className="transition-all ease-in-out duration-400 text-primary">{t('join2')}</span>{' '}
           {t('join3')}

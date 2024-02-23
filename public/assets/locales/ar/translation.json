@@ -325,6 +325,16 @@
     "gameplay": "طريقة اللعب",
     "meet": "تعرف على المجتمع"
   },
+  "app-nav": {
+    "home": "الرئيسية",
+    "games": "الشركة",
+    "tournaments": "خريطة الطريق",
+    "marketplace": "Marketplace",
+    "dev-tools": "Dev Tools",
+    "educational-portal": "Educational Portal",
+    "dao": "Dao",
+    "eng": "Eng"
+  },
   "join": "انضم إلى المجتمع",
   "for": "لمزيد من التفاصيل حول تقدمنا وسير العمل، تأكد من متابعتنا",
   "buy": {
@@ -470,6 +480,13 @@
       "desc": ["مدير مجتمع (4 سنوات)", "مدير وسائل التواصل الاجتماعي (4 سنوات)", "التسويق الرقمي (3 سنوات)"]
     }
   ],
+  "login": {
+    "enter_lucidia": "نظر الملف ",
+    "login_with": "login with",
+    "metamask": "Metamask",
+    "walletconnect": "WalletConnect",
+    "failed": "Failed to connect. You can try again."
+  },
   "profile": "انظر الملف الشخصي",
   "meta": {
     "default": {

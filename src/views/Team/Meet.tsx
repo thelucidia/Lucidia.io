@@ -17,7 +17,7 @@ const Meet = () => {
         <div className="sm:space-y-6 space-y-4 text-center">
           <img src="/lucidians.png" alt="Lucidians" className="mx-auto sm:w-auto w-24" />
           <h1 className="font-bold text-2xl sm:text-5xl">{t('team.meet')}</h1>
-          {/* <p className="sm:text-2xl text-base">{t('team.meet_desc')}</p> */}
+          <p className="sm:text-2xl text-base">{t('team.meet_desc')}</p>
         </div>
 
         <div className="flex flex-wrap gap-8 sm:mt-20 mt-10 justify-center items-center text-black font-primary">
@@ -36,9 +36,7 @@ const Meet = () => {
               />
               <div className="w-full h-fit md:translate-y-[60%] translate-y-0 absolute bottom-0 left-0 bg-primary p-5 group-hover:translate-y-0 transition-all ease-in-out duration-300">
                 <h1 className="font-bold text-3xl">{items.name}</h1>
-                <h2 className={cn('font-medium text-2xl capitalize', { 'text-xl': items.name === 'Sander Kloet' })}>
-                  {items.position.toLowerCase()}
-                </h2>
+                <h2 className={cn('font-medium text-xl capitalize')}>{items.position.toLowerCase()}</h2>
                 <ul className="mt-3 group-hover:opacity-100 sm:opacity-0 transition-opacity ease-in-out duration-300">
                   {items.desc.map((desc, i) => (
                     <li className="font-medium text-base flex gap-x-2" key={i}>
