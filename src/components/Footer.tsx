@@ -137,7 +137,7 @@ const Footer = () => {
       <div className="max-w-[1400px] mx-auto w-full text-secondary sm:mt-20 flex justify-between items-center sm:pb-0 pb-5 px-5 pt-12 sm:pt-0 ">
         <div className="">
           <h3 className="font-secondary text-sm font-semibold flex gap-x-2">
-            © Lucidia 2023 <span>|</span> {t('rights')}
+            © Lucidia 2024 <span>|</span> {t('rights')}
           </h3>
           <p className="text-[12px] text-footergry font-secondary mt-2">{t('jurisdiction')}</p>
         </div>
