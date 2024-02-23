@@ -1,5 +1,4 @@
 // import { HiOutlineDevicePhoneMobile } from "react-icons/hi2";
-import { MdEmail } from 'react-icons/md';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 // import Button3 from './Button3';
