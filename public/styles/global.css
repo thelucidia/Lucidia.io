@@ -486,8 +486,7 @@ h2 {
   margin-top: 16px;
 }
 
-.live-game-item .description,
-.live-game-item .description {
+.live-game-item .game-description .description {
   overflow: hidden;
   color: #f0f0f0;
   text-overflow: ellipsis;
@@ -498,6 +497,48 @@ h2 {
   font-weight: 400;
   margin-top: 4px;
   line-height: 1;
+}
+
+.description-sections {
+  color: #f0f0f0;
+  font-size: 20px;
+}
+
+.description-sections h2 {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.description-sections .sub-section {
+  margin-bottom: 20px;
+}
+
+.description-sections .sub-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.description-sections .sub-section p {
+  margin-bottom: 0;
+}
+
+.description-sections .sub-section p,
+.description-sections .sub-section li {
+  line-height: 1.05;
+}
+
+.description-sections .sub-section .label {
+  color: #B28539;
+  font-weight: bold;
+}
+
+.description-sections .sub-section li::marker {
+  font-size: 14px;
+}
+
+.description-sections .sub-section li.highlighted::marker {
+  color: #B28539;
 }
 
 /** --------------------------------------------------------- **\
