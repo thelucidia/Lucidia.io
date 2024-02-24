@@ -58,8 +58,8 @@ const CurseOfThe = () => {
       </div>
 
       <div className="w-full h-auto px-8 py-10 -mb-20 md:mb-0">
-        <div className="max-w-[1100px] pb-14 sm:pb-20 w-full min-h-screen mx-auto text-secondary font-primary justify-between flex gap-10 pt-16 md:flex-row flex-col-reverse">
-          <div className="w-full md:space-y-7 space-y-4">
+        <div className="max-w-[80%] pb-14 sm:pb-20 w-full min-h-screen mx-auto text-secondary font-primary justify-between flex gap-10 pt-16 md:flex-row flex-col-reverse">
+          <div className="w-full md:space-y-7 space-y-4 px-[5%]">
             <div className="border-primary border-[1px]">
               {/* <h1 className="text-xl md:text-5xl text-primary font-bold text-center p-4">
                 {t("games.zombie.title")}
@@ -67,11 +67,7 @@ const CurseOfThe = () => {
               <div className="p-4">
                 <img src={'/games/zombie/title2.png'} className="h-[25%] object-cover" />
               </div>
-              <p className="mt-2 p-4 bg-primary text-black text-base md:text-xl">
-                {t(
-                  'Curse Of The Pharaoh is an action/adventure/survival game set in a post-apocalyptic world overrun by zombies. Collect weapon, bullet, and fuel props. Travel throuhg open-world environment with different biomes.',
-                )}
-              </p>
+              <p className="mt-2 p-4 bg-primary text-black text-base md:text-xl">{t('games.zombie.desc')}</p>
             </div>
             <h2 className="text-primary md:text-2xl text-xl font-bold">{t('Game Overview')} :</h2>
             <p className="text-base md:text-xl" style={{ marginTop: 5 }}>
@@ -94,9 +90,9 @@ const CurseOfThe = () => {
             </div>
           </div>
           <div className="w-full flex items-center md:flex-col md:gap-10 gap-4 justify-center md:justify-start">
-            {[...new Array(3)].map((_, i) => (
+            {[...new Array(4)].map((_, i) => (
               <img
-                src={`/games/zombie/${i + 1}.webp`}
+                src={`/games/zombie/right_post0${i + 1}.jpg`}
                 alt={`Image${i + 1}`}
                 className={cn('w-1/2 md:w-auto', {
                   'md:block hidden': i === 0,
