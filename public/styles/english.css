@@ -6,7 +6,7 @@
   font-weight: normal;
 }
 .news {
-  margin-bottom: 18px !important;
+  margin-bottom: 18px;
 }
 .section-subtitle {
   font-size: 24px !important;
@@ -35,4 +35,13 @@
 }
 .mt-72 {
   margin-top: 72px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mt-26 {
+  margin-top: 26px;
+}
+.mt-90 {
+  margin-top: 90px;
 }
