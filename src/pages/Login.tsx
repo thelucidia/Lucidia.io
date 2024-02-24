@@ -37,7 +37,7 @@ const Login = () => {
       return;
     }
     if (connected) {
-      window.location.href = '/after-login/home.html';
+      window.location.href = '/en/after-login/home.html';
     }
   }, [connected]);
   return (
