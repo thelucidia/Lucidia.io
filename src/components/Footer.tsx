@@ -81,7 +81,7 @@ const Footer = () => {
       <div className="max-w-[90%] mx-auto w-full text-secondary flex px-5 lg:pr-12 gap-x-24 lg:flex-row flex-col ">
         <div className="mt-7 sm:mt-0">
           <img src="/hero/logo.webp" alt="Logo" className="sm:w-auto w-28" />
-          <p className="font-primary font-regular max-w-[29rem] mt-3 sm:mt-7 text-[12px] md:text-[12px]">
+          <p className="font-primary font-regular max-w-[29rem] leading-4 mt-3 sm:mt-7 text-[12px] md:text-[12px]">
             {t('jurisdiction')}
           </p>
           <div className="text-footergry flex items-center gap-x-7 sm:gap-x-16 mt-16">
