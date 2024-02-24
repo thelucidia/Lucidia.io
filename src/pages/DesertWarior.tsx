@@ -77,7 +77,7 @@ const DesertWarior = () => {
       </div>
 
       <div className="w-full h-auto px-8 lg:py-10 md:py-[100px] py-[70px] bg-cover bg-center bg-no-repeat bg-[url('/games/desertwarior/DesertWariorsendlesstext.png')] mt-[-30px] relative z-200">
-        <div className="max-w-[1100px] w-full mx-auto text-secondary font-primary">
+        <div className="max-w-[80%] w-full mx-auto text-secondary font-primary">
           <motion.div
             initial={{ x: -300 }}
             whileInView={{ x: 0 }}
@@ -93,7 +93,7 @@ const DesertWarior = () => {
       </div>
 
       <div className="w-full h-auto px-8 lg:pt-10 bg-cover bg-top bg-center bg-no-repeat bg-[url('/games/desertwarior/deserGameOverview.png')] mt-[-50px]">
-        <div className="max-w-[1100px] w-full mx-auto text-secondary font-primary py-[110px]">
+        <div className="max-w-[80%] w-full mx-auto text-secondary font-primary py-[110px]">
           <motion.div
             initial={{ x: 300 }}
             whileInView={{ x: 0 }}
@@ -107,11 +107,11 @@ const DesertWarior = () => {
       </div>
 
       <div className="w-full h-auto px-8 lg:pt-10">
-        <div className="max-w-[1100px] w-full mx-auto text-secondary font-primary py-[90px] relative overflow-hidden">
+        <div className="max-w-[80%] w-full mx-auto text-secondary font-primary py-[90px] px-16 relative overflow-hidden">
           <div className="swiper-container Game_Featues">
             <div className="swiper-wrapper">
               <div className="swiper-slide">
-                <div className="w-full mx-auto text-secondary font-primary justify-between md:flex gap-10 md:flex-row">
+                <div className="w-full mx-auto text-left text-secondary font-primary justify-between md:flex gap-10 md:flex-row">
                   <motion.div className="w-full lg:space-y-7 space-y-2 flex justify-center flex-col max-w-md">
                     <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold">
                       {t('games.desertWarior.title')} :
@@ -123,8 +123,8 @@ const DesertWarior = () => {
                           returnObjects: true,
                         }) as string[]
                       ).map((items, i) => (
-                        <ul className="list-disc pl-3" key={i}>
-                          <li>{items}</li>
+                        <ul className="pl-3" key={i}>
+                          <li className="list-disc">{items}</li>
                         </ul>
                       ))}
                     </div>
@@ -136,7 +136,7 @@ const DesertWarior = () => {
               </div>
 
               {/* tow */}
-              <div className="swiper-slide">
+              {/* <div className="swiper-slide">
                 <div className="w-full mx-auto text-secondary font-primary justify-between md:flex gap-10 md:flex-row">
                   <motion.div className="w-full lg:space-y-7 space-y-2 flex justify-center flex-col max-w-md">
                     <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold">
@@ -149,7 +149,7 @@ const DesertWarior = () => {
                           returnObjects: true,
                         }) as string[]
                       ).map((items, i) => (
-                        <ul className="list-disc pl-3" key={i}>
+                        <ul className="pl-3" key={i}>
                           <li>{items}</li>
                         </ul>
                       ))}
@@ -159,10 +159,10 @@ const DesertWarior = () => {
                     <img src={'/games/canyondrift/ExperienceCar.png'} className="object-cover" />
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* three */}
-              <div className="swiper-slide">
+              {/* <div className="swiper-slide">
                 <div className="w-full mx-auto text-secondary font-primary justify-between md:flex gap-10 md:flex-row">
                   <motion.div className="w-full lg:space-y-7 space-y-2 flex justify-center flex-col max-w-md">
                     <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold">
@@ -185,7 +185,7 @@ const DesertWarior = () => {
                     <img src={'/games/canyondrift/ExperienceCar.png'} className="object-cover" />
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="swiper-pagination desertSwiperDot"></div>
           </div>

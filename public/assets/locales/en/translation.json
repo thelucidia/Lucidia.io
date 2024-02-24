@@ -200,7 +200,7 @@
     },
     "canyon": {
       "title": "Experience Sandstorm Racer",
-      "desc": "Canyon Drift is a race game that bring players to race on looped track with canyon-style environtment. You can choose one car in the showroom as your car and race with other players.",
+      "desc": "Feel the thrill of Sandstorm Racer, where high-octane racing meets the challenge of navigating through treacherous sandstorms. Drawing inspiration from titles like Forza Horizon, this game offers a perfect blend of realistic racing dynamics and accessible, fun gameplay.",
 
       "details": [
         "Realistic physics engine for authentic vehicle handling",
@@ -477,35 +477,106 @@
     "title": "Road <span style='color: #B28539'>Map</span>",
     "scroll": "Scroll Down",
     "quarter": "Quarter",
-    "road1": [
-      "Release Alpha Limited Access To Games",
-      "Seed Round",
-      "Launch Ecosystem App (Beta)",
-      "Private Beta Testing of Games: Zombie Outbreak, Lucidcraft, NFT Racing, Lucidia FPS",
-      "Listing on CoinMarketCap and CoinGecko",
-      "Presale Using IDO Platforms",
-      "User Education Portal for Web3 Gaming"
-    ],
-    "road2": [
-      "Token TGE",
-      "Implement Staking",
-      "First game with Blockchain integration on mainnet",
-      "First CEX and DEX Listings",
-      "Mobile Closed Beta",
-      "Development of Marketplace for Middle-Eastern Developers and In-Game Assets and Code",
-      "Launch Lucidia's In-Game Purchase System Token Integration",
-      "Start development of Web3 Game Marketing Hub"
-    ],
-    "road3": [
-      "Mainnet Launch, CEX Listing, NFT Tools",
-      "Cross-Platform Login, Funding Platform, Play-to-Earn",
-      "Game Inventory, DAO Tools, Bug Bounty, Tournament API",
-      "Cross-Game Assets, Marketing Hub, DAO Vote",
-      "Incubator Program, Account Sharing, Translation Product",
-      "Expand Offline Events, Top 10 Ranking",
-      "Scale Platforms, Leverage Feedback",
-      "Strategize, Engage Community, Explore Tech"
+    "contents": [
+      {
+        "years": "2024",
+        "item": [
+          {
+            "q": "Q1 - Q2",
+            "road": [
+              "Release Alpha Limited Access To Games",
+              "Seed Round",
+              "Launch Ecosystem App (Beta)",
+              "Private Beta Testing of Games: Zombie Outbreak, Lucidcraft, NFT Racing, Lucidia FPS",
+              "Listing on CoinMarketCap and CoinGecko",
+              "Presale Using IDO Platforms",
+              "User Education Portal for Web3 Gaming"
+            ]
+          },
+          {
+            "q": "Q3 - Q4",
+            "road": [
+              "Next CEX Listing",
+              "Conduct Burn Event",
+              "Launch in mainnet for All Games produced by Lucidia",
+              "Comprehensive NFT Integration Toolkit for Game Developers",
+              "Development of NFT Smart Contract Creation with Templates",
+              "Cross-Platform Compatibility with Unified Lucidia Login",
+              "Develop and launch Community-Driven Funding Platform"
+            ]
+          }
+        ]
+      },
+      {
+        "years": "2025",
+        "item": [
+          {
+            "q": "Q1 - Q2",
+            "road": [
+              "Token TGE",
+              "Implement Staking",
+              "Mobile Closed Beta",
+              "First CEX and DEX Listings",
+              "First game with Blockchain integration on mainet",
+              "Development of Marketplace for Middle-Eastern Developers and In-Game Assets and Code",
+              "Launch Lucidia's In-Game Purchase System Token Integration",
+              "Start development of Web3 Game Marketing Hub"
+            ]
+          },
+          {
+            "q": "Q3 - Q4",
+            "road": [
+              "Built-in Game Inventory System for Seamless Game Integration",
+              "Share DAO Tools for Enhanced User Participation in Game Decisions",
+              "Lucidia Bug Bounty Reward System",
+              "Tournament API with ELO and Bracket System and Smart Contract Automation",
+              "Launch Cross-Game Asset Integration for an Interconnected Lucidia Gaming Universe",
+              "Finalize and launch Web3 Game Marketing HubFirst DAO voting for Lucidia Ecosystem"
+            ]
+          }
+        ]
+      },
+      {
+        "years": "2026",
+        "item": [
+          {
+            "q": "Q1 - Q2",
+            "road": [
+              "Scale and enhance existing platforms and services based on user feedback and market trends",
+              "Review and strategize for next-phase developments",
+              "Continue community engagement and marketing efforts",
+              "Explore new technologies and integrations for future growth"
+            ]
+          },
+          {
+            "q": "Q3 - Q4",
+            "road": [
+              "Game Incubator and Accelerator Program",
+              "Marketplace for User Account Sharing - Scholarship Program",
+              "Comprehensive Translation Product: English to Arabic Localization",
+              "Expand Offline Events Organizer in the Middle East for Community Engagement",
+              "Quarterly Top 10 Games Ranking for the Middle East Region"
+            ]
+          }
+        ]
+      }
     ]
+  },
+  "curse_game": {
+    "unleash": "unleash the myths",
+    "overview": "game overview",
+    "overview_title": "<span class='color: #B28539; font-weight: 700;'>title:</span> curse of the pharaoh",
+    "overview_genre": "<span class='color: #B28539; font-weight: 700;'>Genre:</span> Hybrid FPS with Co-op PvP, and PvE Elements",
+    "overview_setting": "<span class='color: #B28539; font-weight: 700;'>Setting:</span> A post-apocalyptic Dubai, where ancient Middle Eastern mythshave taken root in the modern world.<br>Embark on a quest through a cityscape that marries the iconic skyline ofDubai with the haunting beauty of mythological chaos, where every corner turnedis a step deeper into a narrative that spans ages.",
+    "unique_selling_points": "unique selling points",
+    "dubai_reimagined": "<span class='font-weight: 700; color: #B28539;'>Dubai Reimagined:</span> Traverse the sands of time in a Dubai overtaken by mythological forces, where every landmark tells a story of ancient power and modern resilience.",
+    "mythological": "<span class='font-weight: 700; color: #B28539;'>Mythological Warfare:</span> Engage in combat against legendary beasts and deities from Middle Eastern lore, utilizing a mix of futuristic firepower and ancient magic.",
+    "narrative": "<span class='font-weight: 700; color: #B28539;'>Narrative Depth:</span> Delve into a story that weaves the rich cultural tapestry of the Middle East with thrilling mythological tales, setting the stage for an epic saga of heroism and betrayal.",
+    "web3_integration": "<span class='font-weight: 700; color: #B28539;'>Web3 Integration:</span> Step into the future of gaming with Web3 technologies, where your achievements and treasures become NFTs, adding a layer of strategy and value to every action.",
+    "gameplay_mechanics": "<span class='font-weight: 700; color: #B28539;'>gameplay mechanics</span>",
+    "mechanics_desc": "'Curse Of The Pharaoh' offers a rich blend of FPS action, strategy,and cooperative gameplay, set against the backdrop of an open-world Dubai afflicted by ancient curses.",
+    "advanced_movement": "<span class='color: #B28539; font-weight: 700;'>Advanced Movement:</span> Master the art of urban navigation with parkour mechanics, allowing for fluid movement across Dubai's transformed skyline.",
+    "strategic_combat": "<span class='color: #B28539; font-weight: 700;>Advanced Movement:</span> Master the art of urban navigation with parkour mechanics, allowing for fluid movement across Dubai's transformed skyline."
   },
   "privacy_page": {
     "title": "Privacy Policy and Terms",
@@ -856,18 +927,6 @@
       "desc": ["Product Manager (7 yrs)", "Blockchain industry (6 yrs)", "Gamer (15  yrs)"]
     },
     {
-      "name": "Marius Dommersnes",
-      "position": "CHIEF MARKETING OFFICER",
-      "link": "https://www.linkedin.com/in/marius-dommersnes-455a30177/",
-      "desc": ["Blockchain industry (3 yrs)", "Presales & IDO (2 yrs)", "Web3 marketing (2 yrs)"]
-    },
-    {
-      "name": "Victoria Iskiyaeva",
-      "position": "CHIEF MARKETING OFFICER",
-      "link": "https://www.linkedin.com/in/victoria-iskiyaeva-851359213/",
-      "desc": ["Web3 Marketing (3 yrs)", "Social Media Management (4 yrs)", "Digital Marketing (4 yrs)"]
-    },
-    {
       "name": "Rula Madi",
       "position": "HEAD OF LEGAL",
       "link": "https://www.linkedin.com/in/rolamadi/",
@@ -878,12 +937,6 @@
       "position": "ASIA & CIS COMMUNITY MANAGER",
       "link": "https://www.linkedin.com/in/al-rizqi/",
       "desc": ["Community Manager (2 yrs)", "Project Management (3 yrs)", "Marketing (5 yrs)"]
-    },
-    {
-      "name": "Sander Kloet",
-      "position": "EMEA & NA COMMUNITY MANAGER",
-      "link": "https://www.linkedin.com/in/sander-kloet-278b68278/",
-      "desc": ["Community Manager (4 yrs)", "Social Media Manager (4 yrs)", "Digital Marketing (3 yrs)"]
     }
   ],
   "profile": "See Profile",
