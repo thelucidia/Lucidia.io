@@ -1,3 +1,35 @@
 .navbar .navbar-nav .nav-item .nav-link.locale .arabic {
   display: none;
 }
+.s-20 {
+  font-size: 20px;
+  font-weight: normal;
+}
+.news {
+  margin-bottom: 18px !important;
+}
+.section-subtitle {
+  font-size: 24px !important;
+  font-weight: bold;
+  margin-bottom: 0px !important;
+  margin-top: 22px;
+}
+.game-sections {
+  color: #f0f0f0;
+}
+.color-yellow {
+  color: #b28539;
+}
+.color-white {
+  color: #f0f0f0;
+}
+.pl-0 {
+  padding-left: 0px;
+}
+.game-sections p {
+  margin-bottom: 0px;
+  line-height: 1.2;
+}
+.game-description .description {
+  margin-bottom: 17px;
+}
