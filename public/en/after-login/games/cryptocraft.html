@@ -13,9 +13,38 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" />
     <link rel="stylesheet" href="../../../styles/global.css" />
     <link rel="stylesheet" href="../../../styles/english.css" />
+    <link rel="stylesheet" href="../../../styles/bg-image-animation.css" />
   </head>
-  <!-- crypto_bg2,crypto_bg3 -->
-  <body class="crypto_bg1">
+  <body class="web-app">
+    <div class="bg-image-animation" data-toggle="bg-image-animation">
+      <div
+        class="item active"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../../images/backgrounds/crypto_bg01.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../../images/backgrounds/crypto_bg02.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../../images/backgrounds/crypto_bg03.jpg) no-repeat center center;
+        "
+      ></div>
+    </div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="../home.html"><img src="../../../images/logo.svg" alt="logo" /></a>
@@ -101,276 +130,264 @@
         </button>
       </div>
     </nav>
-    <div class="container">
-      <div class="crypto-advert">
-        <img src="../../../images/adverts/cryptocraft.svg" class="crypto-title" alt="advert" />
-        <div class="player-status">
-          <span
-            ><img class="server" src="../../../images/icons/server.svg" alt="server" /> 1 Server | 1 Available
-            &nbsp;&nbsp;<img src="../../../images/icons/peoples.svg" alt="people" /> 0 Player</span
-          >
-        </div>
-        <div class="go-play">
-          <a class="default-button" href="#">Play game</a>
-          <div class="detail-box">
-            <span class="description">Sandbox, Open-World, Survival</span>
+    <div class="content">
+      <div class="container">
+        <div class="crypto-advert">
+          <img src="../../../images/adverts/cryptocraft.svg" class="crypto-title" alt="advert" />
+          <div class="player-status">
+            <span
+              ><img class="server" src="../../../images/icons/server.svg" alt="server" /> 1 Server | 1 Available
+              &nbsp;&nbsp;<img src="../../../images/icons/peoples.svg" alt="people" /> 0 Player</span
+            >
+          </div>
+          <div class="go-play">
+            <a class="default-button" href="#">Play game</a>
+            <div class="detail-box">
+              <span class="description">Sandbox, Open-World, Survival</span>
+            </div>
+          </div>
+          <div class="game-menu row">
+            <div class="col-sm-2">
+              <a class="item" href="#">
+                <div class="image">
+                  <img class="img-fluid" src="../../../images/latest_news/cryptocraft/01.jpg" alt="featured-games" />
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-2">
+              <a class="item" href="#">
+                <div class="image">
+                  <img class="img-fluid" src="../../../images/latest_news/cryptocraft/02.jpg" alt="featured-games" />
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-2">
+              <a class="item" href="#">
+                <div class="image">
+                  <img class="img-fluid" src="../../../images/latest_news/cryptocraft/03.jpg" alt="featured-games" />
+                </div>
+              </a>
+            </div>
           </div>
         </div>
-        <div class="game-menu row">
-          <div class="col-sm-1">
-            <a class="item" href="./cryptocraft.html">
-              <div class="image">
-                <img class="img-fluid" src="../../../images/latest_news/cryptocraft/01.jpg" alt="featured-games" />
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-1">
-            <a class="item" href="./cryptocraft.html">
-              <div class="image">
-                <img class="img-fluid" src="../../../images/latest_news/cryptocraft/02.jpg" alt="featured-games" />
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-1">
-            <a class="item" href="./cryptocraft.html">
-              <div class="image">
-                <img class="img-fluid" src="../../../images/latest_news/cryptocraft/03.jpg" alt="featured-games" />
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="game-sections">
-        <div class="row">
-          <div class="col-md-9 s-20">
+        <div class="game-sections row">
+          <div class="description-sections col-md-9">
             <h2>Unleash Your Creativity</h2>
-            <p>
-              Welcome to "Cryptocraft," aboundless universe where your imagination is the only limit. Dive into
-              anopen-world sandbox experience that combines the joy of building and survivalwith the innovative features
-              of Web3 and NFTs. In Lucidcraft, every creation,every exploration, and every interaction enriches your
-              journey and the worldaround you.
-            </p>
-            <div class="overview">
-              <h4 class="section-subtitle">Game Overview</h4>
-              <p>
-                <span class="color-yellow">Title:</span>
-                Cryptocraft
+            <div class="sub-section">
+              <p class="description">
+                Welcome to "Cryptocraft," aboundless universe where your imagination is the only limit. Dive into
+                anopen-world sandbox experience that combines the joy of building and survivalwith the innovative
+                features of Web3 and NFTs. In Lucidcraft, every creation,every exploration, and every interaction
+                enriches your journey and the worldaround you.
               </p>
-              <p>
-                <span class="color-yellow">Genre:</span>
-                Sandbox, Open-World, Survival
+            </div>
+            <div class="sub-section">
+              <h3>Game Overview</h3>
+              <p class="property"><sapn class="label">Title:</sapn> Cryptocraft</p>
+              <p class="property"><sapn class="label">Genre:</sapn>Sandbox, Open-World, Survival</p>
+              <p class="property">
+                <sapn class="label">Target Audience:</sapn>Creative builders, explorers, Web3 enthusiasts,
+                andcommunity-driven players
               </p>
-
-              <p>
-                <span class="color-yellow">Target Audience:</span>
-                Creative builders, explorers, Web3 enthusiasts, andcommunity-driven players
-                <br /><br />
+            </div>
+            <div class="sub-section">
+              <p class="description">
                 Embark on an adventure inever-expanding worlds, craft your destiny, and become part of a
                 vibrantcommunity where collaboration and creativity reign supreme.
               </p>
-              <h4 class="section-subtitle">Highlighting Points</h4>
-              <ul class="selling-points">
-                <li class="color-yellow">
-                  <span>Dynamic, User-Generated Worlds: </span>
-                  <span class="color-white">
-                    Step into infinite realms shaped by players. Your creations contribute to the ever-evolving tapestry
-                    of Lucidcraft's universe.
-                  </span>
+            </div>
+            <div class="sub-section">
+              <h3>Highlighting Points</h3>
+              <ul>
+                <li class="highlighted">
+                  <sapn class="label">Dynamic, User-Generated Worlds: </sapn>Step into infinite realms shaped by
+                  players. Your creations contribute to the ever-evolving tapestry of Lucidcraft's universe.
                 </li>
-                <li class="color-yellow">
-                  <span>Web3 Integration:</span>
-                  <span class="color-white">
-                    Experience true ownership with blockchain-powered in-game assets. Trade, own, and monetize your
-                    creations and real estate as NFTs, adding a layer of investment to your gameplay.
-                  </span>
+                <li class="highlighted">
+                  <sapn class="label">Web3 Integration:</sapn>Experience true ownership with blockchain-powered in-game
+                  assets. Trade, own, and monetize your creations and real estate as NFTs, adding a layer of investment
+                  to your gameplay.
                 </li>
-                <li class="color-yellow">
-                  <span>Evolving Ecosystems:</span>
-                  <span class="color-white">
-                    Interact with living environments where your actions influence the world. From altering landscapes
-                    to affecting local wildlife, your impact is tangible.
-                  </span>
+                <li class="highlighted">
+                  <sapn class="label">Evolving Ecosystems:</sapn>Interact with living environments where your actions
+                  influence the world. From altering landscapes to affecting local wildlife, your impact is tangible.
                 </li>
-                <li class="color-yellow">
-                  <span>Customizable Gameplay:</span>
-                  <span class="color-white">
-                    Tailor your Lucidcraft experience with extensive modding tools and in-game programming, creating
-                    unique game modes and personalizing your adventures.
-                  </span>
+                <li class="highlighted">
+                  <sapn class="label">Customizable Gameplay:</sapn>Tailor your Lucidcraft experience with extensive
+                  modding tools and in-game programming, creating unique game modes and personalizing your adventures.
                 </li>
-                <li class="color-yellow">
-                  <span>Community Governance:</span>
-                  <span class="color-white">
-                    Have a say in thedevelopment and future of Lucidcraft through a decentralized autonomousorganization
-                    (DAO), empowering the community to steer the game's evolution.
-                  </span>
+                <li class="highlighted">
+                  <sapn class="label">Community Governance:</sapn>Have a say in thedevelopment and future of Lucidcraft
+                  through a decentralized autonomousorganization (DAO), empowering the community to steer the game's
+                  evolution.
                 </li>
               </ul>
             </div>
-            <div class="mechanics">
-              <h4 class="section-subtitle">Gameplay Mechanics</h4>
-              <p>
+            <div class="sub-section">
+              <h3>Gameplay Mechanics</h3>
+              <p class="description">
                 Lucidcraft is an amalgamation of creativity, survival, and exploration, setin a richly diverse and
                 responsive world.
               </p>
-              <ul class="selling-points">
-                <li class="color-yellow">
-                  <span>Building and Crafting: </span>
-                  <span class="color-white">
-                    From humble shelters to grandiose constructions, Lucidcraft's intuitive crafting system invites
-                    endless innovation.
-                  </span>
+              <ul>
+                <li class="highlighted">
+                  <sapn class="label">Building and Crafting:</sapn> From humble shelters to grandiose constructions,
+                  Lucidcraft's intuitive crafting system invites endless innovation.
                 </li>
-                <li class="color-yellow">
-                  <span>Exploration:</span>
-                  <span class="color-white">
-                    Traverse sprawling biomes, each brimming with unique resources and mysteries. Discover, adapt, and
-                    survive in a world that's as vast as your imagination.
-                  </span>
+                <li class="highlighted">
+                  <sapn class="label">Exploration:</sapn>Traverse sprawling biomes, each brimming with unique resources
+                  and mysteries. Discover, adapt, and survive in a world that's as vast as your imagination.
                 </li>
-                <li class="color-yellow">
-                  <span>Survival Elements: </span>
-                  <span class="color-white">
-                    Challenge yourself against the elements, manage resources, and fend off hostile creatures to carve
-                    out your place in Lucidcraft.
-                  </span>
+                <li class="highlighted">
+                  <sapn class="label">Survival Elements:</sapn> Challenge yourself against the elements, manage
+                  resources, and fend off hostile creatures to carve out your place in Lucidcraft.
                 </li>
-                <li class="color-yellow">
-                  <span>Economy and Trading:</span>
-                  <span class="color-white">
-                    Engage in a dynamic,player-driven economy, trading crafted items, resources, and land,
-                    withblockchain ensuring secure and transparent transactions.
-                  </span>
+                <li class="highlighted">
+                  <sapn class="label">Economy and Trading:</sapn> Engage in a dynamic,player-driven economy, trading
+                  crafted items, resources, and land, withblockchain ensuring secure and transparent transactions.
                 </li>
               </ul>
             </div>
-            <div class="story">
-              <h4 class="section-subtitle">Story and Narrative</h4>
-              <p>
+            <div class="sub-section">
+              <h3>Story and Narrative</h3>
+              <p class="description">
                 Lucidcraft's narrative is a canvas painted by its players. Embark on ajourney through a world imbued
                 with lore, uncover ancient secrets, and forgeyour own stories.
               </p>
             </div>
-            <div class="mechanics">
-              <h4 class="section-subtitle">World and Environment</h4>
-              <p>
+            <div class="sub-section">
+              <h3>World and Environment</h3>
+              <p class="description">
                 The heart of Lucidcraft is its procedurally generated landscapes,offering a unique blend of biomes and
                 ecosystems that react to your every move,ensuring no two adventures are the same.
               </p>
             </div>
-            <div class="characters">
-              <h4 class="section-subtitle">Characters and Progression</h4>
+            <div class="sub-section">
+              <h3>Characters and Progression</h3>
               <ul>
-                <li class="color-yellow">
-                  <span>Player Avatars:</span>
-                  <span class="color-white">
-                    Express your individuality with customizable avatars. Stand out with rare NFT items that showcase
-                    your achievements and style.
-                  </span>
+                <li class="highlighted">
+                  <sapn class="label">Player Avatar:</sapn>Express your individuality with customizable avatars. Stand
+                  out with rare NFT items that showcase your achievements and style.
                 </li>
-                <li class="color-yellow">
-                  <span>NPCs and Wildlife:</span>
-                  <span class="color-white">
-                    The world of Lucidcraftteems with life. Interact with friendly NPCs and encounter diverse
-                    wildlifethat adds depth to the game's vibrant ecosystems.
-                  </span>
+                <li class="highlighted">
+                  <sapn class="label">NPCs and Wildlife:</sapn> The world of Lucidcraftteems with life. Interact with
+                  friendly NPCs and encounter diverse wildlifethat adds depth to the game's vibrant ecosystems.
                 </li>
               </ul>
             </div>
-            <div class="level-design">
-              <h4 class="section-subtitle">Level Design</h4>
-              <p>
+            <div class="sub-section">
+              <h3>Level Design</h3>
+              <p class="description">
                 Lucidcraft's worlds are amasterpiece of procedural generation, offering limitless
                 explorationopportunities. Each biome is a new frontier, rich in resources and challenges.
               </p>
             </div>
-            <div class="technical-framework">
-              <h4 class="section-subtitle">Techinical Framework</h4>
-              <p>
+            <div class="sub-section">
+              <h3>Technical Framework</h3>
+              <p class="description">
                 Powered by Unreal Engine 5, "Pharaoh's Plague" brings themyth-infused world of Dubai to life with
                 stunning visuals, complex AIbehaviors, and seamless multiplayer experiences, all underpinned by
                 Ethereumblockchain technology for a new era of digital ownership and in-game economies.
               </p>
             </div>
-            <div class="art-direction">
-              <h4 class="section-subtitle">Art Direction</h4>
-              <p>
+            <div class="sub-section">
+              <h3>Art Direction</h3>
+              <p class="description">
                 Lucidcraft's voxel-basedart style is a tribute to classic sandbox games, enhanced with vibrant colorsand
                 intricate details that bring its dynamic world to life.
               </p>
             </div>
-            <div class="sound-design">
-              <h4 class="section-subtitle">Sound Design</h4>
-              <p>
+            <div class="sub-section">
+              <h3>Sound Design</h3>
+              <p class="description">
                 Immerse yourself in Lucidcraft's dynamic soundscape, where the music andambient sounds evolve with your
                 journey, enhancing every moment of youradventure.
               </p>
             </div>
-            <div class="technical-spesification">
-              <h4 class="section-subtitle">Technical Spesification</h4>
-              <p>
+            <div class="sub-section">
+              <h3>Technical Spesification</h3>
+              <p class="description">
                 Immerse yourself in Lucidcraft's dynamic soundscape, where the music andambient sounds evolve with your
                 journey, enhancing every moment of youradventure.Built with a custom engine optimized for voxel
                 rendering and Web3integration, Lucidcraft offers a seamless blend of expansive gameplay andblockchain
                 functionality.
               </p>
             </div>
-            <div class="accessibility">
-              <h4 class="section-subtitle">Accessibility</h4>
-              <p>
+            <div class="sub-section">
+              <h3>Accessibility</h3>
+              <p class="description">
                 Lucidcraft is a universe for everyone. Enjoy a wide range ofaccessibility features ensuring that all
                 adventurers, regardless of their playstyle or abilities, can fully engage in the world of Lucidcraft.PC
                 and mobile grey out
               </p>
             </div>
-            <div class="join-world">
-              <h4 class="section-subtitle">Join The World of Lucidcraft</h4>
-              <p>
+            <div class="sub-section">
+              <h3>Join The World of Lucidcraft</h3>
+              <p class="description">
                 Are you ready to shape a world limited only by your imagination? InLucidcraft, every block placed, every
                 journey taken, and every creation craftedcontributes to the legacy of this ever-evolving universe.
-                <br /><br />
-                Start Your Adventure in Cryptocraft
               </p>
             </div>
+            <p>Start Your Adventure in Cryptocraft</p>
           </div>
-          <div class="col-md-3">
-            <h2 class="news">Latest News</h2>
-            <a class="live-game-item" href="./cryptocraft.html">
-              <div class="image">
-                <img class="img-fluid" src="../../../images/latest_news/cryptocraft/01.jpg" alt="featured-games" />
-              </div>
-              <div class="game-description">
-                <span class="title">Cliff Biome</span>
-                <p class="description">Explore the Cliff Biome, but be careful! It is really steep</p>
-              </div>
-            </a>
-            <a class="live-game-item" href="./cryptocraft.html">
-              <div class="image">
-                <img class="img-fluid" src="../../../images/latest_news/cryptocraft/02.jpg" alt="featured-games" />
-              </div>
-              <div class="game-description">
-                <span class="title">Lightning Strike! Strike Again</span>
-                <p class="description">There are a lot of lightning strikes during the thunderstorm. You might ge</p>
-              </div>
-            </a>
-            <a class="live-game-item" href="./cryptocraft.html">
-              <div class="image">
-                <img class="img-fluid" src="../../../images/latest_news/cryptocraft/03.jpg" alt="featured-games" />
-              </div>
-              <div class="game-description">
-                <span class="title">The Power Of Shovel</span>
-                <p class="description">Shovel Can Be a Useful tool when it comes to digging.</p>
-              </div>
-            </a>
-            <a class="live-game-item" href="./cryptocraft.html">
-              <div class="image">
-                <img class="img-fluid" src="../../../images/latest_news/cryptocraft/01.jpg" alt="featured-games" />
-              </div>
-              <div class="game-description">
-                <span class="title">Cliff Biome</span>
-                <p class="description">Explore the Cliff Biome, but be careful! It is really steep</p>
-              </div>
-            </a>
+          <div class="game-latest-news-section col-md-3">
+            <h2>Latest News</h2>
+            <div class="game-lates-news">
+              <a class="live-game-item" href="./cryptocraft.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../../images/latest_news/cryptocraft/02.jpg" alt="featured-games" />
+                </div>
+                <div class="game-description">
+                  <span class="title">Dynamic Weather System</span>
+                  <p class="description">
+                    Experience the immersive addition of rain, storms, and sunshine in Lucidcraft's worlds. Watch as
+                    trees sway in the wind, adding a new layer of realism to your adventures.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="game-lates-news">
+              <a class="live-game-item" href="./cryptocraft.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../../images/latest_news/cryptocraft/04.jpg" alt="featured-games" />
+                </div>
+                <div class="game-description">
+                  <span class="title">Performance Enhancements</span>
+                  <p class="description">
+                    Enjoy smoother gameplay with improved block generation performance. Buildingand exploring in
+                    Lucidcraft's vast landscapes is now more seamless than ever.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="game-lates-news">
+              <a class="live-game-item" href="./cryptocraft.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../../images/latest_news/cryptocraft/03.jpg" alt="featured-games" />
+                </div>
+                <div class="game-description">
+                  <span class="title">New Tool - Advanced Axe</span>
+                  <p class="description">
+                    Introducing a new type of axe that allows for faster tree cutting. Gather resources more efficiently
+                    and expand your building possibilities.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="game-lates-news">
+              <a class="live-game-item" href="./cryptocraft.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../../images/latest_news/cryptocraft/05.jpg" alt="featured-games" />
+                </div>
+                <div class="game-description">
+                  <span class="title">HD Texture Update</span>
+                  <p class="description">
+                    We've fixed an issue where some HD textures were missing. With this update, Lucidcraft's worlds will
+                    look more stunning with enhanced visual fidelity.
+                  </p>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -394,5 +411,6 @@
     </div>
     <script src="../../../plugins/jquery.min.js"></script>
     <script src="../../../plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="../../../scripts/bg-image-animation.js"></script>
   </body>
 </html>

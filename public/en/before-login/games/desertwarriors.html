@@ -13,9 +13,38 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" />
     <link rel="stylesheet" href="../../../styles/global.css" />
     <link rel="stylesheet" href="../../../styles/english.css" />
+<link rel="stylesheet" href="../../../styles/bg-image-animation.css" />
   </head>
-  <!-- desert_bg2,desert_bg3 -->
-  <body class="desert_bg1">
+  <body class="web-app">
+    <div class="bg-image-animation" data-toggle="bg-image-animation">
+      <div
+        class="item active"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../../images/backgrounds/desert_bg01.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../../images/backgrounds/desert_bg02.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../../images/backgrounds/desert_bg03.jpg) no-repeat center center;
+        "
+      ></div>
+    </div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="../home.html"><img src="../../../images/logo.svg" alt="logo" /></a>
@@ -91,6 +120,7 @@
         </button>
       </div>
     </nav>
+	<div class="content">
     <div class="container">
       <div class="curse-advert">
         <img src="../../../images/adverts/desert.svg" class="curse-title" alt="advert" />
@@ -324,5 +354,6 @@
     </ul>
     <script src="../../../plugins/jquery.min.js"></script>
     <script src="../../../plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="../../../scripts/bg-image-animation.js"></script>
   </body>
 </html>
