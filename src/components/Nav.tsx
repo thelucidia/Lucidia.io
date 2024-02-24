@@ -151,24 +151,24 @@ const Nav = () => {
       type: 'external',
       link: 'https://share.arcware.cloud/33034e19-bac7-4d3b-910b-e2c45c2eccd8',
     },
-    {
-      name: t('nav.audit'),
-      slug: 'audit',
-      sub: [
-        {
-          title: 'interfi',
-          link: 'https://github.com/interfinetwork/project-delivery-data/blob/main/Lucidia/Lucidia_AuditReport_InterFi.pdf',
-        },
-        {
-          title: 'revoluzion eth',
-          link: 'https://revoluzion.app/audits/presaleeth',
-        },
-        {
-          title: 'revoluzion bsc',
-          link: 'https://revoluzion.app/audits/presalebsc',
-        },
-      ],
-    },
+    // {
+    //   name: t('nav.audit'),
+    //   slug: 'audit',
+    //   sub: [
+    //     {
+    //       title: 'interfi',
+    //       link: 'https://github.com/interfinetwork/project-delivery-data/blob/main/Lucidia/Lucidia_AuditReport_InterFi.pdf',
+    //     },
+    //     {
+    //       title: 'revoluzion eth',
+    //       link: 'https://revoluzion.app/audits/presaleeth',
+    //     },
+    //     {
+    //       title: 'revoluzion bsc',
+    //       link: 'https://revoluzion.app/audits/presalebsc',
+    //     },
+    //   ],
+    // },
     {
       name: t('privacy'),
       slug: 'privacy',
@@ -193,24 +193,24 @@ const Nav = () => {
       type: 'external',
       link: 'https://share.arcware.cloud/33034e19-bac7-4d3b-910b-e2c45c2eccd8',
     },
-    {
-      name: t('nav.audit'),
-      slug: 'audit',
-      sub: [
-        {
-          title: 'interfi',
-          link: 'https://github.com/interfinetwork/project-delivery-data/blob/main/Lucidia/Lucidia_AuditReport_InterFi.pdf',
-        },
-        {
-          title: 'revoluzion eth',
-          link: 'https://revoluzion.app/audits/presaleeth',
-        },
-        {
-          title: 'revoluzion bsc',
-          link: 'https://revoluzion.app/audits/presalebsc',
-        },
-      ],
-    },
+    // {
+    //   name: t('nav.audit'),
+    //   slug: 'audit',
+    //   sub: [
+    //     {
+    //       title: 'interfi',
+    //       link: 'https://github.com/interfinetwork/project-delivery-data/blob/main/Lucidia/Lucidia_AuditReport_InterFi.pdf',
+    //     },
+    //     {
+    //       title: 'revoluzion eth',
+    //       link: 'https://revoluzion.app/audits/presaleeth',
+    //     },
+    //     {
+    //       title: 'revoluzion bsc',
+    //       link: 'https://revoluzion.app/audits/presalebsc',
+    //     },
+    //   ],
+    // },
     {
       name: t('privacy'),
       slug: 'privacy',
