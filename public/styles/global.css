@@ -532,7 +532,7 @@ h2 {
 }
 
 .description-sections .sub-section .label {
-  color: #B28539;
+  color: #b28539;
   font-weight: bold;
 }
 
@@ -541,7 +541,7 @@ h2 {
 }
 
 .description-sections .sub-section li.highlighted::marker {
-  color: #B28539;
+  color: #b28539;
 }
 
 /** --------------------------------------------------------- **\

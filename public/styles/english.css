@@ -10,7 +10,7 @@
 }
 .section-subtitle {
   font-size: 24px !important;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 0px !important;
   margin-top: 22px;
 }
@@ -19,9 +19,13 @@
 }
 .color-yellow {
   color: #b28539;
+  font-weight: 700;
+  word-wrap: break-word;
 }
 .color-white {
   color: #f0f0f0;
+  font-weight: 400;
+  word-wrap: break-word;
 }
 .pl-0 {
   padding-left: 0px;

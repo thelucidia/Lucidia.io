@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="../../../styles/global.css" />
     <link rel="stylesheet" href="../../../styles/english.css" />
   </head>
-  <body class="crypto_bg2">
+  <!-- crypto_bg2,crypto_bg3 -->
+  <body class="crypto_bg1">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="../home.html"><img src="../../../images/logo.svg" alt="logo" /></a>
@@ -54,13 +55,23 @@
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item locale" href="../../../ar/before-login/games/cryptocraft_01.html"
+                  <a class="dropdown-item locale" href="../../../ar/after-login/games/cryptocraft.html"
                     ><img src="../../../images/flags/arb.svg" width="20" height="15" alt="Locale" /> Arb
                   </a>
                 </li>
               </ul>
             </li>
-            <li class="nav-item"><a class="default-button" aria-current="page" href="/login">Log-in</a></li>
+            <li class="nav-item coin">
+              <div class="balance gray-blur"><img src="../../../images/coin.png" alt="coin" /><span>0.00</span></div>
+              <a href="#" class="add gray-blur">+</a>
+            </li>
+            <li class="nav-item user">
+              <img class="avatar" src="../../../images/avatar/user.jpg" alt="avatar" />
+              <div class="info">
+                <span class="name red-bullet d-flex">Sofia Turner</span>
+                <span class="wallet-address">0x3082...5681</span>
+              </div>
+            </li>
           </ul>
         </div>
         <button
@@ -99,24 +110,29 @@
             &nbsp;&nbsp;<img src="../../../images/icons/peoples.svg" alt="people" /> 0 Player</span
           >
         </div>
-        <a class="default-button" href="#">Play game</a>
+        <div class="go-play">
+          <a class="default-button" href="#">Play game</a>
+          <div class="detail-box">
+            <span class="description">Sandbox, Open-World, Survival</span>
+          </div>
+        </div>
         <div class="game-menu row">
-          <div class="col-sm-2">
-            <a class="item" href="./cryptocraft_01.html">
+          <div class="col-sm-1">
+            <a class="item" href="./cryptocraft.html">
               <div class="image">
                 <img class="img-fluid" src="../../../images/latest_news/cryptocraft/01.jpg" alt="featured-games" />
               </div>
             </a>
           </div>
-          <div class="col-sm-2">
-            <a class="item" href="./cryptocraft_02.html">
-              <div class="image active">
+          <div class="col-sm-1">
+            <a class="item" href="./cryptocraft.html">
+              <div class="image">
                 <img class="img-fluid" src="../../../images/latest_news/cryptocraft/02.jpg" alt="featured-games" />
               </div>
             </a>
           </div>
-          <div class="col-sm-2">
-            <a class="item" href="./cryptocraft_03.html">
+          <div class="col-sm-1">
+            <a class="item" href="./cryptocraft.html">
               <div class="image">
                 <img class="img-fluid" src="../../../images/latest_news/cryptocraft/03.jpg" alt="featured-games" />
               </div>
@@ -124,7 +140,7 @@
           </div>
         </div>
       </div>
-      <div class="game-sections mt-72">
+      <div class="game-sections">
         <div class="row">
           <div class="col-md-9 s-20">
             <h2>Unleash Your Creativity</h2>
@@ -303,7 +319,7 @@
               <h4 class="section-subtitle">Accessibility</h4>
               <p>
                 Lucidcraft is a universe for everyone. Enjoy a wide range ofaccessibility features ensuring that all
-                adventurers, regardless of their playstyle or abilities, can fully engage in the world of Lucidcraft. PC
+                adventurers, regardless of their playstyle or abilities, can fully engage in the world of Lucidcraft.PC
                 and mobile grey out
               </p>
             </div>
@@ -319,7 +335,7 @@
           </div>
           <div class="col-md-3">
             <h2 class="news">Latest News</h2>
-            <a class="live-game-item" href="./cryptocraft_01.html">
+            <a class="live-game-item" href="./cryptocraft.html">
               <div class="image">
                 <img class="img-fluid" src="../../../images/latest_news/cryptocraft/01.jpg" alt="featured-games" />
               </div>
@@ -328,7 +344,7 @@
                 <p class="description">Explore the Cliff Biome, but be careful! It is really steep</p>
               </div>
             </a>
-            <a class="live-game-item" href="./cryptocraft_02.html">
+            <a class="live-game-item" href="./cryptocraft.html">
               <div class="image">
                 <img class="img-fluid" src="../../../images/latest_news/cryptocraft/02.jpg" alt="featured-games" />
               </div>
@@ -337,7 +353,7 @@
                 <p class="description">There are a lot of lightning strikes during the thunderstorm. You might ge</p>
               </div>
             </a>
-            <a class="live-game-item" href="./cryptocraft_03.html">
+            <a class="live-game-item" href="./cryptocraft.html">
               <div class="image">
                 <img class="img-fluid" src="../../../images/latest_news/cryptocraft/03.jpg" alt="featured-games" />
               </div>
@@ -346,7 +362,7 @@
                 <p class="description">Shovel Can Be a Useful tool when it comes to digging.</p>
               </div>
             </a>
-            <a class="live-game-item" href="./cryptocraft_01.html">
+            <a class="live-game-item" href="./cryptocraft.html">
               <div class="image">
                 <img class="img-fluid" src="../../../images/latest_news/cryptocraft/01.jpg" alt="featured-games" />
               </div>
@@ -373,6 +389,9 @@
         <a href="#"><img src="../../../images/socials/website.svg" alt="website" /></a>
       </li>
     </ul>
+    <div class="logout">
+      <a href="/logout"><img src="../../../images/icons/logout.svg" alt="logout" /></a>
+    </div>
     <script src="../../../plugins/jquery.min.js"></script>
     <script src="../../../plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
   </body>
