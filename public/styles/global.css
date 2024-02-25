@@ -25,7 +25,6 @@ body {
   padding-bottom: 100px;
 }
 
-body.home,
 body.games,
 body.DevTools {
   background:
@@ -50,7 +49,7 @@ body.educational-portal {
   background-size: 100%;
 }
 
-body.web-app .content {
+body.web-app > .content {
   position: absolute;
   top: 100px;
   right: 0;
@@ -62,7 +61,6 @@ body.web-app .content {
 }
 
 body.dao::before,
-body.home::before,
 body.games::before,
 body.DevTools::before,
 body.educational-portal:before {
@@ -529,11 +527,11 @@ START: logged-in user information section in navigation
 END: logged-in user information section in navigation
 \** --------------------------------------------------------- **/
 
-.logout {
+/* .logout {
   position: fixed;
   bottom: 69px;
-  left: 40px;
-}
+  left: 40px; 
+} */
 
 .go-play {
   display: flex;
