@@ -14,11 +14,44 @@
     <link rel="stylesheet" href="../../styles/global.css" />
     <link rel="stylesheet" href="../../styles/arabic.css" />
     <link rel="stylesheet" href="../../styles/tournaments.css" />
+    <link rel="stylesheet" href="../../styles/bg-image-animation.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   </head>
-  <body class="tournaments">
+  <body class="web-app tournaments">
+    <div class="bg-image-animation blur" data-toggle="bg-image-animation">
+      <div
+        class="item active"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/games.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/sandstorm_01.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/sandstorm_03.jpg) no-repeat center center;
+        "
+      ></div>
+    </div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./home.html"><img src="../../images/logo.svg" alt="logo" /></a>
+        <a class="navbar-brand" href="/"><img src="../../images/logo.svg" alt="logo" /></a>
         <div class="container collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item"><a class="nav-link" href="./home.html">الصفحة الرئيسية</a></li>
@@ -50,7 +83,7 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li>
-                  <a class="dropdown-item locale" href="../../en/before-login/home.html"
+                  <a class="dropdown-item locale" href="../../en/before-login/tournaments.html"
                     ><img src="../../images/flags/us.svg" alt="Locale" /> Eng
                   </a>
                 </li>
@@ -91,186 +124,76 @@
         </button>
       </div>
     </nav>
-    <div class="container">
-      <div class="welcome">
-        <h1>Lucidia أهلا بكم إلى </h1>
-        <p>
-          انغمس في قلب المنافسة مع بطولات لوسيديا. ستجد هنا مجموعة مختارة من
-          المعارك القادمة عبر نظامنا البيئي المتنوع للألعاب. من المواجهات الإستراتيجية إلى الاشتباكات سريعة الوتيرة،
-          هناك بطولة لكل نوع من اللاعبين.
-        </p>
-      </div>
-      <h2>البطولات القادمة</h2>
-      <div class="tournament section">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>بطولات لوسيديا</h3>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/icons/calender.svg" alt="calender" width="16" height="16" />
-                  <p>DD/MM/YY</p>
-                </div>
-                <div class="field">
-                  <img src="../../images/icons/peoples.svg" alt="calender" />
-                  <p>00/00</p>
-                </div>
-              </div>
-              <a href="#"
-                ><img src="../../images/coin.png" alt="coin" width="16" height="16" />
-                <p>10.000 Lucid عملات</p></a
-              >
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>بطولات لوسيديا</h3>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/icons/calender.svg" alt="calender" width="16" height="16" />
-                  <p>DD/MM/YY</p>
-                </div>
-                <div class="field">
-                  <img src="../../images/icons/peoples.svg" alt="calender" />
-                  <p>00/00</p>
-                </div>
-              </div>
-              <a href="#"
-                ><img src="../../images/coin.png" alt="coin" width="16" height="16" />
-                <p>10.000 Lucid عملات</p></a
-              >
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>بطولات لوسيديا</h3>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/icons/calender.svg" alt="calender" width="16" height="16" />
-                  <p>DD/MM/YY</p>
-                </div>
-                <div class="field">
-                  <img src="../../images/icons/peoples.svg" alt="calender" />
-                  <p>00/00</p>
-                </div>
-              </div>
-              <a href="#"
-                ><img src="../../images/coin.png" alt="coin" width="16" height="16" />
-                <p>10.000 Lucid عملات</p></a
-              >
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>بطولات لوسيديا</h3>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/icons/calender.svg" alt="calender" width="16" height="16" />
-                  <p>DD/MM/YY</p>
-                </div>
-                <div class="field">
-                  <img src="../../images/icons/peoples.svg" alt="calender" />
-                  <p>00/00</p>
-                </div>
-              </div>
-              <a href="#"
-                ><img src="../../images/coin.png" alt="coin" width="16" height="16" />
-                <p>10.000 Lucid عملات</p></a
-              >
-            </div>
-          </div>
+    <div class="content">
+      <div class="container">
+        <div class="welcome">
+          <h1>Lucidia أهلا بكم إلى</h1>
+          <p>
+            انغمس في قلب المنافسة مع بطولات لوسيديا. ستجد هنا مجموعة مختارة من المعارك القادمة عبر نظامنا البيئي المتنوع
+            للألعاب. من المواجهات الإستراتيجية إلى الاشتباكات سريعة الوتيرة، هناك بطولة لكل نوع من اللاعبين.
+          </p>
         </div>
-      </div>
-      <h2>البث المباشر</h2>
-      <div class="live-stream section">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>Speed-run Lucidcraft in 1 Hour</h3>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/avatar/user.jpg" alt="calender" width="24" height="24" />
-                  <p>LucidianMaster</p>
-                </div>
-                <div class="status">
-                  <div class="field">
-                    <img src="../../images/tournaments/icon/viewed.svg" alt="calender" width="16" height="16" />
-                    <p>10k</p>
-                  </div>
-                  <div class="field">
-                    <img src="../../images/tournaments/icon/comment.svg" alt="calender" />
-                    <p>100</p>
-                  </div>
-                </div>
+        <h2>البطولات القادمة</h2>
+        <div
+          class="community"
+          style="position: relative; background: url('../../images/tournaments/bg01.png') no-repeat center center"
+        >
+          <div class="row">
+            <div class="CommunityTournaments col-md-4 order-md-1">
+              <span>Community Tournaments</span>
+              <div class="desert-logo">
+                <img src="../../images/tournaments/Line 19.svg" alt="line 19" />
+                <img src="../../images/tournaments/Desert Wariors.svg" alt="desert warior" />
+                <img src="../../images/tournaments/Line 20.svg" alt="line 20" />
+              </div>
+              <span class="date">Start on August 2024</span>
+            </div>
+            <div class="prize-pool col-md-4 order-md-1">
+              <span>Prize Pool</span>
+              <div class="tokens">
+                <img src="../../images/tournaments/1000.svg" alt="token" />
+                <span>Lucid Tokens</span>
+              </div>
+              <div class="heldby">
+                <span>Held By</span>
+                <img src="../../images/tournaments/Vector 2.svg" alt="Vector" />
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>Attacking Enemies base: Battlefury</h3>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/avatar/user.jpg" alt="calender" width="24" height="24" />
-                  <p>LucidianMaster</p>
-                </div>
-                <div class="status">
-                  <div class="field">
-                    <img src="../../images/tournaments/icon/viewed.svg" alt="calender" width="16" height="16" />
-                    <p>10k</p>
-                  </div>
-                  <div class="field">
-                    <img src="../../images/tournaments/icon/comment.svg" alt="calender" />
-                    <p>100</p>
-                  </div>
-                </div>
-              </div>
+            <div class="female col-md-3 order-md-4">
+              <img
+                src="../../images/adverts/female.png"
+                style="position: absolute; bottom: 0; right: 50px"
+                alt="female"
+              />
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>Drift by the Canyon, Almost Get Hit by A Rock</h3>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/avatar/user.jpg" alt="calender" width="24" height="24" />
-                  <p>LucidianMaster</p>
-                </div>
-                <div class="status">
+          <img
+            src="../../images/tournaments/purple-logo.svg"
+            style="position: absolute; left: 0; bottom: 0px"
+            alt="logo"
+          />
+        </div>
+        <h2>Live Stream</h2>
+        <div class="live-stream section">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="item">
+                <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
+                <h3>Attacking Enemies base: Desert Warriors</h3>
+                <div class="details">
                   <div class="field">
-                    <img src="../../images/tournaments/icon/viewed.svg" alt="calender" width="16" height="16" />
-                    <p>10k</p>
+                    <img src="../../images/tournaments/Ellipse 7.svg" alt="ellipse" width="24" height="24" />
+                    <p>Lucidian200</p>
                   </div>
-                  <div class="field">
-                    <img src="../../images/tournaments/icon/comment.svg" alt="calender" />
-                    <p>100</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>Zombies Incoming: Zombie Outbreak</h3>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/avatar/user.jpg" alt="calender" width="24" height="24" />
-                  <p>LucidianMaster</p>
-                </div>
-                <div class="status">
-                  <div class="field">
-                    <img src="../../images/tournaments/icon/viewed.svg" alt="calender" width="16" height="16" />
-                    <p>10k</p>
-                  </div>
-                  <div class="field">
-                    <img src="../../images/tournaments/icon/comment.svg" alt="calender" />
-                    <p>100</p>
+                  <div class="status">
+                    <div class="field">
+                      <img src="../../images/tournaments/icon/viewed.svg" alt="calender" width="16" height="16" />
+                      <p>50</p>
+                    </div>
+                    <div class="field">
+                      <img src="../../images/tournaments/icon/comment.svg" alt="calender" />
+                      <p>27</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -281,19 +204,20 @@
     </div>
     <ul class="social-links">
       <li>
-        <a href="#"><img src="../../images/socials/telegram.svg" alt="telegram" /></a>
+        <a href="https://t.me/Lucidia_io"><img src="../../images/socials/telegram.svg" alt="telegram" /></a>
       </li>
       <li>
-        <a href="#"><img src="../../images/socials/discord.svg" alt="discord" /></a>
+        <a href="https://discord.gg/lucidia"><img src="../../images/socials/discord.svg" alt="discord" /></a>
       </li>
       <li>
-        <a href="#"><img src="../../images/socials/twitter.svg" alt="twitter" /></a>
+        <a href="https://twitter.com/lucidia_io"><img src="../../images/socials/twitter.svg" alt="twitter" /></a>
       </li>
       <li>
-        <a href="#"><img src="../../images/socials/website.svg" alt="website" /></a>
+        <a href="/"><img src="../../images/socials/website.svg" alt="website" /></a>
       </li>
     </ul>
     <script src="../../plugins/jquery.min.js"></script>
     <script src="../../plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="../../scripts/bg-image-animation.js"></script>
   </body>
 </html>
