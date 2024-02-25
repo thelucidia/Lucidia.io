@@ -531,11 +531,11 @@ START: logged-in user information section in navigation
 END: logged-in user information section in navigation
 \** --------------------------------------------------------- **/
 
-/* .logout {
+.logout {
   position: fixed;
   bottom: 69px;
-  left: 40px; 
-} */
+  left: 40px;
+}
 
 .go-play {
   display: flex;
