@@ -170,6 +170,10 @@ body.curse::before {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .default-button,
 .default-button:hover {
   background: transparent url(../images/buttons/default.svg) no-repeat center center;
