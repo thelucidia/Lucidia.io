@@ -32,7 +32,7 @@ const OurProduct = () => {
         content={t('our_product.description')}
       />
       <section className="w-full h-auto pt-10 sm:pt-12 lg:pt-16 lg:pb-16 bg-bg relative flex items-center font-primary text-secondary px-5">
-        <div className="md:w-[80%] w-fit mx-auto flex flex-col">
+        <div className="container w-fit mx-auto flex flex-col">
           <h3 className="font-bold text-3xl sm:text-2xl md:text-3xl">{t('our_product.our-product')}</h3>
           <div className="pt-8 grid md:grid-cols-4 grid-cols-1 gap-x-10 gap-y-8">
             {(
