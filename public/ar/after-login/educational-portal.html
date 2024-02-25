@@ -14,11 +14,44 @@
     <link rel="stylesheet" href="../../styles/global.css" />
     <link rel="stylesheet" href="../../styles/arabic.css" />
     <link rel="stylesheet" href="../../styles/educational-portal.css" />
+    <link rel="stylesheet" href="../../styles/bg-image-animation.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   </head>
-  <body class="educational-portal">
+  <body class="web-app educational-portal">
+    <div class="bg-image-animation blur" data-toggle="bg-image-animation">
+      <div
+        class="item active"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/games.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/sandstorm_01.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/sandstorm_03.jpg) no-repeat center center;
+        "
+      ></div>
+    </div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./home.html"><img src="../../images/logo.svg" alt="logo" /></a>
+        <a class="navbar-brand" href="/"><img src="../../images/logo.svg" alt="logo" /></a>
         <div class="container collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item"><a class="nav-link" href="./home.html">الصفحة الرئيسية</a></li>
@@ -50,7 +83,7 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li>
-                  <a class="dropdown-item locale" href="../../en/before-login/home.html"
+                  <a class="dropdown-item locale" href="../../en/after-login/educational-portal.html"
                     ><img src="../../images/flags/us.svg" alt="Locale" /> Eng
                   </a>
                 </li>
@@ -101,50 +134,50 @@
         </button>
       </div>
     </nav>
-    <div class="container educational-advert">
-      <div class="portal">
-        <div class="welcome">
-          <h1>مرحبًا بك في بوابة تعليم ألعاب Web3</h1>
-          <p>بوابتك إلى عالم ألعاب Web3</p>
-          <a class="joinus" href="#">انضم إلينا</a>
-        </div>
-        <div class="description">
-          <div class="about">
-            <h2>معلومات عنا</h2>
-            <p>
-              نحن متحمسون لألعاب Web3 وملتزمون بتزويدك بموارد قيمة من أجل
-              إزالة الغموض عن هذا العالم المثير.
-            </p>
+    <div class="content">
+      <div class="container educational-advert">
+        <div class="portal">
+          <div class="welcome">
+            <h1>مرحبًا بك في بوابة تعليم ألعاب Web3</h1>
+            <p>بوابتك إلى عالم ألعاب Web3</p>
+            <a class="joinus" href="#">انضم إلينا</a>
           </div>
-          <div class="coming">
-            <h2>قريباً!</h2>
-            <p>
-              يعمل فريقنا بلا كلل ليقدم لك البرامج التعليمية والمقالات ومقاطع الفيديو وغير ذلك الكثير لمساعدتك
-              تصفح ألعاب Web3. ابقوا متابعين!
-            </p>
+          <div class="description">
+            <div class="about">
+              <h2>معلومات عنا</h2>
+              <p>نحن متحمسون لألعاب Web3 وملتزمون بتزويدك بموارد قيمة من أجل إزالة الغموض عن هذا العالم المثير.</p>
+            </div>
+            <div class="coming">
+              <h2>قريباً!</h2>
+              <p>
+                يعمل فريقنا بلا كلل ليقدم لك البرامج التعليمية والمقالات ومقاطع الفيديو وغير ذلك الكثير لمساعدتك تصفح
+                ألعاب Web3. ابقوا متابعين!
+              </p>
+            </div>
           </div>
         </div>
+        <div class="right-side"><img src="../../images/adverts/gamer.png" alt="gamer" /></div>
       </div>
-      <div class="right-side"><img src="../../images/adverts/gamer.png" alt="gamer" /></div>
     </div>
     <ul class="social-links">
       <li>
-        <a href="#"><img src="../../images/socials/telegram.svg" alt="telegram" /></a>
+        <a href="https://t.me/Lucidia_io"><img src="../../images/socials/telegram.svg" alt="telegram" /></a>
       </li>
       <li>
-        <a href="#"><img src="../../images/socials/discord.svg" alt="discord" /></a>
+        <a href="https://discord.gg/lucidia"><img src="../../images/socials/discord.svg" alt="discord" /></a>
       </li>
       <li>
-        <a href="#"><img src="../../images/socials/twitter.svg" alt="twitter" /></a>
+        <a href="https://twitter.com/lucidia_io"><img src="../../images/socials/twitter.svg" alt="twitter" /></a>
       </li>
       <li>
-        <a href="#"><img src="../../images/socials/website.svg" alt="website" /></a>
-      </li>
-      <li class="logout">
-        <a href="/logout"><img src="../../images/socials/logout.svg" alt="website" /></a>
+        <a href="/"><img src="../../images/socials/website.svg" alt="website" /></a>
       </li>
     </ul>
+    <div class="logout">
+      <a href="/ar-logout"><img src="../../images/icons/logout.svg" alt="logout" /></a>
+    </div>
     <script src="../../plugins/jquery.min.js"></script>
     <script src="../../plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="../../scripts/bg-image-animation.js"></script>
   </body>
 </html>
