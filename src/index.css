@@ -376,3 +376,65 @@ div.login::before {
 .right_p {
   right: -20px;
 }
+
+.desert-warriors-endless-text::before {
+  display: block;
+  content: url('/games/desertwarior/DesertWarriorEndlessText.svg');
+  position: absolute;
+  top: 60px;
+  right: 0;
+  animation: linear desert-warriors-endless-text 10s infinite;
+}
+
+.desert-warriors-endless-text::after {
+  display: block;
+  content: url('/games/desertwarior/DesertWarriorEndlessText.svg');
+  position: absolute;
+  top: 60px;
+  right: 0;
+  animation: linear desert-warriors-endless-text 4s infinite;
+}
+
+@keyframes desert-warriors-endless-text {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.primary {
+  color: #b28539 !important;
+}
+
+.lt-border,
+.rb-border {
+  position: relative;
+}
+
+.lt-border::before {
+  display: block;
+  content: '';
+  position: absolute;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  padding: 10px;
+  left: -15px;
+  top: 0;
+}
+
+.rb-border::after {
+  display: block;
+  content: '';
+  position: absolute;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  padding: 10px;
+  right: -15px;
+  bottom: 0;
+}

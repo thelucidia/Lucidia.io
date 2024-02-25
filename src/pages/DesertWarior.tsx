@@ -1,37 +1,15 @@
 import { motion } from 'framer-motion';
-import { useEffect } from 'react';
-import 'swiper/css';
 import { useTranslation } from 'react-i18next';
 import { IoIosArrowRoundDown } from 'react-icons/io';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
 import OtherGames from '../components/OtherGames';
 import Button from '../components/Button';
-import Swiper from 'swiper/bundle';
-import 'swiper/css/pagination';
-import { Navigation, Pagination } from 'swiper/modules';
 import Meta from '../views/Meta';
 import parse from 'html-react-parser';
 
 const DesertWarior = () => {
   const { t } = useTranslation();
-
-  useEffect(() => {
-    const mySwiper = new Swiper('.Game_Featues', {
-      modules: [Navigation, Pagination],
-      loop: true,
-      slidesPerView: 1,
-      // autoPlay: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
-
-    return () => {
-      mySwiper.destroy();
-    };
-  }, []);
 
   return (
     <motion.section
@@ -77,16 +55,16 @@ const DesertWarior = () => {
         </div>
       </div>
 
-      <div className="w-full h-auto px-8 lg:py-10 md:py-[100px] py-[70px] bg-cover bg-center bg-no-repeat bg-[url('/games/desertwarior/DesertWariorsendlesstext.png')] mt-[-30px] relative z-200">
-        <div className="max-w-[80%] w-full mx-auto text-secondary font-primary -mt-16">
+      <div className="w-full h-auto px-8 lg:py-10 md:py-[100px] py-[70px] mt-[-30px] relative z-200 desert-warriors-endless-text">
+        <div className="container w-full mx-auto text-secondary font-primary -mt-16">
           <motion.div
             initial={{ x: -300 }}
             whileInView={{ x: 0 }}
             transition={{ type: 'spring', stiffness: 100 }}
-            className="lg:w-[60%] md:w-[70%] lg:space-y-7 space-y-2"
+            className="w-[60%] space-y-7"
           >
-            <h2 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold uppercase lg:w-[70%]">
-              {t('games.desertWarior.fpsGame')}
+            <h2 className="text-[52px] text-primary font-bold leading-[130%] uppercase">
+              {parse(t('games.desertWarior.fpsGame'))}
             </h2>
             <p className="text-white text-base md:text-xl">{t('games.desertWarior.fpsGameTitle')}</p>
           </motion.div>
@@ -94,23 +72,25 @@ const DesertWarior = () => {
       </div>
 
       <div className="w-full h-[846px] px-8 lg:pt-10 bg-cover bg-top bg-no-repeat bg-[url('/games/desertwarior/deserGameOverview.png')]">
-        <div className="max-w-[80%] w-full mx-auto text-secondary font-primary py-[110px]">
+        <div className="container w-full mx-auto text-secondary font-primary py-[110px]">
           <motion.div
             initial={{ x: 300 }}
             whileInView={{ x: 0 }}
             transition={{ type: 'spring', stiffness: 100 }}
-            className="lg:w-[60%] md:w-[70%] ml-auto lg:space-y-7 space-y-2"
+            className="lg:w-[60%] md:w-[70%] ml-auto"
           >
-            <h2 className="text-3xl md:text-4xl text-white font-bold uppercase">{t('DesertGameOverview')}</h2>
-            <p className="text-white text-base md:text-xl">{t('games.desertWarior.prop_title')}</p>
-            <p className="text-white text-base md:text-xl">{t('games.desertWarior.prop_genre')}</p>
-            <p className="text-white text-base md:text-xl">{t('games.desertWarior.prop_audience')}</p>
-            <p className="text-white text-base md:text-xl">{t('games.desertWarior.prop_desc')}</p>
+            <h2 className="text-3xl md:text-4xl text-white font-bold uppercase mt-24">
+              {t('games.desertWarior.DesertGameOverview')}
+            </h2>
+            <p className="text-white text-base md:text-xl mt-[20px]">{parse(t('games.desertWarior.prop_title'))}</p>
+            <p className="text-white text-base md:text-xl">{parse(t('games.desertWarior.prop_genre'))}</p>
+            <p className="text-white text-base md:text-xl">{parse(t('games.desertWarior.prop_audience'))}</p>
+            <p className="text-white text-base md:text-xl">{parse(t('games.desertWarior.prop_desc'))}</p>
 
-            <h3 className="md:text-2xl text-white font-bold my-7">{t('DesertGameOverview')}</h3>
+            <h3 className="md:text-2xl text-white font-bold my-7">{t('games.desertWarior.uniqueSellingPoints')}</h3>
             <ul className=" text-base md:text-xl">
               {(
-                t('games.lucid.points', {
+                t('games.desertWarior.points', {
                   returnObjects: true,
                 }) as string[]
               ).map((items, i) => (
@@ -124,87 +104,37 @@ const DesertWarior = () => {
       </div>
 
       <div className="w-full h-auto px-8 lg:pt-10">
-        <div className="max-w-[80%] w-full mx-auto text-secondary font-primary py-[90px] px-16 relative overflow-hidden">
-          <div className="swiper-container Game_Featues">
-            <div className="swiper-wrapper">
-              <div className="swiper-slide">
-                <div className="w-full mx-auto text-left text-secondary font-primary justify-between md:flex gap-10 md:flex-row">
-                  <motion.div className="w-full lg:space-y-7 space-y-2 flex justify-center flex-col max-w-md">
-                    <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold">
-                      {t('games.desertWarior.title')} :
-                    </h1>
-
-                    <div className="text-white text-base md:text-xl">
-                      {(
-                        t('games.desertWarior.Featuesdetails', {
-                          returnObjects: true,
-                        }) as string[]
-                      ).map((items, i) => (
-                        <ul className="pl-3" key={i}>
-                          <li className="list-disc">{items}</li>
-                        </ul>
-                      ))}
-                    </div>
-                  </motion.div>
-                  <div className="w-full mt-10 md:mt-0">
-                    <img src={'/games/canyondrift/ExperienceCar.png'} className="object-cover" />
-                  </div>
-                </div>
+        <div className="container w-full mx-auto text-secondary font-primary py-[90px] px-16 relative overflow-hidden">
+          <h1 className="inline-block text-5xl text-primary font-bold lt-border rb-border leading-3 py-6 mb-10">
+            {t('games.desertWarior.title')} :
+          </h1>
+          <div className="grid grid-cols-2 gap-28">
+            <motion.div className="w-full justify-start">
+              <p className="text-[20px] leading-[1.25]">{t('games.desertWarior.desc')}</p>
+              <p>
+                <br />
+              </p>
+              <div className="text-white text-base md:text-xl">
+                <ul className="list-disc marker:text-[#B28539] ml-6">
+                  {(
+                    t('games.desertWarior.Featuesdetails', {
+                      returnObjects: true,
+                    }) as string[]
+                  ).map((items, i) => (
+                    <li key={i} className="leading-[1.25]">
+                      {parse(items)}
+                    </li>
+                  ))}
+                </ul>
               </div>
-
-              {/* tow */}
-              {/* <div className="swiper-slide">
-                <div className="w-full mx-auto text-secondary font-primary justify-between md:flex gap-10 md:flex-row">
-                  <motion.div className="w-full lg:space-y-7 space-y-2 flex justify-center flex-col max-w-md">
-                    <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold">
-                      {t('games.desertWarior.title')} :
-                    </h1>
-
-                    <div className="text-white text-base md:text-xl">
-                      {(
-                        t('games.desertWarior.Featuesdetails', {
-                          returnObjects: true,
-                        }) as string[]
-                      ).map((items, i) => (
-                        <ul className="pl-3" key={i}>
-                          <li>{items}</li>
-                        </ul>
-                      ))}
-                    </div>
-                  </motion.div>
-                  <div className="w-full mt-10 md:mt-0">
-                    <img src={'/games/canyondrift/ExperienceCar.png'} className="object-cover" />
-                  </div>
-                </div>
-              </div> */}
-
-              {/* three */}
-              {/* <div className="swiper-slide">
-                <div className="w-full mx-auto text-secondary font-primary justify-between md:flex gap-10 md:flex-row">
-                  <motion.div className="w-full lg:space-y-7 space-y-2 flex justify-center flex-col max-w-md">
-                    <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold">
-                      {t('games.desertWarior.title')} :
-                    </h1>
-
-                    <div className="text-white text-base md:text-xl">
-                      {(
-                        t('games.desertWarior.Featuesdetails', {
-                          returnObjects: true,
-                        }) as string[]
-                      ).map((items, i) => (
-                        <ul className="list-disc pl-3" key={i}>
-                          <li>{items}</li>
-                        </ul>
-                      ))}
-                    </div>
-                  </motion.div>
-                  <div className="w-full mt-10 md:mt-0">
-                    <img src={'/games/canyondrift/ExperienceCar.png'} className="object-cover" />
-                  </div>
-                </div>
-              </div> */}
-            </div>
-            <div className="swiper-pagination desertSwiperDot"></div>
+            </motion.div>
+            <motion.div className="w-full">
+              <img className="w-full h-auto" src="/games/desertwarior/game-features-01.jpg" />
+              <ul className="block flex flex-row gap-6 mt-[28px]">
+                <li className="w-6 h-6 bg-primary"></li>
+                <li className="w-6 h-6 bg-primary"></li>
+              </ul>
+            </motion.div>
           </div>
         </div>
       </div>
