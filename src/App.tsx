@@ -67,6 +67,7 @@ const App = () => {
           <Route path="roadmap" element={<Roadmap />} key="roadmappage " />
           <Route path="ar-login" element={<Login lang="ar" />} key="ar-login" />
           <Route path="login" element={<Login />} key="login" />
+          <Route path="ar-logout" element={<Logout lang="ar" />} key="logout" />
           <Route path="logout" element={<Logout />} key="logout" />
           <Route path="*" element={<Home />} key="any" />
         </Routes>
