@@ -21,7 +21,7 @@ jQuery(function ($) {
       $(this).addClass('active');
     });
 
-    idTimeout = setTimeout(fnNextBackgroundAnimation, 2500);
+    idTimeout = setTimeout(fnNextBackgroundAnimation, 4500);
   };
 
   var fnNextBackgroundAnimation = function () {
@@ -35,7 +35,7 @@ jQuery(function ($) {
   });
 
   $(window).on('focus', function () {
-    idTimeout = setTimeout(fnNextBackgroundAnimation, 2500);
+    idTimeout = setTimeout(fnNextBackgroundAnimation, 4500);
   });
 
   $links4Image.on('click', function (evt) {
@@ -44,5 +44,5 @@ jQuery(function ($) {
     fnGotoBackground($(this).parent().index());
   });
 
-  idTimeout = setTimeout(fnNextBackgroundAnimation, 2500);
+  idTimeout = setTimeout(fnNextBackgroundAnimation, 4500);
 });
