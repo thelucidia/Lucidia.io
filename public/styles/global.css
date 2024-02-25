@@ -40,6 +40,16 @@ body.web-app {
   overflow: hidden;
 }
 
+body.educational-portal {
+  background:
+    linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+    url(../images/backgrounds/sandstorm_01.jpg) no-repeat top,
+    #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
 body.web-app .content {
   position: absolute;
   top: 100px;
