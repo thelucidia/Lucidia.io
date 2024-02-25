@@ -58,7 +58,7 @@ const Cryptocraft = () => {
       </div>
 
       <div className="w-full h-auto px-8 py-10 -mb-20 md:mb-0">
-        <div className="max-w-[1100px] pb-8 md:pb-14 sm:pb-20 w-full min-h-screen mx-auto flex gap-10 pt-10">
+        <div className="container pb-8 md:pb-14 sm:pb-20 w-full min-h-screen mx-auto flex gap-10 pt-10">
           <div className="">
             <div className="minecrafterfonts discovery text-primary text-3xl lg:text-5xl xl:text-6xl 2xl:text-8xl text-center mt-3 items-center">
               {t('DISCOVER CAYPTOCRAFT')}

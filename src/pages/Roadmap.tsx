@@ -122,7 +122,7 @@ const Roadmap = () => {
       <Meta title={t('meta.road_map.title')} description={t('meta.road_map.desc')} />
       <Nav />
       <Banner bg_path="/roadmap/banner.png" title={t('roadmap_page.title')} content="" />
-      <div className="max-w-[80%] flex flex-col flex-wrap gap-y-14 m-auto">
+      <div className="max-w-[80%] flex flex-col flex-wrap gap-y-14 m-auto pb-32">
         {(
           t('roadmap_page.contents', {
             returnObjects: true,
@@ -133,17 +133,32 @@ const Roadmap = () => {
               <p className="text-[24px] font-semibold" key={index}>
                 {e.years}
               </p>
-              <div className="grid md:grid-cols-2 grid-cols-1 justify-between">
+              <div className="grid md:grid-cols-2 grid-cols-1 justify-between gap-x-16 gap-y-14">
                 {e.item.map((c: any, i: any) => {
                   return (
                     <>
-                      <div className="flex flex-col gap-y-9" key={`item-${i}`}>
-                        <h1 className="text-[154px] font-semibold">{c.q}</h1>
-                        <ul className="max-w-[600px] pl-8">
+                      <div className="relative flex flex-col gap-y-9" key={`item-${i}`}>
+                        {i % 2 == 0 ? (
+                          <div
+                            className="absolute w-[544px] h-[291px] -top-[17px] -left-3"
+                            style={{ backgroundColor: 'rgba(179, 133, 57, 0.08)', filter: 'blur(75px)' }}
+                          />
+                        ) : (
+                          <div
+                            className="absolute w-[515px] h-[301px] -top-[89px] -left-[83px]"
+                            style={{ backgroundColor: 'rgba(179, 133, 57, 0.08)', filter: 'blur(75px)' }}
+                          />
+                        )}
+                        <div className="flex flex-row gap-6 items-center">
+                          <h1 className="text-[154px] font-semibold">{c.q1}</h1>
+                          <span className="flex-1 h-[14px] bg-white"></span>
+                          <h1 className="text-[154px] font-semibold">{c.q2}</h1>
+                        </div>
+                        <ul className="pl-8">
                           {c.road.map((road: any, n: any) => {
                             return (
                               <>
-                                <li className=" list-disc text-[20px] text-[#CECECE] pb-1" key={n}>
+                                <li className=" list-disc text-[20px] text-[#CECECE] pt-1 pb-1 leading-6" key={n}>
                                   {road}
                                 </li>
                               </>

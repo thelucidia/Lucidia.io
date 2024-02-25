@@ -5,10 +5,10 @@ import Nav from '../../components/Nav';
 import OtherGames from '../../components/OtherGames';
 // import { cn } from "../../utils";
 import { useTranslation } from 'react-i18next';
-import { details } from '../../utils/types';
 import Button from '../../components/Button';
 import { IoIosArrowRoundDown } from 'react-icons/io';
 import Meta from '../../views/Meta';
+import parse from 'html-react-parser';
 
 const Lucidcraft = () => {
   const { t } = useTranslation();
@@ -67,29 +67,41 @@ const Lucidcraft = () => {
             <div className="grid md:grid-cols-2 grid-cols-1 gap-16">
               <div className="flex flex-col md:space-y-7 space-y-4">
                 <img src={'/games/lucidcraft/game_overview.png'} className="w-full object-cover" />
-                <img src={'/games/lucidcraft/game_overview_text.png'} className="w-[40%] pt-[50px] object-cover" />
                 <div className="text-base md:text-xl">
-                  {/* <p className="">{t("games.lucid.overview")}</p> */}
-                  <p className="">{t('games.lucid.overview2')}</p>
+                  <h3 className="text-2xl font-bold mb-8">{t('overview')}</h3>
+                  <p className="leading-6">{parse(t('games.lucid.prop_title'))}</p>
+                  <p className="leading-6">{parse(t('games.lucid.prop_genre'))}</p>
+                  <p className="leading-6">{parse(t('games.lucid.prop_audience'))}</p>
+                  <p className="mt-8 leading-6">{t('games.lucid.overview')}</p>
+                </div>
+
+                <div className="text-base md:text-xl font-normal">
+                  <h3 className="text-2xl font-bold mb-8">{t('games.lucid.mechanics')}</h3>
+                  <p className="leading-6">{parse(t('games.lucid.overview2'))}</p>
+                  <ul className="list-disc">
+                    <li className="marker:text-[#B28539] font-normal ml-6 leading-6">
+                      {parse(t('games.lucid.build'))}
+                    </li>
+                  </ul>
+                  <ul className="list-disc">
+                    <li className="marker:text-[#B28539] font-normal ml-6 leading-6">
+                      {parse(t('games.lucid.exploration'))}
+                    </li>
+                  </ul>
                 </div>
               </div>
 
               <div className="flex flex-col md:space-y-7 space-y-4">
-                {/* <h2 className="md:text-2xl text-xl text-primary font-bold">
-                  {t("game_details")} :
-                </h2> */}
                 <img src={'/games/lucidcraft/game_detail.png'} className="w-full object-cover" />
-
-                <img src={'/games/lucidcraft/game_detail_text.png'} className="w-[40%] pt-[50px] object-cover" />
-
+                <h3 className="text-2xl font-bold mb-8">{t('games.lucid.highlight_points')}</h3>
                 <ul className=" text-base md:text-xl">
                   {(
-                    t('games.lucid.details', {
+                    t('games.lucid.points', {
                       returnObjects: true,
-                    }) as details[]
+                    }) as string[]
                   ).map((items, i) => (
-                    <li className="list-disc pb-1" key={i}>
-                      <span className="">{items.value}</span>
+                    <li className="list-disc marker:text-[#B28539] ml-6 leading-6" key={i}>
+                      <span className="font-normal">{parse(items)}</span>
                     </li>
                   ))}
                 </ul>

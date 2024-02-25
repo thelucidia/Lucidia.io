@@ -8,7 +8,15 @@ const Partners = () => {
       <div className="max-w-[1300px] w-full h-auto mx-auto">
         <div className="w-full h-auto sm:clipped2 bg-prpl relative flex items-center justify-center scale-x-[-1]">
           <div className="w-full h-full scale-x-[-1]">
-            <h1 className="sm:text-5xl text-2xl font-bold text-center">{t('partners')}</h1>
+            <h1 className="relative sm:text-5xl text-2xl font-bold text-center">{t('partners')}</h1>
+            <div
+              className="absolute w-[544px] h-[291px] top-[85px] left-12"
+              style={{ backgroundColor: 'rgba(179, 133, 57, 0.08)', filter: 'blur(75px)' }}
+            />
+            <div
+              className="absolute w-[515px] h-[301px] top-[8px] left-[572px]"
+              style={{ backgroundColor: 'rgba(179, 133, 57, 0.08)', filter: 'blur(60px)' }}
+            />
 
             <div className="flex flex-wrap sm:gap-x-[8rem] gap-x-4  gap-y-[2.5rem] items-center justify-center py-9">
               {partners.map((items, i) => {

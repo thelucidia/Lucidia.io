@@ -1,17 +1,21 @@
-import { useSDK } from '@metamask/sdk-react';
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useSDK } from '@metamask/sdk-react';
+import { useTranslation } from 'react-i18next';
 import AppNavbar from '../components/AppNavbar';
 import Meta from '../views/Meta';
-import { useTranslation } from 'react-i18next';
 
-const Logout = () => {
+const Logout = (props: any) => {
+  const { lang } = props;
   const { sdk, connected } = useSDK();
   const navigate = useNavigate();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  useEffect(() => {
+    Boolean(lang) && i18n.changeLanguage(lang);
+  }, [lang]);
   const terminate = async () => {
     sdk?.terminate();
-    navigate('/login');
+    navigate('login');
   };
   useEffect(() => {
     setTimeout(terminate, 2000);

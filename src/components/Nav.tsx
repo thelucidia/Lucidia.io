@@ -1,21 +1,19 @@
-import { SA, US } from 'country-flag-icons/react/3x2';
-import { motion } from 'framer-motion';
-import { useCallback, useEffect, useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import { BsTwitterX } from 'react-icons/bs';
-import { IoIosArrowDown } from 'react-icons/io';
+import { cn } from '../utils';
 import { IoCheckmarkSharp } from 'react-icons/io5';
+import { IoIosArrowDown } from 'react-icons/io';
 import { LiaTelegramPlane } from 'react-icons/lia';
 import { MdClose, MdKeyboardArrowUp } from 'react-icons/md';
+import { motion } from 'framer-motion';
 import { RiMenu3Fill } from 'react-icons/ri';
 import { RxDiscordLogo } from 'react-icons/rx';
+import { SA, US } from 'country-flag-icons/react/3x2';
+import { useCallback, useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useOutsideClick } from '../hooks/useOutsideHook';
-import { cn } from '../utils';
-import LangDropdown from './LangDropdown';
-// import Button3 from './Button3';
-// import Button2 from './Button2';
+import { useTranslation } from 'react-i18next';
 import Button4 from './Button4';
+import LangDropdown from './LangDropdown';
 
 const Nav = () => {
   const { t, i18n } = useTranslation();
@@ -44,20 +42,21 @@ const Nav = () => {
     setLangActive(false);
   });
 
-  const navList = [
+  interface INavItem {
+    name: string;
+    slug: string;
+    paths?: Array<string>;
+    type: string;
+    link?: string;
+  }
+
+  const navList: Array<INavItem> = [
     {
       name: t('nav.home'),
       slug: '',
       paths: ['/'],
       type: 'internal',
     },
-
-    // {
-    //   name: t("nav.pitchdeck"),
-    //   slug: "pitchdeck",
-    //   type: "external",
-    //   link: "https://drive.google.com/file/d/1n1ddGOA5tTXVhK6zu7962QLSJBUev0aA/view",
-    // },
     {
       name: t('nav.team'),
       slug: 'team',
@@ -90,7 +89,7 @@ const Nav = () => {
     },
   ];
 
-  const navPrivacy = [
+  const navPrivacy: Array<INavItem> = [
     {
       name: t('nav.home'),
       slug: '',
@@ -109,107 +108,16 @@ const Nav = () => {
       slug: 'terms',
       type: 'internal',
     },
-    // {
-    //   name: t("nav.faq"),
-    //   slug: "FAQ",
-    //   paths: ["/team"],
-    //   type: "internal",
-    // },
   ];
 
-  const navMobile = [
-    {
-      name: t('nav.home'),
-      slug: '',
-      type: 'internal',
-    },
-    // {
-    //   name: t("nav.pitchdeck"),
-    //   slug: "pitchdeck",
-    //   type: "external",
-    //   link: "https://drive.google.com/file/d/1n1ddGOA5tTXVhK6zu7962QLSJBUev0aA/view",
-    // },
-    // {
-    //   name: t("nav.roadmap"),
-    //   slug: "roadmap",
-    //   type: "external",
-    //   link: "https://drive.google.com/file/d/1j_jqFpZlgmppz9CElg4KeSnmoR4uneqp/view",
-    // },
-    {
-      name: t('nav.team'),
-      slug: 'team',
-      type: 'internal',
-    },
-    // {
-    //   name: t("nav.games"),
-    //   slug: "games",
-    //   type: "internal",
-    // },
+  const navMobile = navList;
+
+  const navDesktop: Array<INavItem> = [
     {
       name: t('nav.gameplay'),
       slug: 'gameplay',
       type: 'external',
       link: 'https://share.arcware.cloud/33034e19-bac7-4d3b-910b-e2c45c2eccd8',
-    },
-    {
-      name: t('nav.audit'),
-      slug: 'audit',
-      sub: [
-        {
-          title: 'interfi',
-          link: 'https://github.com/interfinetwork/project-delivery-data/blob/main/Lucidia/Lucidia_AuditReport_InterFi.pdf',
-        },
-        {
-          title: 'revoluzion eth',
-          link: 'https://revoluzion.app/audits/presaleeth',
-        },
-        {
-          title: 'revoluzion bsc',
-          link: 'https://revoluzion.app/audits/presalebsc',
-        },
-      ],
-    },
-    {
-      name: t('privacy'),
-      slug: 'privacy',
-      type: 'internal',
-    },
-    {
-      name: t('terms_page.title'),
-      slug: 'terms',
-      type: 'internal',
-    },
-    // {
-    //   name: t("nav.faq"),
-    //   slug: "faq",
-    //   type: "internal",
-    // },
-  ];
-
-  const navDesktop = [
-    {
-      name: t('nav.gameplay'),
-      slug: 'gameplay',
-      type: 'external',
-      link: 'https://share.arcware.cloud/33034e19-bac7-4d3b-910b-e2c45c2eccd8',
-    },
-    {
-      name: t('nav.audit'),
-      slug: 'audit',
-      sub: [
-        {
-          title: 'interfi',
-          link: 'https://github.com/interfinetwork/project-delivery-data/blob/main/Lucidia/Lucidia_AuditReport_InterFi.pdf',
-        },
-        {
-          title: 'revoluzion eth',
-          link: 'https://revoluzion.app/audits/presaleeth',
-        },
-        {
-          title: 'revoluzion bsc',
-          link: 'https://revoluzion.app/audits/presalebsc',
-        },
-      ],
     },
     {
       name: t('privacy'),
@@ -279,7 +187,7 @@ const Nav = () => {
     <div className="w-full h-fit relative">
       <nav
         ref={navRef}
-        className={`h-full w-[80vw] font-primary h-screen right-0 top-0 bottom-0 bg-bg z-30 fixed transition-all  ease-in-out duration-500 ${
+        className={`h-full container font-primary h-screen right-0 top-0 bottom-0 bg-bg z-30 fixed transition-all  ease-in-out duration-500 ${
           navActive ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -288,7 +196,7 @@ const Nav = () => {
           <MdClose className="text-white text-5xl cursor-pointer" onClick={handleNav} />
         </div>
 
-        <div className="overflow-auto max-h-[90%] w-full pb-20 top-0 right-0 font-primary  overflow-x-hidden">
+        <div className="overflow-auto container w-full pb-20 top-0 right-0 font-primary  overflow-x-hidden">
           <ul className="text-secondary font-secondary font-semibold uppercase px-7 w-full pt-12 text-lg">
             {navMobile.map((items, i) => {
               return items.type === 'external' ? (
@@ -349,25 +257,6 @@ const Nav = () => {
                         audit ? 'rotate-0' : 'rotate-180'
                       }`}
                     />
-                  </div>
-                  <div
-                    className={`text-footergry  flex flex-col gap-y-2  overflow-hidden transition-all ease-in-out duration-300 ${
-                      audit ? 'max-h-[5rem] mt-4' : 'max-h-0 mt-0'
-                    } `}
-                  >
-                    {items.sub?.map((items, i) => {
-                      return (
-                        <a
-                          href={items.link}
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          className="hover:text-secondary"
-                          key={`nav-mobile-item-sub-item-${i}`}
-                        >
-                          {items.title}
-                        </a>
-                      );
-                    })}
                   </div>
                 </motion.li>
               ) : null;
@@ -449,7 +338,7 @@ const Nav = () => {
       <nav
         className={cn('w-full h-auto px-3 xl:py-1 sm:px-5 py-0  top-0 left-0 z-20 bg-black/20 backdrop-blur-md fixed')}
       >
-        <div className="max-w-[1400px] w-full mx-auto flex justify-between items-center py-4">
+        <div className="container w-full mx-auto flex justify-between items-center py-4">
           <a href="/" className="">
             <img src="/hero/logo.webp" alt="Logo" className="sm:w-auto w-24" />
           </a>
@@ -501,12 +390,17 @@ const Nav = () => {
                   ))}
             </ul>
 
-            <a href="/home" target="_blank" rel="noopener noreferrer" className="md:block hidden">
+            <a
+              href={`/${i18n.language == 'ar' ? 'ar-' : ''}home.html`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="md:block hidden"
+            >
               <Button4 removeOnMobile>{t('nav.meet')}</Button4>
             </a>
 
             <a
-              href="/home"
+              href={`/${i18n.language == 'ar' ? 'ar-' : ''}home.html`}
               target="_blank"
               rel="noopener noreferrer"
               className="md:hidden block text-xs text-white mr-4"
@@ -533,10 +427,10 @@ const Nav = () => {
         </div>
       </nav>
 
-      <div className="fixed max-w-[1400px] mx-auto w-full top-0 xl:top-7 z-20 left-0 right-0">
+      <div className="fixed container mx-auto w-full top-0 xl:top-7 z-20 left-0 right-0">
         <div
-          className={`w-[8rem] h-[8rem] md:block hidden backdrop-blur-md clipped bg-bl absolute z-20 top-24 transition-height ease-in-out duration-300 right-12 ${
-            langActive ? 'max-h-[23rem]' : 'max-h-0'
+          className={`w-[8rem] overflow-hidden md:block hidden backdrop-blur-md clipped bg-bl absolute z-20 top-16 transition-height ease-in-out duration-300 right-12 ${
+            langActive ? 'max-h-52' : 'max-h-0'
           }`}
         >
           <div className=" bg-black/30 backdrop-blur-md rounded-2xl w-32 h-[99%] m-auto clipped" ref={langRef}>
@@ -564,15 +458,15 @@ const Nav = () => {
         </div>
 
         <div
-          className={`w-[16rem] h-[23rem] clipped bg-bl absolute z-20 top-24 transition-height ease-in-out duration-300 right-0 ${
-            navDesktopActive ? 'max-h-[22rem]' : 'max-h-0'
+          className={`w-[16rem] h-[20rem] clipped bg-bl absolute z-20 top-16 transition-height ease-in-out duration-300 right-0 ${
+            navDesktopActive ? 'max-h-[20rem]' : 'max-h-0'
           }`}
         >
           <div
             className="absolute bg-black/10 backdrop-blur-md rounded-2xl w-[98%] h-[65%] left-0 top-0 right-0 bottom-0 clipped"
             ref={ref}
           >
-            <div className="overflow-x-hidden max-h-[100%] w-full top-0 right-0">
+            <div className="overflow-hidden max-h-[100%] w-full top-0 right-0">
               <ul className="font-secondary font-semibold uppercase p-4 px-7 w-full text-sm text-secondary">
                 {navDesktop.map((items, i) => {
                   return items.type === 'external' ? (
@@ -615,47 +509,7 @@ const Nav = () => {
                         {items.name}
                       </motion.li>
                     </button>
-                  ) : // : items.slug === "audit" ? (
-                  //   <motion.li
-                  //     initial={{ x: 100, opacity: 0 }}
-                  //     animate={navDesktopActive ? { x: 0, opacity: 1 } : {}}
-                  //     transition={{
-                  //       duration: 0.7,
-                  //       delay: 0.5 * (i * 0.1),
-                  //       ease: [0.16, 0.77, 0.47, 0.97],
-                  //     }}
-                  //     className={`border-b-[1px] border-white/10 py-5 group`}
-                  //     onClick={handleAudit}
-                  //     key={i}
-                  //   >
-                  //     <div className="w-full flex justify-between items-center cursor-pointer  hover:text-primary">
-                  //       <p className="">{items.name}</p>
-                  //       <MdKeyboardArrowUp
-                  //         className={`text-2xl transition-all ease-in-out duration-300  ${audit ? "rotate-0" : "rotate-180"
-                  //           }`}
-                  //       />
-                  //     </div>
-                  //     <div
-                  //       className={`text-footergry  flex flex-col gap-y-2  overflow-hidden transition-all ease-in-out duration-300 ${audit ? "max-h-[5rem] mt-4" : "max-h-0 mt-0"
-                  //         } `}
-                  //     >
-                  //       {items.sub?.map((items, i) => {
-                  //         return (
-                  //           <a
-                  //             href={items.link}
-                  //             target="_blank"
-                  //             rel="noreferrer noopener"
-                  //             className="  hover:text-primary"
-                  //             key={i}
-                  //           >
-                  //             {items.title}
-                  //           </a>
-                  //         );
-                  //       })}
-                  //     </div>
-                  //   </motion.li>
-                  // )
-                  null;
+                  ) : null;
                 })}
               </ul>
             </div>
