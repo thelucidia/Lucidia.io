@@ -279,7 +279,7 @@ const Nav = () => {
     <div className="w-full h-fit relative">
       <nav
         ref={navRef}
-        className={`h-full w-[80vw] font-primary h-screen right-0 top-0 bottom-0 bg-bg z-30 fixed transition-all  ease-in-out duration-500 ${
+        className={`h-full container font-primary h-screen right-0 top-0 bottom-0 bg-bg z-30 fixed transition-all  ease-in-out duration-500 ${
           navActive ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -288,7 +288,7 @@ const Nav = () => {
           <MdClose className="text-white text-5xl cursor-pointer" onClick={handleNav} />
         </div>
 
-        <div className="overflow-auto max-h-[90%] w-full pb-20 top-0 right-0 font-primary  overflow-x-hidden">
+        <div className="overflow-auto container w-full pb-20 top-0 right-0 font-primary  overflow-x-hidden">
           <ul className="text-secondary font-secondary font-semibold uppercase px-7 w-full pt-12 text-lg">
             {navMobile.map((items, i) => {
               return items.type === 'external' ? (
@@ -449,7 +449,7 @@ const Nav = () => {
       <nav
         className={cn('w-full h-auto px-3 xl:py-1 sm:px-5 py-0  top-0 left-0 z-20 bg-black/20 backdrop-blur-md fixed')}
       >
-        <div className="max-w-[1400px] w-full mx-auto flex justify-between items-center py-4">
+        <div className="container w-full mx-auto flex justify-between items-center py-4">
           <a href="/" className="">
             <img src="/hero/logo.webp" alt="Logo" className="sm:w-auto w-24" />
           </a>
@@ -533,7 +533,7 @@ const Nav = () => {
         </div>
       </nav>
 
-      <div className="fixed max-w-[1400px] mx-auto w-full top-0 xl:top-7 z-20 left-0 right-0">
+      <div className="fixed container mx-auto w-full top-0 xl:top-7 z-20 left-0 right-0">
         <div
           className={`w-[8rem] h-[8rem] md:block hidden backdrop-blur-md clipped bg-bl absolute z-20 top-24 transition-height ease-in-out duration-300 right-12 ${
             langActive ? 'max-h-[23rem]' : 'max-h-0'
