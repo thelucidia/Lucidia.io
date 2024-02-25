@@ -49,3 +49,79 @@
 .mt-90 {
   margin-top: 90px;
 }
+.community {
+  background-size: cover !important;
+  margin-bottom: 54px;
+}
+.community > img {
+  position: absolute;
+  bottom: 165px;
+}
+.female > img {
+  position: relative;
+  float: right;
+}
+.CommunityTournaments > span {
+  display: block;
+  margin: 48px 0 30px 58px;
+  color: #b28539;
+  font-size: 20px;
+  font-family: Tajawal;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.prize-pool > span {
+  display: block;
+  margin: 48px 0 30px 0;
+  color: #b28539;
+  font-size: 20px;
+  font-family: Tajawal;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.desert-logo {
+  display: block;
+  margin-left: 58px;
+  margin-bottom: 44px;
+}
+.desert-logo > img:first-child {
+  position: relative;
+  float: right;
+  bottom: 22px;
+  right: 22px;
+}
+.desert-logo > img:last-child {
+  position: relative;
+  float: left;
+  top: 5px;
+  right: 5px;
+}
+.tokens > span {
+  color: #f0f0f0;
+  font-size: 16px;
+  font-family: Tajawal;
+  font-weight: 700;
+  word-wrap: break-word;
+  position: relative;
+  bottom: 5px;
+  left: 5px;
+}
+.tokens > img {
+  margin-bottom: 50px;
+}
+.heldby > span {
+  color: #b28539;
+  font-size: 20px;
+  font-family: Tajawal;
+  font-weight: 700;
+  word-wrap: break-word;
+  display: block;
+  margin-bottom: 25px;
+}
+.date {
+  color: #f0f0f0 !important;
+  font-size: 16px;
+  font-family: Tajawal;
+  font-weight: 500 !important;
+  word-wrap: break-word;
+}
