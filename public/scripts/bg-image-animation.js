@@ -1,9 +1,7 @@
 jQuery(function ($) {
-  var $bgAnimation = $(
-    ".bg-image-animation[data-toggle=bg-image-animation]"
-  ).eq(0);
-  var $links4Image = $(".game-menu").eq(0).find("a.item");
-  var $bgImages = $bgAnimation.children(".item");
+  var $bgAnimation = $('.bg-image-animation[data-toggle=bg-image-animation]').eq(0);
+  var $links4Image = $('.game-menu').eq(0).find('a.item');
+  var $bgImages = $bgAnimation.children('.item');
 
   var idTimeout = null;
 
@@ -17,30 +15,30 @@ jQuery(function ($) {
     }
 
     $bgImages.eq(index).fadeIn(500, function () {
-      $bgImages.filter(".active").removeClass("active").css("display", "none");
-      $links4Image.children(".active").removeClass("active");
-      $links4Image.eq(index).children(".image").addClass("active");
-      $(this).addClass("active");
+      $bgImages.filter('.active').removeClass('active').css('display', 'none');
+      $links4Image.children('.active').removeClass('active');
+      $links4Image.eq(index).children('.image').addClass('active');
+      $(this).addClass('active');
     });
 
     idTimeout = setTimeout(fnNextBackgroundAnimation, 2500);
   };
 
   var fnNextBackgroundAnimation = function () {
-    fnGotoBackground($bgImages.filter(".active").index() + 1);
+    fnGotoBackground($bgImages.filter('.active').index() + 1);
   };
 
-  $(window).on("blur", function () {
+  $(window).on('blur', function () {
     if (idTimeout !== null) {
       clearTimeout(idTimeout);
     }
   });
 
-  $(window).on("focus", function () {
+  $(window).on('focus', function () {
     idTimeout = setTimeout(fnNextBackgroundAnimation, 2500);
   });
 
-  $links4Image.on("click", function (evt) {
+  $links4Image.on('click', function (evt) {
     evt.preventDefault();
     evt.stopPropagation();
     fnGotoBackground($(this).parent().index());
