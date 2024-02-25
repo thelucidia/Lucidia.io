@@ -355,7 +355,7 @@ const Nav = () => {
                       audit ? 'max-h-[5rem] mt-4' : 'max-h-0 mt-0'
                     } `}
                   >
-                    {items.sub?.map((items, i) => {
+                    {/* {(items.sub ?? [])?.map((items, i) => {
                       return (
                         <a
                           href={items.link}
@@ -367,7 +367,7 @@ const Nav = () => {
                           {items.title}
                         </a>
                       );
-                    })}
+                    })} */}
                   </div>
                 </motion.li>
               ) : null;
@@ -615,47 +615,7 @@ const Nav = () => {
                         {items.name}
                       </motion.li>
                     </button>
-                  ) : // : items.slug === "audit" ? (
-                  //   <motion.li
-                  //     initial={{ x: 100, opacity: 0 }}
-                  //     animate={navDesktopActive ? { x: 0, opacity: 1 } : {}}
-                  //     transition={{
-                  //       duration: 0.7,
-                  //       delay: 0.5 * (i * 0.1),
-                  //       ease: [0.16, 0.77, 0.47, 0.97],
-                  //     }}
-                  //     className={`border-b-[1px] border-white/10 py-5 group`}
-                  //     onClick={handleAudit}
-                  //     key={i}
-                  //   >
-                  //     <div className="w-full flex justify-between items-center cursor-pointer  hover:text-primary">
-                  //       <p className="">{items.name}</p>
-                  //       <MdKeyboardArrowUp
-                  //         className={`text-2xl transition-all ease-in-out duration-300  ${audit ? "rotate-0" : "rotate-180"
-                  //           }`}
-                  //       />
-                  //     </div>
-                  //     <div
-                  //       className={`text-footergry  flex flex-col gap-y-2  overflow-hidden transition-all ease-in-out duration-300 ${audit ? "max-h-[5rem] mt-4" : "max-h-0 mt-0"
-                  //         } `}
-                  //     >
-                  //       {items.sub?.map((items, i) => {
-                  //         return (
-                  //           <a
-                  //             href={items.link}
-                  //             target="_blank"
-                  //             rel="noreferrer noopener"
-                  //             className="  hover:text-primary"
-                  //             key={i}
-                  //           >
-                  //             {items.title}
-                  //           </a>
-                  //         );
-                  //       })}
-                  //     </div>
-                  //   </motion.li>
-                  // )
-                  null;
+                  ) : null;
                 })}
               </ul>
             </div>
