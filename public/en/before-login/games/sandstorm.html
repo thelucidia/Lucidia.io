@@ -1,0 +1,384 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Experience 'Sandstorm Racing' in Lucidia, where thrilling Arab drift racing meets dynamic sandstorm environments. Customize your vehicle and explore Middle Eastern car culture in this immersive racing simulation."
+    />
+    <title>Sandstorm Racing - Open-World Racing in a Dynamic Desert Landscape | Lucidia</title>
+    <link rel="stylesheet" href="../../../plugins/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../../plugins/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" />
+    <link rel="stylesheet" href="../../../styles/global.css" />
+    <link rel="stylesheet" href="../../../styles/english.css" />
+    <link rel="stylesheet" href="../../../styles/after-login/sandstorm.css" />
+    <link rel="stylesheet" href="../../../styles/bg-image-animation.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  </head>
+  <body class="web-app">
+    <div class="bg-image-animation" data-toggle="bg-image-animation">
+      <div
+        class="item active"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../../images/backgrounds/sandstorm_01.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../../images/backgrounds/sandstorm_02.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../../images/backgrounds/sandstorm_03.jpg) no-repeat center center;
+        "
+      ></div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../home.html"><img src="../../../images/logo.svg" alt="logo" /></a>
+        <div class="container collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="../home.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="../games.html">Games</a></li>
+            <li class="nav-item"><a class="nav-link" href="../tournaments.html">Tournaments</a></li>
+            <li class="nav-item"><a class="nav-link" href="../marketplace.html">Marketplace</a></li>
+            <li class="nav-item"><a class="nav-link" href="../dev-tools.html">Dev Tools</a></li>
+            <li class="nav-item"><a class="nav-link" href="../educational-portal.html">Education Portal</a></li>
+            <li class="nav-item"><a class="nav-link" href="../dao.html">DAO</a></li>
+          </ul>
+          <ul class="navbar-nav d-flex navbar-login">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link locale"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <div class="english">
+                  <img src="../../../images/flags/us.svg" alt="Locale" /> Eng
+                  <img src="../../../images/icons/arrow-down.svg" alt="arrow-down" />
+                </div>
+                <div class="arabic">
+                  <img src="../../../images/flags/arb.svg" width="20" height="15" alt="Locale" /> Arb
+                  <img src="../../../images/icons/arrow-down.svg" alt="arrow-down" />
+                </div>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item locale" href="#"
+                    ><img src="../../../images/flags/us.svg" alt="Locale" /> Eng
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item locale" href="../../../ar/before-login/games/sandstorm.html"
+                    ><img src="../../../images/flags/arb.svg" width="20" height="15" alt="Locale" /> Arb
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="default-button" aria-current="page" href="/login">Log-in</a></li>
+          </ul>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="outline: none"
+        >
+          <span class="navbar-toggler-icon">
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              style="color: #f0f0f0; font-size: 30px"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </nav>
+    <div class="content">
+      <div class="container">
+        <div class="crypto-advert">
+          <img src="../../../images/adverts/stormracer_01.svg" class="crypto-title" alt="advert" />
+          <div class="player-status">
+            <span
+              ><img class="server" src="../../../images/icons/server.svg" alt="server" /> 1 Server | 1 Available
+              &nbsp;&nbsp;<img src="../../../images/icons/peoples.svg" alt="people" /> 0 Player</span
+            >
+          </div>
+          <a class="default-button" href="#">Play game</a>
+          <div class="game-menu row">
+            <div class="col-sm-2">
+              <a class="item" href="#">
+                <div class="image active">
+                  <img class="img-fluid" src="../../../images/latest_news/sandstorm/01.jpg" alt="featured-games" />
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-2">
+              <a class="item" href="#">
+                <div class="image">
+                  <img class="img-fluid" src="../../../images/latest_news/sandstorm/02.jpg" alt="featured-games" />
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-2">
+              <a class="item" href="#">
+                <div class="image">
+                  <img class="img-fluid" src="../../../images/latest_news/sandstorm/03.jpg" alt="featured-games" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="game-sections row">
+          <div class="description-sections col-md-9">
+            <h2>The Ultimate Desert Racing Adventure</h2>
+            <div class="sub-section">
+              <p class="description">
+                Welcome to "Sandstorm Racers," an open-world racing simulation that combines the
+                heart-poundingexcitement of arcade racers with the precision and depth of sim racing. Setagainst the
+                backdrop of a breathtakingly vast desert landscape, this gameinvites you to master the art of Arab drift
+                racing, customize your dream car,and explore a world rich in culture and adventure.
+              </p>
+            </div>
+            <div class="sub-section">
+              <h3>Game Overview</h3>
+              <p class="property"><span class="label">Title: </span>Sandstorm Racers</p>
+              <p class="property"><span class="label">Genre: </span>Open-World Racing Simulation</p>
+              <p class="property">
+                <span class="label">Target Audience: </span>Racing enthusiasts, adventure gamers, and fans of carculture
+              </p>
+            </div>
+            <div class="sub-section">
+              <p class="description">
+                Experience the thrill ofracing in dynamic sandstorm environments, where every drift and turn brings
+                youcloser to becoming a legend in the Middle Eastern racing scene.
+              </p>
+            </div>
+            <div class="sub-section">
+              <h3>Highlighting Points</h3>
+              <ul>
+                <li class="highlighted">
+                  <span class="label">Dynamic Sandstorm Environments: </span>Navigate through unpredictable weather
+                  conditions that transform the open-world landscape, challenging your racing prowess and strategic
+                  thinking.
+                </li>
+                <li class="highlighted">
+                  <span class="label">Arab Drift Racing: </span>Immerse yourself in the adrenaline-fueled world of Arab
+                  drift racing, executing high-risk maneuvers and competing in events that celebrate this unique racing
+                  style.
+                </li>
+                <li class="highlighted">
+                  <span class="label">Extensive Vehicle Customization: </span>Personalize your vehicles with a wide
+                  array of modifications, from aesthetic enhancements to performance upgrades, crafting a ride that
+                  reflects your style and prowess.
+                </li>
+                <li class="highlighted">
+                  <span class="label">Cultural Immersion: </span>Dive into a game world that pays homage to Middle
+                  Eastern car culture, with authentic locations, a vibrant soundtrack, and events inspired by regional
+                  traditions.
+                </li>
+                <li class="highlighted">
+                  <span class="label">Community and Competition: </span>Engage with a global community of racers through
+                  competitive multiplayer events, cooperative challenges, and social hubs where you can showcase your
+                  customized vehicles.
+                </li>
+              </ul>
+            </div>
+            <div class="sub-section">
+              <h3>Gameplay Mechanics</h3>
+              <p class="description">
+                "Sandstorm Racers" offers a blend of high-speed action and realistic racing dynamics, set in an
+                expansive open world that encourages exploration and competition
+              </p>
+              <ul>
+                <li class="highlighted">
+                  <span class="label">Racing Dynamics: </span>Experience realistic vehicle handling and physics, where
+                  skill and precision lead to victory. Master the balance between speed and control to dominate the
+                  desert tracks.
+                </li>
+                <li class="highlighted">
+                  <span class="label">Drifting Mechanics: </span>The essence of Arab drift racing comes to life with
+                  in-depth drifting mechanics. Earn points for style, speed, and risk-taking as you slide through
+                  corners and around obstacles.
+                </li>
+                <li class="highlighted">
+                  <span class="label">Dynamic Weather System: </span>Adapt to the ever-changing desert environment as
+                  sandstorms roll in, altering visibility and track conditions, adding a layer of unpredictability to
+                  every race.
+                </li>
+              </ul>
+            </div>
+            <div class="sub-section">
+              <h3>Story and Narrative</h3>
+              <p class="description">
+                Embark on a journey through the heart of the Middle East's racing culture, where your reputation and
+                skills are your tickets to fame and respect in the vibrant world of "Sandstorm Racers."
+              </p>
+            </div>
+            <div class="sub-section">
+              <h3>Accessibility</h3>
+              <p class="description">Free to play, PC and Mobile(Mobile grey out)</p>
+            </div>
+            <div class="sub-section">
+              <h3>Characters and Progression</h3>
+              <ul>
+                <li class="highlighted">
+                  <span class="label">Player Avatar: </span>Customize your racing avatar to reflect your achievements
+                  and personal style, with a variety of cosmetic options that set you apart on the track.
+                </li>
+                <li class="highlighted">
+                  <span class="label">Racing Icons: </span>Compete against and learn from the legends of the desert
+                  racing scene, each character offering unique challenges and contributing to your journey to becoming a
+                  racing icon.
+                </li>
+              </ul>
+            </div>
+            <div class="sub-section">
+              <h3>Level Design</h3>
+              <p class="description">
+                Explore a meticulously crafted open world, from bustling city streets to serene desert plains, each area
+                brimming with challenges and secrets waiting to be discovered by the most daring racers.
+              </p>
+            </div>
+            <div class="sub-section">
+              <h3>Technical Framework</h3>
+              <p class="description">
+                Built on Unreal Engine, "Sandstorm Racing" delivers breath taking visuals, realistic physics, and a
+                seamless open-world experience,enhanced by the integration of Ethereum blockchain for a unique Web3
+                twist.
+              </p>
+            </div>
+            <div class="sub-section">
+              <h3>Art and Sound Design</h3>
+              <ul>
+                <li>
+                  The game's art direction captures the stark beauty of the desert and the vibrant essence of Middle
+                  Eastern car culture, creating a visually stunning backdrop for high-speed racing and exploration.
+                </li>
+                <li>
+                  The soundtrack of "Sandstorm Racers" features regional music and dynamic compositions that adapt to
+                  the racing action, complemented by meticulously crafted sound effects that bring the roar of engines
+                  and the howl of sandstorms to life.
+                </li>
+              </ul>
+            </div>
+            <div class="sub-section">
+              <h3>Join The Race</h3>
+              <p class="description">
+                Are you ready to leave your mark on the sands and become a legend in the world of "Sandstorm Racers"?
+                Customize your ride, master the drift,and explore the vast open world that awaits.
+              </p>
+            </div>
+            <p>Discover Sandstorm Racing and Start Your Adventure</p>
+          </div>
+          <div class="game-latest-news-section col-md-3">
+            <h2>Latest News</h2>
+            <div class="game-lates-news">
+              <a class="live-game-item" href="./sandstorm.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../../images/latest_news/sandstorm/04.png" alt="featured-games" />
+                </div>
+                <div class="game-description">
+                  <span class="title">New Map Expansion</span>
+                  <p class="description">
+                    A new racing terrain is now available. Ensure your client is updated to access this hrilling new
+                    map.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="game-lates-news">
+              <a class="live-game-item" href="./sandstorm.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../../images/latest_news/sandstorm/02.jpg" alt="featured-games" />
+                </div>
+                <div class="game-description">
+                  <span class="title">Exotic Car Pack Release</span>
+                  <p class="description">
+                    Dive into the action with the newly released car pack, featuring the high-performance 911 Turbo
+                    among others.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="game-lates-news">
+              <a class="live-game-item" href="./sandstorm.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../../images/latest_news/sandstorm/05.png" alt="featured-games" />
+                </div>
+                <div class="game-description">
+                  <span class="title">Speedometer Calibration</span>
+                  <p class="description">
+                    We've corrected an issue with the speedometer inaccuracies. Speed readings now reflect true
+                    velocities.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="game-lates-news">
+              <a class="live-game-item" href="./sandstorm.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../../images/latest_news/sandstorm/06.png" alt="featured-games" />
+                </div>
+                <div class="game-description">
+                  <span class="title">Turbo Overboost Feature</span>
+                  <p class="description">
+                    Turbo-equipped cars now have an overboost option, providing a burst of extra speed to dominate the
+                    races.
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+      <li>
+        <a href="#"><img src="../../../images/socials/telegram.svg" alt="telegram" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="../../../images/socials/discord.svg" alt="discord" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="../../../images/socials/twitter.svg" alt="twitter" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="../../../images/socials/website.svg" alt="website" /></a>
+      </li>
+    </ul>
+    <script src="../../../plugins/jquery.min.js"></script>
+    <script src="../../../plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="../../../scripts/bg-image-animation.js"></script>
+  </body>
+</html>
