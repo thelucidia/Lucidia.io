@@ -1,11 +1,8 @@
 import { useTranslation } from 'react-i18next';
 // import React from "react";
 import { Images } from '../components/Images';
-import SubtleButton from '../components/SubtleButton';
-import { Link, useNavigate } from 'react-router-dom';
 const GameIntro = () => {
   const { t } = useTranslation();
-  const navigate = useNavigate();
   // const [isHover, setIsHover] = React.useState(false);
 
   // const handleHover = () => {

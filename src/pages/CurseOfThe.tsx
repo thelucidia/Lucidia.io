@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 import Nav from '../components/Nav';
 import OtherGames from '../components/OtherGames';
 import Button from '../components/Button';
-import { cn } from '../utils/index';
 import Meta from '../views/Meta';
 import parse from 'html-react-parser';
 
