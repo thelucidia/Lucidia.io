@@ -25,7 +25,6 @@ body {
   padding-bottom: 100px;
 }
 
-body.home,
 body.games,
 body.DevTools {
   background:
@@ -36,97 +35,10 @@ body.DevTools {
   background-size: 100%;
 }
 
-body.curse {
-  background:
-    linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
-    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
-    url(../images/backgrounds/games.jpg) no-repeat top,
-    #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
-  background-attachment: scroll;
-  background-size: 100%;
+body.web-app {
+  overflow: hidden;
 }
 
-body.curse_bg1 {
-  background:
-    linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
-    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
-    url(../images/backgrounds/curse_bg01.jpg) no-repeat top,
-    #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
-  background-attachment: scroll;
-  background-size: 100%;
-}
-
-body.curse_bg2 {
-  background:
-    linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
-    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
-    url(../images/backgrounds/curse_bg02.jpg) no-repeat top,
-    #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
-  background-attachment: scroll;
-  background-size: 100%;
-}
-
-body.crypto_bg1 {
-  background:
-    linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
-    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
-    url(../images/backgrounds/crypto_bg01.jpg) no-repeat top,
-    #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
-  background-attachment: scroll;
-  background-size: 100%;
-}
-
-body.crypto_bg2 {
-  background:
-    linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
-    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
-    url(../images/backgrounds/crypto_bg02.jpg) no-repeat top,
-    #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
-  background-attachment: scroll;
-  background-size: 100%;
-}
-
-body.crypto_bg3 {
-  background:
-    linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
-    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
-    url(../images/backgrounds/crypto_bg03.jpg) no-repeat top,
-    #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
-  background-attachment: scroll;
-  background-size: 100%;
-}
-
-body.desert_bg1 {
-  background:
-    linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
-    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
-    url(../images/backgrounds/desert_bg01.jpg) no-repeat top,
-    #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
-  background-attachment: scroll;
-  background-size: 100%;
-}
-
-body.desert_bg2 {
-  background:
-    linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
-    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
-    url(../images/backgrounds/desert_bg02.jpg) no-repeat top,
-    #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
-  background-attachment: scroll;
-  background-size: 100%;
-}
-
-body.desert_bg3 {
-  background:
-    linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
-    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
-    url(../images/backgrounds/desert_bg03.jpg) no-repeat top,
-    #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
-  background-attachment: scroll;
-  background-size: 100%;
-}
-
-body.sandstorm_bg1,
 body.educational-portal {
   background:
     linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
@@ -137,28 +49,18 @@ body.educational-portal {
   background-size: 100%;
 }
 
-body.sandstorm_bg2 {
-  background:
-    linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
-    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
-    url(../images/backgrounds/sandstorm_02.jpg) no-repeat top,
-    #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
-  background-attachment: scroll;
-  background-size: 100%;
-}
-
-body.sandstorm_bg3 {
-  background:
-    linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
-    linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
-    url(../images/backgrounds/sandstorm_03.jpg) no-repeat top,
-    #0d0d0d -24.828px -51.5px / 103.448% 115.147% no-repeat;
-  background-attachment: scroll;
-  background-size: 100%;
+body.web-app > .content {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  padding-bottom: 100px;
 }
 
 body.dao::before,
-body.home::before,
 body.games::before,
 body.DevTools::before,
 body.educational-portal:before {
@@ -266,6 +168,10 @@ body.curse::before {
 
 .absolute {
   position: absolute;
+}
+
+.relative {
+  position: relative;
 }
 
 .default-button,
@@ -532,7 +438,7 @@ h2 {
 }
 
 .description-sections .sub-section .label {
-  color: #B28539;
+  color: #b28539;
   font-weight: bold;
 }
 
@@ -541,7 +447,7 @@ h2 {
 }
 
 .description-sections .sub-section li.highlighted::marker {
-  color: #B28539;
+  color: #b28539;
 }
 
 /** --------------------------------------------------------- **\

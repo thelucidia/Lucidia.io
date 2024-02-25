@@ -13,8 +13,41 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" />
     <link rel="stylesheet" href="../../styles/global.css" />
     <link rel="stylesheet" href="../../styles/english.css" />
+    <link rel="stylesheet" href="../../styles/bg-image-animation.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   </head>
-  <body class="games">
+  <body class="web-app games">
+    <div class="bg-image-animation blur" data-toggle="bg-image-animation">
+      <div
+        class="item active"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/games.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/sandstorm_01.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/sandstorm_03.jpg) no-repeat center center;
+        "
+      ></div>
+    </div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="./home.html"><img src="../../images/logo.svg" alt="logo" /></a>
@@ -98,99 +131,103 @@
         </button>
       </div>
     </nav>
-    <div class="container">
-      <form class="search-form" action="#">
-        <input type="text" name="q" placeholder="search game" />
-      </form>
-      <div class="advert">
-        <img src="../../images/adverts/games.jpg" alt="advert" width="100%" />
-        <div class="device-desktop"></div>
-        <div class="title"><img src="../../images/adverts/games-title.png" alt="title" /></div>
-        <div class="description">
-          Zombie Outbreak is an action/adventure/survival game set in a post-apocalyptic world overrun by zombies.
-          Collect weapon, bullet, and fuel props. Travel throuhg open-world environment with different biomes.
+    <div class="content">
+      <div class="container">
+        <form class="search-form" action="#">
+          <input type="text" name="q" placeholder="search game" />
+        </form>
+        <div class="advert relative" style="height: 454px">
+          <video class="absolute" style="width: 100%" autoplay loop muted>
+            <source src="../../video/zombie.mp4" type="video/mp4" />
+          </video>
+          <div class="device-desktop"></div>
+          <div class="title"><img src="../../images/adverts/games-title.png" alt="title" /></div>
+          <div class="description">
+            Zombie Outbreak is an action/adventure/survival game set in a post-apocalyptic world overrun by zombies.
+            Collect weapon, bullet, and fuel props. Travel throuhg open-world environment with different biomes.
+          </div>
+          <a class="default-button" href="#">view game</a>
         </div>
-        <a class="default-button" href="#">view game</a>
-      </div>
-      <div class="game-sections">
-        <h2>Featured Games</h2>
-        <div class="row">
-          <div class="col-md-3">
-            <a class="game-item" href="./games/curseofthepharaos_01.html">
-              <div class="image">
-                <img class="img-fluid" src="../../images/featured-games/01.jpg" alt="featured-games" />
-                <div class="device-desktop"></div>
-              </div>
-              <span class="title">Curse Of The Pharaoh</span>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a class="game-item" href="./games/cryptocraft_01.html">
-              <div class="image">
-                <img class="img-fluid" src="../../images/featured-games/02.jpg" alt="featured-games" />
-                <div class="device-desktop"></div>
-              </div>
-              <span class="title">Cryptocraft</span>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a class="game-item" href="./games/desertwarriors_01.html">
-              <div class="image">
-                <img class="img-fluid" src="../../images/featured-games/03.jpg" alt="featured-games" />
-                <div class="device-desktop"></div>
-              </div>
-              <span class="title">Desert Warriors</span>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a class="game-item" href="./games/sandstorm_01.html">
-              <div class="image">
-                <img class="img-fluid" src="../../images/featured-games/04.jpg" alt="featured-games" />
-                <div class="device-desktop"></div>
-              </div>
-              <span class="title">Sandstorm Racers</span>
-            </a>
+        <div class="game-sections">
+          <h2>Featured Games</h2>
+          <div class="row">
+            <div class="col-md-3">
+              <a class="game-item" href="./games/curseofthepharaos.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../images/featured-games/01.jpg" alt="featured-games" />
+                  <div class="device-desktop"></div>
+                </div>
+                <span class="title">Curse Of The Pharaoh</span>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a class="game-item" href="./games/cryptocraft.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../images/featured-games/02.jpg" alt="featured-games" />
+                  <div class="device-desktop"></div>
+                </div>
+                <span class="title">Cryptocraft</span>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a class="game-item" href="./games/desertwarriors.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../images/featured-games/03.jpg" alt="featured-games" />
+                  <div class="device-desktop"></div>
+                </div>
+                <span class="title">Desert Warriors</span>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a class="game-item" href="./games/sandstorm.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../images/featured-games/04.jpg" alt="featured-games" />
+                  <div class="device-desktop"></div>
+                </div>
+                <span class="title">Sandstorm Racers</span>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="game-sections">
-        <h2>Top Earning Play To Earn Games</h2>
-        <div class="row">
-          <div class="col-md-3">
-            <a class="game-item" href="./games/desertwarriors_01.html">
-              <div class="image">
-                <img class="img-fluid" src="../../images/featured-games/03.jpg" alt="featured-games" />
-                <div class="device-desktop"></div>
-              </div>
-              <span class="title">Desert Warriors</span>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a class="game-item" href="./games/curseofthepharaos_01.html">
-              <div class="image">
-                <img class="img-fluid" src="../../images/featured-games/01.jpg" alt="featured-games" />
-                <div class="device-desktop"></div>
-              </div>
-              <span class="title">Curse Of The Pharaoh</span>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a class="game-item" href="./games/sandstormracers_01.html">
-              <div class="image">
-                <img class="img-fluid" src="../../images/featured-games/04.jpg" alt="featured-games" />
-                <div class="device-desktop"></div>
-              </div>
-              <span class="title">Sandstorm Racers</span>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a class="game-item" href="./games/cryptocraft_01.html">
-              <div class="image">
-                <img class="img-fluid" src="../../images/featured-games/03.jpg" alt="featured-games" />
-                <div class="device-desktop"></div>
-              </div>
-              <span class="title">Cryptocraft</span>
-            </a>
+        <div class="game-sections">
+          <h2>Top Earning Play To Earn Games</h2>
+          <div class="row">
+            <div class="col-md-3">
+              <a class="game-item" href="./games/desertwarriors.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../images/featured-games/03.jpg" alt="featured-games" />
+                  <div class="device-desktop"></div>
+                </div>
+                <span class="title">Desert Warriors</span>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a class="game-item" href="./games/curseofthepharaos.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../images/featured-games/01.jpg" alt="featured-games" />
+                  <div class="device-desktop"></div>
+                </div>
+                <span class="title">Curse Of The Pharaoh</span>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a class="game-item" href="./games/sandstormracers.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../images/featured-games/04.jpg" alt="featured-games" />
+                  <div class="device-desktop"></div>
+                </div>
+                <span class="title">Sandstorm Racers</span>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a class="game-item" href="./games/cryptocraft.html">
+                <div class="image">
+                  <img class="img-fluid" src="../../images/featured-games/03.jpg" alt="featured-games" />
+                  <div class="device-desktop"></div>
+                </div>
+                <span class="title">Cryptocraft</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -214,5 +251,6 @@
     </div>
     <script src="../../plugins/jquery.min.js"></script>
     <script src="../../plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="../../scripts/bg-image-animation.js"></script>
   </body>
 </html>

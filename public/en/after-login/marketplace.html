@@ -7,6 +7,7 @@
       name="description"
       content="Discover Lucidia's Marketplace, a platform redefining collaboration and trade within the Middle Eastern gaming community. From unique in-game assets and code to comprehensive NFT integration tools, find everything you need to bring your gaming projects to life."
     />
+    <meta name="description" content="" />
     <title>Lucidia Marketplace - Innovate and Trade in the Gaming Community | Lucidia</title>
     <link rel="stylesheet" href="../../plugins/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../../plugins/fontawesome-free-6.5.1-web/css/all.min.css" />
@@ -14,8 +15,41 @@
     <link rel="stylesheet" href="../../styles/global.css" />
     <link rel="stylesheet" href="../../styles/english.css" />
     <link rel="stylesheet" href="../../styles/marketplace.css" />
+    <link rel="stylesheet" href="../../styles/bg-image-animation.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   </head>
-  <body class="marketplace">
+  <body class="web-app marketplace">
+    <div class="bg-image-animation blur" data-toggle="bg-image-animation">
+      <div
+        class="item active"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/games.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/sandstorm_01.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/sandstorm_03.jpg) no-repeat center center;
+        "
+      ></div>
+    </div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="./home.html"><img src="../../images/logo.svg" alt="logo" /></a>
@@ -99,88 +133,75 @@
         </button>
       </div>
     </nav>
-    <div class="container">
-      <div class="welcome">
-        <h1>Get ready to explore the future of gaming and development in the Middle East</h1>
+
+    <div class="content">
+      <div class="container">
+        <div class="welcome">
+          <h1>Get ready to explore the future of gaming and development in the Middle East</h1>
+          <p>
+            Our upcoming marketplace will redefine collaboration, innovation, and trade within the gaming community.
+            Tailored for the Middle Eastern aesthetic and culture, this platform will serve as a central hub for
+            developers, offering a vibrant space for buying, selling, and sharing in-game assets, code, and much more.
+            Stay tuned for a transformative experience where creativity meets opportunity.
+          </p>
+        </div>
+        <h2>Game Assets</h2>
         <p>
-          Our upcoming marketplace will redefine collaboration, innovation, and trade within the gaming community.
-          Tailored for the Middle Eastern aesthetic and culture, this platform will serve as a central hub for
-          developers, offering a vibrant space for buying, selling, and sharing in-game assets, code, and much more.
-          Stay tuned for a transformative experience where creativity meets opportunity.
+          Your ultimate destination for gaming assets and tools has arrived. Dive into a world where creativity and
+          commerce converge in the heart of the Middle Eastern gaming community. Browse, explore, and be inspired.
         </p>
-      </div>
-      <h2>Game Assets</h2>
-      <p>
-        Your ultimate destination for gaming assets and tools has arrived. Dive into a world where creativity and
-        commerce converge in the heart of the Middle Eastern gaming community. Browse, explore, and be inspired.
-      </p>
-      <div class="marketplace section">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>Middle Eastern Developer Hub</h3>
-              <p>A specialized space for developers..</p>
-              <p class="discount">USD $00,000</p>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/avatar/user.jpg" alt="calender" width="24" height="24" />
-                  <p>byLucidian</p>
+        <div class="marketplace section">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="item">
+                <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
+                <h3>Middle Eastern Developer Hub</h3>
+                <p>A specialized space for developers..</p>
+                <p class="discount">USD $00,000</p>
+                <div class="details">
+                  <a href="#" class="buy">
+                    <dv>USD $00,000</dv>
+                  </a>
                 </div>
-                <a href="#" class="buy">
-                  <dv>USD $00,000</dv>
-                </a>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>In-Game Assets and Code</h3>
-              <p>Dive into a treasure trove of game...</p>
-              <p class="discount">USD $00,000</p>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/avatar/user.jpg" alt="calender" width="24" height="24" />
-                  <p>byLucidian</p>
+            <div class="col-md-3">
+              <div class="item">
+                <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
+                <h3>In-Game Assets and Code</h3>
+                <p>Dive into a treasure trove of game...</p>
+                <p class="discount">USD $00,000</p>
+                <div class="details">
+                  <a href="#" class="buy">
+                    <dv>USD $00,000</dv>
+                  </a>
                 </div>
-                <a href="#" class="buy">
-                  <dv>USD $00,000</dv>
-                </a>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>NFT Integration Tools</h3>
-              <p>Harness the power of blockchain...</p>
-              <p class="discount">USD $00,000</p>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/avatar/user.jpg" alt="calender" width="24" height="24" />
-                  <p>byLucidian</p>
+            <div class="col-md-3">
+              <div class="item">
+                <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
+                <h3>NFT Integration Tools</h3>
+                <p>Harness the power of blockchain...</p>
+                <p class="discount">USD $00,000</p>
+                <div class="details">
+                  <a href="#" class="buy">
+                    <dv>USD $00,000</dv>
+                  </a>
                 </div>
-                <a href="#" class="buy">
-                  <dv>USD $00,000</dv>
-                </a>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>User Account Sharing</h3>
-              <p>Participate in our scholarship pro...</p>
-              <p class="discount">USD $00,000</p>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/avatar/user.jpg" alt="calender" width="24" height="24" />
-                  <p>byLucidian</p>
+            <div class="col-md-3">
+              <div class="item">
+                <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
+                <h3>User Account Sharing</h3>
+                <p>Participate in our scholarship pro...</p>
+                <p class="discount">USD $00,000</p>
+                <div class="details">
+                  <a href="#" class="buy">
+                    <dv>USD $00,000</dv>
+                  </a>
                 </div>
-                <a href="#" class="buy">
-                  <dv>USD $00,000</dv>
-                </a>
               </div>
             </div>
           </div>
@@ -206,5 +227,6 @@
     </div>
     <script src="../../plugins/jquery.min.js"></script>
     <script src="../../plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="../../scripts/bg-image-animation.js"></script>
   </body>
 </html>
