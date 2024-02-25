@@ -12,10 +12,43 @@
     <link rel="stylesheet" href="../../plugins/fontawesome-free-6.5.1-web/css/all.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" />
     <link rel="stylesheet" href="../../styles/global.css" />
+    <link rel="stylesheet" href="../../styles/bg-image-animation.css" />
     <link rel="stylesheet" href="../../styles/english.css" />
     <link rel="stylesheet" href="../../styles/home.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   </head>
-  <body class="home">
+  <body class="web-app home">
+    <div class="bg-image-animation blur" data-toggle="bg-image-animation">
+      <div
+        class="item active"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/games.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/sandstorm_01.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/sandstorm_03.jpg) no-repeat center center;
+        "
+      ></div>
+    </div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="./home.html"><img src="../../images/logo.svg" alt="logo" /></a>
@@ -99,208 +132,227 @@
         </button>
       </div>
     </nav>
-    <div class="container">
-      <div class="welcome">
-        <h1>Welcome to Lucidia</h1>
+    <div class="content">
+      <div class="container">
+        <div class="welcome">
+          <h1>Welcome to Lucidia</h1>
+          <p>
+            The frontier of gaming innovation in the Middle East. We're redefining the gaming landscape by integrating
+            the thrilling world of traditional gaming with the boundless possibilities of blockchain technology.
+            Discover a new era of gaming with us.
+          </p>
+        </div>
+        <h2>Explore Our Ecosystem</h2>
         <p>
-          The frontier of gaming innovation in the Middle East. We're redefining the gaming landscape by integrating the
-          thrilling world of traditional gaming with the boundless possibilities of blockchain technology. Discover a
-          new era of gaming with us.
+          Dive into our diverse platforms designed for gamers, developers, and creators. From the Developer Marketplace
+          to the NFT Integration Toolkit, each solution is crafted to enhance your gaming experience and development
+          journey.
         </p>
-      </div>
-      <h2>Explore Our Ecosystem</h2>
-      <p>
-        Dive into our diverse platforms designed for gamers, developers, and creators. From the Developer Marketplace to
-        the NFT Integration Toolkit, each solution is crafted to enhance your gaming experience and development journey.
-      </p>
-      <div class="ecosystem section">
-        <div class="row">
-          <div class="col-md-3">
-            <a href="#">
-              <div class="image" style="background-image: url(../../images/home/ecosystem/01.png)"></div>
-              <h3>Marketplace for Middle-Eastern Developers</h3>
-              <p>A culturally tailored marketplace fostering collaboration among developers in the Middle East.</p>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="#">
-              <div class="image" style="background-image: url(../../images/home/ecosystem/02.png)"></div>
-              <h3>Marketplace for In-Game Assets and Code</h3>
-              <p>A hub for trading game assets and code, enhancing resource sharing among developers.</p>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="#">
-              <div class="image" style="background-image: url(../../images/ecosystem/nft-integration.svg)"></div>
-              <h3>Comprehensive NFT Integration Toolkit</h3>
-              <p>Tools simplifying NFT integration into games, bridging creativity and blockchain technology.</p>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="#">
-              <div class="image" style="background-image: url(../../images/ecosystem/inventory.svg)"></div>
-              <h3>Built-in Game Inventory System</h3>
-              <p>A seamless solution for managing in-game inventories and integrating them with NFT marketplaces</p>
-            </a>
-          </div>
-        </div>
-      </div>
-      <h2>Stay Updated</h2>
-      <p>
-        Be the first to know about our latest breakthroughs, product launches, and updates. Lucidia is constantly
-        evolving, and here's where you'll find all the exciting news
-      </p>
-      <div class="stay-updated section">
-        <div class="row">
-          <div class="col-md-10">
-            <div class="row">
-              <div class="col-md-3">
-                <a href="#">
-                  <div class="image" style="background-image: url(../../images/home/icon.svg)"></div>
-                  <h4>New car pack update:</h4>
-                  <ul>
-                    <li>Audi RS7</li>
-                    <li>BMW M3</li>
-                  </ul>
-                  <div class="game">
-                    <img src="../../images/home/stay-updated/01.jpg" alt="game" />
-                    Sandstorm Racing
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-3">
-                <a href="#">
-                  <div class="image" style="background-image: url(../../images/home/icon.svg)"></div>
-                  <h4>New gun pack update:</h4>
-                  <ul>
-                    <li>AK47</li>
-                    <li>AWM</li>
-                  </ul>
-                  <div class="game">
-                    <img src="../../images/home/stay-updated/02.jpg" alt="game" />
-                    Desert Dominion
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-3">
-                <a href="#">
-                  <div class="image" style="background-image: url(../../images/home/icon.svg)"></div>
-                  <h4>New car pack update:</h4>
-                  <ul>
-                    <li>Audi RS7</li>
-                    <li>BMW M3</li>
-                  </ul>
-                  <div class="game">
-                    <img src="../../images/home/stay-updated/01.jpg" alt="game" />
-                    Sandstorm Racing
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-3">
-                <a href="#">
-                  <div class="image" style="background-image: url(../../images/home/icon.svg)"></div>
-                  <h4>New gun pack update:</h4>
-                  <ul>
-                    <li>AK47</li>
-                    <li>AWM</li>
-                  </ul>
-                  <div class="game">
-                    <img src="../../images/home/stay-updated/02.jpg" alt="game" />
-                    Desert Dominion
-                  </div>
-                </a>
-              </div>
+        <div class="ecosystem section">
+          <div class="row">
+            <div class="col-md-3">
+              <a href="#">
+                <div class="image" style="background-image: url(../../images/home/ecosystem/01.png)"></div>
+                <h3>Marketplace for Middle-Eastern Developers</h3>
+                <p>A culturally tailored marketplace fostering collaboration among developers in the Middle East.</p>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <div class="image" style="background-image: url(../../images/home/ecosystem/02.png)"></div>
+                <h3>Marketplace for In-Game Assets and Code</h3>
+                <p>A hub for trading game assets and code, enhancing resource sharing among developers.</p>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <div class="image" style="background-image: url(../../images/ecosystem/nft-integration.svg)"></div>
+                <h3>Comprehensive NFT Integration Toolkit</h3>
+                <p>Tools simplifying NFT integration into games, bridging creativity and blockchain technology.</p>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <div class="image" style="background-image: url(../../images/ecosystem/inventory.svg)"></div>
+                <h3>Built-in Game Inventory System</h3>
+                <p>A seamless solution for managing in-game inventories and integrating them with NFT marketplaces</p>
+              </a>
             </div>
           </div>
         </div>
-      </div>
-      <h2>Success in Action</h2>
-      <p>
-        Read about how game studios and independent developers are leveraging Lucidia's ecosystem to create
-        groundbreaking games and forge new paths in the gaming industry.
-      </p>
-      <div class="success-in-action section">
-        <ul>
-          <li>
-            <div class="background" style="background-image: url(../../images/home/success-in-action/01.jpg)">
-              <img
-                class="character"
-                src="../../images/home/success-in-action/01.png"
-                alt="character"
-                style="right: -14px; bottom: -23px"
-              />
+        <h2>Stay Updated</h2>
+        <p>
+          Be the first to know about our latest breakthroughs, product launches, and updates. Lucidia is constantly
+          evolving, and here's where you'll find all the exciting news
+        </p>
+        <div class="stay-updated section">
+          <div class="row">
+            <div class="col-md-3">
+              <a href="#">
+                <div class="image" style="background-image: url(../../images/home/stay-updated/bg03.png)"></div>
+                <h4>New update:</h4>
+                <ul>
+                  <li>Weather System update now live, enhancing gameplay realism.</li>
+                  <li>Performance System update now live, enhancing gameplay realism.</li>
+                  <li>New Axe variant introduced for advanced crafting.</li>
+                </ul>
+                <div class="game">
+                  <img src="../../images/home/stay-updated/03.jpg" alt="game" />
+                  Cryptocraft
+                </div>
+              </a>
             </div>
-          </li>
-          <li>
-            <div class="background" style="background-image: url(../../images/home/success-in-action/02.jpg)">
-              <img
-                class="character"
-                src="../../images/home/success-in-action/02.png"
-                alt="character"
-                style="right: 53px; bottom: 0"
-              />
+            <div class="col-md-3">
+              <a href="#">
+                <div class="image" style="background-image: url(../../images/home/stay-updated/bg04.png)"></div>
+                <h4>New update:</h4>
+                <ul>
+                  <li>Deployable Armored Personnel Carrier (APC) added to the game.</li>
+                  <li>Resolved Issue with rockets from helicopters detonating prematurely.</li>
+                  <li>Increased Ammunition capacity for all players for extended engagements.</li>
+                </ul>
+                <div class="game">
+                  <img src="../../images/home/stay-updated/04.jpg" alt="game" />
+                  Curse Of The Pharaoh
+                </div>
+              </a>
             </div>
-          </li>
-        </ul>
-      </div>
-      <h2>Join the Community</h2>
-      <p>
-        Engage with a vibrant community of gamers and developers. Participate in thrilling tournaments, get featured in
-        our community highlights, and connect with like-minded individuals.
-      </p>
-      <div class="community section">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="blog">
-              <div class="image" style="background-image: url(../../images/home/community/01.jpg)"></div>
-              <div class="content">
-                <h3>Pharaoh's Plague</h3>
-                <div class="authors">
-                  <ul>
-                    <li><img src="../../images/home/community/users/01.jpg" alt="author" /></li>
-                    <li><img src="../../images/home/community/users/02.jpg" alt="author" /></li>
-                    <li><img src="../../images/home/community/users/03.jpg" alt="author" /></li>
-                    <li class="count">100k+</li>
-                  </ul>
-                  <a href="#">Join us</a>
+            <div class="col-md-3">
+              <a href="#">
+                <div class="image" style="background-image: url(../../images/home/stay-updated/bg02.png)"></div>
+                <h4>New update:</h4>
+                <ul>
+                  <li>G36 recoil has been fine-tuned for improved accuracy.</li>
+                  <li>Introduced auto-regeneration feature for enhanced survivability.</li>
+                  <li>
+                    <span>
+                      Spawn point glitches have been rectified for fair play Ammunition bags now deployable for
+                      strategic resupply. Hitbox detection for a specific character optimized to register bullets
+                      accurately. New playable map added, expanding the battlefield.
+                    </span>
+                  </li>
+                </ul>
+                <div class="game">
+                  <img src="../../images/home/stay-updated/02.jpg" alt="game" />
+                  Desert Warriors
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <div class="image" style="background-image: url(../../images/home/stay-updated/bg01.png)"></div>
+                <h4>New update:</h4>
+                <ul>
+                  <li>New racing map now available for download.</li>
+                  <li>Exclusive car pack set released, featuring the 911 Turbo.</li>
+                  <li>Speedometer accuracy fixed, ensuring reliable performance metrics.</li>
+                </ul>
+                <div class="game">
+                  <img src="../../images/home/stay-updated/01.jpg" alt="game" />
+                  Desert Warriors
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <h2>Success in Action</h2>
+        <p>
+          Read about how game studios and independent developers are leveraging Lucidia's ecosystem to create
+          groundbreaking games and forge new paths in the gaming industry.
+        </p>
+        <div class="success-in-action section">
+          <ul>
+            <li>
+              <div class="background" style="background-image: url(../../images/home/success-in-action/01.jpg)">
+                <img
+                  class="character"
+                  src="../../images/home/success-in-action/01.png"
+                  alt="character"
+                  style="right: -14px; bottom: -23px"
+                />
+              </div>
+            </li>
+            <li>
+              <div class="background" style="background-image: url(../../images/home/success-in-action/02.jpg)">
+                <img
+                  class="character"
+                  src="../../images/home/success-in-action/02.png"
+                  alt="character"
+                  style="right: 53px; bottom: 0"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <h2>Join the Community</h2>
+        <p>
+          Engage with a vibrant community of gamers and developers. Participate in thrilling tournaments, get featured
+          in our community highlights, and connect with like-minded individuals.
+        </p>
+        <div class="community section">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="blog">
+                <div class="image" style="background-image: url(../../images/home/community/01.jpg)"></div>
+                <div class="content">
+                  <h3>Curse Of The Pharaoh</h3>
+                  <div class="authors">
+                    <ul>
+                      <li><img src="../../images/home/community/users/01.jpg" alt="author" /></li>
+                      <li><img src="../../images/home/community/users/02.jpg" alt="author" /></li>
+                      <li><img src="../../images/home/community/users/03.jpg" alt="author" /></li>
+                      <li class="count">100k+</li>
+                    </ul>
+                    <a href="#">Join us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="blog">
+                <div class="image" style="background-image: url(../../images/home/community/02.jpg)"></div>
+                <div class="content">
+                  <h3>Sandstorm Racers</h3>
+                  <div class="authors">
+                    <ul>
+                      <li><img src="../../images/home/community/users/01.jpg" alt="author" /></li>
+                      <li><img src="../../images/home/community/users/02.jpg" alt="author" /></li>
+                      <li><img src="../../images/home/community/users/03.jpg" alt="author" /></li>
+                      <li class="count">100k+</li>
+                    </ul>
+                    <a href="#">Join us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="blog">
+                <div class="image" style="background-image: url(../../images/home/community/03.jpg)"></div>
+                <div class="content">
+                  <h3>Desert Warriors</h3>
+                  <div class="authors">
+                    <ul>
+                      <li><img src="../../images/home/community/users/01.jpg" alt="author" /></li>
+                      <li><img src="../../images/home/community/users/02.jpg" alt="author" /></li>
+                      <li><img src="../../images/home/community/users/03.jpg" alt="author" /></li>
+                      <li class="count">100k+</li>
+                    </ul>
+                    <a href="#">Join us</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="blog">
-              <div class="image" style="background-image: url(../../images/home/community/02.jpg)"></div>
-              <div class="content">
-                <h3>Sandstorm Racing</h3>
-                <div class="authors">
-                  <ul>
-                    <li><img src="../../images/home/community/users/01.jpg" alt="author" /></li>
-                    <li><img src="../../images/home/community/users/02.jpg" alt="author" /></li>
-                    <li><img src="../../images/home/community/users/03.jpg" alt="author" /></li>
-                    <li class="count">100k+</li>
-                  </ul>
-                  <a href="#">Join us</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="blog">
-              <div class="image" style="background-image: url(../../images/home/community/03.jpg)"></div>
-              <div class="content">
-                <h3>Arabian FPS</h3>
-                <div class="authors">
-                  <ul>
-                    <li><img src="../../images/home/community/users/01.jpg" alt="author" /></li>
-                    <li><img src="../../images/home/community/users/02.jpg" alt="author" /></li>
-                    <li><img src="../../images/home/community/users/03.jpg" alt="author" /></li>
-                    <li class="count">100k+</li>
-                  </ul>
-                  <a href="#">Join us</a>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
+        <div class="section">
+          <h2>Get Started with Lucidia</h2>
+          <p>
+            Ready to embark on a new gaming adventure? Sign up today to access our comprehensive suite of tools and join
+            a community of innovators shaping the future of gaming in the Middle East.
+          </p>
+        </div>
+        <div class="nav-item">
+          <a class="default-button" aria-current="page" href="/signup">Sign-up</a>
         </div>
       </div>
     </div>
@@ -318,10 +370,8 @@
         <a href="#"><img src="../../images/socials/website.svg" alt="website" /></a>
       </li>
     </ul>
-    <div class="logout">
-      <a href="/logout"><img src="../../images/icons/logout.svg" alt="logout" /></a>
-    </div>
     <script src="../../plugins/jquery.min.js"></script>
     <script src="../../plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="../../scripts/bg-image-animation.js"></script>
   </body>
 </html>

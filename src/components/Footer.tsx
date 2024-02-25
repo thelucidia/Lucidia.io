@@ -77,15 +77,15 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="w-full h-auto min-h-auto bg-black2 relative sm:py-12 mt-20">
-      <div className="max-w-[90%] mx-auto w-full text-secondary flex px-5 lg:pr-12 gap-x-24 lg:flex-row flex-col ">
+    <footer className="w-full h-auto min-h-auto bg-black2 relative sm:pt-9 sm:pb-10">
+      <div className="max-w-[95%] mx-auto w-full text-secondary flex px-5 gap-x-24 lg:flex-row flex-col ">
         <div className="mt-7 sm:mt-0">
           <img src="/hero/logo.webp" alt="Logo" className="sm:w-auto w-28" />
-          <p className="font-primary font-regular max-w-[29rem] mt-3 sm:mt-7 text-[12px] md:text-[12px]">
+          <p className="font-primary font-regular max-w-[29rem] leading-4 mt-3 sm:mt-7 text-[12px] md:text-[12px]">
             {t('jurisdiction')}
           </p>
-          <div className="text-footergry flex items-center gap-x-7 sm:gap-x-16 mt-16">
-            <div className="flex items-center max-w-[360px] flex-wrap gap-8 pr-16">
+          <div className="text-footergry flex items-center gap-x-7 sm:gap-x-16 mt-12">
+            <div className="flex items-center max-w-[360px] flex-wrap gap-x-6 gap-y-7 pr-16">
               {icons.map((items, i) => (
                 <a
                   href={items.link}
@@ -146,7 +146,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="relative min-w-[460px]">
+          <div className="relative min-w-[428px]">
             <h2 className="text-[16px] mb-1">{t('subscribe')}</h2>
             <input
               className="w-full border-[1px] border-[#F0F0F0] py-1 px-2 mt-4 bg-transparent"
@@ -175,12 +175,12 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="max-w-[90%] mx-auto w-full text-secondary sm:mt-20 flex justify-between items-center sm:pb-0 pb-5 px-5 pt-12 sm:pt-0 ">
+      <div className="max-w-[95%] mx-auto w-full text-secondary flex justify-between items-center sm:pb-0 pb-5 px-5 pt-12 sm:pt-6 ">
         <div className="">
           <h3 className="font-secondary text-[16px] font-semibold flex gap-x-2">
             © Lucidia 2024 <span>|</span> {t('rights')}
           </h3>
-          <p className="text-[12px] text-footergry font-secondary mt-2">{t('jurisdiction')}</p>
+          {/* <p className="text-[12px] text-footergry font-secondary mt-2">{t('jurisdiction')}</p> */}
         </div>
       </div>
     </footer>

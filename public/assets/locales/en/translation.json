@@ -65,8 +65,8 @@
   "join_community": "Join community of 20k+ Lucidians",
   "audited_by": "Audited by",
   "how_to_buy": "How to buy $LUCID",
-  "to_be": "To Be Unlocked by Users",
-  "in_game": "In Game Assets",
+  "to_be": "In Rewards No.1 MLN",
+  "in_game": "MLN In Game Assets",
   "game_inside": "Game Inside Metaverse",
   "maps": "Maps",
   "free2play": "Free2Play Open World",
@@ -93,17 +93,13 @@
   "other": "Other Games",
   "game_details": "Game details",
   "desertW": "Desert Wevrridrs",
-  "ExploreDesert": "Explore Desert Warriors",
-  "ExploreDesertTitle": "Welcome to Desert Warriors, where the thrill of first-person shooters meets the groundbreaking possibilities of Web3 and NFTs. Set against the backdrop of vast and diverse desert landscapes, this game invites you into a world of strategic combat, team-based challenges, and a vibrant player-driven economy. Here, every decision, every battle, and every alliance holds the weight of your legacy.",
-  "DesertGameOverview": "Game Overview :",
-  "DesertGameOverviewTitle": "Desert Warriors is a cutting-edge first-person shooter set in a vast desert landscape, where tactical gameplay meets the innovation of Web3 and NFTs. Engage in intense strategic combat and team-based challenges, all while navigating a player-driven economy enabled by blockchain technology.",
   "games": {
     "featured_games": "Featured Games",
     "see_details": "See details",
     "play_game": "Play Game",
     "zombie": {
       "title": "You Have to Survive",
-      "desc": "Curse Of The Pharaoh is an action/adventure/survival game set in a post-apocalyptic world overrun by zombies. Collect weapon, bullet, and fuel props. Travel throuhg open-world environment with different biomes.",
+      "desc": "Dive into 'Curse Of The Pharaoh' a groundbreaking hybrid FPS whereancient mythology and futuristic warfare collide in the heart of a reimaginedDubai. As ancient plagues awaken, transforming the city into a nexus of mythologicalresurgence, you're thrust into a world where your shooting skills are just ascrucial as the alliances you form and the strategies you devise.",
       "overview": "Curse Of The Pharaoh combines the fast-paced action of FPS games with the mystery of ancient mythology, all set in a futuristic Dubai landscape. Inspired by the intense cooperative gameplay of Left 4 Dead 2, navigate through ancient curses and futuristic challenges in this adrenaline-fueled adventure. Dive into Curse Of The Pharaoh",
       "details": [
         {
@@ -132,30 +128,22 @@
     },
     "lucid": {
       "title": "Craft tools, create blocks",
-      "desc": "Cryptocraft is a sandbox adventure survival game set in a procedurally generated world. You can craft tools like pickaxe, axe, and shovel. Create a block and gather all the recourses as much as you need.",
-      "overview": "Cryptocraft is a sandbox adventure survival game set in a procedurally generated world.",
-      "mech": "Mechanisms and Gameplay",
-      "overview2": "Enter the world of Cryptocraft, where imagination meets construction. Inspired by the limitless possibilities of games like Minecraft, cryptocraft offers an expansive universe of building, crafting, and creativity, all enhanced by the power of Web3.",
-      "details": [
-        {
-          "value": "Intuitive building and crafting mechanics"
-        },
-        {
-          "value": "Endless possibilities for creation, from simple tools to architectural marvels"
-        },
-        {
-          "value": "A vibrant, player-driven world"
-        },
-        {
-          "value": "Blockchain Integration: Forge, trade, and collect unique digital items as NFTs, enriching your crafting journey with real-world value."
-        }
-      ],
-      "details2": [
-        "Procedurally generated world.",
-        "Three types of tools (shovel, axe, pickaxe).",
-        "Crafting system for creating new blocks.",
-        "Approximately 50 types of blocks (90% need to be crafted).",
-        "Dynamic weather system for changing game graphics."
+      "desc": "Welcome to \"Cryptocraft,\" aboundless universe where your imagination is the only limit. Dive into anopen-world sandbox experience that combines the joy of building and survivalwith the innovative features of Web3 and NFTs. In Lucidcraft, every creation,every exploration, and every interaction enriches your journey and the worldaround you.",
+      "overview": "Embark on an adventure in ever-expanding worlds, craft your destiny, and become part of a vibrant community where collaboration and creativity reign supreme.",
+      "prop_title": "<span class=\"primary bold\">Title:</span> Cryptocraft",
+      "prop_genre": "<span class=\"primary bold\">Genre:</span> Sandbox, Open-World, Survival",
+      "prop_audience": "<span class=\"primary bold\">Target Audience:</span> Creative builders, explorers, Web3 enthusiasts, and community-driven players",
+      "mechanics": "Gameplay Mechanics",
+      "overview2": "Lucidcraft is an amalgamation of creativity, survival, and exploration, set in a richly diverse and responsive world.",
+      "build": "<span class=\"primary bold\">Building and Crafting:</span> From humble shelters to grandiose constructions, Lucidcraft's intuitive crafting system invites endless innovation",
+      "exploration": "<span class=\"primary bold\">Exploration:</span> Traverse sprawling biomes, each brimming with unique resources and mysteries. Discover, adapt, and survive in a world that's as vast as your imagination",
+      "highlight_points": "Highlighting Points",
+      "points": [
+        "<span class=\"primary bold\">Dynamic, User-Generated Worlds:</span> Step into infinite realms shaped by players. Your creations contribute to the ever-evolving tapestry of Lucidcraft's universe.",
+        "<span class=\"primary bold\">Web3 Integration:</span> Experience true ownership with blockchain-powered in-game assets. Trade, own, and monetize your creations and real estate as NFTs, adding a layer of investment to your gameplay.",
+        "<span class=\"primary bold\">Evolving Ecosystems:</span> Interact with living environments where your actions influence the world. From altering landscapes to affecting local wildlife, your impact is tangible.",
+        "<span class=\"primary bold\">Customizable Gameplay:</span> Tailor your Lucidcraft experience with extensive modding tools and in-game programming, creating unique game modes and personalizing your adventures.",
+        "<span class=\"primary bold\">Community Governance:</span> Have a say in thedevelopment and future of Lucidcraft through a decentralized autonomousorganization (DAO), empowering the community to steer the game's evolution."
       ]
     },
     "battle": {
@@ -199,10 +187,11 @@
       ]
     },
     "canyon": {
-      "title": "Experience Sandstorm Racer",
-      "desc": "Canyon Drift is a race game that bring players to race on looped track with canyon-style environtment. You can choose one car in the showroom as your car and race with other players.",
+      "title": "Experience<br/>Sandstorm Racer",
+      "desc": "Feel the thrill of Sandstorm Racer, where high-octane racing meets the challenge of navigating through treacherous sandstorms. Drawing inspiration from titles like Forza Horizon, this game offers a perfect blend of realistic racing dynamics and accessible, fun gameplay.",
 
-      "details": [
+      "gameFeaturesTitle": "Game Features:",
+      "gameFeaturesDetail": [
         "Realistic physics engine for authentic vehicle handling",
         "Dynamic weather effects, including signature sandstorms",
         "Competitive races and challenges",
@@ -210,12 +199,35 @@
       ]
     },
     "desertWarior": {
+      "fpsGame": "A new era of fps<br/> gaming",
+      "fpsGameTitle": "Welcome to \"Desert Warriors,\" where the thrill of first-person shootersmeets the groundbreaking possibilities of Web3 and NFTs. Set against the backdrop of vast and diverse desert landscapes, this game invites you into a world of strategic combat, team-based challenges, and a vibrant player-driveneconomy. Here, every decision, every battle, and every alliance holds theweight of your legacy.",
+      "ExploreDesert": "Explore Desert Warriors",
+      "ExploreDesertTitle": "Welcome to Desert Warriors, where the thrill of first-person shooters meets the groundbreaking possibilities of Web3 and NFTs. Set against the backdrop of vast and diverse desert landscapes, this game invites you into a world of strategic combat, team-based challenges, and a vibrant player-driven economy. Here, every decision, every battle, and every alliance holds the weight of your legacy.",
+      "DesertGameOverview": "Game Overview :",
+      "DesertGameOverviewTitle": "Desert Warriors is a cutting-edge first-person shooter set in a vast desert landscape, where tactical gameplay meets the innovation of Web3 and NFTs. Engage in intense strategic combat and team-based challenges, all while navigating a player-driven economy enabled by blockchain technology.",
+      "prop_title": "<span class=\"primary bold\">Title:</span> Desert Warriors",
+      "prop_genre": "<span class=\"primary bold\">Genre:</span> First-Person Shooter (FPS)",
+      "prop_audience": "<span class=\"primary bold\">Target Audience:</span> Competitive and casual gamers, Web3 enthusiasts",
+      "prop_desc": "Dive into \"Desert Warriors\" where your strategic prowess,teamwork, and adaptability are your greatest assets. Engage in high-stakes combat across ancient ruins, futuristic installations, and unpredictable sanddunes.",
+      "points_title": "Unique Selling Points",
+      "points": [
+        "Strategic Gameplay: Every match in \"Desert Warriors\" is a testament to strategy, requiring keen planning, flawless team coordination, and adept skill execution.",
+        "Web3 Integration: Propel your gaming experience into the future with blockchain technology, enabling true ownership, trading, and customization of NFT-based in-game assets.",
+        "Diverse Environments: From the silent whispers of ancient deserts to the cold echoes of advanced military bases, each map offers unique tactical challenges.",
+        "Community-Centric Development: \"Desert Warriors\" evolves with you. Your feedback and engagement shape the future, with continuous updates and new content driven by the community."
+      ],
       "title": "Game Featues",
+      "desc": "\"Desert Warrios\" is more than an FPS; it's a test of tactics and teamwork. Navigate through challenging terrains, leverage cover, and synchronize with your squad to dominate the battlefield.",
       "Featuesdetails": [
-        "Tactical FPS gameplay in a rich desert environment",
-        "Team-based missions and objectives",
-        "A dynamic, player-driven economy through NFT integration",
-        "Blockchain Integration: Experience ownership like never before with unique in-game assets and rewards, tradable as NFTs within the Lucidia ecosystem"
+        "<span class=\"primary bold\">Core Mechanics:</span> Immerse yourself in a variety of actions including sprinting for cover, precision aiming, and deploying strategic equipment, all designed to encourage thoughtful, tactical gameplay.",
+        "<span class=\"primary bold\">Game Modes:</span> Whether you prefer the intensity of 1v1 duels, the strategic depth of 2v2 skirmishes, or the classic teamwork of 5v5 battles, \"Desert Warriors\" has a mode for every warrior."
+      ],
+      "uniqueSellingPoints": "Unique Selling Points",
+      "points": [
+        "<span class=\"primary bold\">Strategic Gameplay:</span> Every match in \"Desert Warriors\" is a testament to strategy, requiring keen planning, flawless team coordination, and adept skill execution.",
+        "<span class=\"primary bold\">Web3 Integration:</span> Propel your gaming experience into the future with blockchain technology, enabling true ownership, trading, and customization of NFT-based in-game assets.",
+        "<span class=\"primary bold\">Diverse Environments:</span> From the silent whispers of ancient deserts to the cold echoes of advanced military bases, each map offers unique tactical challenges.",
+        "<span class=\"primary bold\">Community-Centric Development:</span> \"Desert Warriors\" evolves with you. Your feedback and engagement shape the future, with continuous updates and new content driven by the community."
       ]
     }
   },
@@ -223,7 +235,7 @@
     {
       "title": "",
       "subHeader": "You Have to Survive!",
-      "description": "Zombie Outbreak is an action/adventure/survival game set in a post-apocalyptic world overrun by zombies. Collect weapon, bullet, and fuel props. Travel throuhg open-world environment with different biomes.",
+      "description": "Zombie Outbreak is an action/adventure/survival game set in a post-apocalyptic world overrun by zombies. Collect weapon, bullet, and fuel props. Travel through open-world environment with different biomes.",
       "slug": "zombie-outbreak",
       "link": "",
       "image": "zombie"
@@ -417,7 +429,7 @@
         "desc": "Encourage community participation in game improvement with a bug bounty system, rewarding contributions to game integrity."
       }
     ],
-    "title": "Welcome to Lucidia's <span style='color: #B28539'>Ecosystem</span>",
+    "title": "Welcome to Lucidia's <span class=\"primary\">Ecosystem</span>",
     "description": "Explore our suite of innovative products designed for the vibrant Middle Eastern gaming community. From unique marketplaces to advanced NFT tools, Lucidia is your gateway to the future of gaming.",
     "scroll": "Scroll Down",
     "our-product": "Our Product",
@@ -437,7 +449,7 @@
     "raphael_role": "Head of Web Development",
     "raphael_content": "As the Head of Development, steering the ship of innovation, I've found unparalleled support working with Lucidia. Their commitment to excellence in both front-end and back-end development has allowed us to break through barriers and reach new heights. The synergy between our visions and their technical prowess is nothing short of extraordinary. Together, we're crafting the future of digital landscapes.",
     "meera": "Malek Sharabi",
-    "meera_role": "Head of Game Development",
+    "meera_role": "Head of Developers",
     "meera_content": "Joining Lucidia as a Front-end Developer has been a game-changer for me. The creative freedom and collaborative spirit here are invigorating. Working on cutting-edge projects, I've seen my ideas come to life, making every line of code a masterpiece. It's not just a job; it's a front-row seat to the evolution of web development. Proud to be part of a team that turns visions into breathtaking realities.",
     "our_journey": "Be Part Of Our Journey",
     "journey_content": "We're on the lookout for dynamic individuals with a passion for gaming and a flair for the crypto world to join our innovative team, no matter where you from.",
@@ -477,35 +489,165 @@
     "title": "Road <span style='color: #B28539'>Map</span>",
     "scroll": "Scroll Down",
     "quarter": "Quarter",
-    "road1": [
-      "Release Alpha Limited Access To Games",
-      "Seed Round",
-      "Launch Ecosystem App (Beta)",
-      "Private Beta Testing of Games: Zombie Outbreak, Lucidcraft, NFT Racing, Lucidia FPS",
-      "Listing on CoinMarketCap and CoinGecko",
-      "Presale Using IDO Platforms",
-      "User Education Portal for Web3 Gaming"
-    ],
-    "road2": [
-      "Token TGE",
-      "Implement Staking",
-      "First game with Blockchain integration on mainnet",
-      "First CEX and DEX Listings",
-      "Mobile Closed Beta",
-      "Development of Marketplace for Middle-Eastern Developers and In-Game Assets and Code",
-      "Launch Lucidia's In-Game Purchase System Token Integration",
-      "Start development of Web3 Game Marketing Hub"
-    ],
-    "road3": [
-      "Mainnet Launch, CEX Listing, NFT Tools",
-      "Cross-Platform Login, Funding Platform, Play-to-Earn",
-      "Game Inventory, DAO Tools, Bug Bounty, Tournament API",
-      "Cross-Game Assets, Marketing Hub, DAO Vote",
-      "Incubator Program, Account Sharing, Translation Product",
-      "Expand Offline Events, Top 10 Ranking",
-      "Scale Platforms, Leverage Feedback",
-      "Strategize, Engage Community, Explore Tech"
+    "contents": [
+      {
+        "years": "2024",
+        "item": [
+          {
+            "q1": "Q1",
+            "q2": "Q2",
+            "road": [
+              "Release Alpha Limited Access To Games",
+              "Seed Round",
+              "Launch Ecosystem App (Beta)",
+              "Private Beta Testing of Games: Zombie Outbreak, Lucidcraft, NFT Racing, Lucidia FPS",
+              "Listing on CoinMarketCap and CoinGecko",
+              "Presale Using IDO Platforms",
+              "User Education Portal for Web3 Gaming"
+            ]
+          },
+          {
+            "q1": "Q3",
+            "q2": "Q4",
+            "road": [
+              "Next CEX Listing",
+              "Conduct Burn Event",
+              "Launch in mainnet for All Games produced by Lucidia",
+              "Comprehensive NFT Integration Toolkit for Game Developers",
+              "Development of NFT Smart Contract Creation with Templates",
+              "Cross-Platform Compatibility with Unified Lucidia Login",
+              "Develop and launch Community-Driven Funding Platform"
+            ]
+          }
+        ]
+      },
+      {
+        "years": "2025",
+        "item": [
+          {
+            "q1": "Q1",
+            "q2": "Q2",
+            "road": [
+              "Token TGE",
+              "Implement Staking",
+              "Mobile Closed Beta",
+              "First CEX and DEX Listings",
+              "First game with Blockchain integration on mainet",
+              "Development of Marketplace for Middle-Eastern Developers and In-Game Assets and Code",
+              "Launch Lucidia's In-Game Purchase System Token Integration",
+              "Start development of Web3 Game Marketing Hub"
+            ]
+          },
+          {
+            "q1": "Q3",
+            "q2": "Q4",
+            "road": [
+              "Built-in Game Inventory System for Seamless Game Integration",
+              "Share DAO Tools for Enhanced User Participation in Game Decisions",
+              "Lucidia Bug Bounty Reward System",
+              "Tournament API with ELO and Bracket System and Smart Contract Automation",
+              "Launch Cross-Game Asset Integration for an Interconnected Lucidia Gaming Universe",
+              "Finalize and launch Web3 Game Marketing HubFirst DAO voting for Lucidia Ecosystem"
+            ]
+          }
+        ]
+      },
+      {
+        "years": "2026",
+        "item": [
+          {
+            "q1": "Q1",
+            "q2": "Q2",
+            "road": [
+              "Scale and enhance existing platforms and services based on user feedback and market trends",
+              "Review and strategize for next-phase developments",
+              "Continue community engagement and marketing efforts",
+              "Explore new technologies and integrations for future growth"
+            ]
+          },
+          {
+            "q1": "Q3",
+            "q2": "Q4",
+            "road": [
+              "Game Incubator and Accelerator Program",
+              "Marketplace for User Account Sharing - Scholarship Program",
+              "Comprehensive Translation Product: English to Arabic Localization",
+              "Expand Offline Events Organizer in the Middle East for Community Engagement",
+              "Quarterly Top 10 Games Ranking for the Middle East Region"
+            ]
+          }
+        ]
+      }
     ]
+  },
+  "curse_game": {
+    "unleash": "Unleash The Myths",
+    "overview": "Game Overview",
+    "prop_title": "<span style='color: #B28539; font-weight: 700;'>Title:</span> Curse Of The Pharaoh",
+    "prop_genre": "<span style='color: #B28539; font-weight: 700;'>Genre:</span> Hybrid FPS with Co-op PvP, and PvE Elements",
+    "prop_setting": "<span style='color: #B28539; font-weight: 700;'>Setting:</span> A post-apocalyptic Dubai, where ancient Middle Eastern mythshave taken root in the modern world.<br>Embark on a quest through a cityscape that marries the iconic skyline ofDubai with the haunting beauty of mythological chaos, where every corner turnedis a step deeper into a narrative that spans ages.",
+    "points_title": "Unique Selling Points",
+    "dubai_reimagined": "<span style='font-weight: 700; color: #B28539;'>Dubai Reimagined:</span> Traverse the sands of time in a Dubai overtaken by mythological forces, where every landmark tells a story of ancient power and modern resilience.",
+    "mythological": "<span style='font-weight: 700; color: #B28539;'>Mythological Warfare:</span> Engage in combat against legendary beasts and deities from Middle Eastern lore, utilizing a mix of futuristic firepower and ancient magic.",
+    "narrative": "<span style='font-weight: 700; color: #B28539;'>Narrative Depth:</span> Delve into a story that weaves the rich cultural tapestry of the Middle East with thrilling mythological tales, setting the stage for an epic saga of heroism and betrayal.",
+    "web3_integration": "<span style='font-weight: 700; color: #B28539;'>Web3 Integration:</span> Step into the future of gaming with Web3 technologies, where your achievements and treasures become NFTs, adding a layer of strategy and value to every action.",
+    "gameplay_mechanics": "Gameplay Mechanics",
+    "mechanics_desc": "'Curse Of The Pharaoh' offers a rich blend of FPS action, strategy,and cooperative gameplay, set against the backdrop of an open-world Dubai afflicted by ancient curses.",
+    "advanced_movement": "<span style='color: #B28539; font-weight: 700;'>Advanced Movement:</span> Master the art of urban navigation with parkour mechanics, allowing for fluid movement across Dubai's transformed skyline.",
+    "strategic_combat": "<span style='color: #B28539; font-weight: 700;'>Strategic Combat:</span> Balance your arsenal of high-tech weapons with enchanted artifacts, each offering unique advantages against the mythological menaces you'll face.",
+    "cooperative_mission": "<span style='color: #B28539; font-weight: 700;'>Cooperative Missions</span> Band together with allies to undertake quests that dive deep into the heart of the plagues, with dynamic scenarios that adapt based on your team's decisions and achievements.",
+    "stroy_narrative": "Stroy and Narrative",
+    "stroy_narrative_desc": "In a world where the past and future collide, you play a crucial role inunraveling the mysteries behind the relic that has bridged the gap betweenrealms, setting ancient gods and monsters loose upon Dubai.",
+    "world_environment": "Work and Environment",
+    "reimagined_dubai": "<span style='color: #B28539; font-weight: 700;>spanReimagined Dubai:</span> Explore a city transformed by mythological plagues, where the familiar meets the fantastical, offering endless opportunities for exploration and combat.",
+    "dynamic_env": "<span style='color: #B28539; font-weight: 700;>Dynamic Environments:</span> Navigate through a world that reacts to your actions, with shifting terrains and interactive elements that make each journey through Dubai unique.",
+    "characters_progression": "Characters and Progression",
+    "guardian": "<span style='color: #B28539; font-weight: 700;>Guardian of Horus, Scion of Set:</span> Choose your path with characters inspired by mythology, each with unique abilities that cater to different playstyles and strategies.",
+    "artifact": "<span style='color: #B28539; font-weight: 700;>Artifact Collection:</span> Discover and wield powerful artifacts, upgrading them through challenges to unlock their full potential and carve your legacy in the sands.",
+    "enemies_ai": "Enemies and AI",
+    "mythological_adversaries": "<span style='color: #B28539; font-weight: 700;>Mythological Adversaries:</span> From the serpents of Apophis to the legions of Anubis, face off against creatures drawn from the depths of Middle Eastern mythology, requiring more than mere firepower to overcome.",
+    "adaptive_ai": "<span style='color: #B28539; font-weight: 700;>Adaptive AI:</span> Battle against foes that learn and evolve, ensuring that no two encounters are the same and every victory is hard-earned.",
+    "technical_framework": "Technical Framework",
+    "technical_framework_content": "Powered by Unreal Engine 5, 'Pharaoh's Plague' brings themyth-infused world of Dubai to life with stunning visuals, complex AIbehaviors, and seamless multiplayer experiences, all underpinned by Ethereumblockchain technology for a new era of digital ownership and in-game economies.",
+    "art_design": "Art and Sound Design",
+    "visual_aesthetic": "<span style='color: #B28539; font-weight: 700;>Visual Aesthetic:</span>  Immerse yourself in a game where the visuals are as rich and intricate as the story, with a blend of photorealistic and stylized elements that pay homage to the ancient and the modern.",
+    "audio_landscapte": "<span style='color: #B28539; font-weight: 700;>Audio Landscape</span> Let the dynamic soundtrack, featuring a mix of traditional Middle Eastern tunes and modern beats, set the pace for your adventures, with sound effects that ground you in the game's mystical and chaotic world.",
+    "join_battle": "Join The Battle",
+    "join_battle_content": "Are you ready to step into a world where myths walk among us, and thebattleground is the city of the future? 'Curse Of The Pharaoh' awaits,where your courage, strategy, and alliances will determine the fate of Dubaiand the balance between the ancient and the modern.<br><br> Embark on Your Journey in Curse Of The Pharaoh"
+  },
+  "cryptocraft": {
+    "game_overview": "Game Overview",
+    "title": "<span style='color: #B28539; font-weight: 700;>Title: </span>Cryptocraft",
+    "genre": "<span style='color: #B28539; font-weight: 700;>Genre: </span>Sandbox, Open-World, Survival",
+    "target": "<span style='color: #B28539; font-weight: 700;>Target Audience: </span>Creative builders, explorers, Web3 enthusiasts, andcommunity-driven players",
+    "overview_content": "Embark on an adventure inever-expanding worlds, craft your destiny, and become part of a vibrantcommunity where collaboration and creativity reign supreme.",
+    "gameplay": "<span style='font-weight: 700;>Gameplay Mechanics </span>",
+    "gameplay_content": "Lucidcraft is an amalgamation of creativity, survival, and exploration, setin a richly diverse and responsive world.",
+    "building_crafting": "<span style='color: #B28539; font-weight: 700;>Building Crafting: </span>From humble shelters to grandiose constructions, Lucidcraft's intuitive crafting system invites endless innovation.",
+    "exploration": "<span style='color: #B28539; font-weight: 700;>Exploration: </span>Traverse sprawling biomes, each brimming with unique resources and mysteries. Discover, adapt, and survive in a world that's as vast as your imagination.",
+    "highlight": "<span style='font-weight: 700;>Highlighting Points </span>",
+    "dynamic_worlds": "<span style='color: #B28539; font-weight: 700;>Dynamic, User-Generated Worlds: </span>Step into infinite realms shaped by players. Your creations contribute to the ever-evolving tapestry of Lucidcraft's universe",
+    "web3_integration": "<span style='color: #B28539; font-weight: 700;>Web3 Integration: </span>Experience true ownership with blockchain-powered in-game assets. Trade, own, and monetize your creations and real estate as NFTs, adding a layer of investment to your gameplay.",
+    "evolving_ecosystems": "<span style='color: #B28539; font-weight: 700;>Evolving Ecosystems: </span>Interact with living environments where your actions influence the world. From altering landscapes to affecting local wildlife, your impact is tangible.",
+    "customizable_gameplay": "<span style='color: #B28539; font-weight: 700;>Customizable Gameplay: </span>Tailor your Lucidcraft experience with extensive modding tools and in-game programming, creating unique game modes and personalizing your adventures.",
+    "community_governance": "<span style='color: #B28539; font-weight: 700;>Community Governance: </span>Have a say in thedevelopment and future of Lucidcraft through a decentralized autonomousorganization (DAO), empowering the community to steer the game's evolution."
+  },
+  "desert": {
+    "fps_gaming": "a new era of fps gaming",
+    "fps_gaming_content": "Welcome to 'Desert Warriors,' where the thrill of first-person shootersmeets the groundbreaking possibilities of Web3 and NFTs. Set against thebackdrop of vast and diverse desert landscapes, this game invites you into aworld of strategic combat, team-based challenges, and a vibrant player-driveneconomy. Here, every decision, every battle, and every alliance holds theweight of your legacy.",
+    "game_overview": "Game Overview",
+    "title": "<span style='color: #B28539; font-weight: 700;>Title: </span>Desert Warriors",
+    "genre": "<span style='color: #B28539; font-weight: 700;>Genre: </span>First-Person Shooter (FPS)",
+    "target": "<span style='color: #B28539; font-weight: 700;>Target Audience: </span>Competitive and casual gamers, Web3 enthusiasts Dive into 'Desert Warriors' where your strategic prowess,teamwork, and adaptability are your greatest assets. Engage in high-stakescombat across ancient ruins, futuristic installations, and unpredictable sanddunes.",
+    "unique": "<span style='color: #B28539; font-weight: 700;>Unique Selling Points</span>",
+    "strategic": "<span style='color: #B28539; font-weight: 700;>Strategic Gameplay: </span>Every match in 'Desert Warriors' is a testament to strategy, requiring keen planning, flawless team coordination, and adept skill execution",
+    "web3_integration": "<span style='color: #B28539; font-weight: 700;>Web3 Integration: </span>Propel your gaming experience into the future with blockchain technology, enabling true ownership, trading, and customization of NFT-based in-game assets",
+    "diverse_env": "<span style='color: #B28539; font-weight: 700;>Diverse Environments: </span>From the silent whispers of ancient deserts to the cold echoes of advanced military bases, each map offers unique tactical challenges.",
+    "community_dev": "<span style='color: #B28539; font-weight: 700;>Community-Centric Development: </span>'Desert Warriors' evolves with you. Your feedback andengagement shape the future, with continuous updates and new content driven bythe community.",
+    "game_features": "<span style='color: #B28539; font-weight: 700;>Game Features: </span>",
+    "game_features_content": "'Desert Warrios' is more than an FPS; it's a test of tactics andteamwork. Navigate through challenging terrains, leverage cover, andsynchronize with your squad to dominate the battlefield.",
+    "core_mechanics": "<span style='color: #B28539; font-weight: 700;>Core Mechanics: </span>Immerse yourself in a variety of actions including sprinting for cover, precision aiming, and deploying strategic equipment, all designed to encourage thoughtful, tactical gameplay.",
+    "game_modes": "<span style='color: #B28539; font-weight: 700;>Game Modes: </span>Whether you prefer theintensity of 1v1 duels, the strategic depth of 2v2 skirmishes, or the classicteamwork of 5v5 battles, 'Desert Warriors' has a mode for every warrior."
   },
   "privacy_page": {
     "title": "Privacy Policy and Terms",
@@ -535,6 +677,10 @@
       {
         "title": "Changes to Policy",
         "value": "We reserve the right to make changes to this Policy at any time. Your continued use of the Website following any changes to this Policy will be deemed acceptance of those changes."
+      },
+      {
+        "title": "Contact Us",
+        "value": "If you have any questions about this Policy, please contact us at [Contact@lucidia.com]."
       }
     ]
   },
@@ -549,10 +695,6 @@
       {
         "title": "User Conduct",
         "value": "You agree to use the Website only for lawful purposes and in a way that does not infringe the rights of, restrict or inhibit anyone else's use and enjoyment of the Website. Prohibited behavior includes, but is not limited to, harassment, hate speech, and discrimination."
-      },
-      {
-        "title": "Sharing of Information",
-        "value": "We may share your personal information with third parties for the purpose of providing the Website and its features, such as hosting, payment processing, and customer support. We may also share your information with third parties for research and analysis, or as required by law."
       },
       {
         "title": "User-Generated Content",
@@ -800,7 +942,7 @@
       ]
     },
     {
-      "name": "Feras Nimer",
+      "name": "Feras Alnimer",
       "position": "CHIEF OPERATION OFFICER",
       "link": "https://www.linkedin.com/in/feras-nimer-691a3258/",
       "desc": [
@@ -856,18 +998,6 @@
       "desc": ["Product Manager (7 yrs)", "Blockchain industry (6 yrs)", "Gamer (15  yrs)"]
     },
     {
-      "name": "Marius Dommersnes",
-      "position": "CHIEF MARKETING OFFICER",
-      "link": "https://www.linkedin.com/in/marius-dommersnes-455a30177/",
-      "desc": ["Blockchain industry (3 yrs)", "Presales & IDO (2 yrs)", "Web3 marketing (2 yrs)"]
-    },
-    {
-      "name": "Victoria Iskiyaeva",
-      "position": "CHIEF MARKETING OFFICER",
-      "link": "https://www.linkedin.com/in/victoria-iskiyaeva-851359213/",
-      "desc": ["Web3 Marketing (3 yrs)", "Social Media Management (4 yrs)", "Digital Marketing (4 yrs)"]
-    },
-    {
       "name": "Rula Madi",
       "position": "HEAD OF LEGAL",
       "link": "https://www.linkedin.com/in/rolamadi/",
@@ -878,12 +1008,6 @@
       "position": "ASIA & CIS COMMUNITY MANAGER",
       "link": "https://www.linkedin.com/in/al-rizqi/",
       "desc": ["Community Manager (2 yrs)", "Project Management (3 yrs)", "Marketing (5 yrs)"]
-    },
-    {
-      "name": "Sander Kloet",
-      "position": "EMEA & NA COMMUNITY MANAGER",
-      "link": "https://www.linkedin.com/in/sander-kloet-278b68278/",
-      "desc": ["Community Manager (4 yrs)", "Social Media Manager (4 yrs)", "Digital Marketing (3 yrs)"]
     }
   ],
   "profile": "See Profile",

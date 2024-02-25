@@ -59,7 +59,7 @@ const Hero = () => {
 
       {/* <img src="/hero/herobg.webp" alt="Herobg" className="w-full h-full object-cover absolute top-0 left-0" /> */}
 
-      <div className="md:max-w-[75%] w-full h-auto mx-auto relative z-10 flex mt-[9rem] md:mt-[12rem] flex-col-reverse md:flex-row">
+      <div className="md:max-w-[82%] w-full h-auto mx-auto relative z-10 flex mt-[9rem] md:mt-[12rem] flex-col-reverse md:flex-row">
         <div className="w-full">
           <h1 className="font-primary text-3xl md:text-4xl 2xl:text-5xl max-w-[50rem] 2xl:leading-[3.6rem] font-semibold md:block hidden">
             {t('hero_title0')}
@@ -96,7 +96,7 @@ const Hero = () => {
           {/* <h1 className="font-primary text-3xl md:text-5xl 2xl:text-[55px] max-w-[32rem] 2xl:leading-[3.6rem] font-semibold md:block hidden">
             {t("hero_title3")}
           </h1> */}
-          <div className="max-w-[42rem] font-primary flex flex-col md:flex gap-y-4 md:gap-y-0 md:text-2xl mt-12">
+          <div className="max-w-[42rem] font-primary flex flex-col md:flex gap-y-4 md:gap-y-0 md:text-xl mt-12">
             <p className="">{t('main_desc0')}</p>
 
             {/* <p className="">{t("hero_desc2")}</p> */}

@@ -1,0 +1,37 @@
+.bg-image-animation {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1000;
+}
+
+.bg-image-animation > .item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-size: cover !important;
+  display: none;
+  z-index: 1;
+}
+
+.bg-image-animation > .item.active {
+  display: block;
+  z-index: -1;
+}
+.bg-image-animation.blur::after {
+  display: block;
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+}

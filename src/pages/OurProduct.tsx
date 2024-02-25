@@ -32,9 +32,9 @@ const OurProduct = () => {
         content={t('our_product.description')}
       />
       <section className="w-full h-auto pt-10 sm:pt-12 lg:pt-16 lg:pb-16 bg-bg relative flex items-center font-primary text-secondary px-5">
-        <div className="md:w-[80%] w-fit mx-auto flex flex-col">
+        <div className="container w-fit mx-auto flex flex-col">
           <h3 className="font-bold text-3xl sm:text-2xl md:text-3xl">{t('our_product.our-product')}</h3>
-          <div className="pt-8 grid md:grid-cols-4 grid-cols-1 gap-x-10 gap-y-8 justify-items-stretch">
+          <div className="pt-8 grid md:grid-cols-4 grid-cols-1 gap-x-10 gap-y-8">
             {(
               (t('our_product.products', {
                 returnObjects: true,
@@ -78,7 +78,7 @@ const OurProduct = () => {
           </div>
         </div>
       </section>
-      <section className="w-full h-[22.7%] px-8 sm:px-auto p-5 relative text-secondary flex items-start justify-center">
+      <section className="w-full h-[22.7%] mb-4 px-8 sm:px-auto p-5 relative text-secondary flex items-start justify-center">
         <img className="w-full h-full object-cover absolute top-0 left-0" src="/our-product/ecosystem.png" />
         <div className="md:max-w-[70%] w-full h-auto m-auto relative z-10 flex mt-[2rem] md:mt-[3rem] flex-col-reverse md:flex-row">
           <div className="w-full">
