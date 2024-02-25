@@ -187,10 +187,11 @@
       ]
     },
     "canyon": {
-      "title": "Experience Sandstorm Racer",
+      "title": "Experience<br/>Sandstorm Racer",
       "desc": "Feel the thrill of Sandstorm Racer, where high-octane racing meets the challenge of navigating through treacherous sandstorms. Drawing inspiration from titles like Forza Horizon, this game offers a perfect blend of realistic racing dynamics and accessible, fun gameplay.",
 
-      "details": [
+      "gameFeaturesTitle": "Game Features:",
+      "gameFeaturesDetail": [
         "Realistic physics engine for authentic vehicle handling",
         "Dynamic weather effects, including signature sandstorms",
         "Competitive races and challenges",

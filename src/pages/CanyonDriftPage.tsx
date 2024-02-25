@@ -6,6 +6,7 @@ import OtherGames from '../components/OtherGames';
 import { useTranslation } from 'react-i18next';
 import { IoIosArrowRoundDown } from 'react-icons/io';
 import Meta from '../views/Meta';
+import parse from 'html-react-parser';
 
 const CanyonDriftPage = () => {
   const { t } = useTranslation();
@@ -56,45 +57,47 @@ const CanyonDriftPage = () => {
         </div>
       </div>
 
-      <div className="w-full h-auto px-8 py-10 -mb-20 md:mb-0 bg-cover bg-center mt-30 lg:mt-40 bg-no-repeat md:bg-[url('/games/canyondrift/canyondriftBgNew.png')] bg-[url('/games/canyondrift/canyondriftBgMobile1.png')]">
-        <div className="max-w-[1100px] pb-14 sm:pb-20 w-full mx-auto text-secondary font-primary justify-between flex gap-10 pt-16 md:flex-row flex-col-reverse">
+      <div className="w-full relative mt-[250px]">
+        <img className="absolute w-full h-auto top-1/2 -translate-y-1/2" src="/games/sandstorm/bg-top.svg" />
+        <div className="relative z-10 container mx-auto grid lg:grid-cols-12 gap-14">
           <motion.div
             initial={{ x: -300 }}
             whileInView={{ x: 0 }}
             transition={{ type: 'spring', stiffness: 100 }}
-            className="w-full lg:space-y-7 space-y-2 flex justify-center flex-col max-w-md"
+            className="col-span-5"
           >
-            <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold">{t('games.canyon.title')}</h1>
-            <p className="text-black text-base md:text-xl">{t('games.canyon.desc')}</p>
+            <h1 className="text-primary font-bold text-6xl">{parse(t('games.canyon.title'))}</h1>
+            <p className="text-black text-xl mt-9">{t('games.canyon.desc')}</p>
           </motion.div>
-
-          <div className="w-full flex items-center md:flex-col md:gap-10 gap-4 justify-center md:justify-start ">
-            <img src={'/games/canyondrift/ExperienceCar.png'} className="object-cover" />
+          <div className="col-span-7 relative">
+            <img className="w-full h-auto" src={'/games/canyondrift/ExperienceCar.png'} />
           </div>
         </div>
       </div>
 
-      <div className="w-full h-auto px-8 py-10 -mb-20 md:mb-0 bg-cover bg-center lg:mt-20 bg-no-repeat	md:bg-[url('/games/canyondrift/canyondriftBg2New.png')] bg-[url('/games/canyondrift/canyondriftBgMobile2.png')]">
-        <div className="max-w-[1100px] pb-14 sm:pb-20 w-full mx-auto text-secondary font-primary justify-between flex gap-10 pt-16 md:flex-row flex-col-reverse">
-          <div className="w-full flex items-center md:flex-col md:gap-10 gap-4 justify-center md:justify-start">
-            <img src={'/games/canyondrift/ExperienceCar.png'} className="object-cover" />
-          </div>
+      <div className="w-full relative my-[350px]">
+        <img className="absolute w-full h-auto top-1/2 -translate-y-1/2" src="/games/sandstorm/bg-bottom.svg" />
+        <div className="relative z-10 container mx-auto grid lg:grid-cols-12 gap-14">
           <motion.div
             initial={{ x: 300 }}
             whileInView={{ x: 0 }}
             transition={{ type: 'spring', stiffness: 100 }}
-            className="w-full lg:space-y-7 space-y-2 flex justify-center flex-col max-w-md"
+            className="col-span-5"
           >
-            <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold">{t('game_details')} :</h1>
-
+            <h1 className="text-primary font-bold text-6xl mt-16">{t('games.canyon.gameFeaturesTitle')}</h1>
             <div className="text-black text-base md:text-xl">
-              {(t('games.canyon.details', { returnObjects: true }) as string[]).map((items, i) => (
-                <ul className="list-disc pl-3" key={i}>
-                  <li>{items}</li>
-                </ul>
-              ))}
+              <ul className="list-disc pl-6 mt-9">
+                {(t('games.canyon.gameFeaturesDetail', { returnObjects: true }) as string[]).map((items, i) => (
+                  <li className="text-xl" key={i}>
+                    {items}
+                  </li>
+                ))}
+              </ul>
             </div>
           </motion.div>
+          <div className="col-span-7 relative lg:order-first">
+            <img className="w-full h-auto" src={'/games/canyondrift/ExperienceCar.png'} />
+          </div>
         </div>
       </div>
 
