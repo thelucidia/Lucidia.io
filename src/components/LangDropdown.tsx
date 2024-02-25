@@ -21,26 +21,24 @@ const LangDropdown = ({ setActive, active }: { setActive: (value: boolean) => vo
   ];
 
   return (
-    <>
-      <button
-        className={cn('text-secondary font-primary items-center gap-1 text-xl md:flex hidden', {
-          'pointer-events-none': active,
-        })}
-        onClick={() => setActive(true)}
-      >
-        {langData.map((item) => (
-          <React.Fragment key={item.code}>
-            {i18n.language === item.code && (
-              <>
-                <item.icon className="w-5" />
-                <h1 className="text-lg capitalize">{item.title}</h1>
-              </>
-            )}
-          </React.Fragment>
-        ))}
-        <IoIosArrowDown className="text-xl" />
-      </button>
-    </>
+    <button
+      className={cn('text-secondary font-primary items-center gap-1 text-xl md:flex hidden', {
+        'pointer-events-none': active,
+      })}
+      onClick={() => setActive(true)}
+    >
+      {langData.map((item) => (
+        <React.Fragment key={item.code}>
+          {i18n.language === item.code && (
+            <>
+              <item.icon className="w-5" />
+              <h1 className="text-lg capitalize">{item.title}</h1>
+            </>
+          )}
+        </React.Fragment>
+      ))}
+      <IoIosArrowDown className="text-xl" />
+    </button>
   );
 };
 
