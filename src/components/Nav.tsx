@@ -42,20 +42,21 @@ const Nav = () => {
     setLangActive(false);
   });
 
-  const navList = [
+  interface INavItem {
+    name: string;
+    slug: string;
+    paths?: Array<string>;
+    type: string;
+    link?: string;
+  }
+
+  const navList: Array<INavItem> = [
     {
       name: t('nav.home'),
       slug: '',
       paths: ['/'],
       type: 'internal',
     },
-
-    // {
-    //   name: t("nav.pitchdeck"),
-    //   slug: "pitchdeck",
-    //   type: "external",
-    //   link: "https://drive.google.com/file/d/1n1ddGOA5tTXVhK6zu7962QLSJBUev0aA/view",
-    // },
     {
       name: t('nav.team'),
       slug: 'team',
@@ -88,7 +89,7 @@ const Nav = () => {
     },
   ];
 
-  const navPrivacy = [
+  const navPrivacy: Array<INavItem> = [
     {
       name: t('nav.home'),
       slug: '',
@@ -107,108 +108,17 @@ const Nav = () => {
       slug: 'terms',
       type: 'internal',
     },
-    // {
-    //   name: t("nav.faq"),
-    //   slug: "FAQ",
-    //   paths: ["/team"],
-    //   type: "internal",
-    // },
   ];
 
-  const navMobile = [
-    {
-      name: t('nav.home'),
-      slug: '',
-      type: 'internal',
-    },
-    // {
-    //   name: t("nav.pitchdeck"),
-    //   slug: "pitchdeck",
-    //   type: "external",
-    //   link: "https://drive.google.com/file/d/1n1ddGOA5tTXVhK6zu7962QLSJBUev0aA/view",
-    // },
-    // {
-    //   name: t("nav.roadmap"),
-    //   slug: "roadmap",
-    //   type: "external",
-    //   link: "https://drive.google.com/file/d/1j_jqFpZlgmppz9CElg4KeSnmoR4uneqp/view",
-    // },
-    {
-      name: t('nav.team'),
-      slug: 'team',
-      type: 'internal',
-    },
-    // {
-    //   name: t("nav.games"),
-    //   slug: "games",
-    //   type: "internal",
-    // },
+  const navMobile = navList;
+
+  const navDesktop: Array<INavItem> = [
     {
       name: t('nav.gameplay'),
       slug: 'gameplay',
       type: 'external',
       link: 'https://share.arcware.cloud/33034e19-bac7-4d3b-910b-e2c45c2eccd8',
     },
-    // {
-    //   name: t('nav.audit'),
-    //   slug: 'audit',
-    //   sub: [
-    //     {
-    //       title: 'interfi',
-    //       link: 'https://github.com/interfinetwork/project-delivery-data/blob/main/Lucidia/Lucidia_AuditReport_InterFi.pdf',
-    //     },
-    //     {
-    //       title: 'revoluzion eth',
-    //       link: 'https://revoluzion.app/audits/presaleeth',
-    //     },
-    //     {
-    //       title: 'revoluzion bsc',
-    //       link: 'https://revoluzion.app/audits/presalebsc',
-    //     },
-    //   ],
-    // },
-    {
-      name: t('privacy'),
-      slug: 'privacy',
-      type: 'internal',
-    },
-    {
-      name: t('terms_page.title'),
-      slug: 'terms',
-      type: 'internal',
-    },
-    // {
-    //   name: t("nav.faq"),
-    //   slug: "faq",
-    //   type: "internal",
-    // },
-  ];
-
-  const navDesktop = [
-    {
-      name: t('nav.gameplay'),
-      slug: 'gameplay',
-      type: 'external',
-      link: 'https://share.arcware.cloud/33034e19-bac7-4d3b-910b-e2c45c2eccd8',
-    },
-    // {
-    //   name: t('nav.audit'),
-    //   slug: 'audit',
-    //   sub: [
-    //     {
-    //       title: 'interfi',
-    //       link: 'https://github.com/interfinetwork/project-delivery-data/blob/main/Lucidia/Lucidia_AuditReport_InterFi.pdf',
-    //     },
-    //     {
-    //       title: 'revoluzion eth',
-    //       link: 'https://revoluzion.app/audits/presaleeth',
-    //     },
-    //     {
-    //       title: 'revoluzion bsc',
-    //       link: 'https://revoluzion.app/audits/presalebsc',
-    //     },
-    //   ],
-    // },
     {
       name: t('privacy'),
       slug: 'privacy',
@@ -347,25 +257,6 @@ const Nav = () => {
                         audit ? 'rotate-0' : 'rotate-180'
                       }`}
                     />
-                  </div>
-                  <div
-                    className={`text-footergry  flex flex-col gap-y-2  overflow-hidden transition-all ease-in-out duration-300 ${
-                      audit ? 'max-h-[5rem] mt-4' : 'max-h-0 mt-0'
-                    } `}
-                  >
-                    {/* {(items.sub ?? [])?.map((items, i) => {
-                      return (
-                        <a
-                          href={items.link}
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          className="hover:text-secondary"
-                          key={`nav-mobile-item-sub-item-${i}`}
-                        >
-                          {items.title}
-                        </a>
-                      );
-                    })} */}
                   </div>
                 </motion.li>
               ) : null;
@@ -538,8 +429,8 @@ const Nav = () => {
 
       <div className="fixed container mx-auto w-full top-0 xl:top-7 z-20 left-0 right-0">
         <div
-          className={`w-[8rem] h-[8rem] md:block hidden backdrop-blur-md clipped bg-bl absolute z-20 top-16 transition-height ease-in-out duration-300 right-12 ${
-            langActive ? 'max-h-[23rem]' : 'max-h-0'
+          className={`w-[8rem] overflow-hidden md:block hidden backdrop-blur-md clipped bg-bl absolute z-20 top-16 transition-height ease-in-out duration-300 right-12 ${
+            langActive ? 'max-h-52' : 'max-h-0'
           }`}
         >
           <div className=" bg-black/30 backdrop-blur-md rounded-2xl w-32 h-[99%] m-auto clipped" ref={langRef}>
@@ -567,15 +458,15 @@ const Nav = () => {
         </div>
 
         <div
-          className={`w-[16rem] h-[23rem] clipped bg-bl absolute z-20 top-16 transition-height ease-in-out duration-300 right-0 ${
-            navDesktopActive ? 'max-h-[22rem]' : 'max-h-0'
+          className={`w-[16rem] h-[20rem] clipped bg-bl absolute z-20 top-16 transition-height ease-in-out duration-300 right-0 ${
+            navDesktopActive ? 'max-h-[20rem]' : 'max-h-0'
           }`}
         >
           <div
             className="absolute bg-black/10 backdrop-blur-md rounded-2xl w-[98%] h-[65%] left-0 top-0 right-0 bottom-0 clipped"
             ref={ref}
           >
-            <div className="overflow-x-hidden max-h-[100%] w-full top-0 right-0">
+            <div className="overflow-hidden max-h-[100%] w-full top-0 right-0">
               <ul className="font-secondary font-semibold uppercase p-4 px-7 w-full text-sm text-secondary">
                 {navDesktop.map((items, i) => {
                   return items.type === 'external' ? (
