@@ -9,11 +9,15 @@ const formatAddress = (addr: string | undefined) => {
   return `${addr?.substring(0, 8)}...`;
 };
 
-const Login = () => {
+const Login = (props: any) => {
   const { sdk, connected, account } = useSDK();
   const [failed, setFailed] = useState(false);
   const [fetched, setFetched] = useState(false);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const { lang } = props;
+  useEffect(() => {
+    i18n.changeLanguage(lang ?? 'en');
+  }, [lang]);
   const connectMetaMask = async (evt: { preventDefault: () => void; stopPropagation: () => void }) => {
     evt.preventDefault();
     evt.stopPropagation();

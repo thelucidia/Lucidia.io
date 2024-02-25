@@ -120,8 +120,6 @@ const Privacy = () => {
           </div>
 
           <div className="md:space-y-5 space-y-2 mt-6 md:mt-10 text-base md:text-xl">
-            <h1 className="font-bold text-base md:text-2xl text-primary">{t('contact')}</h1>
-            <p className="font-regular">{t('contact_desc1')}</p>
             <p className="font-regular">{t('contact_desc2')}</p>
           </div>
         </div>

@@ -7,6 +7,7 @@ import OtherGames from '../components/OtherGames';
 import Button from '../components/Button';
 import { cn } from '../utils/index';
 import Meta from '../views/Meta';
+import parse from 'html-react-parser';
 
 const CurseOfThe = () => {
   const { t } = useTranslation();
@@ -57,54 +58,59 @@ const CurseOfThe = () => {
         </div>
       </div>
 
-      <div className="w-full h-auto px-8 py-10 -mb-20 md:mb-0">
-        <div className="max-w-[80%] pb-14 sm:pb-20 w-full min-h-screen mx-auto text-secondary font-primary justify-between flex gap-10 pt-16 md:flex-row flex-col-reverse">
-          <div className="w-full md:space-y-7 space-y-4 px-[5%]">
-            <div className="border-primary border-[1px]">
-              {/* <h1 className="text-xl md:text-5xl text-primary font-bold text-center p-4">
-                {t("games.zombie.title")}
-              </h1> */}
-              <div className="p-4">
-                <img src={'/games/zombie/title2.png'} className="h-[25%] object-cover" />
-              </div>
-              <p className="mt-2 p-4 bg-primary text-black text-base md:text-xl">{t('games.zombie.desc')}</p>
+      <div className="container mx-auto grid grid-cols-12 gap-24 mt-32">
+        <div className="col-span-7 text-[#f0f0f0]">
+          <div className="border-primary border-[1px]">
+            <div className="p-[21px_33px] flex aligns-center justify-center">
+              <img src={'/games/zombie/you-have-to-survive.svg'} className="h-[25%] object-cover" />
             </div>
-            <h2 className="text-primary md:text-2xl text-xl font-bold">{t('Game Overview')} :</h2>
-            <p className="text-base md:text-xl" style={{ marginTop: 5 }}>
-              {t(
-                'Curse Of The Pharaoh combines the fast-paced action of FPS games with the mystery of ancient mythology, all set in a futuristic Dubai landscape. Inspired by the intense cooperative gameplay of Left 4 Dead 2, navigate through ancient curses and futuristic challenges in this adrenaline-fueled adventure. Dive into Curse Of The Pharaoh',
-              )}
-            </p>
-            <h2 className="md:text-2xl text-xl text-primary font-bold">{t('Game Feature')} :</h2>
+            <p className="p-4 bg-primary text-black text-base md:text-xl">{t('games.zombie.desc')}</p>
+          </div>
+          <h2 className="text-[40px] mt-12">{t('curse_game.unleash')}</h2>
+          <h2 className="md:text-2xl text-xl font-bold mt-6">{t('curse_game.overview')} :</h2>
+          <p className="text-base md:text-xl">{parse(t('curse_game.prop_title'))}</p>
+          <p className="text-base md:text-xl">{parse(t('curse_game.prop_genre'))}</p>
+          <p className="text-base md:text-xl">{parse(t('curse_game.prop_setting'))}</p>
 
-            <div className="text-base md:text-xl" style={{ marginTop: 5 }}>
-              <ul className="list-disc pl-3">
-                <li>Blend of FPS action and ancient mythology</li>
-                <li>Cooperative gameplay against mythical foes</li>
-                <li>Set in a beautifully reimagined Dubai</li>
-                <li>
-                  Blockchain Integration: Unlock and trade powerful artifacts as NFTs, each with unique abilities and
-                  lore, enhancing your gameplay and collection.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="w-full flex items-center md:flex-col md:gap-10 gap-4 justify-center md:justify-start">
-            {[...new Array(4)].map((_, i) => (
-              <img
-                src={`/games/zombie/right_post0${i + 1}.jpg`}
-                alt={`Image${i + 1}`}
-                className={cn('w-1/2 md:w-auto', {
-                  'md:block hidden': i === 0,
-                })}
-                key={i}
-              />
-            ))}
-          </div>
+          <h2 className="md:text-2xl text-xl font-bold mt-6">{t('curse_game.points_title')} :</h2>
+          <ul className="list-disc">
+            <li className="text-base md:text-xl ml-6 marker:text-[#B28539]">
+              {parse(t('curse_game.dubai_reimagined'))}
+            </li>
+            <li className="text-base md:text-xl ml-6 marker:text-[#B28539]">{parse(t('curse_game.mythological'))}</li>
+            <li className="text-base md:text-xl ml-6 marker:text-[#B28539]">{parse(t('curse_game.narrative'))}</li>
+            <li className="text-base md:text-xl ml-6 marker:text-[#B28539]">
+              {parse(t('curse_game.web3_integration'))}
+            </li>
+          </ul>
+
+          <h2 className="md:text-2xl text-xl font-bold mt-6">{t('curse_game.gameplay_mechanics')} :</h2>
+          <p className="text-base md:text-xl">{parse(t('curse_game.mechanics_desc'))}</p>
+          <ul className="list-disc">
+            <li className="text-base md:text-xl ml-6 marker:text-[#B28539]">
+              {parse(t('curse_game.advanced_movement'))}
+            </li>
+            <li className="text-base md:text-xl ml-6 marker:text-[#B28539]">
+              {parse(t('curse_game.strategic_combat'))}
+            </li>
+            <li className="text-base md:text-xl ml-6 marker:text-[#B28539]">
+              {parse(t('curse_game.cooperative_mission'))}
+            </li>
+          </ul>
         </div>
-
-        <OtherGames />
+        <div className="col-span-5 flex flex-col gap-16 items-center justify-center">
+          {[...new Array(4)].map((_, i) => (
+            <img
+              src={`/games/zombie/right_post0${i + 1}.jpg`}
+              alt={`Image${i + 1}`}
+              className="w-full h-auto"
+              key={i}
+            />
+          ))}
+        </div>
       </div>
+
+      <OtherGames />
 
       <Footer />
     </motion.section>

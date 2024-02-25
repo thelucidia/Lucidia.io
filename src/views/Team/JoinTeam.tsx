@@ -4,10 +4,10 @@ const JoinTeam = () => {
   const { t } = useTranslation();
   return (
     <>
-      <section className="w-full md:h-[16rem] h-[6rem] sm:h-[10rem] bg-black2 relative sm:mt-20 mt-7  flex justify-between font-primary text-secondary">
+      <section className="w-full md:h-[23rem] h-[6rem] sm:h-[10rem] bg-black2 relative sm:mt-20 mt-7 mb-32 flex justify-between font-primary text-secondary">
         {/* <img src="/joinleft.webp" alt="JoinLeft" className="" /> */}
 
-        <div className="w-full h-full pl-[12.5%] flex justify-center flex-col gap-y-3 md:gap-y-16">
+        <div className="w-full h-full pl-[12.5%] flex justify-center flex-col gap-y-3 md:gap-y-24">
           <h1 className=" text-base sm:text-2xl md:text-4xl lg:text-5xl font-bold text-secondary">{t('team.want')}</h1>
 
           <div className="relative w-[200px] lg:w-[523px] sm:scale-1 grayscale brightness-50">
