@@ -37,7 +37,7 @@ const Join = () => {
   ];
 
   return (
-    <section className="w-full md:h-[16rem] h-[5rem] sm:h-[10rem] bg-black2 relative mt-9 sm:mt-20 flex justify-between">
+    <section className="w-full md:h-[16rem] h-[5rem] sm:h-[10rem] bg-black2 relative mt-9 sm:mt-20 mb-32 flex justify-between">
       {/* <img src="/joinleft.webp" alt="JoinLeft" className="" /> */}
 
       <div className="w-full h-full pl-[12.5%] flex justify-center flex-col gap-y-5 md:gap-y-24">

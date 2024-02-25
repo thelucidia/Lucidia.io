@@ -12,7 +12,7 @@ const GamesContent = () => {
     }
   };
   return (
-    <section className="w-full mt-20 text-[#F0F0F0]">
+    <section className="w-full mt-20 text-[#F0F0F0] pb-32">
       <div className="max-w-[1440px] w-full mx-auto">
         <div
           className="relative h-[384px]"

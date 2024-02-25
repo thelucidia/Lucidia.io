@@ -43,8 +43,9 @@ const Career = () => {
             dangerouslySetInnerHTML={{ __html: t('career.the_feeling_work_with_us') }}
           ></h2>
           <div className="flex flex-row gap-x-8 px-[33px]">
-            <div className="flex flex-col gap-y-10 pt-6">
-              <div className="flex flex-row gap-x-5">
+            <div className="relative flex flex-col gap-y-10 pt-6">
+              <span className="absolute top-0 -left-[34px] text-[100px] font-bold text-[#B28539] opacity-40">“</span>
+              <div className="flex flex-row gap-x-5 z-10">
                 <img src="/career/avatar1.svg" width={132} />
                 <div className="flex flex-col gap-y-6">
                   <h4 className="text-3xl">{t('career.raphael')}</h4>
@@ -53,8 +54,9 @@ const Career = () => {
               </div>
               <p className="text-[20px] max-w-[600px] font-medium text-gray-300">{t('career.raphael_content')}</p>
             </div>
-            <div className="flex flex-col gap-y-10 pt-6">
-              <div className="flex flex-row gap-x-5">
+            <div className="relative flex flex-col gap-y-10 pt-6">
+              <span className="absolute top-0 -left-[34px] text-[100px] font-bold text-[#B28539] opacity-40">“</span>
+              <div className="flex flex-row gap-x-5 z-10">
                 <img src="/career/avatar2.svg" width={132} />
                 <div className="flex flex-col gap-y-6">
                   <h4 className="text-3xl">{t('career.meera')}</h4>
@@ -73,7 +75,7 @@ const Career = () => {
             'linear-gradient(0deg, rgba(13, 13, 13, 0.96) 0%, rgba(13, 13, 13, 0.96) 100%), url(/career/open_position.jpg), lightgray 50% / cover no-repeat',
         }}
       >
-        <div className="md:w-[80%] w-fit mx-auto flex flex-col gap-y-[57px] justify-center">
+        <div className="md:w-[80%] w-fit mx-auto flex flex-col justify-center">
           <h2 className="font-bold text-[52px] sm:text-3xl md:text-5xl text-left">{t('career.our_journey')}</h2>
           <h4 className="text-[24px] pt-[32px] mb-[80px] font-medium text-gray-200">{t('career.journey_content')}</h4>
           <div className="flex flex-col gap-y-8">

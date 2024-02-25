@@ -11,6 +11,7 @@ import Swiper from 'swiper/bundle';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 import Meta from '../views/Meta';
+import parse from 'html-react-parser';
 
 const DesertWarior = () => {
   const { t } = useTranslation();
@@ -77,22 +78,22 @@ const DesertWarior = () => {
       </div>
 
       <div className="w-full h-auto px-8 lg:py-10 md:py-[100px] py-[70px] bg-cover bg-center bg-no-repeat bg-[url('/games/desertwarior/DesertWariorsendlesstext.png')] mt-[-30px] relative z-200">
-        <div className="max-w-[80%] w-full mx-auto text-secondary font-primary">
+        <div className="max-w-[80%] w-full mx-auto text-secondary font-primary -mt-16">
           <motion.div
             initial={{ x: -300 }}
             whileInView={{ x: 0 }}
             transition={{ type: 'spring', stiffness: 100 }}
             className="lg:w-[60%] md:w-[70%] lg:space-y-7 space-y-2"
           >
-            <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold uppercase lg:w-[70%]">
-              {t('ExploreDesert')}
-            </h1>
-            <p className="text-white text-base md:text-xl">{t('ExploreDesertTitle')}</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold uppercase lg:w-[70%]">
+              {t('games.desertWarior.fpsGame')}
+            </h2>
+            <p className="text-white text-base md:text-xl">{t('games.desertWarior.fpsGameTitle')}</p>
           </motion.div>
         </div>
       </div>
 
-      <div className="w-full h-auto px-8 lg:pt-10 bg-cover bg-top bg-center bg-no-repeat bg-[url('/games/desertwarior/deserGameOverview.png')] mt-[-50px]">
+      <div className="w-full h-[846px] px-8 lg:pt-10 bg-cover bg-top bg-no-repeat bg-[url('/games/desertwarior/deserGameOverview.png')]">
         <div className="max-w-[80%] w-full mx-auto text-secondary font-primary py-[110px]">
           <motion.div
             initial={{ x: 300 }}
@@ -100,8 +101,24 @@ const DesertWarior = () => {
             transition={{ type: 'spring', stiffness: 100 }}
             className="lg:w-[60%] md:w-[70%] ml-auto lg:space-y-7 space-y-2"
           >
-            <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold">{t('DesertGameOverview')}</h1>
-            <p className="text-white text-base md:text-xl">{t('DesertGameOverviewTitle')}</p>
+            <h2 className="text-3xl md:text-4xl text-white font-bold uppercase">{t('DesertGameOverview')}</h2>
+            <p className="text-white text-base md:text-xl">{t('games.desertWarior.prop_title')}</p>
+            <p className="text-white text-base md:text-xl">{t('games.desertWarior.prop_genre')}</p>
+            <p className="text-white text-base md:text-xl">{t('games.desertWarior.prop_audience')}</p>
+            <p className="text-white text-base md:text-xl">{t('games.desertWarior.prop_desc')}</p>
+
+            <h3 className="md:text-2xl text-white font-bold my-7">{t('DesertGameOverview')}</h3>
+            <ul className=" text-base md:text-xl">
+              {(
+                t('games.lucid.points', {
+                  returnObjects: true,
+                }) as string[]
+              ).map((items, i) => (
+                <li className="list-disc marker:text-[#B28539] ml-6 leading-6" key={i}>
+                  <span className="font-normal">{parse(items)}</span>
+                </li>
+              ))}
+            </ul>
           </motion.div>
         </div>
       </div>

@@ -78,7 +78,7 @@ const OurProduct = () => {
           </div>
         </div>
       </section>
-      <section className="w-full h-[22.7%] px-8 sm:px-auto p-5 relative text-secondary flex items-start justify-center">
+      <section className="w-full h-[22.7%] mb-4 px-8 sm:px-auto p-5 relative text-secondary flex items-start justify-center">
         <img className="w-full h-full object-cover absolute top-0 left-0" src="/our-product/ecosystem.png" />
         <div className="md:max-w-[70%] w-full h-auto m-auto relative z-10 flex mt-[2rem] md:mt-[3rem] flex-col-reverse md:flex-row">
           <div className="w-full">
