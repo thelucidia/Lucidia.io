@@ -1,21 +1,19 @@
-import { SA, US } from 'country-flag-icons/react/3x2';
-import { motion } from 'framer-motion';
-import { useCallback, useEffect, useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import { BsTwitterX } from 'react-icons/bs';
-import { IoIosArrowDown } from 'react-icons/io';
+import { cn } from '../utils';
 import { IoCheckmarkSharp } from 'react-icons/io5';
+import { IoIosArrowDown } from 'react-icons/io';
 import { LiaTelegramPlane } from 'react-icons/lia';
 import { MdClose, MdKeyboardArrowUp } from 'react-icons/md';
+import { motion } from 'framer-motion';
 import { RiMenu3Fill } from 'react-icons/ri';
 import { RxDiscordLogo } from 'react-icons/rx';
+import { SA, US } from 'country-flag-icons/react/3x2';
+import { useCallback, useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useOutsideClick } from '../hooks/useOutsideHook';
-import { cn } from '../utils';
-import LangDropdown from './LangDropdown';
-// import Button3 from './Button3';
-// import Button2 from './Button2';
+import { useTranslation } from 'react-i18next';
 import Button4 from './Button4';
+import LangDropdown from './LangDropdown';
 
 const Nav = () => {
   const { t, i18n } = useTranslation();
@@ -501,12 +499,17 @@ const Nav = () => {
                   ))}
             </ul>
 
-            <a href="/home" target="_blank" rel="noopener noreferrer" className="md:block hidden">
+            <a
+              href={`/${i18n.language == 'ar' ? 'ar-' : ''}home.html`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="md:block hidden"
+            >
               <Button4 removeOnMobile>{t('nav.meet')}</Button4>
             </a>
 
             <a
-              href="/home"
+              href={`/${i18n.language == 'ar' ? 'ar-' : ''}home.html`}
               target="_blank"
               rel="noopener noreferrer"
               className="md:hidden block text-xs text-white mr-4"
@@ -535,7 +538,7 @@ const Nav = () => {
 
       <div className="fixed container mx-auto w-full top-0 xl:top-7 z-20 left-0 right-0">
         <div
-          className={`w-[8rem] h-[8rem] md:block hidden backdrop-blur-md clipped bg-bl absolute z-20 top-24 transition-height ease-in-out duration-300 right-12 ${
+          className={`w-[8rem] h-[8rem] md:block hidden backdrop-blur-md clipped bg-bl absolute z-20 top-16 transition-height ease-in-out duration-300 right-12 ${
             langActive ? 'max-h-[23rem]' : 'max-h-0'
           }`}
         >
@@ -564,7 +567,7 @@ const Nav = () => {
         </div>
 
         <div
-          className={`w-[16rem] h-[23rem] clipped bg-bl absolute z-20 top-24 transition-height ease-in-out duration-300 right-0 ${
+          className={`w-[16rem] h-[23rem] clipped bg-bl absolute z-20 top-16 transition-height ease-in-out duration-300 right-0 ${
             navDesktopActive ? 'max-h-[22rem]' : 'max-h-0'
           }`}
         >

@@ -1,9 +1,9 @@
-import AppNavbar from '../components/AppNavbar';
 import { Link } from 'react-router-dom';
-import { useSDK } from '@metamask/sdk-react';
 import { useEffect, useState } from 'react';
-import Meta from '../views/Meta';
+import { useSDK } from '@metamask/sdk-react';
 import { useTranslation } from 'react-i18next';
+import AppNavbar from '../components/AppNavbar';
+import Meta from '../views/Meta';
 
 const formatAddress = (addr: string | undefined) => {
   return `${addr?.substring(0, 8)}...`;
@@ -16,7 +16,7 @@ const Login = (props: any) => {
   const { t, i18n } = useTranslation();
   const { lang } = props;
   useEffect(() => {
-    i18n.changeLanguage(lang ?? 'en');
+    Boolean(lang) && i18n.changeLanguage(lang);
   }, [lang]);
   const connectMetaMask = async (evt: { preventDefault: () => void; stopPropagation: () => void }) => {
     evt.preventDefault();
