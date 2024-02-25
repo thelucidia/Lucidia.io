@@ -111,7 +111,7 @@ const GamesTitle = () => {
 
   return (
     <section className="w-full pt-8 text-[#F0F0F0]">
-      <div className="max-w-[1100px] w-full mx-auto flex flex-col gap-y-[10px]">
+      <div className="container mx-auto flex flex-col gap-y-[10px]">
         <div className="font-bold text-5xl leading-[58px]">{t('games_page.all_play')}</div>
         <ul className="flex flex-row">
           {(t('games_page.category', { returnObjects: true }) as string[]).map((item: string, i: number) => (
@@ -134,26 +134,29 @@ const GamesTitle = () => {
             </a>
           ))}
         </ul>
-        <div className="flex flex-row gap-x-[20px] mt-6">
+        <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-[20px] mt-6">
           {games_info[filter].map((e, i) => {
             return (
               <div
-                className="relative w-[270px] h-[299px]"
-                style={{ background: 'rgba(30, 30, 30, 0.52)' }}
+                key={`game-info-${i}`}
+                className="flex flex-col transition-all bg-[#1e1e1e]/[.52]"
                 onClick={() => {
                   navigate(`${e.path}`);
                 }}
-                key={`game-info-${i}`}
+                style={{
+                  cursor: 'pointer',
+                }}
               >
-                <img src={`/games/${e.image}`} width={270} height={222} />
-                <span className="font-bold text-2xl leading-[76px] pl-5">{e.title}</span>
-                <div
-                  className="absolute w-[100px] h-6 left-5 top-[186px]"
-                  style={{ background: 'rgba(30, 30, 30, 0.92)' }}
-                >
-                  <img className="relative inline left-2 top-0" src="/games/desktop.png" width={16} height={16} />
-                  <span className="font-medium text-base leading-6 ml-[20px]">{t('games_page.desktop')}</span>
+                <div className="w-full relative">
+                  <img className="w-full h-auto" src={`/games/${e.image}`} />
+                  <div className="absolute bottom-[12px] left-[20px] bg-[#1E1E1E]/[.92] p-[4px_8px] gap-[12px] flex flex-row items-center">
+                    <img className="w-[16px] h-[16px]" src="/games/desktop.png" />
+                    <span className="text-[16px]">{t('games_page.desktop')}</span>
+                  </div>
                 </div>
+                <span className="font-bold text-2xl p-4 flex flex-auto justify-center aligns-center text-center">
+                  {e.title}
+                </span>
               </div>
             );
           })}

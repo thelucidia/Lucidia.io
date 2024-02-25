@@ -13,7 +13,7 @@ const GamesContent = () => {
   };
   return (
     <section className="w-full mt-20 text-[#F0F0F0] pb-32">
-      <div className="max-w-[1440px] w-full mx-auto">
+      <div className="w-full mx-auto">
         <div
           className="relative h-[384px]"
           style={{ background: '#1E1E1E url("/games/car_bg.png") no-repeat left top' }}
@@ -28,45 +28,49 @@ const GamesContent = () => {
         </div>
         <div
           className="h-[644px] flex flex-row justify-center align-middle items-center"
-          style={{ backgroundImage: 'url("/games/benefit_bg.png")' }}
+          style={{ backgroundImage: 'url("/games/benefit_bg.png")', backgroundSize: 'cover' }}
         >
-          <div className="flex flex-col text-right pt-4 pb-12 pr-16 border-r-2 border-[#F0F0F0] mr-24">
-            <h3 className="font-bold text-5xl leading-[58px]">{t('games_page.section2_title1')}</h3>
-            <h3 className="font-bold text-5xl leading-[58px]">{t('games_page.section2_title2')}</h3>
-            <h3 className="font-bold text-5xl leading-[58px]">{t('games_page.section2_title3')}</h3>
-          </div>
-          <ol className="font-medium text-xl leading-6 flex flex-col gap-y-12">
-            {(t('games_page.section2_description', { returnObjects: true }) as string[]).map(
-              (item: string, i: number) => (
-                <div key={`game-page-${i}`} className="relative">
-                  <img src={`games/number${i + 1}.svg`} className="absolute top-[-35px] left-[-35px]" />
-                  <li key={i} className="max-w-[600px]">
+          <div className="container mx-auto grid grid-cols-12 justify-center gap-24">
+            <div className="col-span-5 flex flex-col justify-center">
+              <div className="border-r-2 border-[#F0F0F0] flex flex-col text-right py-10 pr-20">
+                <h3 className="font-bold text-5xl leading-[58px]">{t('games_page.section2_title1')}</h3>
+                <h3 className="font-bold text-5xl leading-[58px]">{t('games_page.section2_title2')}</h3>
+                <h3 className="font-bold text-5xl leading-[58px]">{t('games_page.section2_title3')}</h3>
+              </div>
+            </div>
+            <ol className="col-span-7 font-medium text-xl leading-6 flex flex-col gap-y-12">
+              {(t('games_page.section2_description', { returnObjects: true }) as string[]).map(
+                (item: string, i: number) => (
+                  <li key={i} className="relative leading-6 ml-6">
+                    <img src={`games/number${i + 1}.svg`} className="absolute top-[-35px] left-[-35px]" />
                     {item}
                   </li>
-                </div>
-              ),
-            )}
-          </ol>
+                ),
+              )}
+            </ol>
+          </div>
         </div>
-        <div className="flex flex-row justify-center align-middle items-center">
+      </div>
+      <div className="container mx-auto">
+        <div className="grid grid-cols-2">
           <div className="flex flex-col gap-y-5">
             <div className="font-bold text-5xl mb-[72px] mt-[101px]">{t('games_page.join_us')}</div>
             <div className="flex flex-col gap-y-5 border-r-2 pr-24 border-[#F0F0F0] mr-[104px]">
-              <div className="w-[496px] h-[52px]">
+              <div className="w-full h-[52px]">
                 <input
                   className="bg-transparent border-2 border-[#F0F0F0] w-full p-2 text-xl"
                   type="text"
                   placeholder={t('games_page.studio_name')}
                 />
               </div>
-              <div className="w-[496px] flex flex-row gap-x-5 h-[52px]">
+              <div className="w-full flex flex-row gap-x-5 h-[52px]">
                 <input
                   className="flex-auto w-4 bg-transparent border-2 border-[#F0F0F0] p-2 text-xl"
                   type="text"
                   placeholder={t('games_page.email')}
                 />
               </div>
-              <div className="w-[496px]">
+              <div className="w-full">
                 <textarea
                   className="h-[258px] mb-[60px] resize-none bg-transparent border-2 border-[#F0F0F0] w-full p-2 text-xl"
                   placeholder={t('games_page.game_description')}
@@ -77,7 +81,7 @@ const GamesContent = () => {
               </Button3>
             </div>
           </div>
-          <div className="w-[436px] flex flex-col">
+          <div className="flex flex-col justify-center">
             {!subscribed ? (
               <>
                 <h3 className="font-bold text-[40px] leading-[58px] mb-5 text-primary">
