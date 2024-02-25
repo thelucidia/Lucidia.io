@@ -15,11 +15,44 @@
     <link rel="stylesheet" href="../../styles/global.css" />
     <link rel="stylesheet" href="../../styles/arabic.css" />
     <link rel="stylesheet" href="../../styles/marketplace.css" />
+    <link rel="stylesheet" href="../../styles/bg-image-animation.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   </head>
-  <body class="marketplace">
+  <body class="web-app marketplace">
+    <div class="bg-image-animation blur" data-toggle="bg-image-animation">
+      <div
+        class="item active"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/games.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/sandstorm_01.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/sandstorm_03.jpg) no-repeat center center;
+        "
+      ></div>
+    </div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./home.html"><img src="../../images/logo.svg" alt="logo" /></a>
+        <a class="navbar-brand" href="/"><img src="../../images/logo.svg" alt="logo" /></a>
         <div class="container collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item"><a class="nav-link" href="./home.html">الصفحة الرئيسية</a></li>
@@ -51,7 +84,7 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li>
-                  <a class="dropdown-item locale" href="../../en/before-login/home.html"
+                  <a class="dropdown-item locale" href="../../en/before-login/marketplace.html"
                     ><img src="../../images/flags/us.svg" alt="Locale" /> Eng
                   </a>
                 </li>
@@ -92,87 +125,73 @@
         </button>
       </div>
     </nav>
-    <div class="container">
-      <div class="welcome">
-        <h1>استعد لاستكشاف مستقبل الألعاب والتطوير في الشرق الأوسط</h1>
+    <div class="content">
+      <div class="container">
+        <div class="welcome">
+          <h1>استعد لاستكشاف مستقبل الألعاب والتطوير في الشرق الأوسط</h1>
+          <p>
+            سيعيد سوقنا القادم تعريف التعاون والابتكار والتجارة داخل مجتمع الألعاب. ستكون هذه المنصة، المصممة خصيصًا
+            لجماليات وثقافة الشرق الأوسط، بمثابة مركز مركزي للمطورين، مما يوفر مساحة نابضة بالحياة لشراء وبيع ومشاركة
+            المكونات داخل اللعبة والكود وغير ذلك الكثير. ترقبوا تجربة تحويلية حيث يلتقي الإبداع بالفرصة.
+          </p>
+        </div>
+        <h2>مكونات الألعاب</h2>
         <p>
-          سيعيد سوقنا القادم تعريف التعاون والابتكار والتجارة داخل مجتمع الألعاب.
-          ستكون هذه المنصة، المصممة خصيصًا لجماليات وثقافة الشرق الأوسط، بمثابة مركز مركزي 
-          للمطورين، مما يوفر مساحة نابضة بالحياة لشراء وبيع ومشاركة المكونات داخل اللعبة والكود وغير ذلك الكثير.
-          ترقبوا تجربة تحويلية حيث يلتقي الإبداع بالفرصة.
+          لقد وصلت وجهتك النهائية لمحتوى وأدوات الألعاب. انغمس في عالم يتلاقى فيه الإبداع والتجارة في قلب مجتمع الألعاب
+          في الشرق الأوسط. تصفح واستكشف واستلهم.
         </p>
-      </div>
-      <h2>مكونات الألعاب</h2>
-      <p>
-        لقد وصلت وجهتك النهائية لمحتوى وأدوات الألعاب. انغمس في عالم يتلاقى فيه الإبداع والتجارة في قلب مجتمع الألعاب في الشرق الأوسط. تصفح واستكشف واستلهم.
-      </p>
-      <div class="marketplace section">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>مركز المطورين في الشرق الأوسط</h3>
-              <p>مساحة مخصصة للمطورين</p>
-              <p class="discount">USD $00,000</p>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/avatar/user.jpg" alt="calender" width="24" height="24" />
-                  <p>byLucidian</p>
+        <div class="marketplace section">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="item">
+                <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
+                <h3>مركز المطورين في الشرق الأوسط</h3>
+                <p>مساحة مخصصة للمطورين</p>
+                <p class="discount">USD $00,000</p>
+                <div class="details">
+                  <a href="#" class="buy">
+                    <dv>USD $00,000</dv>
+                  </a>
                 </div>
-                <a href="#" class="buy">
-                  <dv>USD $00,000</dv>
-                </a>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>مكونات داخل الألعاب و الكود</h3>
-              <p>انغمس في كنز اللعبة</p>
-              <p class="discount">USD $00,000</p>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/avatar/user.jpg" alt="calender" width="24" height="24" />
-                  <p>byLucidian</p>
+            <div class="col-md-3">
+              <div class="item">
+                <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
+                <h3>مكونات داخل الألعاب و الكود</h3>
+                <p>انغمس في كنز اللعبة</p>
+                <p class="discount">USD $00,000</p>
+                <div class="details">
+                  <a href="#" class="buy">
+                    <dv>USD $00,000</dv>
+                  </a>
                 </div>
-                <a href="#" class="buy">
-                  <dv>USD $00,000</dv>
-                </a>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>NFT ادوات دمج ال</h3>
-              <p>blockchain سخر قوة ال</p>
-              <p class="discount">USD $00,000</p>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/avatar/user.jpg" alt="calender" width="24" height="24" />
-                  <p>byLucidian</p>
+            <div class="col-md-3">
+              <div class="item">
+                <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
+                <h3>NFT ادوات دمج ال</h3>
+                <p>blockchain سخر قوة ال</p>
+                <p class="discount">USD $00,000</p>
+                <div class="details">
+                  <a href="#" class="buy">
+                    <dv>USD $00,000</dv>
+                  </a>
                 </div>
-                <a href="#" class="buy">
-                  <dv>USD $00,000</dv>
-                </a>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="item">
-              <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
-              <h3>مشاركة حساب المستخدم</h3>
-              <p>المشاركة في منحنا المختلفة</p>
-              <p class="discount">USD $00,000</p>
-              <div class="details">
-                <div class="field">
-                  <img src="../../images/avatar/user.jpg" alt="calender" width="24" height="24" />
-                  <p>byLucidian</p>
+            <div class="col-md-3">
+              <div class="item">
+                <div class="icon" style="background-image: url(../../images/tournaments/tournament_icon.svg)"></div>
+                <h3>مشاركة حساب المستخدم</h3>
+                <p>المشاركة في منحنا المختلفة</p>
+                <p class="discount">USD $00,000</p>
+                <div class="details">
+                  <a href="#" class="buy">
+                    <dv>USD $00,000</dv>
+                  </a>
                 </div>
-                <a href="#" class="buy">
-                  <dv>USD $00,000</dv>
-                </a>
               </div>
             </div>
           </div>
@@ -181,19 +200,20 @@
     </div>
     <ul class="social-links">
       <li>
-        <a href="#"><img src="../../images/socials/telegram.svg" alt="telegram" /></a>
+        <a href="https://t.me/Lucidia_io"><img src="../../images/socials/telegram.svg" alt="telegram" /></a>
       </li>
       <li>
-        <a href="#"><img src="../../images/socials/discord.svg" alt="discord" /></a>
+        <a href="https://discord.gg/lucidia"><img src="../../images/socials/discord.svg" alt="discord" /></a>
       </li>
       <li>
-        <a href="#"><img src="../../images/socials/twitter.svg" alt="twitter" /></a>
+        <a href="https://twitter.com/lucidia_io"><img src="../../images/socials/twitter.svg" alt="twitter" /></a>
       </li>
       <li>
-        <a href="#"><img src="../../images/socials/website.svg" alt="website" /></a>
+        <a href="/"><img src="../../images/socials/website.svg" alt="website" /></a>
       </li>
     </ul>
     <script src="../../plugins/jquery.min.js"></script>
     <script src="../../plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="../../scripts/bg-image-animation.js"></script>
   </body>
 </html>

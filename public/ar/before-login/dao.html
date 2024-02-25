@@ -14,11 +14,44 @@
     <link rel="stylesheet" href="../../styles/global.css" />
     <link rel="stylesheet" href="../../styles/arabic.css" />
     <link rel="stylesheet" href="../../styles/dao.css" />
+    <link rel="stylesheet" href="../../styles/bg-image-animation.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   </head>
-  <body class="dao">
+  <body class="web-app dao">
+    <div class="bg-image-animation blur" data-toggle="bg-image-animation">
+      <div
+        class="item active"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/games.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/sandstorm_01.jpg) no-repeat center center;
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background:
+            linear-gradient(359deg, rgba(13, 13, 13, 0.8) 26.84%, rgba(0, 0, 0, 0) 72.25%),
+            linear-gradient(0deg, rgba(13, 13, 13, 0.52) 0%, rgba(13, 13, 13, 0.52) 100%),
+            url(../../images/backgrounds/sandstorm_03.jpg) no-repeat center center;
+        "
+      ></div>
+    </div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./home.html"><img src="../../images/logo.svg" alt="logo" /></a>
+        <a class="navbar-brand" href="/"><img src="../../images/logo.svg" alt="logo" /></a>
         <div class="container collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item"><a class="nav-link" href="./home.html">الصفحة الرئيسية</a></li>
@@ -50,7 +83,7 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li>
-                  <a class="dropdown-item locale" href="../../en/before-login/home.html"
+                  <a class="dropdown-item locale" href="../../en/before-login/dao.html"
                     ><img src="../../images/flags/us.svg" alt="Locale" /> Eng
                   </a>
                 </li>
@@ -91,167 +124,169 @@
         </button>
       </div>
     </nav>
-    <div class="container">
-      <h1>شكّل قرارات اللعبة وكن جزءًا من القصة!</h1>
-      <h2>التصويت الذي حدث مؤخراً</h2>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="gray-pane voting-pane">
-            <div class="status">
-              <div class="marked-as">
-                <img src="../../images/dao/approved.svg" alt="approved" />
-                Approved
+    <div class="content">
+      <div class="container">
+        <h1>شكّل قرارات اللعبة وكن جزءًا من القصة!</h1>
+        <h2>التصويت الذي حدث مؤخراً</h2>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="gray-pane voting-pane">
+              <div class="status">
+                <div class="marked-as">
+                  <img src="../../images/dao/approved.svg" alt="approved" />
+                  Approved
+                </div>
+                15 Jan 2024, 08:00
               </div>
-              15 Jan 2024, 08:00
-            </div>
-            <h3>إحياء أعضاء الفريق في مباراة الموت</h3>
-            <div class="game">
-              <img src="../../images/home/stay-updated/02.jpg" alt="game" />
-              Battlefury
-            </div>
-            <div class="vote-progress">
-              <div class="part no" style="width: 45%">لا (45%)</div>
-              <div class="part yes" style="width: 55%">نعم (55%)</div>
+              <h3>إحياء أعضاء الفريق في مباراة الموت</h3>
+              <div class="game">
+                <img src="../../images/home/stay-updated/04.jpg" alt="game" />
+                Curse Of The Pharaoh
+              </div>
+              <div class="vote-progress">
+                <div class="part no" style="width: 45%">لا (45%)</div>
+                <div class="part yes" style="width: 55%">نعم (55%)</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="gray-pane voting-pane">
-            <div class="status">
-              <div class="marked-as">
-                <img src="../../images/dao/rejected.svg" alt="approved" />
-                Rejected
+          <div class="col-md-3">
+            <div class="gray-pane voting-pane">
+              <div class="status">
+                <div class="marked-as">
+                  <img src="../../images/dao/rejected.svg" alt="approved" />
+                  Rejected
+                </div>
+                15 Jan 2024, 08:00
               </div>
-              15 Jan 2024, 08:00
-            </div>
-            <h3>نوع جديد من الزومبي</h3>
-            <div class="game">
-              <img src="../../images/home/stay-updated/02.jpg" alt="game" />
-              New Type of Zombie
-            </div>
-            <div class="vote-progress">
-              <div class="part no" style="width: 68%">لا (68%)</div>
-              <div class="part yes" style="width: 32%">نعم (32%)</div>
+              <h3>نوع جديد من الزومبي</h3>
+              <div class="game">
+                <img src="../../images/home/stay-updated/03.jpg" alt="game" />
+                Cryptocraft
+              </div>
+              <div class="vote-progress">
+                <div class="part no" style="width: 68%">لا (68%)</div>
+                <div class="part yes" style="width: 32%">نعم (32%)</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="gray-pane voting-pane">
-            <div class="status">
-              <div class="marked-as">
-                <img src="../../images/dao/approved.svg" alt="approved" />
-                Approved
+          <div class="col-md-3">
+            <div class="gray-pane voting-pane">
+              <div class="status">
+                <div class="marked-as">
+                  <img src="../../images/dao/approved.svg" alt="approved" />
+                  Approved
+                </div>
+                15 Jan 2024, 08:00
               </div>
-              15 Jan 2024, 08:00
-            </div>
-            <h3>إحياء أعضاء الفريق في مباراة الموت</h3>
-            <div class="game">
-              <img src="../../images/home/stay-updated/02.jpg" alt="game" />
-              Battlefury
-            </div>
-            <div class="vote-progress">
-              <div class="part no" style="width: 45%">لا (45%)</div>
-              <div class="part yes" style="width: 55%">نعم (55%)</div>
+              <h3>إحياء أعضاء الفريق في مباراة الموت</h3>
+              <div class="game">
+                <img src="../../images/home/stay-updated/02.jpg" alt="game" />
+                Desert Warriors
+              </div>
+              <div class="vote-progress">
+                <div class="part no" style="width: 45%">لا (45%)</div>
+                <div class="part yes" style="width: 55%">نعم (55%)</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="gray-pane voting-pane">
-            <div class="status">
-              <div class="marked-as">
-                <img src="../../images/dao/rejected.svg" alt="approved" />
-                Rejected
+          <div class="col-md-3">
+            <div class="gray-pane voting-pane">
+              <div class="status">
+                <div class="marked-as">
+                  <img src="../../images/dao/rejected.svg" alt="approved" />
+                  Rejected
+                </div>
+                15 Jan 2024, 08:00
               </div>
-              15 Jan 2024, 08:00
-            </div>
-            <h3>نوع جديد من الزومبي</h3>
-            <div class="game">
-              <img src="../../images/home/stay-updated/02.jpg" alt="game" />
-              New Type of Zombie
-            </div>
-            <div class="vote-progress">
-              <div class="part no" style="width: 68%">لا (68%)</div>
-              <div class="part yes" style="width: 32%">نعم (32%)</div>
+              <h3>نوع جديد من الزومبي</h3>
+              <div class="game">
+                <img src="../../images/home/stay-updated/01.jpg" alt="game" />
+                Sandstorm Racers
+              </div>
+              <div class="vote-progress">
+                <div class="part no" style="width: 68%">لا (68%)</div>
+                <div class="part yes" style="width: 32%">نعم (32%)</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="gray-pane voting-pane">
-            <div class="status">
-              <div class="marked-as">
-                <img src="../../images/dao/approved.svg" alt="approved" />
-                Approved
+          <div class="col-md-3">
+            <div class="gray-pane voting-pane">
+              <div class="status">
+                <div class="marked-as">
+                  <img src="../../images/dao/approved.svg" alt="approved" />
+                  Approved
+                </div>
+                15 Jan 2024, 08:00
               </div>
-              15 Jan 2024, 08:00
-            </div>
-            <h3>إحياء أعضاء الفريق في مباراة الموت</h3>
-            <div class="game">
-              <img src="../../images/home/stay-updated/02.jpg" alt="game" />
-              Battlefury
-            </div>
-            <div class="vote-progress">
-              <div class="part no" style="width: 45%">لا (45%)</div>
-              <div class="part yes" style="width: 55%">نعم (55%)</div>
+              <h3>إحياء أعضاء الفريق في مباراة الموت</h3>
+              <div class="game">
+                <img src="../../images/home/stay-updated/04.jpg" alt="game" />
+                Curse Of The Pharaoh
+              </div>
+              <div class="vote-progress">
+                <div class="part no" style="width: 45%">لا (45%)</div>
+                <div class="part yes" style="width: 55%">نعم (55%)</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="gray-pane voting-pane">
-            <div class="status">
-              <div class="marked-as">
-                <img src="../../images/dao/rejected.svg" alt="approved" />
-                Rejected
+          <div class="col-md-3">
+            <div class="gray-pane voting-pane">
+              <div class="status">
+                <div class="marked-as">
+                  <img src="../../images/dao/rejected.svg" alt="approved" />
+                  Rejected
+                </div>
+                15 Jan 2024, 08:00
               </div>
-              15 Jan 2024, 08:00
-            </div>
-            <h3>نوع جديد من الزومبي</h3>
-            <div class="game">
-              <img src="../../images/home/stay-updated/02.jpg" alt="game" />
-              New Type of Zombie
-            </div>
-            <div class="vote-progress">
-              <div class="part no" style="width: 68%">لا (68%)</div>
-              <div class="part yes" style="width: 32%">نعم (32%)</div>
+              <h3>نوع جديد من الزومبي</h3>
+              <div class="game">
+                <img src="../../images/home/stay-updated/03.jpg" alt="game" />
+                Cryptocraft
+              </div>
+              <div class="vote-progress">
+                <div class="part no" style="width: 68%">لا (68%)</div>
+                <div class="part yes" style="width: 32%">نعم (32%)</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="gray-pane voting-pane">
-            <div class="status">
-              <div class="marked-as">
-                <img src="../../images/dao/approved.svg" alt="approved" />
-                Approved
+          <div class="col-md-3">
+            <div class="gray-pane voting-pane">
+              <div class="status">
+                <div class="marked-as">
+                  <img src="../../images/dao/approved.svg" alt="approved" />
+                  Approved
+                </div>
+                15 Jan 2024, 08:00
               </div>
-              15 Jan 2024, 08:00
-            </div>
-            <h3>إحياء أعضاء الفريق في مباراة الموت</h3>
-            <div class="game">
-              <img src="../../images/home/stay-updated/02.jpg" alt="game" />
-              Battlefury
-            </div>
-            <div class="vote-progress">
-              <div class="part no" style="width: 45%">لا (45%)</div>
-              <div class="part yes" style="width: 55%">نعم (55%)</div>
+              <h3>إحياء أعضاء الفريق في مباراة الموت</h3>
+              <div class="game">
+                <img src="../../images/home/stay-updated/02.jpg" alt="game" />
+                Desert Warriors
+              </div>
+              <div class="vote-progress">
+                <div class="part no" style="width: 45%">لا (45%)</div>
+                <div class="part yes" style="width: 55%">نعم (55%)</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="gray-pane voting-pane">
-            <div class="status">
-              <div class="marked-as">
-                <img src="../../images/dao/rejected.svg" alt="approved" />
-                Rejected
+          <div class="col-md-3">
+            <div class="gray-pane voting-pane">
+              <div class="status">
+                <div class="marked-as">
+                  <img src="../../images/dao/rejected.svg" alt="approved" />
+                  Rejected
+                </div>
+                15 Jan 2024, 08:00
               </div>
-              15 Jan 2024, 08:00
-            </div>
-            <h3>نوع جديد من الزومبي</h3>
-            <div class="game">
-              <img src="../../images/home/stay-updated/02.jpg" alt="game" />
-              New Type of Zombie
-            </div>
-            <div class="vote-progress">
-              <div class="part no" style="width: 68%">لا (68%)</div>
-              <div class="part yes" style="width: 32%">نعم (32%)</div>
+              <h3>نوع جديد من الزومبي</h3>
+              <div class="game">
+                <img src="../../images/home/stay-updated/02.jpg" alt="game" />
+                New Type of Zombie
+              </div>
+              <div class="vote-progress">
+                <div class="part no" style="width: 68%">لا (68%)</div>
+                <div class="part yes" style="width: 32%">نعم (32%)</div>
+              </div>
             </div>
           </div>
         </div>
@@ -273,5 +308,6 @@
     </ul>
     <script src="../../plugins/jquery.min.js"></script>
     <script src="../../plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="../../scripts/bg-image-animation.js"></script>
   </body>
 </html>
