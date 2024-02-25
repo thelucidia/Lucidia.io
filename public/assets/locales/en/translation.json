@@ -130,20 +130,20 @@
       "title": "Craft tools, create blocks",
       "desc": "Welcome to \"Cryptocraft,\" aboundless universe where your imagination is the only limit. Dive into anopen-world sandbox experience that combines the joy of building and survivalwith the innovative features of Web3 and NFTs. In Lucidcraft, every creation,every exploration, and every interaction enriches your journey and the worldaround you.",
       "overview": "Embark on an adventure in ever-expanding worlds, craft your destiny, and become part of a vibrant community where collaboration and creativity reign supreme.",
-      "prop_title": "<sapn style='color: #B28539; font-weight: bold'>Title:</sapn>Cryptocraft",
-      "prop_genre": "<sapn style='color: #B28539; font-weight: bold'>Genre:</sapn>Sandbox, Open-World, Survival",
-      "prop_audience": "<sapn style='color: #B28539'>Target Audience:</sapn>Creative builders, explorers, Web3 enthusiasts, and community-driven players",
+      "prop_title": "<span style='color: #B28539; font-weight: bold'>Title:</span>Cryptocraft",
+      "prop_genre": "<span style='color: #B28539; font-weight: bold'>Genre:</span>Sandbox, Open-World, Survival",
+      "prop_audience": "<span style='color: #B28539'>Target Audience:</span>Creative builders, explorers, Web3 enthusiasts, and community-driven players",
       "mechanics": "Gameplay Mechanics",
       "overview2": "Lucidcraft is an amalgamation of creativity, survival, and exploration, set in a richly diverse and responsive world.",
-      "build": "<sapn style='color: #B28539; font-weight: bold'>Building and Crafting:</sapn> From humble shelters to grandiose constructions, Lucidcraft's intuitive crafting system invites endless innovation",
-      "exploration": "<sapn style='color: #B28539; font-weight: bold'>Exploration:</sapn> Traverse sprawling biomes, each brimming with unique resources and mysteries. Discover, adapt, and survive in a world that's as vast as your imagination",
+      "build": "<span style='color: #B28539; font-weight: bold'>Building and Crafting:</span> From humble shelters to grandiose constructions, Lucidcraft's intuitive crafting system invites endless innovation",
+      "exploration": "<span style='color: #B28539; font-weight: bold'>Exploration:</span> Traverse sprawling biomes, each brimming with unique resources and mysteries. Discover, adapt, and survive in a world that's as vast as your imagination",
       "highlight_points": "Highlighting Points",
       "points": [
-        "<sapn style='color: #B28539; font-weight: bold'>Dynamic, User-Generated Worlds:</sapn> Step into infinite realms shaped by players. Your creations contribute to the ever-evolving tapestry of Lucidcraft's universe.",
-        "<sapn style='color: #B28539; font-weight: bold'>Web3 Integration:</sapn> Experience true ownership with blockchain-powered in-game assets. Trade, own, and monetize your creations and real estate as NFTs, adding a layer of investment to your gameplay.",
-        "<sapn style='color: #B28539; font-weight: bold'>Evolving Ecosystems:</sapn> Interact with living environments where your actions influence the world. From altering landscapes to affecting local wildlife, your impact is tangible.",
-        "<sapn style='color: #B28539; font-weight: bold'>Customizable Gameplay:</sapn> Tailor your Lucidcraft experience with extensive modding tools and in-game programming, creating unique game modes and personalizing your adventures.",
-        "<sapn style='color: #B28539; font-weight: bold'>Community Governance:</sapn> Have a say in thedevelopment and future of Lucidcraft through a decentralized autonomousorganization (DAO), empowering the community to steer the game's evolution."
+        "<span style='color: #B28539; font-weight: bold'>Dynamic, User-Generated Worlds:</span> Step into infinite realms shaped by players. Your creations contribute to the ever-evolving tapestry of Lucidcraft's universe.",
+        "<span style='color: #B28539; font-weight: bold'>Web3 Integration:</span> Experience true ownership with blockchain-powered in-game assets. Trade, own, and monetize your creations and real estate as NFTs, adding a layer of investment to your gameplay.",
+        "<span style='color: #B28539; font-weight: bold'>Evolving Ecosystems:</span> Interact with living environments where your actions influence the world. From altering landscapes to affecting local wildlife, your impact is tangible.",
+        "<span style='color: #B28539; font-weight: bold'>Customizable Gameplay:</span> Tailor your Lucidcraft experience with extensive modding tools and in-game programming, creating unique game modes and personalizing your adventures.",
+        "<span style='color: #B28539; font-weight: bold'>Community Governance:</span> Have a say in thedevelopment and future of Lucidcraft through a decentralized autonomousorganization (DAO), empowering the community to steer the game's evolution."
       ]
     },
     "battle": {
@@ -204,9 +204,9 @@
       "ExploreDesertTitle": "Welcome to Desert Warriors, where the thrill of first-person shooters meets the groundbreaking possibilities of Web3 and NFTs. Set against the backdrop of vast and diverse desert landscapes, this game invites you into a world of strategic combat, team-based challenges, and a vibrant player-driven economy. Here, every decision, every battle, and every alliance holds the weight of your legacy.",
       "DesertGameOverview": "Game Overview :",
       "DesertGameOverviewTitle": "Desert Warriors is a cutting-edge first-person shooter set in a vast desert landscape, where tactical gameplay meets the innovation of Web3 and NFTs. Engage in intense strategic combat and team-based challenges, all while navigating a player-driven economy enabled by blockchain technology.",
-      "prop_title": "<sapn style='color: #B28539; font-weight: bold'>Title:</sapn>Desert Warriors",
-      "prop_genre": "<sapn style='color: #B28539; font-weight: bold'>Genre:</sapn>First-Person Shooter (FPS)",
-      "prop_audience": "<sapn style='color: #B28539'>Target Audience:</sapn>Competitive and casual gamers, Web3 enthusiasts",
+      "prop_title": "<span style='color: #B28539; font-weight: bold'>Title:</span>Desert Warriors",
+      "prop_genre": "<span style='color: #B28539; font-weight: bold'>Genre:</span>First-Person Shooter (FPS)",
+      "prop_audience": "<span style='color: #B28539'>Target Audience:</span>Competitive and casual gamers, Web3 enthusiasts",
       "prop_desc": "Dive into \"Desert Warriors\" where your strategic prowess,teamwork, and adaptability are your greatest assets. Engage in high-stakes combat across ancient ruins, futuristic installations, and unpredictable sanddunes.",
       "points_title": "Unique Selling Points",
       "points": [
