@@ -16,7 +16,7 @@ const Login = (props: any) => {
   const { t, i18n } = useTranslation();
   const { lang } = props;
   useEffect(() => {
-    Boolean(lang) && i18n.changeLanguage(lang);
+    i18n.changeLanguage(lang ?? 'en');
   }, [lang]);
   const connectMetaMask = async (evt: { preventDefault: () => void; stopPropagation: () => void }) => {
     evt.preventDefault();
@@ -41,7 +41,7 @@ const Login = (props: any) => {
       return;
     }
     if (connected) {
-      window.location.href = '/en/after-login/home.html';
+      window.location.href = `/${i18n.language}/after-login/home.html`;
     }
   }, [connected]);
   return (

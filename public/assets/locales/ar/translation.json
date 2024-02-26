@@ -157,7 +157,7 @@
       "Featuesdetails": [
         "ایک بھرپور صحرائی ماحول میں ٹیکٹیکل FPS گیم پلے",
         "ٹیم پر مبنی مشن اور مقاصد",
-        "A dynamic, player-driven economy through NFT integration",
+        "اقتصاد ديناميكي يحركه اللاعب من خلال تكامل NFT",
         "بلاکچین انٹیگریشن: کھیل میں منفرد اثاثوں اور انعامات کے ساتھ ملکیت کا تجربہ کریں جیسا کہ لوسیڈیا ماحولیاتی نظام میں NFTs کے طور پر قابل تجارت ہے۔"
       ]
     }
@@ -231,7 +231,7 @@
         "normal": "إنشاء دورة تنموية وتحسين ذاتي مستدامة، تمول وتوجهها حوكمة المجتمع ونماذج الرموز، مضمونين البقاء على المدى الطويل."
       }
     ],
-    "meet": "تعرف على خبرائنا في التشفير",
+    "meet": "تعرف على خبرائنا في الكود",
     "meet_desc": "في لوسيديا، نعتقد أن العالم الرقمي الحقيقي والمغمور بالكامل هو على بُعد قريب.",
     "want": "ترغب في الانضمام إلى فريقنا؟",
     "apply": "قدّم الآن"
@@ -268,8 +268,8 @@
         "value": "نحتفظ بالحق في إجراء تغييرات على هذه السياسة في أي وقت. يعتبر استمرار استخدامك للموقع بعد أي تغيير في هذه السياسة قبولًا لتلك التغييرات."
       },
       {
-        "title": "Contact Us",
-        "value": "If you have any questions about this Policy, please contact us at [Contact@lucidia.com]."
+        "title": "تواصل معنا",
+        "value": "إذا كانت لديك أي أسئلة حول هذه السياسة، فيرجى الاتصال بنا على [Contact@lucidia.com]."
       }
     ]
   },
@@ -319,7 +319,7 @@
     ]
   },
   "nav": {
-    "home": "الرئيسية",
+    "home": "الصفحة الرئيسية",
     "pitchdeck": "عرض الشركة",
     "roadmap": "خريطة الطريق",
     "games": "الألعاب",
@@ -327,16 +327,16 @@
     "faq": "الأسئلة الشائعة",
     "audit": "التدقيق",
     "gameplay": "طريقة اللعب",
-    "meet": "تعرف على المجتمع"
+    "meet": "اطلق التطبيق"
   },
   "app-nav": {
-    "home": "الرئيسية",
-    "games": "الشركة",
-    "tournaments": "خريطة الطريق",
-    "marketplace": "Marketplace",
-    "dev-tools": "Dev Tools",
-    "educational-portal": "Educational Portal",
-    "dao": "Dao",
+    "home": "الصفحة الرئيسية",
+    "games": "الألعاب",
+    "tournaments": "الدوريات",
+    "marketplace": "المتجر",
+    "dev-tools": "أدوات المطورين",
+    "educational-portal": "البوابة التعليمية",
+    "dao": "التصويت",
     "eng": "Eng"
   },
   "join": "انضم إلى المجتمع",
@@ -486,100 +486,100 @@
   ],
   "login": {
     "enter_lucidia": "نظر الملف ",
-    "login_with": "login with",
+    "login_with": "سجل الدخول عن طريق",
     "metamask": "Metamask",
     "walletconnect": "WalletConnect",
-    "failed": "Failed to connect. You can try again."
+    "failed": "فشل التوصيل. حاول مجددا"
   },
   "profile": "انظر الملف الشخصي",
   "meta": {
     "default": {
-      "title": "Explore Diverse Games within Lucidia's Web3 Ecosystem",
-      "desc": "Join Lucidia and expand your game's reach across a vibrant Web3 ecosystem, featuring cross-platform compatibility and a unified gaming experience. Benefit from wider audience reach, enhanced player experiences, and innovative features for game developers."
+      "title": "اكتشف الألعاب المتنوعة ضمن نظام Web3 البيئي الخاص بشركة Lucidia",
+      "desc": "انضم إلى Lucidia وقم بتوسيع نطاق وصول لعبتك عبر نظام Web3 البيئي النابض بالحياة، والذي يتميز بالتوافق عبر الأنظمة الأساسية وتجربة لعب موحدة. استفد من الوصول إلى جمهور أوسع وتجارب اللاعبين المحسنة والميزات المبتكرة لمطوري الألعاب."
     },
     "games": {
-      "title": "Explore Diverse Games within Lucidia's Web3 Ecosystem",
-      "desc": "Join Lucidia and expand your game's reach across a vibrant Web3 ecosystem, featuring cross-platform compatibility and a unified gaming experience. Benefit from wider audience reach, enhanced player experiences, and innovative features for game developers."
+      "title": "اكتشف الألعاب المتنوعة ضمن نظام Web3 البيئي الخاص بشركة Lucidia",
+      "desc": "انضم إلى Lucidia وقم بتوسيع نطاق وصول لعبتك عبر نظام Web3 البيئي النابض بالحياة، والذي يتميز بالتوافق عبر الأنظمة الأساسية وتجربة لعب موحدة. استفد من الوصول إلى جمهور أوسع وتجارب اللاعبين المحسنة والميزات المبتكرة لمطوري الألعاب."
     },
     "sandstorm": {
-      "title": "Sandstorm Racing - Master Desert Drifts in an Epic Racing Adventure",
-      "desc": "Dive into 'Sandstorm Racing', an open-world racing simulation set in the stunning deserts of the Middle East. Experience the thrill of Arab drift racing, extensive vehicle customization, and dynamic sandstorm environments."
+      "title": "Sandstorm Racing - أتقن الانجرافات الصحراوية في مغامرة سباق ملحمية",
+      "desc": "غوص في 'Sandstorm Racing', محاكاة سباقات العالم المفتوح التي تدور أحداثها في صحاري الشرق الأوسط المذهلة. استمتع بتجربة إثارة سباقات الانجراف العربية، والتخصيص الشامل للمركبات، وبيئات العواصف الرملية الديناميكية."
     },
     "desert": {
-      "title": "Desert Dominion - Strategic FPS Gaming with Web3 Integration",
-      "desc": "Embark on an epic journey with 'Desert Dominion', a first-person shooter blending strategic gameplay, team-based challenges, and a player-driven economy with the innovative use of Web3 and NFTs in vast desert landscapes."
+      "title": "Desert Dominion - ألعاب FPS الإستراتيجية مع تكامل Web3",
+      "desc": "الشروع في رحلة ملحمية مع 'Desert Dominion', لعبة إطلاق نار من منظور الشخص الأول تمزج بين اللعب الاستراتيجي والتحديات القائمة على الفريق والاقتصاد الذي يحركه اللاعب مع الاستخدام المبتكر لـ Web3 وNFTs في المناظر الطبيعية الصحراوية الشاسعة."
     },
     "curse": {
-      "title": "Pharaoh's Plague - Mythological FPS Adventure in a Futuristic Dubai",
-      "desc": "Step into 'Pharaoh's Plague,' an FPS that blends ancient mythology with futuristic warfare in Dubai. Encounter legendary beasts, utilize advanced weaponry mixed with magic, and immerse in a narrative-rich setting with Web3 integration."
+      "title": "Pharaoh's Plague -مغامرة أسطورية من منظور الشخص الأول في دبي المستقبلية",
+      "desc": "ادخل إلى 'Pharaoh's Plague'، وهي لعبة FPS تمزج بين الأساطير القديمة والحروب المستقبلية في دبي. واجه الوحوش الأسطورية، واستخدم الأسلحة المتقدمة الممزوجة بالسحر، وانغمس في بيئة غنية بالسرد مع تكامل Web3."
     },
     "ecosystem_home": {
-      "title": "Lucidia Ecosystem - Unleash Gaming Innovation in the Middle East",
-      "desc": "Dive into Lucidia's ecosystem app, your gateway to a world where traditional gaming meets blockchain innovation. Explore a suite of tools from NFT Marketplace to Web3 Wallet Login solution, designed for gamers and developers in the Middle East."
+      "title": "نظام لوسيديا البيئي - أطلق العنان لابتكارات الألعاب في الشرق الأوسط",
+      "desc": "انغمس في تطبيق النظام البيئي الخاص بـ Lucidia، بوابتك إلى عالم تلتقي فيه الألعاب التقليدية مع ابتكارات blockchain. استكشف مجموعة من الأدوات بدءًا من NFT Marketplace وحتى حلول تسجيل الدخول إلى Web3 Wallet، المصممة للاعبين والمطورين في الشرق الأوسط."
     },
     "ecosystem_games": {
-      "title": "Explore a World of Gaming with Lucidia - A Universe of Diverse Titles",
-      "desc": "Discover the vast and vibrant universe of games within Lucidia's ecosystem. From action-packed adventures and strategic battles to immersive narratives, each game is a gateway to innovative, blockchain-enhanced gaming experiences."
+      "title": "اكتشف عالم الألعاب مع Lucidia - عالم من العناوين المتنوعة",
+      "desc": "اكتشف عالم الألعاب الواسع والنابض بالحياة داخل نظام Lucidia البيئي. بدءًا من المغامرات المليئة بالإثارة والمعارك الإستراتيجية وحتى القصص الغامرة، تعد كل لعبة بمثابة بوابة لتجارب ألعاب مبتكرة ومعززة بتقنية blockchain."
     },
     "ecosystem_tournaments": {
-      "title": "Lucidia Tournaments - Compete in the Ultimate Gaming Arena",
-      "desc": "Enter the competitive world of Lucidia's gaming tournaments. With a variety of games and styles, from strategic duels to high-energy clashes, there's a challenge for every gamer. Compete for glory and crypto prizes in the dynamic Lucidia ecosystem."
+      "title": "بطولات لوسيديا - تنافس في ساحة الألعاب النهائية",
+      "desc": "أدخل عالم المنافسة في دورات ألعاب Lucidia. مع مجموعة متنوعة من الألعاب والأساليب، بدءًا من المبارزات الإستراتيجية وحتى الاشتباكات عالية الطاقة، هناك تحدي لكل لاعب. تنافس على المجد وجوائز العملات المشفرة في نظام Lucidia البيئي الديناميكي."
     },
     "ecosystem_marketplace": {
-      "title": "Lucidia Marketplace - Innovate and Trade in the Gaming Community",
-      "desc": "Discover Lucidia's Marketplace, a platform redefining collaboration and trade within the Middle Eastern gaming community. From unique in-game assets and code to comprehensive NFT integration tools, find everything you need to bring your gaming projects to life."
+      "title": "سوق لوسيديا - الابتكار والتجارة في مجتمع الألعاب",
+      "desc": "اكتشف سوق Lucidia، وهو عبارة عن منصة تعيد تعريف التعاون والتجارة داخل مجتمع الألعاب في الشرق الأوسط. بدءًا من الأصول والأكواد الفريدة داخل اللعبة وحتى أدوات تكامل NFT الشاملة، يمكنك العثور على كل ما تحتاجه لإضفاء الحيوية على مشاريع الألعاب الخاصة بك."
     },
     "ecosystem_devtools": {
-      "title": "Lucidia Developer Tools - Empower Your Game Development Journey",
-      "desc": "Unlock your game development potential with Lucidia's suite of tools, from NFT integration kits to Web3 wallet login solutions. Each tool is designed to enhance your projects and bring your creative visions to life in the Web3 gaming space."
+      "title": "أدوات مطوري Lucidia - قم بتمكين رحلة تطوير اللعبة الخاصة بك",
+      "desc": "أطلق العنان لإمكانات تطوير لعبتك باستخدام مجموعة أدوات Lucidia، بدءًا من مجموعات تكامل NFT وحتى حلول تسجيل الدخول إلى محفظة Web3. تم تصميم كل أداة لتحسين مشاريعك وإضفاء الحيوية على رؤيتك الإبداعية في مساحة ألعاب Web3."
     },
     "ecosystem_educational": {
-      "title": "Web3 Gaming Education Portal by Lucidia - Learn, Grow, Innovate",
-      "desc": "Join Lucidia's Web3 Gaming Education Portal, your gateway to mastering Web3 gaming. With tutorials, articles, and videos coming soon, get ready to explore and understand the future of gaming."
+      "title": "بوابة تعليم ألعاب Web3 من لوسيديا - تعلم، انمو، ابتكر",
+      "desc": "انضم إلى بوابة تعليم ألعاب Web3 الخاصة بشركة Lucidia، وهي بوابتك لإتقان ألعاب Web3. مع البرامج التعليمية والمقالات ومقاطع الفيديو التي ستتوفر قريبًا، استعد لاستكشاف وفهم مستقبل الألعاب."
     },
     "ecosystem_dao": {
-      "title": "Lucidia DAO Voting - Influence the Future of Your Favorite Games",
-      "desc": "Participate in shaping the future of gaming within the Lucidia ecosystem. Cast your vote on game decisions and be an integral part of the game development story through our DAO Voting platform."
+      "title": "تصويت Lucidia DAO – تأثير على مستقبل ألعابك المفضلة",
+      "desc": "شارك في تشكيل مستقبل الألعاب ضمن نظام Lucidia البيئي. أدل بصوتك على قرارات اللعبة وكن جزءًا لا يتجزأ من قصة تطوير اللعبة من خلال منصة تصويت DAO الخاصة بنا."
     },
     "ecosystem_FPS": {
-      "title": "Desert Dominion - Tactical FPS with Web3 Integration | Lucidia",
-      "desc": "Join 'Desert Dominion' on Lucidia, an FPS where strategic gameplay meets Web3. Explore vast deserts, engage in team-based battles, and own unique NFT assets. Start your adventure today."
+      "title": "Desert Dominion - FPS التكتيكية مع تكامل Web3 | Lucidia",
+      "desc": "انضم إلى 'Desert Dominion' على Lucidia، وهي لعبة FPS حيث يلتقي اللعب الاستراتيجي مع Web3. استكشف الصحاري الشاسعة وانخرط في معارك جماعية وامتلك أصول NFT الفريدة. ابدأ مغامرتك اليوم."
     },
     "ecosystem_drift": {
-      "title": "Sandstorm Racing - Open-World Racing in a Dynamic Desert Landscape",
-      "desc": "Experience 'Sandstorm Racing' in Lucidia, where thrilling Arab drift racing meets dynamic sandstorm environments. Customize your vehicle and explore Middle Eastern car culture in this immersive racing simulation."
+      "title": "Sandstorm Racing - سباقات العالم المفتوح في مشهد صحراوي ديناميكي",
+      "desc": "استمتع بتجربة Sandstorm Racing في لوسيديا، حيث تجتمع سباقات الانجراف العربية المثيرة مع بيئات العواصف الرملية الديناميكية. قم بتخصيص سيارتك واستكشف ثقافة السيارات في الشرق الأوسط في محاكاة السباق الغامرة هذه."
     },
     "ecosystem_zombie": {
-      "title": "Pharaoh's Plague - Mythology Meets FPS in Futuristic Dubai",
-      "desc": "Dive into 'Pharaoh's Plague,' a unique blend of FPS action and ancient mythology set in a reimagined Dubai. Experience strategic combat, mythological beasts, and Web3 integration in this immersive game world."
+      "title": "Pharaoh's Plague - الأساطير تجتمع مع FPS في دبي المستقبلية",
+      "desc": "انغمس في لعبة Pharaoh's Plague، وهي مزيج فريد من حركة FPS والأساطير القديمة التي تدور أحداثها في دبي المعاد تصورها. استمتع بتجربة القتال الاستراتيجي والوحوش الأسطورية وتكامل Web3 في عالم الألعاب الغامر هذا."
     },
     "ecosystem_craft": {
-      "title": "Lucidcraft - Unleash Creativity in a Sandbox World with Web3",
-      "desc": "Enter 'Lucidcraft', a sandbox game where creativity knows no bounds. Build, explore, and trade in a dynamic world enhanced by Web3 technology. Shape your adventure and own your creations."
+      "title": "Lucidcraft - أطلق العنان للإبداع في عالم Sandbox باستخدام Web3",
+      "desc": "أدخل Lucidcraft، وهي لعبة رمل حيث لا يعرف الإبداع حدودًا. قم بالبناء والاستكشاف والتداول في عالم ديناميكي معزز بتقنية Web3. شكّل مغامرتك وامتلك إبداعاتك."
     },
     "home": {
-      "title": "Lucidia - Revolutionizing Middle Eastern Gaming with Web3 Innovations",
-      "desc": "Lucidia is transforming the gaming landscape in the Middle East by integrating the immersive world of traditional gaming with cutting-edge Web3 technologies. Explore our unique ecosystem designed for developers and gamers to experience the future of gaming."
+      "title": "Lucidia - إحداث ثورة في الألعاب في الشرق الأوسط من خلال ابتكارات Web3",
+      "desc": "تعمل لوسيديا على تغيير مشهد الألعاب في الشرق الأوسط من خلال دمج عالم الألعاب التقليدية الغامر مع تقنيات Web3 المتطورة. استكشف نظامنا البيئي الفريد المصمم للمطورين واللاعبين لتجربة مستقبل الألعاب."
     },
     "team": {
-      "title": "Meet the Lucidia Team - Innovators Behind Middle Eastern Web3 Gaming",
-      "desc": "Discover the passionate professionals at Lucidia driving the fusion of traditional gaming with Web3 in the Middle East. Learn about our mission, culture, and the visionary leadership shaping the future of gaming."
+      "title": "تعرف على فريق Lucidia - المبتكرون وراء ألعاب Web3 في الشرق الأوسط",
+      "desc": "اكتشف المحترفين المتحمسين في Lucidia الذين يقودون دمج الألعاب التقليدية مع Web3 في الشرق الأوسط. تعرف على مهمتنا وثقافتنا والقيادة الحكيمة التي تشكل مستقبل الألعاب."
     },
     "vision": {
-      "title": "Our Vision - Shaping the Future of Gaming with Web3 | Lucidia",
-      "desc": "At Lucidia, we're committed to redefining the Middle Eastern gaming landscape through Web3 technologies, offering a unique ecosystem for developers and players to engage in innovative gaming experiences."
+      "title": "رؤيتنا - تشكيل مستقبل الألعاب باستخدام Web3 | Lucidia",
+      "desc": "في Lucidia، نحن ملتزمون بإعادة تعريف مشهد الألعاب في الشرق الأوسط من خلال تقنيات Web3، مما يوفر نظامًا بيئيًا فريدًا للمطورين واللاعبين للمشاركة في تجارب الألعاب المبتكرة."
     },
     "products": {
-      "title": "Lucidia Ecosystem - Elevate Your Game Development with Cutting-Edge Web3 Tools",
-      "desc": "Dive into Lucidia's ecosystem, offering a rich portfolio of Web3 products designed to empower developers. From specialized NFT toolkits to robust wallet login system, we provide the tools you need to innovate in the Middle Eastern gaming landscape."
+      "title": "نظام Lucidia البيئي - ارفع مستوى تطوير لعبتك باستخدام أدوات Web3 المتطورة",
+      "desc": "انغمس في نظام Lucidia البيئي، الذي يقدم مجموعة غنية من منتجات Web3 المصممة لتمكين المطورين. بدءًا من مجموعات أدوات NFT المتخصصة وحتى نظام تسجيل الدخول القوي للمحفظة، نقدم الأدوات التي تحتاجها للابتكار في مشهد الألعاب في الشرق الأوسط."
     },
     "road_map": {
-      "title": "Lucidia Roadmap - Charting the Future of Web3 Gaming Development",
-      "desc": "Explore Lucidia's roadmap, detailing our strategic journey from launching innovative marketplaces to implementing advanced wallet login systems, paving the way for groundbreaking development in the Web3 gaming sector."
+      "title": "خريطة طريق لوسيديا – رسم مستقبل تطوير ألعاب Web3",
+      "desc": "استكشف خريطة طريق Lucidia، التي توضح بالتفصيل رحلتنا الإستراتيجية بدءًا من إطلاق الأسواق المبتكرة وحتى تنفيذ أنظمة تسجيل دخول المحفظة المتقدمة، مما يمهد الطريق للتطوير الرائد في قطاع ألعاب Web3."
     },
     "career": {
-      "title": "Join Lucidia - Careers in Web3 Gaming Innovation",
-      "desc": "Lucidia is hiring! Explore open positions from Blockchain Developer to UI/UX Designer and become part of a team shaping the future of Web3 gaming. Enjoy a culture of collaboration, innovation, and benefits like remote work and continuous learning."
+      "title": "انضم إلى Lucidia - وظائف في ابتكار ألعاب Web3",
+      "desc": "لوسيديا تقوم بالتوظيف! استكشف المناصب المفتوحة من مطور Blockchain إلى مصمم UI/UX وكن جزءًا من فريق يشكل مستقبل ألعاب Web3. استمتع بثقافة التعاون والابتكار والمزايا مثل العمل عن بعد والتعلم المستمر."
     }
   }
 }
