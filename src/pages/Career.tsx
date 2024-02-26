@@ -86,7 +86,13 @@ const Career = () => {
             ).map(({ role, opened, content }, i) => (
               <>
                 {/* {setIsHovered(false)} */}
-                <div className="flex flex-row gap-x-[220px] cursor-pointer hover:text-primary" key={`roles-${i}`}>
+                <div
+                  onClick={() => {
+                    window.location.href = 'https://forms.gle/9QFPRP9pEFxGtY5j9';
+                  }}
+                  className="flex flex-row gap-x-[220px] cursor-pointer hover:text-primary"
+                  key={`roles-${i}`}
+                >
                   <div className="flex flex-col gap-y-5">
                     <h3 className={clsx('text-[30px] font-semibold min-w-[300px]')}>{role}</h3>
                     <p className="text-[20px]">{`${t('career.open_position')}: ${opened}`}</p>
