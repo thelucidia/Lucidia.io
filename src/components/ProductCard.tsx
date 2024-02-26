@@ -13,7 +13,7 @@ export function ProductCard({ title, desc, owner, price }: ProductCardProps) {
       <div className="bg-[#1E1E1E] p-4 flex flex-col gap-y-4">
         <div className="text-base truncate font-bold">{title}</div>
         <div className="text-base truncate">{desc}</div>
-        <div className="flex justify-end">{price}</div>
+        <div className="flex justify-end text-gray-400 line-through">{price}</div>
         <div className="lg:flex flex-row justify-between">
           <div className="mt-4 lg:mt-0 lg:w-fit flex justify-start">
             <img
@@ -23,7 +23,7 @@ export function ProductCard({ title, desc, owner, price }: ProductCardProps) {
             />
             <span className="flex items-center pl-[5px]">{owner}</span>
           </div>
-          <div className="mt-4 lg:mt-0 w-full lg:w-fit bg-[#B28539] text-base flex justify-center">{price}</div>
+          <div className="mt-4 lg:mt-0 w-full lg:w-fit bg-[#B28539] text-base flex justify-center px-1">{price}</div>
         </div>
       </div>
     </div>
