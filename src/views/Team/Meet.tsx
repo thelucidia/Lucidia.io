@@ -20,7 +20,7 @@ const Meet = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-[20px] text-white mt-5">
-          {(t('members', { returnObjects: true }) as membersInterface[]).map((items, i) => (
+          {(t('members', { returnObjects: true }) as membersInterface[]).map((items) => (
             <div className="bg-[#1e1e1e] grid grid-cols-4 rounded-bl-2xl min-h-[160px]" key={items.name}>
               <div>
                 <div
