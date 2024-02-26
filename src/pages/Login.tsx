@@ -16,7 +16,7 @@ const Login = (props: any) => {
   const { t, i18n } = useTranslation();
   const { lang } = props;
   useEffect(() => {
-    Boolean(lang) && i18n.changeLanguage(lang);
+    i18n.changeLanguage(lang ?? 'en');
   }, [lang]);
   const connectMetaMask = async (evt: { preventDefault: () => void; stopPropagation: () => void }) => {
     evt.preventDefault();
@@ -41,7 +41,7 @@ const Login = (props: any) => {
       return;
     }
     if (connected) {
-      window.location.href = '/en/after-login/home.html';
+      window.location.href = `/${i18n.language}/after-login/home.html`;
     }
   }, [connected]);
   return (
@@ -69,22 +69,22 @@ const Login = (props: any) => {
 
       <ul className="social-links">
         <li>
-          <Link to="#">
+          <Link to="https://t.me/Lucidia_io">
             <img src="assets/image/socials/telegram.svg" alt="telegram" />
           </Link>
         </li>
         <li>
-          <Link to="#">
+          <Link to="https://discord.gg/lucidia">
             <img src="assets/image/socials/discord.svg" alt="discord" />
           </Link>
         </li>
         <li>
-          <Link to="#">
+          <Link to="https://twitter.com/lucidia_io">
             <img src="assets/image/socials/twitter.svg" alt="twitter" />
           </Link>
         </li>
         <li>
-          <Link to="#">
+          <Link to="/">
             <img src="assets/image/socials/website.svg" alt="website" />
           </Link>
         </li>
