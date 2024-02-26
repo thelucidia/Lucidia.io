@@ -1,10 +1,8 @@
 import { useTranslation } from 'react-i18next';
-import { useNavigate } from 'react-router-dom';
 import Button from '../../components/Button';
 
 const JoinTeam = () => {
   const { t } = useTranslation();
-  const navigate = useNavigate();
   return (
     <>
       <section className="w-full md:h-[23rem] h-[6rem] sm:h-[10rem] bg-black2 relative sm:mt-20 mt-7 mb-32 flex justify-between font-primary text-secondary">
