@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import Button5 from '../../components/Button5';
 import { useNavigate } from 'react-router-dom';
+import Button from '../../components/Button';
 
 const JoinTeam = () => {
   const { t } = useTranslation();
@@ -51,15 +51,17 @@ const JoinTeam = () => {
               {t('team.apply')}
             </h1>
           </div> */}
-          <Button5
-            onClick={() => {
-              navigate(`/games/zombie-outbreak`);
-            }}
-            className="w-full md:w-60"
-            stretchOnMobile
-          >
-            Apply Now
-          </Button5>
+          <div className="flex gap-x-3 md:flex-row flex-col md:text-2xl">
+            <Button
+              onClick={() => {
+                window.location.href = 'https://forms.gle/9QFPRP9pEFxGtY5j9';
+              }}
+              className="w-full md:w-60"
+              stretchOnMobile
+            >
+              {t('team.apply')}
+            </Button>
+          </div>
         </div>
         <img src="/games/canyondrift/cars.png" alt="JoinRight" className="" />
       </section>
