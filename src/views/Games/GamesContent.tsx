@@ -69,6 +69,11 @@ const GamesContent = () => {
                   type="text"
                   placeholder={t('games_page.email')}
                 />
+                <input
+                  className="flex-auto w-4 bg-transparent border-2 border-[#F0F0F0] p-2 text-xl"
+                  type="text"
+                  placeholder={t('games_page.website')}
+                />
               </div>
               <div className="w-full">
                 <textarea

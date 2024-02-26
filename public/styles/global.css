@@ -236,9 +236,10 @@ body.curse::before {
 }
 
 .advert .device-desktop,
-.game-sections .device-desktop {
+.game-sections .device-desktop,
+.advert .device-mobile,
+.game-sections .device-mobile {
   background: rgba(30, 30, 30, 0.92);
-  width: 100px;
   line-height: 24px;
   color: #f0f0f0;
   font-family: Tajawal;
@@ -254,18 +255,37 @@ body.curse::before {
   flex-direction: row;
 }
 
+.advert .device-mobile,
+.game-sections .device-mobile {
+  left: 160px;
+}
+
 .advert .device-desktop::before,
 .game-sections .device-desktop::before {
   display: block;
   content: url(../images/icons/desktop.svg);
   line-height: 1;
-  padding: 4px 0 0;
+  padding: 4px 8px 0 0;
+}
+
+.advert .device-mobile::before,
+.game-sections .device-mobile::before {
+  display: block;
+  content: url(../images/icons/mobile.svg);
+  line-height: 1;
+  padding: 4px 8px 0 0;
 }
 
 .advert .device-desktop::after,
 .game-sections .device-desktop::after {
   display: block;
   content: 'Desktop';
+}
+
+.advert .device-mobile::after,
+.game-sections .device-mobile::after {
+  display: block;
+  content: 'Mobile';
 }
 
 .advert .title {
@@ -341,6 +361,12 @@ h2 {
 .game-sections .game-item .image .device-desktop {
   top: unset;
   bottom: 12px;
+  left: 20px;
+}
+
+.game-sections .game-item .image .device-mobile {
+  top: unset;
+  bottom: 43px;
   left: 20px;
 }
 
