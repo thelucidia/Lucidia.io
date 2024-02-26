@@ -41,6 +41,9 @@ jQuery(function ($) {
   $links4Image.on('click', function (evt) {
     evt.preventDefault();
     evt.stopPropagation();
+    if ($(this).hasClass('active')) {
+      return;
+    }
     fnGotoBackground($(this).parent().index());
   });
 
