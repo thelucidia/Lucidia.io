@@ -1,7 +1,18 @@
 import { useTranslation } from 'react-i18next';
 const Partners = () => {
   const { t } = useTranslation();
-  const partners = ['unreal', 'play', 'g2', 'rebel', 'elephant', 'uni', 'hit', 'pancake', 'epic', 'arc'];
+  const partners = [
+    'unreal.webp',
+    'play.webp',
+    'sphereone.png',
+    'rebel.webp',
+    'epic.webp',
+    'uni.webp',
+    'arc.webp',
+    'pancake.webp',
+    'goshen.png',
+    'seman.png',
+  ];
 
   return (
     <section className="bg-bg-w-full h-auto pt-10 sm:px-5 overflow-hidden font-primary text-secondary sm:pt-28">
@@ -20,7 +31,7 @@ const Partners = () => {
 
             <div className="flex flex-wrap sm:gap-x-[8rem] gap-x-4  gap-y-[2.5rem] items-center justify-center py-9">
               {partners.map((items, i) => {
-                return <img src={`/partners/${items}.webp`} alt="Partners" className={`sm:w-[10rem] w-24`} key={i} />;
+                return <img src={`/partners/${items}`} alt="Partners" className={`sm:w-[10rem] w-24`} key={i} />;
               })}
             </div>
           </div>

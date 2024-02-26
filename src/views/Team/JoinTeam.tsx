@@ -1,7 +1,10 @@
 import { useTranslation } from 'react-i18next';
+import Button5 from '../../components/Button5';
+import { useNavigate } from 'react-router-dom';
 
 const JoinTeam = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   return (
     <>
       <section className="w-full md:h-[23rem] h-[6rem] sm:h-[10rem] bg-black2 relative sm:mt-20 mt-7 mb-32 flex justify-between font-primary text-secondary">
@@ -10,7 +13,7 @@ const JoinTeam = () => {
         <div className="w-full h-full pl-[12.5%] flex justify-center flex-col gap-y-3 md:gap-y-24">
           <h1 className=" text-base sm:text-2xl md:text-4xl lg:text-5xl font-bold text-secondary">{t('team.want')}</h1>
 
-          <div className="relative w-[200px] lg:w-[523px] sm:scale-1 grayscale brightness-50">
+          {/* <div className="relative w-[200px] lg:w-[523px] sm:scale-1 grayscale brightness-50">
             <svg
               width="523"
               height="63"
@@ -22,6 +25,7 @@ const JoinTeam = () => {
               <path
                 d="M1.54592 31.5L37.5031 1H485.497L521.454 31.5L485.497 62H37.5031L1.54592 31.5Z"
                 stroke="#F0F0F0"
+                fill="#B38539"
                 strokeWidth="2"
               />
               <path d="M39.8656 6H483.134L513 31.5L483.134 57H39.8656L10 31.5L39.8656 6Z" fill="#B38539" />
@@ -46,7 +50,16 @@ const JoinTeam = () => {
             <h1 className="absolute top-0 left-0 bottom-0 right-0 m-auto h-fit lg:text-3xl text-sm font-medium text-center">
               {t('team.apply')}
             </h1>
-          </div>
+          </div> */}
+          <Button5
+            onClick={() => {
+              navigate(`/games/zombie-outbreak`);
+            }}
+            className="w-full md:w-60"
+            stretchOnMobile
+          >
+            Apply Now
+          </Button5>
         </div>
         <img src="/games/canyondrift/cars.png" alt="JoinRight" className="" />
       </section>
