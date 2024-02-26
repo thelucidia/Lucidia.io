@@ -1,7 +1,7 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 // import React from "react";
 // import { Images } from "../components/Images";
-import { ProductCard } from "../components/ProductCard";
+import { ProductCard } from '../components/ProductCard';
 const FeaturedProducts = () => {
   const { t } = useTranslation();
   // const [isHover, setIsHover] = React.useState(false);

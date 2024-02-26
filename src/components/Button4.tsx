@@ -65,7 +65,7 @@ export const Button4: FunctionComponent<ButtonProps> = ({
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className={cn('absolute top-0 left-0 w-full h-full block group-hover:hidden', {
-          'md:block hidden': stretchOnMobile,
+          'md:block': stretchOnMobile,
         })}
       >
         <path d="M10.0344 0H158.966L169 18L158.966 36H10.0344L0 18L10.0344 0Z" fill="#B38539" />
@@ -78,7 +78,7 @@ export const Button4: FunctionComponent<ButtonProps> = ({
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           className={cn('absolute top-0 left-0 w-full h-full block', {
-            'md:block hidden': stretchOnMobile || removeOnMobile,
+            'md:block': stretchOnMobile || removeOnMobile,
           })}
         >
           <path

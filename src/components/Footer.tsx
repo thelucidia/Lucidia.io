@@ -78,14 +78,14 @@ const Footer = () => {
 
   return (
     <footer className="w-full h-auto min-h-auto bg-black2 relative sm:pt-9 sm:pb-10">
-      <div className="max-w-[95%] mx-auto w-full text-secondary flex px-5 gap-x-24 lg:flex-row flex-col ">
+      <div className="max-w-[95%] mx-auto w-full text-secondary grid lg:gap-x-16 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
         <div className="mt-7 sm:mt-0">
           <img src="/hero/logo.webp" alt="Logo" className="sm:w-auto w-28" />
           <p className="font-primary font-regular max-w-[29rem] leading-4 mt-3 sm:mt-7 text-[12px] md:text-[12px]">
             {t('jurisdiction')}
           </p>
           <div className="text-footergry flex items-center gap-x-7 sm:gap-x-16 mt-12">
-            <div className="flex items-center max-w-[360px] flex-wrap gap-x-6 gap-y-7 pr-16">
+            <div className="flex items-center flex-row flex-wrap gap-x-6 gap-y-7 pr-16">
               {icons.map((items, i) => (
                 <a
                   href={items.link}
@@ -100,9 +100,104 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="flex mt-11 gap-x-12">
+          <div>
+            <h2 className="font-semibold text-[36px] mb-12">{t('general')}</h2>
+            <ul className="flex flex-col gap-y-2 sm:gap-y-3 mt-4">
+              {general.map((items, i) => {
+                return (
+                  <li
+                    className="font-secondary cursor-pointer font-medium text-base relative w-fit hover:text-primary transition-colors ease-in-out duration-300"
+                    key={i}
+                    onClick={() => {
+                      navigate(`/${items.link}`);
+                    }}
+                  >
+                    {items.title}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
 
-        <div className="w-full font-primary flex lg:flex-row flex-col justify-between gap-y-8 mt-11 lg:mt-14 ">
-          <div className="flex gap-8">
+          <div className="">
+            <h2 className="font-semibold text-[36px] mb-12">{t('company')}</h2>
+            <ul className="flex flex-col gap-y-2 sm:gap-y-3 mt-4">
+              {company.map((items, i) => {
+                return (
+                  <li
+                    className="font-secondary font-regular font-medium text-base text-[20px] relative w-fit hover:text-primary transition-colors ease-in-out duration-300"
+                    key={i}
+                  >
+                    <a
+                      href={items.title === 'contact us' ? 'mailto:contact@lucidia.io' : items.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=""
+                    >
+                      {items.title}
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        </div>
+
+        <div className="w-full font-primary flex flex-col gap-y-8 mt-11 lg:mt-14 items-center md:col-span-2 lg:col-span-1">
+          <div className="relative w-full">
+            <h2 className="text-[16px] mb-1">{t('subscribe')}</h2>
+            <input
+              className="w-full border-[1px] border-[#F0F0F0] py-1 px-2 mt-4 bg-transparent"
+              placeholder={t('full_name')}
+            ></input>
+            <input
+              className="w-full border-[1px] border-[#F0F0F0] py-1 px-2 mt-4 bg-transparent"
+              placeholder={t('email')}
+            ></input>
+            <div className="flex gap-2">
+              <input
+                className="w-full border-[1px] border-[#F0F0F0] py-1 px-2 mt-4 bg-transparent"
+                placeholder={t('discord_name')}
+              ></input>
+              <input
+                className="w-full border-[1px] border-[#F0F0F0] py-1 px-2 mt-4 bg-transparent"
+                placeholder={t('telegram_name')}
+              ></input>
+            </div>
+            <div className="flex flex-row justify-start">
+              <Button4 className="w-full w-60 mt-9" stretchOnMobile>
+                {t('subscribe_button')}
+              </Button4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="max-w-[95%] mx-auto w-full text-secondary flex px-5 gap-x-24 lg:flex-row flex-col justify-between">
+        <div className="flex flex-row gap-x-16 flex-wrap">
+          <div className="mt-7 sm:mt-0 max-w-[280px]">
+            <img src="/hero/logo.webp" alt="Logo" className="sm:w-auto w-28" />
+            <p className="font-primary font-regular max-w-[29rem] leading-4 mt-3 sm:mt-7 text-[12px] md:text-[12px]">
+              {t('jurisdiction')}
+            </p>
+            <div className="text-footergry flex items-center gap-x-7 sm:gap-x-16 mt-12">
+              <div className="flex items-center max-w-[360px] flex-wrap gap-x-6 gap-y-7 pr-16">
+                {icons.map((items, i) => (
+                  <a
+                    href={items.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className=" md:text-2xl sm:text-xl text-base hover:scale-[1.1] hover:text-primary transition-all ease-in-out duration-300"
+                    key={i}
+                  >
+                    {items.icon}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="flex min-w-[400px] mt-11 gap-x-12">
             <div>
               <h2 className="font-semibold text-[36px] mb-12">{t('general')}</h2>
               <ul className="flex flex-col gap-y-2 sm:gap-y-3 mt-4">
@@ -145,8 +240,10 @@ const Footer = () => {
               </ul>
             </div>
           </div>
+        </div>
 
-          <div className="relative min-w-[428px]">
+        <div className="w-full font-primary flex flex-col gap-y-8 mt-11 lg:mt-14 items-center max-w-[428px]">
+          <div className="relative ">
             <h2 className="text-[16px] mb-1">{t('subscribe')}</h2>
             <input
               className="w-full border-[1px] border-[#F0F0F0] py-1 px-2 mt-4 bg-transparent"
@@ -173,7 +270,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="max-w-[95%] mx-auto w-full text-secondary flex justify-between items-center sm:pb-0 pb-5 px-5 pt-12 sm:pt-6 ">
         <div className="">
