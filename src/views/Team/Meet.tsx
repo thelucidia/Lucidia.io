@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { FaLinkedin } from 'react-icons/fa';
-import { cn } from '../../utils';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 interface membersInterface {
   name: string;
@@ -20,36 +19,35 @@ const Meet = () => {
           <p className="sm:text-2xl text-base">{t('team.meet_desc')}</p>
         </div>
 
-        <div className="flex flex-wrap gap-8 sm:mt-20 mt-10 justify-center items-center text-black font-primary">
+        <div className="grid lg:grid-cols-2 gap-[20px] text-white mt-5">
           {(t('members', { returnObjects: true }) as membersInterface[]).map((items, i) => (
-            <a
-              className="max-w-[23rem] w-full h-[35rem] md:h-[25rem] sm:h-[29rem] bg-black2 relative overflow-hidden group hover:border-2 border-primary/0 hover:border-primary transition-all ease-in-out duration-300"
-              key={items.name}
-              href={items.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={`/team/${i}.webp`}
-                alt={items.name}
-                className="absolute top-0 left-0 w-full h-[82%] object-cover"
-              />
-              <div className="w-full h-fit md:translate-y-[60%] translate-y-0 absolute bottom-0 left-0 bg-primary p-5 group-hover:translate-y-0 transition-all ease-in-out duration-300">
-                <h1 className="font-bold text-3xl">{items.name}</h1>
-                <h2 className={cn('font-medium text-xl capitalize')}>{items.position.toLowerCase()}</h2>
-                <ul className="mt-3 group-hover:opacity-100 sm:opacity-0 transition-opacity ease-in-out duration-300">
+            <div className="bg-[#1e1e1e] grid grid-cols-4 rounded-bl-2xl min-h-[160px]" key={items.name}>
+              <div>
+                <div
+                  className={`border-primary border-2 rounded-bl-2xl rounded-tr-2xl w-full h-full bg-cover bg-no-repeat bg-[white]`}
+                ></div>
+              </div>
+              <div className="p-[20px_15px] relative">
+                <h2 className="text-xl font-bold leading-5 mb-2">{items.name}</h2>
+                <h3 className="text-xl text-primary font-bold uppercase leading-5">{items.position}</h3>
+                <a
+                  href={items.link}
+                  target="_blank"
+                  className="w-[20px] h-[20px] rounded-full bg-white text-black text-xs flex flex-col aligns-center justify-center items-center absolute bottom-4"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </div>
+              <div className="col-span-2 p-[20px_15px]">
+                <ul className="list-disc text-sm border-l-2 border-l-white pl-10 h-full">
                   {items.desc.map((desc, i) => (
-                    <li className="font-medium text-base flex gap-x-2" key={i}>
-                      <span>•</span> {desc}
+                    <li className="leading-6" key={i}>
+                      {desc}
                     </li>
                   ))}
                 </ul>
-                <div className="flex items-center gap-1 text-xl group mt-7 mx-auto hover:text-white transition-all ease-in-out duration-100 w-fit cursor-pointer group/learn">
-                  <h1 className="group-hover/learn:underline">{t('profile')}</h1>
-                  <FaLinkedin />
-                </div>
               </div>
-            </a>
+            </div>
           ))}
         </div>
       </div>
