@@ -23,7 +23,7 @@ const HeroTeam = () => {
               <div className="mt-4 text-3xl font-bold">{t('boss_name')}</div>
               <div className="mt-2 text-xl text-primary">{t('boss_position')}</div>
             </div>
-            <img src="/free/avatar.png" width={300} />
+            <img src="/members/profile_1.png" width={300} />
           </div>
         </div>
       </section>
