@@ -53,7 +53,7 @@ const Hero = () => {
 
   return (
     <section className="w-full min-h-screen px-8 sm:px-auto p-5 relative text-secondary flex items-start justify-center">
-      <img src={'/hero/background1.png'} className="w-full h-full object-cover absolute top-0 left-0" />
+      <img src={'/hero/1.jpg'} className="w-full h-full object-cover absolute top-0 left-0" />
 
       {/* <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-b from-transparent to-bg z-10"></div> */}
 
