@@ -18,7 +18,7 @@ const Privacy = () => {
     e.preventDefault();
     const element = document.getElementById(id);
     if (element) {
-      const topPos = element.offsetTop - ref.current?.offsetTop!;
+      const topPos = element.offsetTop - (ref.current?.offsetTop || 0);
 
       if (onMobile) {
         window.scrollTo({
@@ -112,7 +112,7 @@ const Privacy = () => {
                 returnObjects: true,
               }) as details[]
             ).map((item) => (
-              <div className="md:space-y-5 space-y-2" id={item.title}>
+              <div key={item.title} className="md:space-y-5 space-y-2" id={item.title}>
                 <h1 className="font-bold text-base md:text-2xl text-primary">{item.title}</h1>
                 <p className="font-regular text-base md:text-xl">{item.value}</p>
               </div>

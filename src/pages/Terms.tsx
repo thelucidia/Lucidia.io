@@ -18,7 +18,7 @@ const Terms = () => {
     e.preventDefault();
     const element = document.getElementById(id);
     if (element) {
-      const topPos = element.offsetTop - ref.current?.offsetTop!;
+      const topPos = element.offsetTop - (ref.current?.offsetTop || 0);
 
       if (onMobile) {
         window.scrollTo({
@@ -99,7 +99,7 @@ const Terms = () => {
         <div className="w-full xl:-ml-2 pr-10 lg:pl-0 pl-10 lg:max-h-[30rem] overflow-y-scroll noscroll" ref={ref}>
           <div className="md:text-lg text-base flex flex-col gap-y-4 md:gap-y-10">
             {(t('terms_page.terms_data', { returnObjects: true }) as details[]).map((item) => (
-              <div className="md:space-y-5 space-y-2" id={item.title}>
+              <div key={item.title} className="md:space-y-5 space-y-2" id={item.title}>
                 <h1 className="font-bold text-base md:text-2xl text-primary">{item.title}</h1>
                 <p className="font-regular text-base md:text-xl">{item.value}</p>
               </div>

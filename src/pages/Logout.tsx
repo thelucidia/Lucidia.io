@@ -11,7 +11,7 @@ const Logout = (props: any) => {
   const terminate = async () => {
     sdk?.terminate();
     i18n.changeLanguage(lang ?? 'en');
-    window.location.href = `${Boolean(lang) ? `${lang}-` : ''}login`;
+    window.location.href = (!!lang ? lang + '-' : '') + 'login';
   };
   useEffect(() => {
     if (connected) {

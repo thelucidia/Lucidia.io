@@ -13,7 +13,6 @@ export const Button3: FunctionComponent<ButtonProps> = ({
   children,
   className,
   stretchOnMobile,
-  removeOnMobile,
   onClicked,
   ...props
 }) => {

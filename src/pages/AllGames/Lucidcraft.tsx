@@ -34,7 +34,7 @@ const Lucidcraft = () => {
           className="w-[40%] object-cover absolute top-[45%] left-[30%] object-top"
         />
         <div className="flex justify-center mt-[30%] flex-col items-center">
-          <Button children="Play Game" className="mb-16" />
+          <Button className="mb-16">{'Play Game'}</Button>
           <div className="flex justify-center items-center bottom-0	text-white">
             <div className="relative">
               See Details{' '}

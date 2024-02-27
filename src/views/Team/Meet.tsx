@@ -33,6 +33,7 @@ const Meet = () => {
                 <a
                   href={items.link}
                   target="_blank"
+                  rel="noreferrer"
                   className="w-[20px] h-[20px] rounded-full bg-white text-black text-xs flex flex-col aligns-center justify-center items-center absolute bottom-4"
                 >
                   <FaLinkedinIn />

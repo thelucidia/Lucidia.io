@@ -325,7 +325,7 @@ const Nav = () => {
             <div className="text-secondary flex mx-auto w-fit mt-5 gap-x-6 text-2xl">
               {icons.map((items, i) => {
                 return (
-                  <a href={items.link} target="_blank" rel="noopener noreferer" className="" key={`icon-${i}`}>
+                  <a href={items.link} target="_blank" rel="noreferrer" className="" key={`icon-${i}`}>
                     {items.icon}
                   </a>
                 );

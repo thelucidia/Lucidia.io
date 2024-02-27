@@ -8,7 +8,7 @@ import clsx from 'clsx';
 
 interface Role {
   role: string;
-  opened: Number;
+  opened: number;
   content: string;
 }
 
