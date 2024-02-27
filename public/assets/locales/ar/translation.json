@@ -1,126 +1,202 @@
 {
-  "hero_title": "لعبة دافعة بواسطة الذكاء الاصطناعي تديرها أنت",
-  "hero_desc1": "لسنا نحاول إعادة اختراع عجلة تشويق الألعاب وحبكاتها - نريد فقط أن نمنحك القوة والملكية على ما قمت به بالفعل لسنوات.",
-  "hero_desc2": "هدفنا هو إعادة الفرح إلى GameFi وجعل تجربة العوالم الافتراضية متاحة لأي مستخدم يمتلك جهازًا محمولًا من أي مكان في العالم.",
-  "buy_lucid": "شراء $LUCID",
-  "token_allocation": "تخصيص الرموز",
-  "join_community": "انضم إلى مجتمع Lucidians بأكثر من 100 ألف عضو",
+  "anti": "سياسة مكافحة غسل الأموال",
+  "app-nav": {
+    "dao": "التصويت",
+    "dev-tools": "أدوات المطورين",
+    "educational-portal": "البوابة التعليمية",
+    "eng": "Eng",
+    "games": "الألعاب",
+    "home": "الصفحة الرئيسية",
+    "marketplace": "المتجر",
+    "tournaments": "الدوريات"
+  },
   "audited_by": "تمت المراجعة بواسطة",
-  "how_to_buy": "كيفية شراء $LUCID",
-  "to_be": "ستتم فتحها بواسطة المستخدمين",
-  "in_game": "أصول داخل اللعبة",
-  "game_inside": "اللعبة داخل العوالم الافتراضية",
-  "maps": "الخرائط",
-  "free2play": "Free2Play عالم مفتوح",
-  "zombie": "تفشي الزومبي",
-  "lucid": "لوسيدكرافت",
   "battle": "معركة الغضب",
+  "battlefury_subtitle1": "TEAM UP,",
+  "battlefury_subtitle2": "WIN A DEATHMATCH",
+  "boss_desc1": "At Lucidia, we're not just creating games;",
+  "boss_desc2": "we're building the future of gaming in the Middle East, where tradition meets innovation.",
+  "boss_name": "Adel Khatib",
+  "boss_position": "CEO Lucidia",
+  "buy": {
+    "button": "زر",
+    "click": "انقر فوق زر \"ربط المحفظة\" في الزاوية العلوية اليمنى وقم بتسجيل الدخول باستخدام محفظتك المفضلة. تأكد من أن لديك محفظة توسيع المتصفح مثل",
+    "click_the": "انقر على",
+    "go": "انتقل إلى",
+    "installed": "مثبتة على سطح مكتبك أو استخدم محفظة محمولة معتمدة مثل",
+    "recommend": "نوصي باستخدام MetaMask على سطح المكتب لتجربة أكثر سلاسة، أو Trust Wallet على الهاتف المحمول.",
+    "step": "الخطوة",
+    "step2": [
+      {
+        "title": "الخيار 1: شراء ETH أو BNB ببطاقة",
+        "value": [
+          "انتقل إلى https://moonpay.com/buy واشتري ETH أو BNB باستخدام بطاقتك. سيتم إرسال ETH أو BNB المشتراة إلى محفظتك. من المستحسن شراء الحد الأدنى من 20 دولارًا من ETH أو 5 دولارات من BNB لتغطية الحد الأدنى لشراء رموز $LUCID.",
+          "أدخل المبلغ الذي ترغب في استثماره",
+          "اختر خيار العلاوة الخاصة بك - سيكون متاحًا بعد شهر واحد من TGE"
+        ]
+      },
+      {
+        "title": "الخيار 2: شراء $LUCID بـ ETH أو BNB",
+        "value": [
+          "تأكد من أن لديك ما يكفي من ETH أو BNB في محفظتك (إذا لم يكن الأمر كذلك، راجع الخيار 1). أدخل مبلغ $LUCID الذي ترغب في شرائه (الحد الأدنى 15 دولارًا) وانقر على شراء بـ ETH أو شراء بـ BNB. قم بتأكيد العملية في محفظتك وقم بمراجعة تكلفة الغاز",
+          "أدخل المبلغ الذي ترغب في استثماره",
+          "اختر خيار العلاوة الخاصة بك - سيكون متاحًا بعد شهر واحد من TGE"
+        ]
+      },
+      {
+        "title": "الخيار 3: شراء $LUCID بـ USDT",
+        "value": [
+          "تأكد من أن لديك على الأقل 20 دولارًا من USDT في محفظتك.",
+          "أدخل المبلغ الذي ترغب في استثماره",
+          "اختر خيار العلاوة الخاصة بك - سيكون متاحًا بعد شهر واحد من TGE",
+          "ستحتاج إلى الموافقة على الشراء مرتين. الموافقة الأولى هي لعقد USDT، والثانية هي لمبلغ العملية. أكمل كل خطوة من الموافقة لإكمال العملية."
+        ]
+      }
+    ],
+    "step3": [
+      "أدخل اسم مستخدم Telegram الخاص بك لتلقي مكافأة إضافية قدرها 5% لكل مستخدم ترسله. سيتم إنشاء رابط الإحالة بعد هذه الخطوة.",
+      "انسخ رابط الإحالة الخاص بك من أسفل الصفحة، وأنت جاهز!"
+    ]
+  },
+  "buy_lucid": "شراء $LUCID",
   "canyon": "ریت کے طوفان کے ریسرز",
-  "details": "رؤية التفاصيل",
-  "more_games": "رؤية المزيد من الألعاب",
-  "diaries": "يوميات المطور",
-  "partners": "شركاؤنا",
-  "jurisdiction": "قد لا تنظم اختصاصك القانوني العملات المشفرة. قيمة العملات المشفرة قد ترتفع وتنخفض. قد تخضع الأرباح لضرائب الربح الرأسمالي أو ضرائب محلية أخرى.",
-  "rights": "كل الحقوق محفوظة.",
-  "general": "عام",
-  "privacy": "سياسة الخصوصية",
-  "terms": "الشروط والأحكام",
-  "token_sale": "شروط وأحكام بيع الرموز",
+  "career": {
+    "bg-path": "/career/background.jpg",
+    "culture_Benefits": "Culture & <br>Benefits",
+    "culture_content": "Emphasize Lucidia's collaborative culture, commitment to innovation, and benefits like remote work options, continuous learning opportunities, and participation in groundbreaking projects.",
+    "journey_content": "We're on the lookout for dynamic individuals with a passion for gaming and a flair for the crypto world to join our innovative team, no matter where you from.",
+    "meera": "Malek Sharabi",
+    "meera_content": "Joining Lucidia as a Front-end Developer has been a game-changer for me. The creative freedom and collaborative spirit here are invigorating. Working on cutting-edge projects, I've seen my ideas come to life, making every line of code a masterpiece. It's not just a job; it's a front-row seat to the evolution of web development. Proud to be part of a team that turns visions into breathtaking realities.",
+    "meera_role": "Head of developers",
+    "open_position": "Open Position",
+    "our_journey": "Be Part Of Our Journey",
+    "raphael": "Andrii Seliuk",
+    "raphael_content": "As the Lead of web developers, steering the ship of innovation, I've found unparalleled support working with Lucidia. Their commitment to excellence in both front-end and back-end development has allowed us to break through barriers and reach new heights. The synergy between our visions and their technical prowess is nothing short of extraordinary. Together, we're crafting the future of digital landscapes.",
+    "raphael_role": "Lead of web developers",
+    "roles": [
+      {
+        "content": "The Community Manager at Lucidia will engage and nurture the community on platforms like Discord and Telegram, developing strategies to foster a supportive and active user base. They will be responsible for content creation, maintaining positive interactions, and organizing community events.",
+        "opened": 1,
+        "role": "Community Manager"
+      },
+      {
+        "content": "Lucidia is in search of a Blockchain Developer with expertise in smart contracts and distributed ledger technology to fortify and advance the company's blockchain initiatives. The role is central to maintaining the integrity and efficiency of Lucidia's blockchain ecosystem.",
+        "opened": 1,
+        "role": "Blockchain Developer"
+      },
+      {
+        "content": "A UI/UX Developer at Lucidia will innovate by crafting user-friendly designs, focused on enhancing user interaction and satisfaction with Lucidia’s digital products. They must keep up with design trends and translate user feedback into engaging user experiences.",
+        "opened": 1,
+        "role": "UI/UX Developer"
+      },
+      {
+        "content": "Lucidia's Game Developer will utilize their deep knowledge of game design and programming to create captivating gaming experiences within Lucidia’s innovative ecosystem. Collaboration with various teams is essential to align game content with the company's vision.  ",
+        "opened": 1,
+        "role": "Game Developer"
+      },
+      {
+        "content": "The Marketing Manager at Lucidia will spearhead the development and execution of marketing campaigns to broaden the brand's reach and attract a diverse audience. This role requires a savvy blend of creativity and analysis to manage campaigns, conduct market research, and ensure a consistent brand message.",
+        "opened": 1,
+        "role": "Marketing Manager"
+      }
+    ],
+    "scroll": "Scroll Down",
+    "the_feeling_work_with_us": "<span style='color: #B28539'>The Feelings</span><br> When They Worked With Us",
+    "title": "Join Us As <span style='color: #B28539'>Lucidian</span>"
+  },
+  "careers": "Careers",
+  "coming_soon": "Coming soon",
   "company": "الشركة",
   "contact": "اتصل بنا",
-  "frequent": "الأسئلة الشائعة",
-  "anti": "سياسة مكافحة غسل الأموال",
-  "overview": "نظرة عامة على اللعبة",
-  "other": "ألعاب أخرى",
-  "game_details": "تفاصيل اللعبة",
-  "desertW": "ڈیزرٹ ویریڈرز",
-  "ExploreDesert": "صحرائی جنگجوؤں کو دریافت کریں۔",
-  "ExploreDesertTitle": "ڈیزرٹ واریئرز میں خوش آمدید، جہاں فرسٹ پرسن شوٹرز کا سنسنی Web3 اور NFTs کے اہم امکانات کو پورا کرتا ہے۔ وسیع اور متنوع صحرائی مناظر کے پس منظر میں قائم، یہ گیم آپ کو اسٹریٹجک لڑائی، ٹیم پر مبنی چیلنجز، اور ایک متحرک کھلاڑی سے چلنے والی معیشت کی دنیا میں مدعو کرتا ہے۔ یہاں، ہر فیصلہ، ہر لڑائی، اور ہر اتحاد آپ کی میراث کا وزن رکھتا ہے۔",
+  "contact_desc1": "إذا كان لديك أي أسئلة حول هذه السياسة، يرجى الاتصال بنا على [Contact@lucidia.com].",
+  "contact_desc2": "هذا هو نموذج لسياسة الخصوصية، يجب عليك التشاور مع محترف قانوني لضمان أن سياسة الخصوصية الخاصة بك تتوافق مع قوانين اختصاصك وأنها تغطي جميع جوانب خدمتك.",
+  "cryptocraft": {
+    "building_crafting": "<span style='color: #B28539; font-weight: 700;>Building Crafting: </span>From humble shelters to grandiose constructions, Lucidcraft's intuitive crafting system invites endless innovation.",
+    "community_governance": "<span style='color: #B28539; font-weight: 700;>Community Governance: </span>Have a say in thedevelopment and future of Lucidcraft through a decentralized autonomousorganization (DAO), empowering the community to steer the game's evolution.",
+    "customizable_gameplay": "<span style='color: #B28539; font-weight: 700;>Customizable Gameplay: </span>Tailor your Lucidcraft experience with extensive modding tools and in-game programming, creating unique game modes and personalizing your adventures.",
+    "dynamic_worlds": "<span style='color: #B28539; font-weight: 700;>Dynamic, User-Generated Worlds: </span>Step into infinite realms shaped by players. Your creations contribute to the ever-evolving tapestry of Lucidcraft's universe",
+    "evolving_ecosystems": "<span style='color: #B28539; font-weight: 700;>Evolving Ecosystems: </span>Interact with living environments where your actions influence the world. From altering landscapes to affecting local wildlife, your impact is tangible.",
+    "exploration": "<span style='color: #B28539; font-weight: 700;>Exploration: </span>Traverse sprawling biomes, each brimming with unique resources and mysteries. Discover, adapt, and survive in a world that's as vast as your imagination.",
+    "game_overview": "Game Overview",
+    "gameplay": "<span style='font-weight: 700;>Gameplay Mechanics </span>",
+    "gameplay_content": "Lucidcraft is an amalgamation of creativity, survival, and exploration, setin a richly diverse and responsive world.",
+    "genre": "<span style='color: #B28539; font-weight: 700;>Genre: </span>Sandbox, Open-World, Survival",
+    "highlight": "<span style='font-weight: 700;>Highlighting Points </span>",
+    "overview_content": "Embark on an adventure inever-expanding worlds, craft your destiny, and become part of a vibrantcommunity where collaboration and creativity reign supreme.",
+    "target": "<span style='color: #B28539; font-weight: 700;>Target Audience: </span>Creative builders, explorers, Web3 enthusiasts, andcommunity-driven players",
+    "title": "<span style='color: #B28539; font-weight: 700;>Title: </span>Cryptocraft",
+    "web3_integration": "<span style='color: #B28539; font-weight: 700;>Web3 Integration: </span>Experience true ownership with blockchain-powered in-game assets. Trade, own, and monetize your creations and real estate as NFTs, adding a layer of investment to your gameplay."
+  },
+  "curse_game": {
+    "adaptive_ai": "<span style='color: #B28539; font-weight: 700;>Adaptive AI:</span> Battle against foes that learn and evolve, ensuring that no two encounters are the same and every victory is hard-earned.",
+    "advanced_movement": "<span style='color: #B28539; font-weight: 700;'>Advanced Movement:</span> Master the art of urban navigation with parkour mechanics, allowing for fluid movement across Dubai's transformed skyline.",
+    "art_design": "Art and Sound Design",
+    "artifact": "<span style='color: #B28539; font-weight: 700;>Artifact Collection:</span> Discover and wield powerful artifacts, upgrading them through challenges to unlock their full potential and carve your legacy in the sands.",
+    "audio_landscapte": "<span style='color: #B28539; font-weight: 700;>Audio Landscape</span> Let the dynamic soundtrack, featuring a mix of traditional Middle Eastern tunes and modern beats, set the pace for your adventures, with sound effects that ground you in the game's mystical and chaotic world.",
+    "characters_progression": "Characters and Progression",
+    "cooperative_mission": "<span style='color: #B28539; font-weight: 700;'>Cooperative Missions</span> Band together with allies to undertake quests that dive deep into the heart of the plagues, with dynamic scenarios that adapt based on your team's decisions and achievements.",
+    "dubai_reimagined": "<span style='font-weight: 700; color: #B28539;'>Dubai Reimagined:</span> Traverse the sands of time in a Dubai overtaken by mythological forces, where every landmark tells a story of ancient power and modern resilience.",
+    "dynamic_env": "<span style='color: #B28539; font-weight: 700;>Dynamic Environments:</span> Navigate through a world that reacts to your actions, with shifting terrains and interactive elements that make each journey through Dubai unique.",
+    "enemies_ai": "Enemies and AI",
+    "gameplay_mechanics": "Gameplay Mechanics",
+    "guardian": "<span style='color: #B28539; font-weight: 700;>Guardian of Horus, Scion of Set:</span> Choose your path with characters inspired by mythology, each with unique abilities that cater to different playstyles and strategies.",
+    "join_battle": "Join The Battle",
+    "join_battle_content": "Are you ready to step into a world where myths walk among us, and thebattleground is the city of the future? 'Curse Of The Pharaoh' awaits,where your courage, strategy, and alliances will determine the fate of Dubaiand the balance between the ancient and the modern.<br><br> Embark on Your Journey in Curse Of The Pharaoh",
+    "mechanics_desc": "'Curse Of The Pharaoh' offers a rich blend of FPS action, strategy,and cooperative gameplay, set against the backdrop of an open-world Dubai afflicted by ancient curses.",
+    "mythological": "<span style='font-weight: 700; color: #B28539;'>Mythological Warfare:</span> Engage in combat against legendary beasts and deities from Middle Eastern lore, utilizing a mix of futuristic firepower and ancient magic.",
+    "mythological_adversaries": "<span style='color: #B28539; font-weight: 700;>Mythological Adversaries:</span> From the serpents of Apophis to the legions of Anubis, face off against creatures drawn from the depths of Middle Eastern mythology, requiring more than mere firepower to overcome.",
+    "narrative": "<span style='font-weight: 700; color: #B28539;'>Narrative Depth:</span> Delve into a story that weaves the rich cultural tapestry of the Middle East with thrilling mythological tales, setting the stage for an epic saga of heroism and betrayal.",
   "DesertGameOverview": "گیم کا جائزہ",
   "DesertGameOverviewTitle": "Desert Warriors ایک جدید ترین فرسٹ پرسن شوٹر ہے جو ایک وسیع صحرائی منظر نامے میں سیٹ کیا گیا ہے، جہاں ٹیکٹیکل گیم پلے Web3 اور NFTs کی اختراع کو پورا کرتا ہے۔ بلاک چین ٹکنالوجی کے ذریعہ فعال کھلاڑی پر چلنے والی معیشت کو نیویگیٹ کرتے ہوئے، شدید اسٹریٹجک لڑائی اور ٹیم پر مبنی چیلنجوں میں مشغول ہوں۔",
+  "desertW": "ڈیزرٹ ویریڈرز",
+  "details": "رؤية التفاصيل",
+  "diaries": "يوميات المطور",
+  "ExploreDesert": "صحرائی جنگجوؤں کو دریافت کریں۔",
+  "ExploreDesertTitle": "ڈیزرٹ واریئرز میں خوش آمدید، جہاں فرسٹ پرسن شوٹرز کا سنسنی Web3 اور NFTs کے اہم امکانات کو پورا کرتا ہے۔ وسیع اور متنوع صحرائی مناظر کے پس منظر میں قائم، یہ گیم آپ کو اسٹریٹجک لڑائی، ٹیم پر مبنی چیلنجز، اور ایک متحرک کھلاڑی سے چلنے والی معیشت کی دنیا میں مدعو کرتا ہے۔ یہاں، ہر فیصلہ، ہر لڑائی، اور ہر اتحاد آپ کی میراث کا وزن رکھتا ہے۔",
+  "for": "لمزيد من التفاصيل حول تقدمنا وسير العمل، تأكد من متابعتنا",
+    "stroy_narrative_desc": "In a world where the past and future collide, you play a crucial role inunraveling the mysteries behind the relic that has bridged the gap betweenrealms, setting ancient gods and monsters loose upon Dubai.",
+    "technical_framework": "Technical Framework",
+    "technical_framework_content": "Powered by Unreal Engine 5, 'Pharaoh's Plague' brings themyth-infused world of Dubai to life with stunning visuals, complex AIbehaviors, and seamless multiplayer experiences, all underpinned by Ethereumblockchain technology for a new era of digital ownership and in-game economies.",
+    "unleash": "Unleash The Myths",
+    "visual_aesthetic": "<span style='color: #B28539; font-weight: 700;>Visual Aesthetic:</span>  Immerse yourself in a game where the visuals are as rich and intricate as the story, with a blend of photorealistic and stylized elements that pay homage to the ancient and the modern.",
+    "web3_integration": "<span style='font-weight: 700; color: #B28539;'>Web3 Integration:</span> Step into the future of gaming with Web3 technologies, where your achievements and treasures become NFTs, adding a layer of strategy and value to every action.",
+    "world_environment": "Work and Environment"
+  },
+  "desert": {
+    "community_dev": "<span style='color: #B28539; font-weight: 700;>Community-Centric Development: </span>'Desert Warriors' evolves with you. Your feedback andengagement shape the future, with continuous updates and new content driven bythe community.",
+    "core_mechanics": "<span style='color: #B28539; font-weight: 700;>Core Mechanics: </span>Immerse yourself in a variety of actions including sprinting for cover, precision aiming, and deploying strategic equipment, all designed to encourage thoughtful, tactical gameplay.",
+    "diverse_env": "<span style='color: #B28539; font-weight: 700;>Diverse Environments: </span>From the silent whispers of ancient deserts to the cold echoes of advanced military bases, each map offers unique tactical challenges.",
+    "fps_gaming": "a new era of fps gaming",
+    "fps_gaming_content": "Welcome to 'Desert Warriors,' where the thrill of first-person shootersmeets the groundbreaking possibilities of Web3 and NFTs. Set against thebackdrop of vast and diverse desert landscapes, this game invites you into aworld of strategic combat, team-based challenges, and a vibrant player-driveneconomy. Here, every decision, every battle, and every alliance holds theweight of your legacy.",
+    "game_features": "<span style='color: #B28539; font-weight: 700;>Game Features: </span>",
+    "game_features_content": "'Desert Warrios' is more than an FPS; it's a test of tactics andteamwork. Navigate through challenging terrains, leverage cover, andsynchronize with your squad to dominate the battlefield.",
+    "game_modes": "<span style='color: #B28539; font-weight: 700;>Game Modes: </span>Whether you prefer theintensity of 1v1 duels, the strategic depth of 2v2 skirmishes, or the classicteamwork of 5v5 battles, 'Desert Warriors' has a mode for every warrior.",
+    "game_overview": "Game Overview",
+    "genre": "<span style='color: #B28539; font-weight: 700;>Genre: </span>First-Person Shooter (FPS)",
+    "strategic": "<span style='color: #B28539; font-weight: 700;>Strategic Gameplay: </span>Every match in 'Desert Warriors' is a testament to strategy, requiring keen planning, flawless team coordination, and adept skill execution",
+    "target": "<span style='color: #B28539; font-weight: 700;>Target Audience: </span>Competitive and casual gamers, Web3 enthusiasts Dive into 'Desert Warriors' where your strategic prowess,teamwork, and adaptability are your greatest assets. Engage in high-stakescombat across ancient ruins, futuristic installations, and unpredictable sanddunes.",
+    "title": "<span style='color: #B28539; font-weight: 700;>Title: </span>Desert Warriors",
+    "unique": "<span style='color: #B28539; font-weight: 700;>Unique Selling Points</span>",
+    "web3_integration": "<span style='color: #B28539; font-weight: 700;>Web3 Integration: </span>Propel your gaming experience into the future with blockchain technology, enabling true ownership, trading, and customization of NFT-based in-game assets"
+  },
+  "desertW": "Desert Wevrridrs",
+  "details": "See details",
+  "diaries": "Developer Diaries",
+  "discord_name": "Discord Username(opt)",
+  "email": "E-mail",
+  "explore_now": "Explore Now",
+  "featured_products": "Featured Products & Services",
+  "for": "For more details about our progress and workflow be sure to follow",
+  "free2play": "Free2Play عالم مفتوح",
+  "frequent": "الأسئلة الشائعة",
+  "game_details": "تفاصيل اللعبة",
+  "game_inside": "اللعبة داخل العوالم الافتراضية",
+  "game": "Trending Games",
+  "game_details": "Game details",
+  "game_inside": "Game Inside Metaverse",
   "games": {
-    "play_game": "ابدأ اللعبة",
-    "zombie": {
-      "title": "يجب أن تبقى على قيد الحياة",
-      "desc": "اندلعت وباء الزومبي في عالم ما بعد الهاوية مليء بالزومبي. اجمع الأسلحة والرصاص ووقود السيارات. سافر في بيئة عالم مفتوحة مع بيئات مختلفة.",
-      "overview": "اندلع وباء الزومبي في لعبة البقاء والعمل والمغامرات في عالم ما بعد الهاوية مليء بالزومبي. يتحكم اللاعبون في شخصيات متعددة متميزة، كل منها لديه قدرات فريدة. تتميز اللعبة ببيئة عالم مفتوح مع بيئات مختلفة. يجمع اللاعبون بين الأسلحة والرصاص ووقود السيارات. يتضمن القتال الأسلحة النارية والأسلحة البيضاوية والسكاكين. هناك ثلاثة أنواع من المركبات (طائرة هليكوبتر، سيارة، حصان) للتنقل. حوالي 10 مهمات صغيرة في اللعبة.",
-      "details": [
-        {
-          "title": "اللعبة",
-          "value": "اندلع وباء الزومبي"
-        },
-        {
-          "title": "النوع",
-          "value": "عمل/مغامرة/بقاء"
-        },
-        {
-          "title": "Cross-platform",
-          "value": "الكمبيوتر الشخصي، الكونسول، الواقع الافتراضي"
-        },
-        {
-          "title": "الجمهور",
-          "value": "15 سنة فما فوق"
-        }
-      ],
-      "details2": [
-        "خريطة عالم مفتوح تقريبًا مع ثلاث بيئات مختلفة",
-        "ثلاث شخصيات قابلة للعب بمهام فريدة",
-        "جمع الأسلحة والرصاص من البيئة",
-        "القتال ضد الزومبي باستخدام الأسلحة أو السكاكين",
-        "وقود للمركبات",
-        "سيارات مسلحة",
-        "خمسة أسلحة مختلفة",
-        "ثلاثة أنواع من المركبات (طائرة هليكوبتر، سيارة، حصان) اعتمادًا على البيئة",
-        "حوالي 10 مهمات صغيرة في اللعبة"
-      ]
-    },
-    "lucid": {
-      "title": "صنع أدوات، إنشاء كتل",
-      "desc": "لوسيدكرافت هي لعبة مغامرة وبقاء في عالم تم إنشاؤه بشكل إجرائي. يمكنك صنع أدوات مثل المعول والفأس والمجرفة. أنشئ كتلة واجمع كل الموارد بقدر ما تحتاج.",
-      "overview": "لوسيدكرافت هي لعبة مغامرة وبقاء في عالم تم إنشاؤه بشكل إجرائي.",
-      "mech": "آليات اللعبة",
-      "overview2": "عالم مولد إجرائيًا ، عالم غير محدود تقريبًا. ثلاثة أنواع من الأدوات لجمع الموارد. نظام صنع لإنشاء كتل جديدة. حوالي 50 نوعًا من الكتل ، مع معظمها يحتاج إلى صنع. نظام طقس ديناميكي لتغيير رسوم اللعبة.",
-      "details": [
-        {
-          "title": "النوع",
-          "value": "مغامرة، بقاء"
-        },
-        {
-          "title": "Cross-platform",
-          "value": "الكمبيوتر الشخصي، الكونسول، الواقع الافتراضي"
-        },
-        {
-          "title": "الجمهور",
-          "value": "جميع الأعمار، عشاق الألعاب الرملية والبناء والبقاء."
-        }
-      ],
-      "details2": [
-        "عالم مولد إجرائيًا.",
-        "ثلاثة أنواع من الأدوات (مجرفة، فأس، معول).",
-        "نظام صنع لإنشاء كتل جديدة.",
-        "حوالي 50 نوعًا من الكتل (90٪ تحتاج إلى صنعها).",
-        "نظام طقس ديناميكي لتغيير رسوم اللعبة."
-      ]
-    },
     "battle": {
-      "title": "انضم إلى فريق واربح في معركة الموت",
       "desc": "باتلفيوري هي لعبة تؤكد على الاستراتيجية والتعاون والردود السريعة. يمكنك اختيار أحد أربع شخصيات والانضمام إلى لاعبين آخرين في معركة الموت ، اللعب الحر ، ووضع الاستيلاء على العلم.",
-      "overview": "لعبة تؤكد على الاستراتيجية والتعاون والردود السريعة. إنشاء حساب وجلسة اللعب يحتاج اللاعبون إلى حساب Epic Games للعب. إنشاء جلسات اللعب للاعبين المتعددين ، مع التركيز على عدد اللاعبين والبينغ.",
-      "overview_data": [
-        {
-          "title": "تخصيص الشخصية",
-          "value": "أربع شخصيات للاختيار من بينها ، كل منها يحمل خصائص فريدة."
-        },
-
-        {
-          "title": "أوضاع اللعبة",
-          "value": "فريق الموت ، اللعب الحر ، احتلال العلم ، مع أعداد متنوعة من الروبوتات."
-        },
-        {
-          "title": "الأسلحة",
-          "value": "مجموعات أسلحة مختلفة لكل مباراة."
-        }
-      ],
       "details": [
         {
           "title": "عبر منصة",
@@ -140,107 +216,706 @@
         "أربع شخصيات قابلة للعب.",
         "الروبوتات مدرجة (أعداد متنوعة تعتمد على وضع اللعب).",
         "مجموعات مختلفة من الأسلحة لكل مباراة."
-      ]
+      ],
+      "overview": "لعبة تؤكد على الاستراتيجية والتعاون والردود السريعة. إنشاء حساب وجلسة اللعب يحتاج اللاعبون إلى حساب Epic Games للعب. إنشاء جلسات اللعب للاعبين المتعددين ، مع التركيز على عدد اللاعبين والبينغ.",
+      "overview_data": [
+        {
+          "title": "تخصيص الشخصية",
+          "value": "أربع شخصيات للاختيار من بينها ، كل منها يحمل خصائص فريدة."
+        },
+        {
+          "title": "أوضاع اللعبة",
+          "value": "فريق الموت ، اللعب الحر ، احتلال العلم ، مع أعداد متنوعة من الروبوتات."
+        },
+        {
+          "title": "الأسلحة",
+          "value": "مجموعات أسلحة مختلفة لكل مباراة."
+        }
+      ],
+      "title": "انضم إلى فريق واربح في معركة الموت"
     },
     "canyon": {
-      "title": "اختر سيارة وتسابق!",
-      "desc": "كانيون دريفت هي لعبة سباق تأخذ اللاعبين للتسابق على حلبة مغلقة ببيئة ذات طابع كانيون. يمكنك اختيار سيارة واحدة في صالة العرض كسيارتك والتسابق مع لاعبين آخرين.",
-      "details": [
-        "مستند گاڑی سے نمٹنے کے لیے حقیقت پسندانہ طبیعیات کا انجن",
-        "متحرک موسمی اثرات، بشمول دستخطی ریت کے طوفان",
-        "مسابقتی ریس اور چیلنجز",
-        "لاکچین انٹیگریشن: ریس میں مقابلہ کریں، منفرد NFT انعامات حاصل کریں، اور اپنی گاڑیوں کو قابل تجارت اثاثوں کے ساتھ اپنی مرضی کے مطابق بنائیں جو آپ کی کامیابیوں کو"
-      ]
+      "desc": "Feel the thrill of Sandstorm Racer, where high-octane racing meets the challenge of navigating through treacherous sandstorms. Drawing inspiration from titles like Forza Horizon, this game offers a perfect blend of realistic racing dynamics and accessible, fun gameplay.",
+      "gameFeaturesDetail": [
+        "Realistic physics engine for authentic vehicle handling",
+        "Dynamic weather effects, including signature sandstorms",
+        "Competitive races and challenges",
+        "Blockchain Integration: Compete in races, earn unique NFT rewards, and customize your vehicles with tradable assets that showcase your achievements."
+      ],
+      "gameFeaturesTitle": "Game Features:",
+      "title": "Experience<br/>Sandstorm Racer"
     },
     "desertWarior": {
-      "title": "گیم کی خصوصیات",
+      "desc": "\"Desert Warrios\" is more than an FPS; it's a test of tactics and teamwork. Navigate through challenging terrains, leverage cover, and synchronize with your squad to dominate the battlefield.",
+      "DesertGameOverview": "Game Overview :",
+      "DesertGameOverviewTitle": "Desert Warriors is a cutting-edge first-person shooter set in a vast desert landscape, where tactical gameplay meets the innovation of Web3 and NFTs. Engage in intense strategic combat and team-based challenges, all while navigating a player-driven economy enabled by blockchain technology.",
+      "ExploreDesert": "Explore Desert Warriors",
+      "ExploreDesertTitle": "Welcome to Desert Warriors, where the thrill of first-person shooters meets the groundbreaking possibilities of Web3 and NFTs. Set against the backdrop of vast and diverse desert landscapes, this game invites you into a world of strategic combat, team-based challenges, and a vibrant player-driven economy. Here, every decision, every battle, and every alliance holds the weight of your legacy.",
       "Featuesdetails": [
-        "ایک بھرپور صحرائی ماحول میں ٹیکٹیکل FPS گیم پلے",
-        "ٹیم پر مبنی مشن اور مقاصد",
-        "اقتصاد ديناميكي يحركه اللاعب من خلال تكامل NFT",
-        "بلاکچین انٹیگریشن: کھیل میں منفرد اثاثوں اور انعامات کے ساتھ ملکیت کا تجربہ کریں جیسا کہ لوسیڈیا ماحولیاتی نظام میں NFTs کے طور پر قابل تجارت ہے۔"
-      ]
+        "<span class=\"primary bold\">Core Mechanics:</span> Immerse yourself in a variety of actions including sprinting for cover, precision aiming, and deploying strategic equipment, all designed to encourage thoughtful, tactical gameplay.",
+        "<span class=\"primary bold\">Game Modes:</span> Whether you prefer the intensity of 1v1 duels, the strategic depth of 2v2 skirmishes, or the classic teamwork of 5v5 battles, \"Desert Warriors\" has a mode for every warrior."
+      ],
+      "fpsGame": "A new era of fps<br/> gaming",
+      "fpsGameTitle": "Welcome to \"Desert Warriors,\" where the thrill of first-person shootersmeets the groundbreaking possibilities of Web3 and NFTs. Set against the backdrop of vast and diverse desert landscapes, this game invites you into a world of strategic combat, team-based challenges, and a vibrant player-driveneconomy. Here, every decision, every battle, and every alliance holds theweight of your legacy.",
+      "points": [
+        "<span class=\"primary bold\">Strategic Gameplay:</span> Every match in \"Desert Warriors\" is a testament to strategy, requiring keen planning, flawless team coordination, and adept skill execution.",
+        "<span class=\"primary bold\">Web3 Integration:</span> Propel your gaming experience into the future with blockchain technology, enabling true ownership, trading, and customization of NFT-based in-game assets.",
+        "<span class=\"primary bold\">Diverse Environments:</span> From the silent whispers of ancient deserts to the cold echoes of advanced military bases, each map offers unique tactical challenges.",
+        "<span class=\"primary bold\">Community-Centric Development:</span> \"Desert Warriors\" evolves with you. Your feedback and engagement shape the future, with continuous updates and new content driven by the community."
+      ],
+      "points": [
+        "Strategic Gameplay: Every match in \"Desert Warriors\" is a testament to strategy, requiring keen planning, flawless team coordination, and adept skill execution.",
+        "Web3 Integration: Propel your gaming experience into the future with blockchain technology, enabling true ownership, trading, and customization of NFT-based in-game assets.",
+        "Diverse Environments: From the silent whispers of ancient deserts to the cold echoes of advanced military bases, each map offers unique tactical challenges.",
+        "Community-Centric Development: \"Desert Warriors\" evolves with you. Your feedback and engagement shape the future, with continuous updates and new content driven by the community."
+      ],
+      "points_title": "Unique Selling Points",
+      "prop_audience": "<span class=\"primary bold\">Target Audience:</span> Competitive and casual gamers, Web3 enthusiasts",
+      "prop_desc": "Dive into \"Desert Warriors\" where your strategic prowess,teamwork, and adaptability are your greatest assets. Engage in high-stakes combat across ancient ruins, futuristic installations, and unpredictable sanddunes.",
+      "prop_genre": "<span class=\"primary bold\">Genre:</span> First-Person Shooter (FPS)",
+      "prop_title": "<span class=\"primary bold\">Title:</span> Desert Warriors",
+      "title": "Game Featues",
+      "uniqueSellingPoints": "Unique Selling Points"
+    },
+    "featured_games": "Featured Games",
+    "lucid": {
+      "build": "<span class=\"primary bold\">Building and Crafting:</span> From humble shelters to grandiose constructions, Lucidcraft's intuitive crafting system invites endless innovation",
+      "desc": "Welcome to \"Cryptocraft,\" aboundless universe where your imagination is the only limit. Dive into anopen-world sandbox experience that combines the joy of building and survivalwith the innovative features of Web3 and NFTs. In Lucidcraft, every creation,every exploration, and every interaction enriches your journey and the worldaround you.",
+      "exploration": "<span class=\"primary bold\">Exploration:</span> Traverse sprawling biomes, each brimming with unique resources and mysteries. Discover, adapt, and survive in a world that's as vast as your imagination",
+      "highlight_points": "Highlighting Points",
+      "mechanics": "Gameplay Mechanics",
+      "overview": "Embark on an adventure in ever-expanding worlds, craft your destiny, and become part of a vibrant community where collaboration and creativity reign supreme.",
+      "overview2": "Lucidcraft is an amalgamation of creativity, survival, and exploration, set in a richly diverse and responsive world.",
+      "points": [
+        "<span class=\"primary bold\">Dynamic, User-Generated Worlds:</span> Step into infinite realms shaped by players. Your creations contribute to the ever-evolving tapestry of Lucidcraft's universe.",
+        "<span class=\"primary bold\">Web3 Integration:</span> Experience true ownership with blockchain-powered in-game assets. Trade, own, and monetize your creations and real estate as NFTs, adding a layer of investment to your gameplay.",
+        "<span class=\"primary bold\">Evolving Ecosystems:</span> Interact with living environments where your actions influence the world. From altering landscapes to affecting local wildlife, your impact is tangible.",
+        "<span class=\"primary bold\">Customizable Gameplay:</span> Tailor your Lucidcraft experience with extensive modding tools and in-game programming, creating unique game modes and personalizing your adventures.",
+        "<span class=\"primary bold\">Community Governance:</span> Have a say in thedevelopment and future of Lucidcraft through a decentralized autonomousorganization (DAO), empowering the community to steer the game's evolution."
+      ],
+      "prop_audience": "<span class=\"primary bold\">Target Audience:</span> Creative builders, explorers, Web3 enthusiasts, and community-driven players",
+      "prop_genre": "<span class=\"primary bold\">Genre:</span> Sandbox, Open-World, Survival",
+      "prop_title": "<span class=\"primary bold\">Title:</span> Cryptocraft",
+      "title": "Craft tools, create blocks"
+    },
+    "play_game": "ابدأ اللعبة",
+    "see_details": "See details",
+    "zombie": {
+      "desc": "اندلعت وباء الزومبي في عالم ما بعد الهاوية مليء بالزومبي. اجمع الأسلحة والرصاص ووقود السيارات. سافر في بيئة عالم مفتوحة مع بيئات مختلفة.",
+      "details": [
+        {
+          "title": "اللعبة",
+          "value": "اندلع وباء الزومبي"
+        },
+        {
+          "title": "النوع",
+          "value": "عمل/مغامرة/بقاء"
+        },
+        {
+          "title": "Cross-platform",
+          "value": "الكمبيوتر الشخصي، الكونسول، الواقع الافتراضي"
+        },
+        {
+          "title": "الجمهور",
+          "value": "15 سنة فما فوق"
+        }
+      ],
+      "details2": [
+        "Blend of FPS action and ancient mythology",
+        "Cooperative gameplay against mythical foes",
+        "Set in a beautifully reimagined Dubai",
+        "Blockchain Integration: Unlock and trade powerful artifacts as NFTs, each with unique abilities and lore, enhancing your gameplay and collection."
+      ],
+      "overview": "اندلع وباء الزومبي في لعبة البقاء والعمل والمغامرات في عالم ما بعد الهاوية مليء بالزومبي. يتحكم اللاعبون في شخصيات متعددة متميزة، كل منها لديه قدرات فريدة. تتميز اللعبة ببيئة عالم مفتوح مع بيئات مختلفة. يجمع اللاعبون بين الأسلحة والرصاص ووقود السيارات. يتضمن القتال الأسلحة النارية والأسلحة البيضاوية والسكاكين. هناك ثلاثة أنواع من المركبات (طائرة هليكوبتر، سيارة، حصان) للتنقل. حوالي 10 مهمات صغيرة في اللعبة.",
+      "title": "يجب أن تبقى على قيد الحياة"
     }
   },
   "games_content": [
     {
-      "title": "",
-      "subHeader": "يجب أن تبقى على قيد الحياة!",
       "description": "تعتبر تفشي الزومبي لعبة عمل/مغامرات/بقاء تدور في عالم ما بعد الكارثة المليء بالزومبي. قم بجمع الأسلحة والرصاص والوقود. اسافر في بيئة عالم مفتوحة مع مناطق مختلفة.",
+      "image": "zombie",
+      "link": "",
       "slug": "zombie-outbreak",
-      "link": "",
-      "image": "zombie"
+      "subHeader": "يجب أن تبقى على قيد الحياة!",
+      "title": ""
     },
     {
-      "title": "لوسيدكرافت",
-      "subHeader": "صنع الأدوات، إنشاء الكتل",
       "description": "تعتبر لوسيدكرافت لعبة مغامرة في عالم مفتوح صنعت بطريقة إجرائية. يمكنك صنع أدوات مثل الفأس والمطرقة والمجرفة. أنشئ كتلة واجمع جميع الموارد بقدر ما تحتاج.",
+      "image": "minecraft",
+      "link": "",
       "slug": "lucidcraft",
-      "link": "",
-      "image": "minecraft"
+      "subHeader": "صنع الأدوات، إنشاء الكتل",
+      "title": "لوسيدكرافت"
     },
     {
-      "title": "باتلفيوري",
-      "subHeader": "انضم إلى فريق، افتز بمعركة الموت",
       "description": "تعتبر باتلفيوري لعبة تبرز الاستراتيجية والتعاون والردود السريعة. يمكنك اختيار واحدة من أربع شخصيات والانضمام إلى لاعبين آخرين في موت متسارع، حر للجميع، ووضع لعبة اصطفاف العلم.",
-      "slug": "battlefury",
+      "image": "battlefury",
       "link": "",
-      "image": "battlefury"
+      "slug": "battlefury",
+      "subHeader": "انضم إلى فريق، افتز بمعركة الموت",
+      "title": "باتلفيوري"
     },
     {
-      "title": "كانيون درفت",
-      "subHeader": "اختر سيارة وتسابق!",
       "description": "تعتبر كانيون درفت لعبة سباق تقود اللاعبين إلى السباق على مسار متجدد مع بيئة على شكل كانيون. يمكنك اختيار سيارة واحدة في صالة العرض كسيارتك والتسابق مع لاعبين آخرين.",
-      "slug": "canyon_drift",
+      "image": "race",
       "link": "",
-      "image": "race"
+      "slug": "canyon_drift",
+      "subHeader": "اختر سيارة وتسابق!",
+      "title": "كانيون درفت"
     }
   ],
-  "team": {
-    "about": "من نحن",
-    "about_data": [
-      {
-        "title": "رحلتنا",
-        "value": "تأسست لوسيديا بنية ثورية: إعادة تعريف مشهد الألعاب في الشرق الأوسط وتقديمه إلى عصر الويب3. بدأت رحلتنا كاستوديو تطوير متواضع، ومنذ ذلك الحين تطورنا إلى ناشر لعبة رائد بتركيز فريد على حوكمة المجتمع. باستخدام إمكانيات تكنولوجيا البلوكشين بشكل قوي، قدمنا الرموز الرقمية لوسيد والعملات الرمزية ذات الأساس اللعبي لتمكين المشاركة المباشرة لكل من اللاعبين والمطورين في نظامنا."
-      },
-      {
-        "title": "رؤيتنا",
-        "value": "نتصور عالمًا للألعاب حيث لا تكون اللاعبين مجرد مستهلكين ولكن مساهمين فعّالين في تجربة اللعب. يوفر منصتنا ويب3 ساحة لعب مركزة وشفافة وشاملة تتجاوز النماذج التقليدية للألعاب. من خلال أن نكون أول ناشر لألعاب ويب3 في الشرق الأوسط، نهدف إلى تسريع اعتماد تكنولوجيا البلوكشين في الألعاب، وتحسين جودة المحتوى، وتوسيع إمكانيات الملكية الحقيقية واتخاذ القرار بمشاركة الجميع."
-      }
+  "games_page": {
+    "after_join": "Thank you for your interest!",
+    "after_join_description": "Our team will be in contact with you as soon as possible.",
+    "all_play": "All Game You Can Play!",
+    "before_join": "How to join?",
+    "before_join_description": "Create a form by submit your studio name, your email, your website or twitter (optional), and the description of your game.",
+    "category": ["All Games", "Trendings", "New", "Survival", "FPS", "Racing"],
+    "category_all": "All Games",
+    "category_fps": "FPS",
+    "category_new": "New",
+    "category_racing": "Racing",
+    "category_survival": "Survival",
+    "category_trendings": "Trendings",
+    "desktop": "Desktop",
+    "email": "E-mail",
+    "feature": "Featured Games",
+    "game_description": "Game description",
+    "games_info": [
+      [
+        {
+          "image": "curse_of_the_pharaoh.png",
+          "path": "/CurseOfThe",
+          "title": "Curse of the Pharaos"
+        },
+        {
+          "image": "cryptocraft.png",
+          "path": "/games/lucidcraft",
+          "title": "Cryptocraft"
+        },
+        {
+          "image": "desert_warriors.png",
+          "path": "/DesertWarior",
+          "title": "Desert Warriors"
+        },
+        {
+          "image": "sandstorm_racers.png",
+          "path": "/CanyonDriftPage",
+          "title": "Sandstorm Racers"
+        }
+      ],
+      [
+        {
+          "image": "desert_warriors.png",
+          "path": "/DesertWarior",
+          "title": "Desert Warriors"
+        },
+        {
+          "image": "curse_of_the_pharaoh.png",
+          "path": "/CurseOfThe",
+          "title": "Curse of the Pharaos"
+        },
+        {
+          "image": "sandstorm_racers.png",
+          "path": "/CanyonDriftPage",
+          "title": "Sandstorm Racers"
+        },
+        {
+          "image": "cryptocraft.png",
+          "path": "/games/lucidcraft",
+          "title": "Cryptocraft"
+        }
+      ],
+      [
+        {
+          "image": "sandstorm_racers.png",
+          "path": "/CanyonDriftPage",
+          "title": "Sandstorm Racers"
+        },
+        {
+          "image": "desert_warriors.png",
+          "path": "/DesertWarior",
+          "title": "Desert Warriors"
+        },
+        {
+          "image": "curse_of_the_pharaoh.png",
+          "path": "/CurseOfThe",
+          "title": "Curse of the Pharaos"
+        },
+        {
+          "image": "cryptocraft.png",
+          "path": "/games/lucidcraft",
+          "title": "Cryptocraft"
+        }
+      ],
+      [
+        {
+          "image": "curse_of_the_pharaoh.png",
+          "path": "/CurseOfThe",
+          "title": "Curse of the Pharaos"
+        },
+        {
+          "image": "cryptocraft.png",
+          "path": "/games/lucidcraft",
+          "title": "Cryptocraft"
+        }
+      ],
+      [
+        {
+          "image": "desert_warriors.png",
+          "path": "/DesertWarior",
+          "title": "Desert Warriors"
+        }
+      ],
+      [
+        {
+          "image": "sandstorm_racers.png",
+          "path": "/CanyonDriftPage",
+          "title": "Sandstorm Racers"
+        }
+      ]
     ],
-    "mission": "مهمتنا",
-    "mission_data": [
-      {
-        "bold": "تمكين المجتمع:",
-        "normal": "منح اللاعبين والمطورين سلطة اتخاذ قرارات هامة من خلال نماذج الرموز والحوكمة، مضمونين أن تكون الألعاب قد بُنيت وتم تحسينها بواسطة الأشخاص الذين يلعبونها ويحبونها."
-      },
-      {
-        "bold": "جذب ودعم المواهب:",
-        "normal": "جلب المزيد من مطوري الألعاب إلى الفضاء اللامركزي، وتقديم لهم الأدوات والموارد والحرية للإبداع والابتكار والنجاح."
-      },
-      {
-        "bold": "تحفيز الابتكار:",
-        "normal": "دفع حدود ما هو ممكن في ألعاب الويب3 باستمرار من خلال تطوير ونشر عناوين عالية الجودة والمشوقة التي يمكن تحسينها بشكل تعاوني."
-      },
-      {
-        "bold": "ديمقراطية الألعاب:",
-        "normal": "تسوية الميدان، إزالة الحواجز التقليدية للدخول ومنح الفرص للمبدعين واللاعبين على حد سواء، خاصة في منطقة الشرق الأوسط التي تعاني من التمثيل الضعيف."
-      },
-      {
-        "bold": "بناء نظام بيئي مستدام:",
-        "normal": "إنشاء دورة تنموية وتحسين ذاتي مستدامة، تمول وتوجهها حوكمة المجتمع ونماذج الرموز، مضمونين البقاء على المدى الطويل."
-      }
+    "join_us": "Developers, Join Us!",
+    "section1_description": "Cross-Platform Compatibility: A Game Changer Introduces the Cross-Platform Compatibility feature, explaining how it allows for a unified gaming experience across multiple titles within the Lucidia ecosystem through a single Lucidia account. This system is integrated with popular social media platforms for ease of access, ensuring a seamless login process for users.",
+    "section1_title": "Expand Your Game's Reach",
+    "section2_description": [
+      "Wider Audience Reach: Highlight how joining Lucidia provides games with instant exposure to over 30,000 users, addressing the challenge of attracting players that many Web3 games face.",
+      "Enhanced Player Experience: Explain how the unified login and cross-platform compatibility enhance the user experience, making it easier for players to explore and engage with multiple games within the Lucidia ecosystem.",
+      "Community Engagement: Emphasize the active and growing community within Lucidia, providing developers with a direct line to feedback, support, and engagement from a dedicated user base.",
+      "Innovative Features: Detail additional benefits such as access to Lucidia's NFT Integration Toolkit, marketplaces, and community-driven platforms, which can enrich games with new monetization strategies and engagement mechanisms."
     ],
-    "meet": "تعرف على خبرائنا في الكود",
-    "meet_desc": "في لوسيديا، نعتقد أن العالم الرقمي الحقيقي والمغمور بالكامل هو على بُعد قريب.",
-    "want": "ترغب في الانضمام إلى فريقنا؟",
-    "apply": "قدّم الآن"
+    "section2_title1": "Benefits For",
+    "section2_title2": "Game",
+    "section2_title3": "Developer",
+    "studio_name": "Studio name",
+    "submit": "Submit",
+    "title_cryptocraft": "Cryptocraft",
+    "title_desert_warriors": "Desert Warriors",
+    "title_pharaoh_curse": "Curse Of the Pharaos",
+    "title_sandstore_racers": "Sandstorm Racers",
+    "website": "Website/Twitter (opt)"
   },
-  "table": "جدول المحتويات",
-  "contact_desc1": "إذا كان لديك أي أسئلة حول هذه السياسة، يرجى الاتصال بنا على [Contact@lucidia.com].",
-  "contact_desc2": "هذا هو نموذج لسياسة الخصوصية، يجب عليك التشاور مع محترف قانوني لضمان أن سياسة الخصوصية الخاصة بك تتوافق مع قوانين اختصاصك وأنها تغطي جميع جوانب خدمتك.",
+  "general": "عام",
+  "hero_desc1": "لسنا نحاول إعادة اختراع عجلة تشويق الألعاب وحبكاتها - نريد فقط أن نمنحك القوة والملكية على ما قمت به بالفعل لسنوات.",
+  "hero_desc2": "هدفنا هو إعادة الفرح إلى GameFi وجعل تجربة العوالم الافتراضية متاحة لأي مستخدم يمتلك جهازًا محمولًا من أي مكان في العالم.",
+  "hero_title": "لعبة دافعة بواسطة الذكاء الاصطناعي تديرها أنت",
+  "hero_title0": "Web3 & Gaming Unite: Elevate Middle East Gaming",
+  "hero_title1": "Let's Build",
+  "hero_title2.0": "A Defence",
+  "hero_title2.1": "A Tool",
+  "hero_title2.2": "A Team",
+  "hero_title2.3": "A Race",
+  "hero_title2.4": "Greatness",
+  "hero_title3": "Together!",
+  "how_to_buy": "كيفية شراء $LUCID",
+  "in_game": "أصول داخل اللعبة",
+  "join": "انضم إلى المجتمع",
+  "join_community": "انضم إلى مجتمع Lucidians بأكثر من 100 ألف عضو",
+  "jurisdiction": "قد لا تنظم اختصاصك القانوني العملات المشفرة. قيمة العملات المشفرة قد ترتفع وتنخفض. قد تخضع الأرباح لضرائب الربح الرأسمالي أو ضرائب محلية أخرى.",
+  "join3": "Lucidians",
+  "join_community": "Join community of 20k+ Lucidians",
+  "jurisdiction": "Your Jurisdiction May Not Regulate Cryptocurrencies. The Value Of Cryptocurrencies May Rise And Fall. Profits May Be Subject To Capital Gains Taxes Or Other Local Taxes.",
+  "latest_news": "Latest News",
+  "login": {
+    "enter_lucidia": "نظر الملف ",
+    "failed": "فشل التوصيل. حاول مجددا",
+    "login_with": "سجل الدخول عن طريق",
+    "metamask": "MetaMask",
+    "walletconnect": "WalletConnect"
+  },
+  "lucid": "لوسيدكرافت",
+  "main_desc0": "Lucidia leads in merging classic gaming with blockchain, shaping the future of Web3 gaming in the Middle East.",
+  "main_desc1": "Level up your game and redefine victory. Join us on the journey to extraordinary gaming experiences and unparalleled e-sport achievements.",
+  "maps": "الخرائط",
+  "members": [
+    {
+      "desc": [
+        "شريك Samsung Mena (6 سنوات)",
+        "شريك في أسطول السيارات الكهربائية مع Uber (2 سنوات)",
+        "خبير في مجال العملات الرقمية والبلوكشين (10 سنوات)",
+        "رائد أعمال متسلسل ولاعب (15 سنة)"
+      ],
+      "link": "https://www.linkedin.com/in/adel-khatib-b2b136180/",
+      "name": "Adel Khatib",
+      "position": "COO"
+    },
+    {
+      "desc": [
+        "تحول الأعمال في EY (5 سنوات)",
+        "إدارة المشاريع (6 سنوات)",
+        "مستثمر في مجال العملات الرقمية (4 سنوات)",
+        "رائد أعمال (5 سنوات)"
+      ],
+      "link": "https://www.linkedin.com/in/feras-nimer-691a3258/",
+      "name": "Feras Nimer",
+      "position": "CFO"
+    },
+    {
+      "desc": [
+        "خبير في مجال الذكاء الاصطناعي والبيانات (14 سنة)",
+        "عاشق للتكنولوجيا والعملات الرقمية (5 سنوات)",
+        "مهندس برمجيات (18 سنة)",
+        "رائد أعمال (10 سنوات)"
+      ],
+      "link": "https://www.linkedin.com/in/ahmadassaf/",
+      "name": "Ahmad Assaf",
+      "position": "CTO"
+    },
+    {
+      "desc": ["مطور للشبكة الكاملة (8 سنوات)", "مطور DeFi", "مطور GameFi", "صناعة البلوكشين (4 سنوات)"],
+      "link": "https://www.linkedin.com/in/al-rizqi/",
+      "name": "Al Rizqi",
+      "position": "CMO"
+    },
+    {
+      "desc": [
+        "Web3 Gaming Innovation (2+ years)",
+        "Strategic Market Expansion (3+ years)",
+        "Leadership in Operations (4+ years)",
+        "Strategic Product Management (3+ years)"
+      ],
+      "link": "https://www.linkedin.com/in/krzakoskar/",
+      "name": "Oskar Krzak",
+      "position": "CPO"
+    },
+    {
+      "desc": ["Game Developer (7 years)", "Lead Game Designer (3 years)"],
+      "link": "https://www.linkedin.com/in/jakhongirerkinov/",
+      "name": "Jakhongir Erkinov",
+      "position": "رئيس مكتب الميتافيرس"
+    },
+    {
+      "desc": [
+        "Game Developer (4 years)",
+        "Flutter Engineer (1 year)",
+        "Unreal Engine 5.3 Developer (2 years)",
+        "Front-end Developer (4 years)",
+        "Back-end Developer (4 years)"
+      ],
+      "link": "https://www.linkedin.com/in/andrii-seliuk-ab6213284/",
+      "name": "Andrii Seliuk",
+      "position": "Lead of web developers"
+    },
+    {
+      "desc": ["Corporate & tech/IP law (20 yrs)", "Senior management Adviser", "Legal associations Member"],
+      "link": "https://www.linkedin.com/in/rolamadi/",
+      "name": "Rula Madi",
+      "position": "HEAD OF LEGAL"
+    },
+    {
+      "desc": [
+        "Game Developer (6 years)",
+        "Smart Contracts Developer (1 year)",
+        "Front-end Developer (1 year)",
+        "SEO Specialist (2 years)"
+      ],
+      "link": "https://www.linkedin.com/in/malek-sharabi-016862118/",
+      "name": "Malek Sharabi",
+      "position": "Head of Developers"
+    },
+    {
+      "desc": [
+        "Community Management (3 years)",
+        "Client Relations (5 years)",
+        "Teacher/Lecture (5 years)",
+        "E-Sports Project Manager (10+ years)"
+      ],
+      "link": "https://www.linkedin.com/in/aryanratulangie/",
+      "name": "Aryan Ratulangie",
+      "position": "Community Manager"
+    },
+    {
+      "desc": ["UI/UX Designer (2 years)", "Teacher (1+ years)"],
+      "link": "https://www.linkedin.com/in/ell-ardyan-7a1b7a192",
+      "name": "El Ardyan",
+      "position": "UI/UX Designer"
+    },
+    {
+      "desc": ["Content Writer & Producer (2.5 years)", "UI/UX Designer (2 years)"],
+      "link": "https://www.linkedin.com/in/chacaliyaa/",
+      "name": "Sania Aliya",
+      "position": "UI/UX Designer"
+    }
+  ],
+  "meta": {
+    "career": {
+      "desc": "لوسيديا تقوم بالتوظيف! استكشف المناصب المفتوحة من مطور Blockchain إلى مصمم UI/UX وكن جزءًا من فريق يشكل مستقبل ألعاب Web3. استمتع بثقافة التعاون والابتكار والمزايا مثل العمل عن بعد والتعلم المستمر.",
+      "title": "انضم إلى Lucidia - وظائف في ابتكار ألعاب Web3"
+    },
+    "curse": {
+      "desc": "ادخل إلى 'Pharaoh's Plague'، وهي لعبة FPS تمزج بين الأساطير القديمة والحروب المستقبلية في دبي. واجه الوحوش الأسطورية، واستخدم الأسلحة المتقدمة الممزوجة بالسحر، وانغمس في بيئة غنية بالسرد مع تكامل Web3.",
+      "title": "Pharaoh's Plague -مغامرة أسطورية من منظور الشخص الأول في دبي المستقبلية"
+    },
+    "default": {
+      "desc": "انضم إلى Lucidia وقم بتوسيع نطاق وصول لعبتك عبر نظام Web3 البيئي النابض بالحياة، والذي يتميز بالتوافق عبر الأنظمة الأساسية وتجربة لعب موحدة. استفد من الوصول إلى جمهور أوسع وتجارب اللاعبين المحسنة والميزات المبتكرة لمطوري الألعاب.",
+      "title": "اكتشف الألعاب المتنوعة ضمن نظام Web3 البيئي الخاص بشركة Lucidia"
+    },
+    "desert": {
+      "desc": "الشروع في رحلة ملحمية مع 'Desert Dominion', لعبة إطلاق نار من منظور الشخص الأول تمزج بين اللعب الاستراتيجي والتحديات القائمة على الفريق والاقتصاد الذي يحركه اللاعب مع الاستخدام المبتكر لـ Web3 وNFTs في المناظر الطبيعية الصحراوية الشاسعة.",
+      "title": "Desert Dominion - ألعاب FPS الإستراتيجية مع تكامل Web3"
+    },
+    "ecosystem_craft": {
+      "desc": "أدخل Lucidcraft، وهي لعبة رمل حيث لا يعرف الإبداع حدودًا. قم بالبناء والاستكشاف والتداول في عالم ديناميكي معزز بتقنية Web3. شكّل مغامرتك وامتلك إبداعاتك.",
+      "title": "Lucidcraft - أطلق العنان للإبداع في عالم Sandbox باستخدام Web3"
+    },
+    "ecosystem_dao": {
+      "desc": "شارك في تشكيل مستقبل الألعاب ضمن نظام Lucidia البيئي. أدل بصوتك على قرارات اللعبة وكن جزءًا لا يتجزأ من قصة تطوير اللعبة من خلال منصة تصويت DAO الخاصة بنا.",
+      "title": "تصويت Lucidia DAO – تأثير على مستقبل ألعابك المفضلة"
+    },
+    "ecosystem_devtools": {
+      "desc": "أطلق العنان لإمكانات تطوير لعبتك باستخدام مجموعة أدوات Lucidia، بدءًا من مجموعات تكامل NFT وحتى حلول تسجيل الدخول إلى محفظة Web3. تم تصميم كل أداة لتحسين مشاريعك وإضفاء الحيوية على رؤيتك الإبداعية في مساحة ألعاب Web3.",
+      "title": "أدوات مطوري Lucidia - قم بتمكين رحلة تطوير اللعبة الخاصة بك"
+    },
+    "ecosystem_drift": {
+      "desc": "استمتع بتجربة Sandstorm Racing في لوسيديا، حيث تجتمع سباقات الانجراف العربية المثيرة مع بيئات العواصف الرملية الديناميكية. قم بتخصيص سيارتك واستكشف ثقافة السيارات في الشرق الأوسط في محاكاة السباق الغامرة هذه.",
+      "title": "Sandstorm Racing - سباقات العالم المفتوح في مشهد صحراوي ديناميكي"
+    },
+    "ecosystem_educational": {
+      "desc": "انضم إلى بوابة تعليم ألعاب Web3 الخاصة بشركة Lucidia، وهي بوابتك لإتقان ألعاب Web3. مع البرامج التعليمية والمقالات ومقاطع الفيديو التي ستتوفر قريبًا، استعد لاستكشاف وفهم مستقبل الألعاب.",
+      "title": "بوابة تعليم ألعاب Web3 من لوسيديا - تعلم، انمو، ابتكر"
+    },
+    "ecosystem_FPS": {
+      "desc": "انضم إلى 'Desert Dominion' على Lucidia، وهي لعبة FPS حيث يلتقي اللعب الاستراتيجي مع Web3. استكشف الصحاري الشاسعة وانخرط في معارك جماعية وامتلك أصول NFT الفريدة. ابدأ مغامرتك اليوم.",
+      "title": "Desert Dominion - FPS التكتيكية مع تكامل Web3 | Lucidia"
+    },
+    "ecosystem_games": {
+      "desc": "اكتشف عالم الألعاب الواسع والنابض بالحياة داخل نظام Lucidia البيئي. بدءًا من المغامرات المليئة بالإثارة والمعارك الإستراتيجية وحتى القصص الغامرة، تعد كل لعبة بمثابة بوابة لتجارب ألعاب مبتكرة ومعززة بتقنية blockchain.",
+      "title": "اكتشف عالم الألعاب مع Lucidia - عالم من العناوين المتنوعة"
+    },
+    "ecosystem_home": {
+      "desc": "انغمس في تطبيق النظام البيئي الخاص بـ Lucidia، بوابتك إلى عالم تلتقي فيه الألعاب التقليدية مع ابتكارات blockchain. استكشف مجموعة من الأدوات بدءًا من NFT Marketplace وحتى حلول تسجيل الدخول إلى Web3 Wallet، المصممة للاعبين والمطورين في الشرق الأوسط.",
+      "title": "نظام لوسيديا البيئي - أطلق العنان لابتكارات الألعاب في الشرق الأوسط"
+    },
+    "ecosystem_marketplace": {
+      "desc": "اكتشف سوق Lucidia، وهو عبارة عن منصة تعيد تعريف التعاون والتجارة داخل مجتمع الألعاب في الشرق الأوسط. بدءًا من الأصول والأكواد الفريدة داخل اللعبة وحتى أدوات تكامل NFT الشاملة، يمكنك العثور على كل ما تحتاجه لإضفاء الحيوية على مشاريع الألعاب الخاصة بك.",
+      "title": "سوق لوسيديا - الابتكار والتجارة في مجتمع الألعاب"
+    },
+    "ecosystem_tournaments": {
+      "desc": "أدخل عالم المنافسة في دورات ألعاب Lucidia. مع مجموعة متنوعة من الألعاب والأساليب، بدءًا من المبارزات الإستراتيجية وحتى الاشتباكات عالية الطاقة، هناك تحدي لكل لاعب. تنافس على المجد وجوائز العملات المشفرة في نظام Lucidia البيئي الديناميكي.",
+      "title": "بطولات لوسيديا - تنافس في ساحة الألعاب النهائية"
+    },
+    "ecosystem_zombie": {
+      "desc": "انغمس في لعبة Pharaoh's Plague، وهي مزيج فريد من حركة FPS والأساطير القديمة التي تدور أحداثها في دبي المعاد تصورها. استمتع بتجربة القتال الاستراتيجي والوحوش الأسطورية وتكامل Web3 في عالم الألعاب الغامر هذا.",
+      "title": "Pharaoh's Plague - الأساطير تجتمع مع FPS في دبي المستقبلية"
+    },
+    "games": {
+      "desc": "انضم إلى Lucidia وقم بتوسيع نطاق وصول لعبتك عبر نظام Web3 البيئي النابض بالحياة، والذي يتميز بالتوافق عبر الأنظمة الأساسية وتجربة لعب موحدة. استفد من الوصول إلى جمهور أوسع وتجارب اللاعبين المحسنة والميزات المبتكرة لمطوري الألعاب.",
+      "title": "اكتشف الألعاب المتنوعة ضمن نظام Web3 البيئي الخاص بشركة Lucidia"
+    },
+    "home": {
+      "desc": "تعمل لوسيديا على تغيير مشهد الألعاب في الشرق الأوسط من خلال دمج عالم الألعاب التقليدية الغامر مع تقنيات Web3 المتطورة. استكشف نظامنا البيئي الفريد المصمم للمطورين واللاعبين لتجربة مستقبل الألعاب.",
+      "title": "Lucidia - إحداث ثورة في الألعاب في الشرق الأوسط من خلال ابتكارات Web3"
+    },
+    "products": {
+      "desc": "انغمس في نظام Lucidia البيئي، الذي يقدم مجموعة غنية من منتجات Web3 المصممة لتمكين المطورين. بدءًا من مجموعات أدوات NFT المتخصصة وحتى نظام تسجيل الدخول القوي للمحفظة، نقدم الأدوات التي تحتاجها للابتكار في مشهد الألعاب في الشرق الأوسط.",
+      "title": "نظام Lucidia البيئي - ارفع مستوى تطوير لعبتك باستخدام أدوات Web3 المتطورة"
+    },
+    "road_map": {
+      "desc": "استكشف خريطة طريق Lucidia، التي توضح بالتفصيل رحلتنا الإستراتيجية بدءًا من إطلاق الأسواق المبتكرة وحتى تنفيذ أنظمة تسجيل دخول المحفظة المتقدمة، مما يمهد الطريق للتطوير الرائد في قطاع ألعاب Web3.",
+      "title": "خريطة طريق لوسيديا – رسم مستقبل تطوير ألعاب Web3"
+    },
+    "sandstorm": {
+      "desc": "غوص في 'Sandstorm Racing', محاكاة سباقات العالم المفتوح التي تدور أحداثها في صحاري الشرق الأوسط المذهلة. استمتع بتجربة إثارة سباقات الانجراف العربية، والتخصيص الشامل للمركبات، وبيئات العواصف الرملية الديناميكية.",
+      "title": "Sandstorm Racing - أتقن الانجرافات الصحراوية في مغامرة سباق ملحمية"
+    },
+    "team": {
+      "desc": "اكتشف المحترفين المتحمسين في Lucidia الذين يقودون دمج الألعاب التقليدية مع Web3 في الشرق الأوسط. تعرف على مهمتنا وثقافتنا والقيادة الحكيمة التي تشكل مستقبل الألعاب.",
+      "title": "تعرف على فريق Lucidia - المبتكرون وراء ألعاب Web3 في الشرق الأوسط"
+    },
+    "vision": {
+      "desc": "في Lucidia، نحن ملتزمون بإعادة تعريف مشهد الألعاب في الشرق الأوسط من خلال تقنيات Web3، مما يوفر نظامًا بيئيًا فريدًا للمطورين واللاعبين للمشاركة في تجارب الألعاب المبتكرة.",
+      "title": "رؤيتنا - تشكيل مستقبل الألعاب باستخدام Web3 | Lucidia"
+    }
+  },
+  "more_games": "رؤية المزيد من الألعاب",
+  "mission_statement": "To redefine the gaming landscape in the Middle East by harnessing the power of Web3 technologies, creating unparalleled experiences for developers and players alike.",
+  "more_games": "See more games",
+  "nav": {
+    "audit": "التدقيق",
+    "career": "السير المهنية",
+    "faq": "الأسئلة الشائعة",
+    "gameplay": "طريقة اللعب",
+    "games": "الألعاب",
+    "home": "الصفحة الرئيسية",
+    "meet": "اطلق التطبيق",
+    "our-product": "منتجاتنا",
+    "pitchdeck": "عرض الشركة",
+    "roadmap": "خريطة الطريق",
+    "team": "فريقنا"
+  },
+  "news_content1": [
+    "In an exciting development for the gaming and cryptocurrency sectors, Lucidia is set to unveil a groundbreaking ecosystem that seamlessly integrates the thrill of gaming with the innovative world of crypto. This new platform promises to offer users an unparalleled experience, combining the engaging elements of video games with the financial and technological advancements of blockchain technology. As a pioneer in this hybrid space, Lucidia aims to create a unique environment where gamers and crypto enthusiasts alike can explore, invest, and enjoy a rich tapestry of interactive content and financial opportunities.",
+    "\"The Lucidia ecosystem is designed to be both expansive and inclusive, catering to a wide range of interests and expertise levels,\" said Lucidia's CPO, Oskar Krzak.",
+    "From hardcore gamers seeking immersive experiences to casual players and crypto traders looking for new investment avenues, the platform is geared towards creating a vibrant community. Key features include blockchain-based games that reward players in cryptocurrency, NFTs that offer in-game advantages and collectability, and a secure marketplace for trading game assets. By leveraging the power of blockchain technology, Lucidia ensures transparency, security, and fairness across all transactions and interactions within its ecosystem.",
+    "Central to Lucidia's innovative approach is its commitment to user engagement and satisfaction. The platform plans to roll out various initiatives to foster a strong community, including tournaments, leaderboards, and social features that encourage interaction among users. Additionally, Lucidia is dedicated to providing educational resources to help users navigate the complexities of blockchain and cryptocurrency, making it accessible to novices and experts alike. This educational aspect is aimed at demystifying the technology and encouraging more people to explore the potential of crypto gaming.",
+    "As Lucidia prepares to launch its pioneering ecosystem, the excitement within the gaming and crypto communities is palpable. With its unique blend of gaming, technology, and finance, Lucidia is poised to redefine the landscape of digital entertainment and investment. This new ecosystem represents not just a platform for gaming and crypto transactions but a forward-thinking community where innovation, engagement, and growth can flourish. As the boundaries between gaming and cryptocurrency continue to blur, Lucidia stands at the forefront, ready to lead the charge into this dynamic and promising future."
+  ],
+  "news_content2": [
+    "In an exciting development for the gaming and crypto communities, Lucidia has announced the launch of its groundbreaking NFT marketplace tailored specifically for gamers. This revolutionary platform is designed to bridge the gap between virtual gaming worlds and real-world value, enabling players to buy, sell, and trade in-game items as non-fungible tokens (NFTs). By providing gamers with ownership of unique digital assets that carry tangible value outside of the gaming environment, Lucidia is setting a new standard for the integration of gaming and blockchain technology.",
+    "The Lucidia NFT marketplace promises to transform the way gamers interact with their favorite games, offering a new level of economic interaction and personal investment in virtual worlds. Unlike traditional gaming platforms where in-game purchases remain confined within the digital realm, Lucidia's approach allows for the creation, ownership, and exchange of assets that have real economic value. This innovative system not only enhances the gaming experience but also opens up new avenues for players to monetize their gaming achievements and collections.",
+    "Key features of Lucidia's NFT marketplace include a user-friendly interface, robust security measures, and seamless integration with popular gaming titles. The platform is designed to be accessible to both seasoned NFT collectors and gamers new to the world of cryptocurrency, ensuring a broad appeal. With a focus on community building, Lucidia also plans to host exclusive events, drops, and collaborations, further enriching the gaming experience and fostering a vibrant ecosystem around its marketplace.",
+    "The launch of Lucidia's NFT marketplace marks a significant milestone in the convergence of gaming and blockchain technology. As the platform goes live, it is poised to attract a diverse audience of gamers, collectors, and crypto enthusiasts, eager to explore the new possibilities it brings. With its innovative approach to bridging virtual worlds with real-world value, Lucidia is not just redefining the landscape of digital gaming but also paving the way for the future of entertainment and online commerce."
+  ],
+  "news_content3": [
+    "Lucidia is taking a significant leap forward in the gaming and cryptocurrency sectors with the introduction of its integrated crypto wallet, aimed at providing gamers with a seamless experience in gaming and trading. This innovative feature allows players to manage their digital assets, including cryptocurrencies and non-fungible tokens (NFTs), directly within the gaming environment. By streamlining the process of transactions and asset management, Lucidia is enhancing the user experience, making it easier than ever for gamers to engage with both the gaming and crypto ecosystems.",
+    "The integrated crypto wallet is designed to be both secure and user-friendly, ensuring that gamers can safely store their digital assets while enjoying a hassle-free gaming experience.",
+    "\"This initiative not only educates gamers about the value and utility of cryptocurrencies and NFTs within virtual worlds but also empowers them to take part in the digital economy with confidence,\" said Feras Al-Nimer, Lucidia’s CFO. ",
+    "The wallet supports a range of cryptocurrencies, providing flexibility and convenience for users to transact in their preferred digital currencies.",
+    "For those new to the concept, a crypto wallet is essentially a digital wallet that enables users to store and manage their cryptocurrencies and NFTs. Unlike traditional wallets that hold physical money, crypto wallets don't store currency in the conventional sense; instead, they provide the tools required to interact with a blockchain network. Lucidia's integration of such a wallet within its gaming platform demystifies the process of using digital currencies for the uninitiated, providing an educational bridge to the world of blockchain and digital assets.",
+    "The introduction of Lucidia's crypto wallet integration marks a pivotal development in the intersection of gaming, blockchain, and financial technology. It not only promises to enrich the gaming experience by adding a layer of economic interaction but also serves as an educational platform for gamers to learn about digital currencies and asset management in a practical, engaging environment. As Lucidia continues to innovate at the crossroads of gaming and cryptocurrency, its integrated crypto wallet stands as a testament to the potential of combining entertainment with financial technology for a more immersive and rewarding user experience."
+  ],
+  "news_content4": [
+    "The Lucidia gaming ecosystem is set to redefine the digital entertainment landscape, combining the immersive world of gaming with the innovative potential of blockchain technology. This comprehensive platform is designed to cater to gamers, developers, and crypto enthusiasts alike, offering a unique blend of interactive gaming experiences, digital asset ownership, and community engagement. With its state-of-the-art technology, Lucidia aims to create a fully integrated ecosystem where users can play, trade, and interact in ways previously unimagined in the gaming industry.",
+    "At the heart of Lucidia's ecosystem is its proprietary blockchain, which ensures secure and transparent transactions, including the trading of in-game assets and NFTs. This blockchain backbone allows for the true ownership of digital assets, enabling players to buy, sell, or trade their in-game items with peace of mind. Furthermore, Lucidia introduces a revolutionary tokenomics model that rewards players for their in-game achievements and participation, thereby enhancing the gaming experience with tangible value.",
+    "Lucidia's CMO, Al Rizqi, said \"In addition to its technological advancements, Lucidia places a strong emphasis on community building and user engagement.\"",
+    "The platform features social elements such as forums, chat rooms, and live events, fostering a vibrant community of gamers and developers. Lucidia also offers tools and resources for game developers, including SDKs and APIs, to encourage the creation of new games and content within the ecosystem. By supporting developers, Lucidia ensures a constant influx of fresh and exciting content for users to enjoy.",
+    "The launch of the Lucidia gaming ecosystem represents a significant milestone in the evolution of online gaming and digital economies. As the platform continues to grow and evolve, it promises to offer an ever-expanding universe of gaming experiences, bridging the gap between traditional gaming and the emerging world of blockchain. With its innovative features and commitment to user empowerment, Lucidia is poised to become a leading force in the future of gaming, offering a new realm of possibilities for players and creators alike."
+  ],
+  "news_title1": "A Whole New Ecosystem For Lucidia: A Complex One Where User Can Experience Gaming and Cryptocurrency",
+  "news_title2": "Lucidia Unveils Revolutionary NFT Marketplace for Gamers: Bridging Virtual Worlds with Real-World Value",
+  "news_title3": "Lucidia's Crypto Wallet Integration: A Seamless Gaming and Trading Experience",
+  "news_title4": "Lucidia Gaming Ecosystem",
+  "other": "Other Games",
+  "our_product": {
+    "bg-path": "/our-product/background.jpg",
+    "description": "Explore our suite of innovative products designed for the vibrant Middle Eastern gaming community. From unique marketplaces to advanced NFT tools, Lucidia is your gateway to the future of gaming.",
+    "get-started": "Get Started",
+    "join": "Join Lucidia's Ecosystem",
+    "join-content": "Ready to transform your gaming experience? <span style='color: #B28539'>Connect, Create,</span> and <span style='color: #B28539'>Trade</span> in the Middle East's premier gaming ecosystem.",
+    "our-product": "Our Product",
+    "products": [
+      {
+        "desc": "A culturally tailored marketplace fostering collaboration among developers in the Middle East.",
+        "image": "/our-product/1-1.png",
+        "title": "Marketplace for Middle-Eastern Developers"
+      },
+      {
+        "desc": "A hub for trading game assets and code, enhancing resource sharing among developers.",
+        "image": "/our-product/1-2.png",
+        "title": "Marketplace for In-Game Assets and Code"
+      },
+      {
+        "desc": "Tools simplifying NFT integration into games, bridging creativity and blockchain technology.",
+        "image": "/our-product/1-3.png",
+        "title": "Comprehensive NFT Integration Toolkit"
+      },
+      {
+        "desc": "A seamless solution for managing in-game inventories and integrating them with NFT marketplaces.",
+        "image": "/our-product/1-4.png",
+        "title": "Built-in Game Inventory System"
+      },
+      {
+        "desc": "Customizable NFT marketplace solutions enabling studios to launch their own branded platforms.",
+        "image": "/our-product/2-1.png",
+        "title": "NFT Marketplace as a Service for Game Studios"
+      },
+      {
+        "desc": "A platform facilitating account sharing and scholarship programs, promoting accessibility and community engagement.",
+        "image": "/our-product/2-2.png",
+        "title": "Marketplace for User Account Sharing - Scholarship Program"
+      },
+      {
+        "desc": "Boost Web3 game projects with mentorship and resources for rapid development and market launch.",
+        "image": "/our-product/2-3.png",
+        "title": "Game Incubator and Accelerator Program"
+      },
+      {
+        "desc": "Highlight the top Web3 games in the Middle East based on engagement and innovation, offering them exclusive opportunities.",
+        "image": "/our-product/2-4.png",
+        "title": "Quarterly Top 10 Games Rangking"
+      },
+      {
+        "desc": "Engage the community in decision-making with DAO tools, promoting a sense of ownership and involvement.",
+        "image": "/our-product/3-1.png",
+        "title": "Share DAO Tools for Enhanced User Participation"
+      },
+      {
+        "desc": "Introduce a rewarding play-to-earn model, allowing studios to create games that offer tangible rewards.",
+        "image": "/our-product/3-2.png",
+        "title": "Seamless Login System with Social Media Integration"
+      },
+      {
+        "desc": "Enable smooth in-game transactions with a versatile token system, fully integrated for a seamless buying experience.",
+        "image": "/our-product/3-3.png",
+        "title": "Game Incubator and Accelerator Program"
+      },
+      {
+        "desc": "Ensure gamers can seamlessly switch between platforms without hassle, thanks to a unified login system.",
+        "image": "/our-product/3-4.png",
+        "title": "Cross-Platform Compatibility with Unified Lucidia Login"
+      },
+      {
+        "desc": "Enhance competitive play with a robust tournament API, featuring an ELO ranking, bracket systems, and automated smart contracts.",
+        "image": "/our-product/4-1.png",
+        "title": "Community Building and Engagement through Lucidia's Reward System"
+      },
+      {
+        "desc": "Introduce a rewarding play-to-earn model, allowing studios to create games that offer tangible rewards.",
+        "image": "/our-product/4-2.png",
+        "title": "Play to Earn Framework for Game Studios"
+      },
+      {
+        "desc": "Streamline NFT creation with easy-to-use smart contract templates accessible through a comprehensive admin panel.",
+        "image": "/our-product/4-3.png",
+        "title": "NFT Smart Contract Creation with Templates via Admin Control Panel"
+      },
+      {
+        "desc": "Gain insights with an advanced analytics dashboard, offering in-depth tracking of in-app events and blockchain transactions.",
+        "image": "/our-product/4-4.png",
+        "title": "Enhanced Blockchain Analytics Dashboard with In-App Event Tracking"
+      },
+      {
+        "desc": "Enhance competitive play with a robust tournament API, featuring an ELO ranking, bracket systems, and automated smart contracts.",
+        "image": "/our-product/5-1.png",
+        "title": "Tournament API with ELO and Bracket System and Smart Contract Automation"
+      },
+      {
+        "desc": "Empower users with knowledge through an education portal dedicated to Web3 gaming concepts and practices.",
+        "image": "/our-product/5-2.png",
+        "title": "User Education Portal for Web3 Gaming"
+      },
+      {
+        "desc": "Amplify game visibility with a dedicated marketing hub, designed to promote Web3 games across various channels.",
+        "image": "/our-product/5-3.png",
+        "title": "Web3 Game Marketing Hub"
+      },
+      {
+        "desc": "Create a unified gaming experience with cross-game asset integration, allowing for a seamless player journey across titles.",
+        "image": "/our-product/5-4.png",
+        "title": "Cross-Game Asset Integration for an Interconnected Gaming Universe"
+      },
+      {
+        "desc": "Support game development through a community-driven funding platform, encouraging collaboration and innovation.",
+        "image": "/our-product/6-1.png",
+        "title": "Community-Driven Funding Platform for Web3 Game Development"
+      },
+      {
+        "desc": "Bridge language barriers with a comprehensive translation tool, tailored for English to Arabic game localization.",
+        "image": "/our-product/6-2.png",
+        "title": "Comprehensive Translation Product for English to Arabic Localization"
+      },
+      {
+        "desc": "Strengthen the gaming community with offline events organized across the Middle East, fostering real-world connections.",
+        "image": "/our-product/6-3.png",
+        "title": "Offline Events Organizer in the Middle East for Community Engagement"
+      },
+      {
+        "desc": "Encourage community participation in game improvement with a bug bounty system, rewarding contributions to game integrity.",
+        "image": "/our-product/6-4.png",
+        "title": "Lucidia Bug Bounty Reward System"
+      }
+    ],
+    "scroll": "Scroll Down",
+    "title": "Welcome to Lucidia's <span class=\"primary\">Ecosystem</span>"
+  },
+  "overview": "Game Overview",
+  "partners": "Our Partners",
+  "posted_date1": "30 January 2024",
+  "posted_date2": "30 January 2024",
+  "posted_date3": "30 January 2024",
+  "posted_date4": "30 January 2024",
+  "privacy": "Privacy and Policy",
   "privacy_page": {
-    "title": "سياسة الخصوصية والشروط",
     "desc": "توضح سياسة الخصوصية هذه (\"السياسة\") كيفية جمع موقعنا على الويب (\"الموقع\") للمعلومات الشخصية لمستخدمينا وكيفية استخدامها وحمايتها. من خلال الوصول إلى الموقع أو استخدامه، فإنك توافق على الالتزام بهذه السياسة. إذا كنت لا توافق على هذه السياسة، يرجى عدم استخدام الموقع.",
     "privacy_data": [
       {
@@ -267,10 +942,170 @@
         "title": "تغييرات في السياسة",
         "value": "نحتفظ بالحق في إجراء تغييرات على هذه السياسة في أي وقت. يعتبر استمرار استخدامك للموقع بعد أي تغيير في هذه السياسة قبولًا لتلك التغييرات."
       }
-    ]
+    ],
+    "title": "سياسة الخصوصية والشروط"
   },
+  "product_desc1": "A specialized space for developers to collaborate, share, and innovate, deeply rooted in the rich cultural tapestry of the Middle East.",
+  "product_desc2": "Dive into a treasure trove of game development resources, from unique character models to sophisticated code snippets, all tailored for the Arabic-speaking gaming community.",
+  "product_desc3": "Harness the power of blockchain with our comprehensive toolkit, designed to seamlessly blend NFTs into your gaming projects.",
+  "product_desc4": "Participate in our scholarship program, enabling a new dimension of community support and shared gaming experiences.",
+  "product_owner1": "by Lucidian",
+  "product_owner2": "by Lucidian",
+  "product_owner3": "by Lucidian",
+  "product_owner4": "by Lucidian",
+  "product_price1": "USD $4,800",
+  "product_price2": "USD $7,680",
+  "product_price3": "USD $7,500",
+  "product_price4": "USD $15,000",
+  "product_title1": "Middle Eastern Developer Hub",
+  "product_title2": "In-Game Assets and Code",
+  "product_title3": "NFT Integration Tools",
+  "product_title4": "User Account Sharing",
+  "profile": "See Profile",
+  "rights": "All Rights Reserved.",
+  "roadmap_page": {
+    "contents": [
+      {
+        "item": [
+          {
+            "q1": "Q1",
+            "q2": "Q2",
+            "road": [
+              "Release Alpha Limited Access To Games",
+              "Seed Round",
+              "Launch Ecosystem App (Beta)",
+              "Private Beta Testing of Games: Zombie Outbreak, Lucidcraft, NFT Racing, Lucidia FPS",
+              "Listing on CoinMarketCap and CoinGecko",
+              "Presale Using IDO Platforms",
+              "User Education Portal for Web3 Gaming"
+            ]
+          },
+          {
+            "q1": "Q3",
+            "q2": "Q4",
+            "road": [
+              "Next CEX Listing",
+              "Conduct Burn Event",
+              "Launch in mainnet for All Games produced by Lucidia",
+              "Comprehensive NFT Integration Toolkit for Game Developers",
+              "Development of NFT Smart Contract Creation with Templates",
+              "Cross-Platform Compatibility with Unified Lucidia Login",
+              "Develop and launch Community-Driven Funding Platform"
+            ]
+          }
+        ],
+        "years": "2024"
+      },
+      {
+        "item": [
+          {
+            "q1": "Q1",
+            "q2": "Q2",
+            "road": [
+              "Token TGE",
+              "Implement Staking",
+              "Mobile Closed Beta",
+              "First CEX and DEX Listings",
+              "First game with Blockchain integration on mainet",
+              "Development of Marketplace for Middle-Eastern Developers and In-Game Assets and Code",
+              "Launch Lucidia's In-Game Purchase System Token Integration",
+              "Start development of Web3 Game Marketing Hub"
+            ]
+          },
+          {
+            "q1": "Q3",
+            "q2": "Q4",
+            "road": [
+              "Built-in Game Inventory System for Seamless Game Integration",
+              "Share DAO Tools for Enhanced User Participation in Game Decisions",
+              "Lucidia Bug Bounty Reward System",
+              "Tournament API with ELO and Bracket System and Smart Contract Automation",
+              "Launch Cross-Game Asset Integration for an Interconnected Lucidia Gaming Universe",
+              "Finalize and launch Web3 Game Marketing HubFirst DAO voting for Lucidia Ecosystem"
+            ]
+          }
+        ],
+        "years": "2025"
+      },
+      {
+        "item": [
+          {
+            "q1": "Q1",
+            "q2": "Q2",
+            "road": [
+              "Scale and enhance existing platforms and services based on user feedback and market trends",
+              "Review and strategize for next-phase developments",
+              "Continue community engagement and marketing efforts",
+              "Explore new technologies and integrations for future growth"
+            ]
+          },
+          {
+            "q1": "Q3",
+            "q2": "Q4",
+            "road": [
+              "Game Incubator and Accelerator Program",
+              "Marketplace for User Account Sharing - Scholarship Program",
+              "Comprehensive Translation Product: English to Arabic Localization",
+              "Expand Offline Events Organizer in the Middle East for Community Engagement",
+              "Quarterly Top 10 Games Ranking for the Middle East Region"
+            ]
+          }
+        ],
+        "years": "2026"
+      }
+    ],
+    "quarter": "Quarter",
+    "scroll": "Scroll Down",
+    "title": "Road <span style='color: #B28539'>Map</span>"
+  },
+  "statement": "Statement",
+  "subscribe": "Subscribe for more interesting update from Lucidia!",
+  "subscribe_button": "Subscribe",
+  "table": "Table of Content",
+  "team": {
+    "about": "من نحن",
+    "about_data": [
+      {
+        "title": "رحلتنا",
+        "value": "تأسست لوسيديا بنية ثورية: إعادة تعريف مشهد الألعاب في الشرق الأوسط وتقديمه إلى عصر الويب3. بدأت رحلتنا كاستوديو تطوير متواضع، ومنذ ذلك الحين تطورنا إلى ناشر لعبة رائد بتركيز فريد على حوكمة المجتمع. باستخدام إمكانيات تكنولوجيا البلوكشين بشكل قوي، قدمنا الرموز الرقمية لوسيد والعملات الرمزية ذات الأساس اللعبي لتمكين المشاركة المباشرة لكل من اللاعبين والمطورين في نظامنا."
+      },
+      {
+        "title": "رؤيتنا",
+        "value": "نتصور عالمًا للألعاب حيث لا تكون اللاعبين مجرد مستهلكين ولكن مساهمين فعّالين في تجربة اللعب. يوفر منصتنا ويب3 ساحة لعب مركزة وشفافة وشاملة تتجاوز النماذج التقليدية للألعاب. من خلال أن نكون أول ناشر لألعاب ويب3 في الشرق الأوسط، نهدف إلى تسريع اعتماد تكنولوجيا البلوكشين في الألعاب، وتحسين جودة المحتوى، وتوسيع إمكانيات الملكية الحقيقية واتخاذ القرار بمشاركة الجميع."
+      }
+    ],
+    "apply": "قدّم الآن",
+    "meet": "تعرف على خبرائنا في الكود",
+    "meet_desc": "في لوسيديا، نعتقد أن العالم الرقمي الحقيقي والمغمور بالكامل هو على بُعد قريب.",
+    "mission": "مهمتنا",
+    "mission_data": [
+      {
+        "bold": "تمكين المجتمع:",
+        "normal": "منح اللاعبين والمطورين سلطة اتخاذ قرارات هامة من خلال نماذج الرموز والحوكمة، مضمونين أن تكون الألعاب قد بُنيت وتم تحسينها بواسطة الأشخاص الذين يلعبونها ويحبونها."
+      },
+      {
+        "bold": "جذب ودعم المواهب:",
+        "normal": "جلب المزيد من مطوري الألعاب إلى الفضاء اللامركزي، وتقديم لهم الأدوات والموارد والحرية للإبداع والابتكار والنجاح."
+      },
+      {
+        "bold": "تحفيز الابتكار:",
+        "normal": "دفع حدود ما هو ممكن في ألعاب الويب3 باستمرار من خلال تطوير ونشر عناوين عالية الجودة والمشوقة التي يمكن تحسينها بشكل تعاوني."
+      },
+      {
+        "bold": "ديمقراطية الألعاب:",
+        "normal": "تسوية الميدان، إزالة الحواجز التقليدية للدخول ومنح الفرص للمبدعين واللاعبين على حد سواء، خاصة في منطقة الشرق الأوسط التي تعاني من التمثيل الضعيف."
+      },
+      {
+        "bold": "بناء نظام بيئي مستدام:",
+        "normal": "إنشاء دورة تنموية وتحسين ذاتي مستدامة، تمول وتوجهها حوكمة المجتمع ونماذج الرموز، مضمونين البقاء على المدى الطويل."
+      }
+    ],
+    "want": "ترغب في الانضمام إلى فريقنا؟"
+  },
+  "team_title": "We Are <span class=\"primary\">Lucidia</span>",
+  "telegram_name": "Telegram Username(opt)",
+  "terms": "Terms and Condition",
   "terms_page": {
-    "title": "صفحة الشروط",
     "terms_data": [
       {
         "title": "المقدمة",
@@ -307,277 +1142,17 @@
       {
         "title": "تغييرات في الشروط",
         "value": "نحتفظ بالحق في إجراء تغييرات على هذه الشروط في أي وقت. سيتم اعتبار استمرار استخدامك للموقع بعد أي تغييرات على هذه الشروط موافقة على تلك التغييرات."
-      },
-      {
-        "title": "القنون والشريعة السائدة",
-        "value": "يجب أن تخضع هذه الشروط للقوانين المعمول بها وفقًا للتفسير والتنفيذ في اتفاقية القضاء التي يتم تشغيل الموقع بموجبها، دون الالتفات إلى أي مبادئ تتعلق بتعارض القوانين."
-      }
-    ]
-  },
-  "nav": {
-    "home": "الصفحة الرئيسية",
-    "pitchdeck": "عرض الشركة",
-    "roadmap": "خريطة الطريق",
-    "games": "الألعاب",
-    "team": "فريقنا",
-    "faq": "الأسئلة الشائعة",
-    "audit": "التدقيق",
-    "gameplay": "طريقة اللعب",
-    "meet": "اطلق التطبيق",
-    "our-product": "منتجاتنا",
-    "career": "السير المهنية"
-  },
-  "app-nav": {
-    "home": "الصفحة الرئيسية",
-    "games": "الألعاب",
-    "tournaments": "الدوريات",
-    "marketplace": "المتجر",
-    "dev-tools": "أدوات المطورين",
-    "educational-portal": "البوابة التعليمية",
-    "dao": "التصويت",
-    "eng": "Eng"
-  },
-  "join": "انضم إلى المجتمع",
-  "for": "لمزيد من التفاصيل حول تقدمنا وسير العمل، تأكد من متابعتنا",
-  "buy": {
-    "step": "الخطوة",
-    "go": "انتقل إلى",
-    "recommend": "نوصي باستخدام MetaMask على سطح المكتب لتجربة أكثر سلاسة، أو Trust Wallet على الهاتف المحمول.",
-    "click": "انقر فوق زر \"ربط المحفظة\" في الزاوية العلوية اليمنى وقم بتسجيل الدخول باستخدام محفظتك المفضلة. تأكد من أن لديك محفظة توسيع المتصفح مثل",
-    "installed": "مثبتة على سطح مكتبك أو استخدم محفظة محمولة معتمدة مثل",
-    "click_the": "انقر على",
-    "button": "زر",
-    "step2": [
-      {
-        "title": "الخيار 1: شراء ETH أو BNB ببطاقة",
-        "value": [
-          "انتقل إلى https://moonpay.com/buy واشتري ETH أو BNB باستخدام بطاقتك. سيتم إرسال ETH أو BNB المشتراة إلى محفظتك. من المستحسن شراء الحد الأدنى من 20 دولارًا من ETH أو 5 دولارات من BNB لتغطية الحد الأدنى لشراء رموز $LUCID.",
-          "أدخل المبلغ الذي ترغب في استثماره",
-          "اختر خيار العلاوة الخاصة بك - سيكون متاحًا بعد شهر واحد من TGE"
-        ]
-      },
-      {
-        "title": "الخيار 2: شراء $LUCID بـ ETH أو BNB",
-        "value": [
-          "تأكد من أن لديك ما يكفي من ETH أو BNB في محفظتك (إذا لم يكن الأمر كذلك، راجع الخيار 1). أدخل مبلغ $LUCID الذي ترغب في شرائه (الحد الأدنى 15 دولارًا) وانقر على شراء بـ ETH أو شراء بـ BNB. قم بتأكيد العملية في محفظتك وقم بمراجعة تكلفة الغاز",
-          "أدخل المبلغ الذي ترغب في استثماره",
-          "اختر خيار العلاوة الخاصة بك - سيكون متاحًا بعد شهر واحد من TGE"
-        ]
-      },
-      {
-        "title": "الخيار 3: شراء $LUCID بـ USDT",
-        "value": [
-          "تأكد من أن لديك على الأقل 20 دولارًا من USDT في محفظتك.",
-          "أدخل المبلغ الذي ترغب في استثماره",
-          "اختر خيار العلاوة الخاصة بك - سيكون متاحًا بعد شهر واحد من TGE",
-          "ستحتاج إلى الموافقة على الشراء مرتين. الموافقة الأولى هي لعقد USDT، والثانية هي لمبلغ العملية. أكمل كل خطوة من الموافقة لإكمال العملية."
-        ]
       }
     ],
-    "step3": [
-      "أدخل اسم مستخدم Telegram الخاص بك لتلقي مكافأة إضافية قدرها 5% لكل مستخدم ترسله. سيتم إنشاء رابط الإحالة بعد هذه الخطوة.",
-      "انسخ رابط الإحالة الخاص بك من أسفل الصفحة، وأنت جاهز!"
-    ]
+    "title": "صفحة الشروط"
   },
-  "members": [
-    {
-      "name": "Adel Khatib",
-      "position": "الرئيس التنفيذي",
-      "link": "https://www.linkedin.com/in/adel-khatib-b2b136180/",
-      "desc": [
-        "شريك Samsung Mena (6 سنوات)",
-        "شريك في أسطول السيارات الكهربائية مع Uber (2 سنوات)",
-        "خبير في مجال العملات الرقمية والبلوكشين (10 سنوات)",
-        "رائد أعمال متسلسل ولاعب (15 سنة)"
-      ]
-    },
-    {
-      "name": "Feras Nimer",
-      "position": "رئيس ضباط العمليات",
-      "link": "https://www.linkedin.com/in/feras-nimer-691a3258/",
-      "desc": [
-        "تحول الأعمال في EY (5 سنوات)",
-        "إدارة المشاريع (6 سنوات)",
-        "مستثمر في مجال العملات الرقمية (4 سنوات)",
-        "رائد أعمال (5 سنوات)"
-      ]
-    },
-    {
-      "name": "Ahmad Assaf",
-      "position": "رئيس مهندسي التكنولوجيا",
-      "link": "https://www.linkedin.com/in/ahmadassaf/",
-      "desc": [
-        "خبير في مجال الذكاء الاصطناعي والبيانات (14 سنة)",
-        "عاشق للتكنولوجيا والعملات الرقمية (5 سنوات)",
-        "مهندس برمجيات (18 سنة)",
-        "رائد أعمال (10 سنوات)"
-      ]
-    },
-    {
-      "name": "Den Smolonski",
-      "position": "مطور بلوكشين كبير",
-      "link": "https://www.linkedin.com/in/den-smolonski-648051100/",
-      "desc": ["مطور للشبكة الكاملة (8 سنوات)", "مطور DeFi", "مطور GameFi", "صناعة البلوكشين (4 سنوات)"]
-    },
-    {
-      "name": "Jahongir Erkinov",
-      "position": "رئيس مكتب الميتافيرس",
-      "link": "https://www.linkedin.com/in/jakhongirerkinov/",
-      "desc": [
-        "مطور Unreal Engine (6 سنوات)",
-        "مطور Unity Engine (4 سنوات)",
-        "مطور ألعاب للهواتف المحمولة وأجهزة الكمبيوتر والواقع الافتراضي (4 سنوات)",
-        "لاعب (10 سنوات)"
-      ]
-    },
-    {
-      "name": "Matsushima Goro",
-      "position": "مطور بلوكشين",
-      "link": "https://www.linkedin.com/in/matsushima-goro-bb6b2326b/",
-      "desc": [
-        "خبير في مجال البلوكشين (4 سنوات)",
-        "أخصائي Rust (2 سنوات)",
-        "ماهر في Solidity (4 سنوات)",
-        "مطور واجهة مستخدم (6 سنوات)"
-      ]
-    },
-    {
-      "name": "Oskar Krzak",
-      "position": "مدير تطوير الأعمال",
-      "link": "https://www.linkedin.com/in/krzakoskar/",
-      "desc": ["مدير منتج (7 سنوات)", "صناعة البلوكشين (6 سنوات)", "لاعب (15 سنة)"]
-    },
-    {
-      "name": "Marius Dommersnes",
-      "position": "رئيس مديري التسويق",
-      "link": "https://www.linkedin.com/in/marius-dommersnes-455a30177/",
-      "desc": ["صناعة البلوكشين (3 سنوات)", "رئيس المبيعات مسبقًا وIDO (2 سنة)", "تسويق الويب3 (2 سنة)"]
-    },
-    {
-      "name": "Victoria Iskiyaeva",
-      "position": "رئيس مديري التسويق",
-      "link": "https://www.linkedin.com/in/victoria-iskiyaeva-851359213/",
-      "desc": ["تسويق الويب3 (3 سنوات)", "إدارة وسائل التواصل الاجتماعي (4 سنوات)", "التسويق الرقمي (4 سنوات)"]
-    },
-    {
-      "name": "Rula Madi",
-      "position": "رئيس القانون",
-      "link": "https://www.linkedin.com/in/rolamadi/",
-      "desc": [
-        "القانون التجاري والتكنولوجيا / الملكية الفكرية (20 سنة)",
-        "مستشار إداري كبير",
-        "عضو في الجمعيات القانونية"
-      ]
-    },
-    {
-      "name": "Al Rizqi",
-      "position": "مدير مجتمع آسيا ومنطقة كومنولث الدول المستقلة",
-      "link": "https://www.linkedin.com/in/al-rizqi/",
-      "desc": ["مدير مجتمع (2 سنة)", "إدارة المشاريع (3 سنوات)", "التسويق (5 سنوات)"]
-    },
-    {
-      "name": "Sander Kloet",
-      "position": "مدير مجتمع آسيا ومنطقة كومنولث الدول المستقلة",
-      "link": "https://www.linkedin.com/in/sander-kloet-278b68278/",
-      "desc": ["مدير مجتمع (4 سنوات)", "مدير وسائل التواصل الاجتماعي (4 سنوات)", "التسويق الرقمي (3 سنوات)"]
-    }
-  ],
-  "login": {
-    "enter_lucidia": "نظر الملف ",
-    "login_with": "سجل الدخول عن طريق",
-    "metamask": "Metamask",
-    "walletconnect": "WalletConnect",
-    "failed": "فشل التوصيل. حاول مجددا"
-  },
-  "profile": "انظر الملف الشخصي",
-  "meta": {
-    "default": {
-      "title": "اكتشف الألعاب المتنوعة ضمن نظام Web3 البيئي الخاص بشركة Lucidia",
-      "desc": "انضم إلى Lucidia وقم بتوسيع نطاق وصول لعبتك عبر نظام Web3 البيئي النابض بالحياة، والذي يتميز بالتوافق عبر الأنظمة الأساسية وتجربة لعب موحدة. استفد من الوصول إلى جمهور أوسع وتجارب اللاعبين المحسنة والميزات المبتكرة لمطوري الألعاب."
-    },
-    "games": {
-      "title": "اكتشف الألعاب المتنوعة ضمن نظام Web3 البيئي الخاص بشركة Lucidia",
-      "desc": "انضم إلى Lucidia وقم بتوسيع نطاق وصول لعبتك عبر نظام Web3 البيئي النابض بالحياة، والذي يتميز بالتوافق عبر الأنظمة الأساسية وتجربة لعب موحدة. استفد من الوصول إلى جمهور أوسع وتجارب اللاعبين المحسنة والميزات المبتكرة لمطوري الألعاب."
-    },
-    "sandstorm": {
-      "title": "Sandstorm Racing - أتقن الانجرافات الصحراوية في مغامرة سباق ملحمية",
-      "desc": "غوص في 'Sandstorm Racing', محاكاة سباقات العالم المفتوح التي تدور أحداثها في صحاري الشرق الأوسط المذهلة. استمتع بتجربة إثارة سباقات الانجراف العربية، والتخصيص الشامل للمركبات، وبيئات العواصف الرملية الديناميكية."
-    },
-    "desert": {
-      "title": "Desert Dominion - ألعاب FPS الإستراتيجية مع تكامل Web3",
-      "desc": "الشروع في رحلة ملحمية مع 'Desert Dominion', لعبة إطلاق نار من منظور الشخص الأول تمزج بين اللعب الاستراتيجي والتحديات القائمة على الفريق والاقتصاد الذي يحركه اللاعب مع الاستخدام المبتكر لـ Web3 وNFTs في المناظر الطبيعية الصحراوية الشاسعة."
-    },
-    "curse": {
-      "title": "Pharaoh's Plague -مغامرة أسطورية من منظور الشخص الأول في دبي المستقبلية",
-      "desc": "ادخل إلى 'Pharaoh's Plague'، وهي لعبة FPS تمزج بين الأساطير القديمة والحروب المستقبلية في دبي. واجه الوحوش الأسطورية، واستخدم الأسلحة المتقدمة الممزوجة بالسحر، وانغمس في بيئة غنية بالسرد مع تكامل Web3."
-    },
-    "ecosystem_home": {
-      "title": "نظام لوسيديا البيئي - أطلق العنان لابتكارات الألعاب في الشرق الأوسط",
-      "desc": "انغمس في تطبيق النظام البيئي الخاص بـ Lucidia، بوابتك إلى عالم تلتقي فيه الألعاب التقليدية مع ابتكارات blockchain. استكشف مجموعة من الأدوات بدءًا من NFT Marketplace وحتى حلول تسجيل الدخول إلى Web3 Wallet، المصممة للاعبين والمطورين في الشرق الأوسط."
-    },
-    "ecosystem_games": {
-      "title": "اكتشف عالم الألعاب مع Lucidia - عالم من العناوين المتنوعة",
-      "desc": "اكتشف عالم الألعاب الواسع والنابض بالحياة داخل نظام Lucidia البيئي. بدءًا من المغامرات المليئة بالإثارة والمعارك الإستراتيجية وحتى القصص الغامرة، تعد كل لعبة بمثابة بوابة لتجارب ألعاب مبتكرة ومعززة بتقنية blockchain."
-    },
-    "ecosystem_tournaments": {
-      "title": "بطولات لوسيديا - تنافس في ساحة الألعاب النهائية",
-      "desc": "أدخل عالم المنافسة في دورات ألعاب Lucidia. مع مجموعة متنوعة من الألعاب والأساليب، بدءًا من المبارزات الإستراتيجية وحتى الاشتباكات عالية الطاقة، هناك تحدي لكل لاعب. تنافس على المجد وجوائز العملات المشفرة في نظام Lucidia البيئي الديناميكي."
-    },
-    "ecosystem_marketplace": {
-      "title": "سوق لوسيديا - الابتكار والتجارة في مجتمع الألعاب",
-      "desc": "اكتشف سوق Lucidia، وهو عبارة عن منصة تعيد تعريف التعاون والتجارة داخل مجتمع الألعاب في الشرق الأوسط. بدءًا من الأصول والأكواد الفريدة داخل اللعبة وحتى أدوات تكامل NFT الشاملة، يمكنك العثور على كل ما تحتاجه لإضفاء الحيوية على مشاريع الألعاب الخاصة بك."
-    },
-    "ecosystem_devtools": {
-      "title": "أدوات مطوري Lucidia - قم بتمكين رحلة تطوير اللعبة الخاصة بك",
-      "desc": "أطلق العنان لإمكانات تطوير لعبتك باستخدام مجموعة أدوات Lucidia، بدءًا من مجموعات تكامل NFT وحتى حلول تسجيل الدخول إلى محفظة Web3. تم تصميم كل أداة لتحسين مشاريعك وإضفاء الحيوية على رؤيتك الإبداعية في مساحة ألعاب Web3."
-    },
-    "ecosystem_educational": {
-      "title": "بوابة تعليم ألعاب Web3 من لوسيديا - تعلم، انمو، ابتكر",
-      "desc": "انضم إلى بوابة تعليم ألعاب Web3 الخاصة بشركة Lucidia، وهي بوابتك لإتقان ألعاب Web3. مع البرامج التعليمية والمقالات ومقاطع الفيديو التي ستتوفر قريبًا، استعد لاستكشاف وفهم مستقبل الألعاب."
-    },
-    "ecosystem_dao": {
-      "title": "تصويت Lucidia DAO – تأثير على مستقبل ألعابك المفضلة",
-      "desc": "شارك في تشكيل مستقبل الألعاب ضمن نظام Lucidia البيئي. أدل بصوتك على قرارات اللعبة وكن جزءًا لا يتجزأ من قصة تطوير اللعبة من خلال منصة تصويت DAO الخاصة بنا."
-    },
-    "ecosystem_FPS": {
-      "title": "Desert Dominion - FPS التكتيكية مع تكامل Web3 | Lucidia",
-      "desc": "انضم إلى 'Desert Dominion' على Lucidia، وهي لعبة FPS حيث يلتقي اللعب الاستراتيجي مع Web3. استكشف الصحاري الشاسعة وانخرط في معارك جماعية وامتلك أصول NFT الفريدة. ابدأ مغامرتك اليوم."
-    },
-    "ecosystem_drift": {
-      "title": "Sandstorm Racing - سباقات العالم المفتوح في مشهد صحراوي ديناميكي",
-      "desc": "استمتع بتجربة Sandstorm Racing في لوسيديا، حيث تجتمع سباقات الانجراف العربية المثيرة مع بيئات العواصف الرملية الديناميكية. قم بتخصيص سيارتك واستكشف ثقافة السيارات في الشرق الأوسط في محاكاة السباق الغامرة هذه."
-    },
-    "ecosystem_zombie": {
-      "title": "Pharaoh's Plague - الأساطير تجتمع مع FPS في دبي المستقبلية",
-      "desc": "انغمس في لعبة Pharaoh's Plague، وهي مزيج فريد من حركة FPS والأساطير القديمة التي تدور أحداثها في دبي المعاد تصورها. استمتع بتجربة القتال الاستراتيجي والوحوش الأسطورية وتكامل Web3 في عالم الألعاب الغامر هذا."
-    },
-    "ecosystem_craft": {
-      "title": "Lucidcraft - أطلق العنان للإبداع في عالم Sandbox باستخدام Web3",
-      "desc": "أدخل Lucidcraft، وهي لعبة رمل حيث لا يعرف الإبداع حدودًا. قم بالبناء والاستكشاف والتداول في عالم ديناميكي معزز بتقنية Web3. شكّل مغامرتك وامتلك إبداعاتك."
-    },
-    "home": {
-      "title": "Lucidia - إحداث ثورة في الألعاب في الشرق الأوسط من خلال ابتكارات Web3",
-      "desc": "تعمل لوسيديا على تغيير مشهد الألعاب في الشرق الأوسط من خلال دمج عالم الألعاب التقليدية الغامر مع تقنيات Web3 المتطورة. استكشف نظامنا البيئي الفريد المصمم للمطورين واللاعبين لتجربة مستقبل الألعاب."
-    },
-    "team": {
-      "title": "تعرف على فريق Lucidia - المبتكرون وراء ألعاب Web3 في الشرق الأوسط",
-      "desc": "اكتشف المحترفين المتحمسين في Lucidia الذين يقودون دمج الألعاب التقليدية مع Web3 في الشرق الأوسط. تعرف على مهمتنا وثقافتنا والقيادة الحكيمة التي تشكل مستقبل الألعاب."
-    },
-    "vision": {
-      "title": "رؤيتنا - تشكيل مستقبل الألعاب باستخدام Web3 | Lucidia",
-      "desc": "في Lucidia، نحن ملتزمون بإعادة تعريف مشهد الألعاب في الشرق الأوسط من خلال تقنيات Web3، مما يوفر نظامًا بيئيًا فريدًا للمطورين واللاعبين للمشاركة في تجارب الألعاب المبتكرة."
-    },
-    "products": {
-      "title": "نظام Lucidia البيئي - ارفع مستوى تطوير لعبتك باستخدام أدوات Web3 المتطورة",
-      "desc": "انغمس في نظام Lucidia البيئي، الذي يقدم مجموعة غنية من منتجات Web3 المصممة لتمكين المطورين. بدءًا من مجموعات أدوات NFT المتخصصة وحتى نظام تسجيل الدخول القوي للمحفظة، نقدم الأدوات التي تحتاجها للابتكار في مشهد الألعاب في الشرق الأوسط."
-    },
-    "road_map": {
-      "title": "خريطة طريق لوسيديا – رسم مستقبل تطوير ألعاب Web3",
-      "desc": "استكشف خريطة طريق Lucidia، التي توضح بالتفصيل رحلتنا الإستراتيجية بدءًا من إطلاق الأسواق المبتكرة وحتى تنفيذ أنظمة تسجيل دخول المحفظة المتقدمة، مما يمهد الطريق للتطوير الرائد في قطاع ألعاب Web3."
-    },
-    "career": {
-      "title": "انضم إلى Lucidia - وظائف في ابتكار ألعاب Web3",
-      "desc": "لوسيديا تقوم بالتوظيف! استكشف المناصب المفتوحة من مطور Blockchain إلى مصمم UI/UX وكن جزءًا من فريق يشكل مستقبل ألعاب Web3. استمتع بثقافة التعاون والابتكار والمزايا مثل العمل عن بعد والتعلم المستمر."
-    }
-  }
+  "to_be": "ستتم فتحها بواسطة المستخدمين",
+  "token_allocation": "تخصيص الرموز",
+  "token_sale": "شروط وأحكام بيع الرموز",
+  "zombie": "تفشي الزومبي"
+  "vision": "Vision for",
+  "vision_content": "Empowering a new era of gaming where community, creativity, and blockchain-driven economies converge to define the future of digital entertainment,  bringing unique, engaging experiences to the Middle Eastern community and beyond.",
+  "vision_for": "Vision for",
+  "zombie": "Curse of the Pharaoh",
+  "zombie_desc1": "is coming soon. Denend yourself "
 }
