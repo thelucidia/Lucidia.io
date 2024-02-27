@@ -40,11 +40,7 @@ const OurProduct = () => {
                 returnObjects: true,
               }) as detail[]) ?? []
             ).map(({ image, title, desc }, i) => (
-              <Link
-                key={`product-${i}`}
-                to="https://app.lucidia.io/products"
-                className="flex flex-col gap-y-3 bg-[#1e1e1e85]"
-              >
+              <div key={`product-${i}`} className="flex flex-col gap-y-3 bg-[#1e1e1e85]">
                 <div
                   style={{
                     backgroundColor: '#f0f0f0',
@@ -77,7 +73,7 @@ const OurProduct = () => {
                 >
                   {desc}
                 </p>
-              </Link>
+              </div>
             ))}
           </div>
         </div>
