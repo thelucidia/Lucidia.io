@@ -1,19 +1,19 @@
 import { ProductCardProps } from '../utils/types';
 
-export function ProductCard({ title, desc, owner, price }: ProductCardProps) {
+export function ProductCard({ title, desc, owner, price, discount }: ProductCardProps) {
   return (
     <div className="w-full">
       <div className="h-[200px] bg-[#0D0D0D] flex justify-center items-center">
         <img
           src={'/logo1.svg'}
           alt="Hero"
-          className=" top-0 object-contain shrink-0 hover:cursor-pointer border border-transparent  hover:border hover:border-yellow-300 transition ease-in-out delay-150	      duration-300	"
+          className=" top-0 object-contain shrink-0 cursor-pointer border border-transparent transition ease-in-out delay-150 duration-300	"
         />
       </div>
       <div className="bg-[#1E1E1E] p-4 flex flex-col gap-y-4">
         <div className="text-base truncate font-bold">{title}</div>
         <div className="text-base truncate">{desc}</div>
-        <div className="flex justify-end text-gray-400 line-through">{price}</div>
+        <div className="flex justify-end text-gray-400 line-through">{discount}</div>
         <div className="lg:flex flex-row justify-between">
           <div className="mt-4 lg:mt-0 lg:w-fit flex justify-start">
             <img

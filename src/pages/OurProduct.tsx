@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
 // import Button2 from '../components/Button2';
 import Banner from '../views/Banner';
 import Button4 from '../components/Button4';
@@ -40,11 +39,7 @@ const OurProduct = () => {
                 returnObjects: true,
               }) as detail[]) ?? []
             ).map(({ image, title, desc }, i) => (
-              <Link
-                key={`product-${i}`}
-                to="https://app.lucidia.io/products"
-                className="flex flex-col gap-y-3 bg-[#1e1e1e85]"
-              >
+              <div key={`product-${i}`} className="flex flex-col gap-y-3 bg-[#1e1e1e85]">
                 <div
                   style={{
                     backgroundColor: '#f0f0f0',
@@ -77,7 +72,7 @@ const OurProduct = () => {
                 >
                   {desc}
                 </p>
-              </Link>
+              </div>
             ))}
           </div>
         </div>

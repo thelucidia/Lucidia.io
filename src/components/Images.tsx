@@ -23,7 +23,7 @@ export function Images({
       onMouseLeave={handleHover}
       src={isHovered ? hoverSrc : defaultSrc}
       alt="Hero"
-      className={`${className} top-0 object-contain shrink-0 hover:cursor-pointer border border-transparent  hover:border hover:border-yellow-300 transition ease-in-out delay-150	duration-300`}
+      className={`${className} w-full top-0 object-contain shrink-0 hover:cursor-pointer border border-transparent  hover:border hover:border-yellow-300 transition ease-in-out delay-150	duration-300`}
     />
   );
 }
@@ -31,12 +31,10 @@ export function Images({
 export function BattleImages({ hoverSrc, defaultSrc }: ImageProps) {
   const [isHovered, setIsHovered] = React.useState(false);
   const [currentImage, setCurrentImage] = React.useState(defaultSrc);
-
   const handleHover = () => {
     if (isHovered === false) {
       setIsHovered(true);
     }
-
     setTimeout(() => {
       setCurrentImage(hoverSrc);
     }, 200);
@@ -63,7 +61,7 @@ export function BattleImages({ hoverSrc, defaultSrc }: ImageProps) {
       alt="battle"
       className="
   h-[30vh] w-[80vw]
- absolute bottom-0 left-0 z-50	
+ absolute bottom-0 left-0 z-50
   object-bottom "
       whileInView={{ scale: 1.1 }}
       whileHover={{ scale: 1.1 }}
