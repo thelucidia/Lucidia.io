@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 // import React from "react";
 import { Images } from '../components/Images';
+import { Link } from 'react-router-dom';
 const GameIntro = () => {
   const { t } = useTranslation();
   // const [isHover, setIsHover] = React.useState(false);
@@ -26,10 +27,18 @@ const GameIntro = () => {
             className="absolute w-[515px] h-[301px] -top-[94px] left-[632px]"
             style={{ backgroundColor: 'rgba(179, 133, 57, 0.08)', filter: 'blur(60px)' }}
           />
-          <Images className="z-10" defaultSrc="/games/zombie_outbreak.png" hoverSrc="/games/zombie_outbreak2.png" />
-          <Images className="z-10" defaultSrc="/games/lucidcraft.png" hoverSrc="/games/lucidcraft2.png" />
-          <Images className="z-10" defaultSrc="/games/battlefury.png" hoverSrc="/games/battlefury2.png" />
-          <Images className="z-10" defaultSrc="/games/canyon_drift.png" hoverSrc="/games/canyon_drift2.png" />
+          <Link to="/CurseOfThe">
+            <Images className="z-10" defaultSrc="/games/zombie_outbreak.png" hoverSrc="/games/zombie_outbreak2.png" />
+          </Link>
+          <Link to="/Cryptocraft">
+            <Images className="z-10" defaultSrc="/games/lucidcraft.png" hoverSrc="/games/lucidcraft2.png" />
+          </Link>
+          <Link to="/DesertWarior">
+            <Images className="z-10" defaultSrc="/games/battlefury.png" hoverSrc="/games/battlefury2.png" />
+          </Link>
+          <Link to="/CanyonDriftPage">
+            <Images className="z-10" defaultSrc="/games/canyon_drift.png" hoverSrc="/games/canyon_drift2.png" />
+          </Link>
         </div>
       </div>
     </section>

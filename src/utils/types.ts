@@ -14,4 +14,5 @@ export interface ProductCardProps {
   owner: string;
   image: string;
   price: string;
+  discount: string;
 }

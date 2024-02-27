@@ -19,6 +19,7 @@ const FeaturedProducts = () => {
             desc={t('product_desc1')}
             owner={t('product_owner1')}
             price={t('product_price1')}
+            discount={t('discount_price1')}
             image={t('/avatar1.svg')}
           />
           <ProductCard
@@ -26,6 +27,7 @@ const FeaturedProducts = () => {
             desc={t('product_desc2')}
             owner={t('product_owner2')}
             price={t('product_price2')}
+            discount={t('discount_price2')}
             image={t('/avatar1.svg')}
           />
           <ProductCard
@@ -33,6 +35,7 @@ const FeaturedProducts = () => {
             desc={t('product_desc3')}
             owner={t('product_owner3')}
             price={t('product_price3')}
+            discount={t('discount_price3')}
             image={t('/avatar1.svg')}
           />
           <ProductCard
@@ -40,6 +43,7 @@ const FeaturedProducts = () => {
             desc={t('product_desc4')}
             owner={t('product_owner4')}
             price={t('product_price4')}
+            discount={t('discount_price4')}
             image={t('/avatar1.svg')}
           />
         </div>
