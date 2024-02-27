@@ -20,12 +20,12 @@ const Meet = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-[20px] text-white mt-5">
-          {(t('members', { returnObjects: true }) as membersInterface[]).map((items) => (
+          {(t('members', { returnObjects: true }) as membersInterface[]).map((items, i) => (
             <div className="bg-[#1e1e1e] grid grid-cols-4 rounded-bl-2xl min-h-[160px]" key={items.name}>
               <div>
-                <div
-                  className={`border-primary border-2 rounded-bl-2xl rounded-tr-2xl w-full h-full bg-cover bg-no-repeat bg-[white]`}
-                ></div>
+                <div className={`border-primary border-2 rounded-bl-2xl rounded-tr-2xl w-full h-full overflow-hidden`}>
+                  <img src={`/members/profile_${i + 1}.png`} className="w-full h-full" />
+                </div>
               </div>
               <div className="p-[20px_15px] relative">
                 <h2 className="text-xl font-bold leading-5 mb-2">{items.name}</h2>
@@ -42,7 +42,7 @@ const Meet = () => {
               <div className="col-span-2 p-[20px_15px]">
                 <ul className="list-disc text-sm border-l-2 border-l-white pl-10 h-full">
                   {items.desc.map((desc, i) => (
-                    <li className="leading-6" key={i}>
+                    <li className="leading-5" key={i}>
                       {desc}
                     </li>
                   ))}
