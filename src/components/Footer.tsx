@@ -81,9 +81,7 @@ const Footer = () => {
       <div className="max-w-[95%] mx-auto w-full text-secondary grid lg:gap-x-16 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
         <div className="mt-7 sm:mt-0">
           <img src="/hero/logo.webp" alt="Logo" className="sm:w-auto w-28" />
-          <p className="font-primary font-regular max-w-[29rem] leading-4 mt-3 sm:mt-7 text-[12px] md:text-[12px]">
-            {t('jurisdiction')}
-          </p>
+
           <div className="text-footergry flex items-center gap-x-7 sm:gap-x-16 mt-12">
             <div className="flex items-center flex-row flex-wrap gap-x-6 gap-y-7 pr-16">
               {icons.map((items, i) => (
@@ -97,6 +95,17 @@ const Footer = () => {
                   {items.icon}
                 </a>
               ))}
+            </div>
+          </div>
+          <div className="max-w-[95%] mx-auto w-full text-secondary flex justify-between items-center sm:pb-0 pb-5 pt-20 sm:pt-10 ">
+            <div className="">
+              <h3 className="font-secondary text-[16px] font-semibold flex gap-x-2">
+                © Lucidia 2024 <span>|</span> {t('rights')}
+              </h3>
+              <p className="font-primary font-regular max-w-[29rem] leading-4 mt-10 sm:mt-6 text-[14px] md:text-[14px]">
+                {t('jurisdiction')}
+              </p>
+              {/* <p className="text-[12px] text-footergry font-secondary mt-2">{t('jurisdiction')}</p> */}
             </div>
           </div>
         </div>
@@ -271,15 +280,6 @@ const Footer = () => {
           </div>
         </div>
       </div> */}
-
-      <div className="max-w-[95%] mx-auto w-full text-secondary flex justify-between items-center sm:pb-0 pb-5 px-5 pt-12 sm:pt-6 ">
-        <div className="">
-          <h3 className="font-secondary text-[16px] font-semibold flex gap-x-2">
-            © Lucidia 2024 <span>|</span> {t('rights')}
-          </h3>
-          {/* <p className="text-[12px] text-footergry font-secondary mt-2">{t('jurisdiction')}</p> */}
-        </div>
-      </div>
     </footer>
   );
 };

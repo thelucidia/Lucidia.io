@@ -153,6 +153,10 @@ const GamesTitle = () => {
                     <img className="w-[16px] h-[16px]" src="/games/desktop.png" />
                     <span className="text-[16px]">{t('games_page.desktop')}</span>
                   </div>
+                  <div className="absolute bottom-[45px] left-[20px] bg-[#1E1E1E]/[.92] p-[4px_8px] gap-[12px] flex flex-row items-center">
+                    <img className="w-[16px] h-[16px]" src="/games/mobile.svg" />
+                    <span className="text-[16px]">{t('games_page.mobile')}</span>
+                  </div>
                 </div>
                 <span className="font-bold text-2xl p-4 flex flex-auto justify-center aligns-center text-center">
                   {e.title}
