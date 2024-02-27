@@ -17,7 +17,7 @@
   "boss_desc1": "At Lucidia, we're not just creating games;",
   "boss_desc2": "we're building the future of gaming in the Middle East, where tradition meets innovation.",
   "boss_name": "Adel Khatib",
-  "boss_position": "CEO Lucidia",
+  "boss_position": "COO Lucidia",
   "buy": {
     "button": "button",
     "click": "Click the \"Connect Wallet\" button in the top right corner and log in using your preferred wallet. Make sure you have a browser extension wallet like",
@@ -72,7 +72,7 @@
     "our_journey": "Be Part Of Our Journey",
     "raphael": "Andrii Seliuk",
     "raphael_content": "As the Lead of web developers, steering the ship of innovation, I've found unparalleled support working with Lucidia. Their commitment to excellence in both front-end and back-end development has allowed us to break through barriers and reach new heights. The synergy between our visions and their technical prowess is nothing short of extraordinary. Together, we're crafting the future of digital landscapes.",
-    "raphael_role": "Lead of web developers",
+    "raphael_role": "Lead Web Developer",
     "roles": [
       {
         "content": "The Community Manager at Lucidia will engage and nurture the community on platforms like Discord and Telegram, developing strategies to foster a supportive and active user base. They will be responsible for content creation, maintaining positive interactions, and organizing community events.",
@@ -262,12 +262,6 @@
         "<span class=\"primary bold\">Web3 Integration:</span> Propel your gaming experience into the future with blockchain technology, enabling true ownership, trading, and customization of NFT-based in-game assets.",
         "<span class=\"primary bold\">Diverse Environments:</span> From the silent whispers of ancient deserts to the cold echoes of advanced military bases, each map offers unique tactical challenges.",
         "<span class=\"primary bold\">Community-Centric Development:</span> \"Desert Warriors\" evolves with you. Your feedback and engagement shape the future, with continuous updates and new content driven by the community."
-      ],
-      "points": [
-        "Strategic Gameplay: Every match in \"Desert Warriors\" is a testament to strategy, requiring keen planning, flawless team coordination, and adept skill execution.",
-        "Web3 Integration: Propel your gaming experience into the future with blockchain technology, enabling true ownership, trading, and customization of NFT-based in-game assets.",
-        "Diverse Environments: From the silent whispers of ancient deserts to the cold echoes of advanced military bases, each map offers unique tactical challenges.",
-        "Community-Centric Development: \"Desert Warriors\" evolves with you. Your feedback and engagement shape the future, with continuous updates and new content driven by the community."
       ],
       "points_title": "Unique Selling Points",
       "prop_audience": "<span class=\"primary bold\">Target Audience:</span> Competitive and casual gamers, Web3 enthusiasts",
@@ -537,7 +531,7 @@
       ],
       "link": "https://www.linkedin.com/in/adel-khatib-b2b136180/",
       "name": "Adel Khatib",
-      "position": "CEO-COO"
+      "position": "COO"
     },
     {
       "desc": ["Business Transformation at EY (5 Years)", "Project Management (6 Years)", "Crypto investor (4 Years)"],
@@ -594,7 +588,7 @@
       ],
       "link": "https://www.linkedin.com/in/andrii-seliuk-ab6213284/",
       "name": "Andrii Seliuk",
-      "position": "Lead of web developers"
+      "position": "Lead Web Developer"
     },
     {
       "desc": ["Corporate & tech/IP law (20 yrs)", "Senior management Adviser", "Legal associations Member"],
@@ -635,6 +629,18 @@
       "link": "https://www.linkedin.com/in/chacaliyaa/",
       "name": "Sania Aliya",
       "position": "UI/UX Designer"
+    },
+    {
+      "desc": ["Front-end Developer (5 years)", "Back-end Developer (4 years)"],
+      "link": "https://www.linkedin.com/in/miroslav-pesic-b255a92a9/",
+      "name": "Miroslav Pesic",
+      "position": "Full Stack Developer"
+    },
+    {
+      "desc": ["Graphic Designer (3 years)", "Web Designer (1 years)"],
+      "link": "https://www.linkedin.com/in/miroslav-pesic-b255a92a9/",
+      "name": "Ola Hladka",
+      "position": "Graphic Designer"
     }
   ],
   "meta": {
