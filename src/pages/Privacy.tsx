@@ -49,7 +49,7 @@ const Privacy = () => {
       <Nav />
       <div className="w-full min-h-[20vh] md:min-h-[30vh] border-red-500 h-full px-5 py-8 font-primary flex items-end justifty-center text-secondary sticky top-0 z-10">
         <img
-          src={'/games/canyondrift/privacy_banner.png'}
+          src={'/games/canyondrift/privacy_banner.jpg'}
           className="w-full h-full object-cover object-top absolute top-0 left-0"
         />
 

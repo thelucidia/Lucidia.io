@@ -69,7 +69,7 @@ const Cryptocraft = () => {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-5">
               <div className="pt-5 lg:pt-10">
-                <img className="max-w-full mb-5 md:mb-9" src={'/games/cryptcoraftImg/gameGue.png'} alt="" />
+                <img className="max-w-full mb-5 md:mb-9" src={'/games/cryptcoraftImg/gameGue.jpg'} alt="" />
                 <div className="overview text-white">
                   <h2 className="text-2xl lg:text-3xl text-primary mb-3 minecrafterfonts">Game Overview :</h2>
                   <p className="text-base md:text-xl text-secondary font-primary">
@@ -81,7 +81,7 @@ const Cryptocraft = () => {
                 </div>
               </div>
               <div className="pt-5 lg:pt-10">
-                <img className="max-w-full mb-5 md:mb-9" src={'/games/cryptcoraftImg/gameFeat.png'} alt="" />
+                <img className="max-w-full mb-5 md:mb-9" src={'/games/cryptcoraftImg/gameFeat.jpg'} alt="" />
                 <div className="Feature text-white">
                   <h2 className="text-2xl lg:text-3xl text-primary mb-3 minecrafterfonts">Game Feature :</h2>
                   <ul className="text-base md:text-xl list-disc pl-3 text-secondary font-primary">

@@ -129,12 +129,12 @@
   },
   "curse_game": {
     "adaptive_ai": "<span class=\"primary bold\">Adaptive AI:</span> Battle against foes that learn and evolve, ensuring that no two encounters are the same and every victory is hard-earned.",
-    "advanced_movement": "<span class=\"primary bold\"'>Advanced Movement:</span> Master the art of urban navigation with parkour mechanics, allowing for fluid movement across Dubai's transformed skyline.",
+    "advanced_movement": "<span class=\"primary bold\">Advanced Movement:</span> Master the art of urban navigation with parkour mechanics, allowing for fluid movement across Dubai's transformed skyline.",
     "art_design": "Art and Sound Design",
     "artifact": "<span class=\"primary bold\">Artifact Collection:</span> Discover and wield powerful artifacts, upgrading them through challenges to unlock their full potential and carve your legacy in the sands.",
     "audio_landscapte": "<span class=\"primary bold\">Audio Landscape</span> Let the dynamic soundtrack, featuring a mix of traditional Middle Eastern tunes and modern beats, set the pace for your adventures, with sound effects that ground you in the game's mystical and chaotic world.",
     "characters_progression": "Characters and Progression",
-    "cooperative_mission": "<span class=\"primary bold\"'>Cooperative Missions</span> Band together with allies to undertake quests that dive deep into the heart of the plagues, with dynamic scenarios that adapt based on your team's decisions and achievements.",
+    "cooperative_mission": "<span class=\"primary bold\">Cooperative Missions</span> Band together with allies to undertake quests that dive deep into the heart of the plagues, with dynamic scenarios that adapt based on your team's decisions and achievements.",
     "dubai_reimagined": "<span class=\"primary bold\">Dubai Reimagined:</span> Traverse the sands of time in a Dubai overtaken by mythological forces, where every landmark tells a story of ancient power and modern resilience.",
     "dynamic_env": "<span class=\"primary bold\">Dynamic Environments:</span> Navigate through a world that reacts to your actions, with shifting terrains and interactive elements that make each journey through Dubai unique.",
     "enemies_ai": "Enemies and AI",
@@ -148,11 +148,11 @@
     "narrative": "<span class=\"primary bold\">Narrative Depth:</span> Delve into a story that weaves the rich cultural tapestry of the Middle East with thrilling mythological tales, setting the stage for an epic saga of heroism and betrayal.",
     "overview": "Game Overview",
     "points_title": "Unique Selling Points",
-    "prop_genre": "<span class=\"primary bold\"'>Genre:</span> Hybrid FPS with Co-op PvP, and PvE Elements",
-    "prop_setting": "<span class=\"primary bold\"'>Setting:</span> A post-apocalyptic Dubai, where ancient Middle Eastern mythshave taken root in the modern world.<br>Embark on a quest through a cityscape that marries the iconic skyline ofDubai with the haunting beauty of mythological chaos, where every corner turnedis a step deeper into a narrative that spans ages.",
-    "prop_title": "<span class=\"primary bold\"'>Title:</span> Curse Of The Pharaoh",
+    "prop_genre": "<span class=\"primary bold\">Genre:</span> Hybrid FPS with Co-op PvP, and PvE Elements",
+    "prop_setting": "<span class=\"primary bold\">Setting:</span> A post-apocalyptic Dubai, where ancient Middle Eastern mythshave taken root in the modern world.<br>Embark on a quest through a cityscape that marries the iconic skyline ofDubai with the haunting beauty of mythological chaos, where every corner turnedis a step deeper into a narrative that spans ages.",
+    "prop_title": "<span class=\"primary bold\">Title:</span> Curse Of The Pharaoh",
     "reimagined_dubai": "<span class=\"primary bold\">spanReimagined Dubai:</span> Explore a city transformed by mythological plagues, where the familiar meets the fantastical, offering endless opportunities for exploration and combat.",
-    "strategic_combat": "<span class=\"primary bold\"'>Strategic Combat:</span> Balance your arsenal of high-tech weapons with enchanted artifacts, each offering unique advantages against the mythological menaces you'll face.",
+    "strategic_combat": "<span class=\"primary bold\">Strategic Combat:</span> Balance your arsenal of high-tech weapons with enchanted artifacts, each offering unique advantages against the mythological menaces you'll face.",
     "stroy_narrative": "Stroy and Narrative",
     "stroy_narrative_desc": "In a world where the past and future collide, you play a crucial role inunraveling the mysteries behind the relic that has bridged the gap betweenrealms, setting ancient gods and monsters loose upon Dubai.",
     "technical_framework": "Technical Framework",
@@ -247,7 +247,7 @@
         "Blockchain Integration: Compete in races, earn unique NFT rewards, and customize your vehicles with tradable assets that showcase your achievements."
       ],
       "gameFeaturesTitle": "Game Features:",
-      "title": "Experience<br/>Sandstorm Racer"
+      "title": "Experience<br/>Sandstorm&nbsp;Racer"
     },
     "desertWarior": {
       "desc": "\"Desert Warrios\" is more than an FPS; it's a test of tactics and teamwork. Navigate through challenging terrains, leverage cover, and synchronize with your squad to dominate the battlefield.",
