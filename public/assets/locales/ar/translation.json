@@ -654,6 +654,23 @@
       "link": "https://www.linkedin.com/in/ola-h-bb5a7b218?trk=contact-info",
       "name": "Ola Hladka",
       "position": "Graphic Designer"
+    },
+    {
+      "desc": ["Sales & Marketing (5 years)", "Client Advisory (3 years)"],
+      "link": "https://www.linkedin.com/in/evdokia-bobrova/",
+      "name": "Evdokia Bobrova",
+      "position": "Social Media Manager"
+    },
+    {
+      "desc": [
+        "UI/UX Designer (5 years)",
+        "UX Research (3 years)",
+        "Marketing and Design (2 years)",
+        "Motion Graphics Designer (2 years)"
+      ],
+      "link": "https://www.linkedin.com/in/sara-g-44a723b6/",
+      "name": "Sara Gómez",
+      "position": "Lead UI/UX Designer"
     }
   ],
   "meta": {
