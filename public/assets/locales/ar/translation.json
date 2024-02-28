@@ -72,7 +72,7 @@
     "our_journey": "Be Part Of Our Journey",
     "raphael": "Andrii Seliuk",
     "raphael_content": "As the Lead of web developers, steering the ship of innovation, I've found unparalleled support working with Lucidia. Their commitment to excellence in both front-end and back-end development has allowed us to break through barriers and reach new heights. The synergy between our visions and their technical prowess is nothing short of extraordinary. Together, we're crafting the future of digital landscapes.",
-    "raphael_role": "Lead of web developers",
+    "raphael_role": "Lead Web Developer",
     "roles": [
       {
         "content": "The Community Manager at Lucidia will engage and nurture the community on platforms like Discord and Telegram, developing strategies to foster a supportive and active user base. They will be responsible for content creation, maintaining positive interactions, and organizing community events.",
@@ -154,6 +154,14 @@
     "mythological": "<span class=\"primary bold\">Mythological Warfare:</span> Engage in combat against legendary beasts and deities from Middle Eastern lore, utilizing a mix of futuristic firepower and ancient magic.",
     "mythological_adversaries": "<span class=\"primary bold\">Mythological Adversaries:</span> From the serpents of Apophis to the legions of Anubis, face off against creatures drawn from the depths of Middle Eastern mythology, requiring more than mere firepower to overcome.",
     "narrative": "<span class=\"primary bold\">Narrative Depth:</span> Delve into a story that weaves the rich cultural tapestry of the Middle East with thrilling mythological tales, setting the stage for an epic saga of heroism and betrayal.",
+    "overview": "Game Overview",
+    "points_title": "Unique Selling Points",
+    "prop_genre": "<span class=\"primary bold\"'>Genre:</span> Hybrid FPS with Co-op PvP, and PvE Elements",
+    "prop_setting": "<span class=\"primary bold\"'>Setting:</span> A post-apocalyptic Dubai, where ancient Middle Eastern mythshave taken root in the modern world.<br>Embark on a quest through a cityscape that marries the iconic skyline ofDubai with the haunting beauty of mythological chaos, where every corner turnedis a step deeper into a narrative that spans ages.",
+    "prop_title": "<span class=\"primary bold\"'>Title:</span> Curse Of The Pharaoh",
+    "reimagined_dubai": "<span class=\"primary bold\">spanReimagined Dubai:</span> Explore a city transformed by mythological plagues, where the familiar meets the fantastical, offering endless opportunities for exploration and combat.",
+    "strategic_combat": "<span class=\"primary bold\"'>Strategic Combat:</span> Balance your arsenal of high-tech weapons with enchanted artifacts, each offering unique advantages against the mythological menaces you'll face.",
+    "stroy_narrative": "Stroy and Narrative",
     "stroy_narrative_desc": "In a world where the past and future collide, you play a crucial role inunraveling the mysteries behind the relic that has bridged the gap betweenrealms, setting ancient gods and monsters loose upon Dubai.",
     "technical_framework": "Technical Framework",
     "technical_framework_content": "Powered by Unreal Engine 5, 'Pharaoh's Plague' brings themyth-infused world of Dubai to life with stunning visuals, complex AIbehaviors, and seamless multiplayer experiences, all underpinned by Ethereumblockchain technology for a new era of digital ownership and in-game economies.",
@@ -183,12 +191,18 @@
   "details": "See details",
   "diaries": "Developer Diaries",
   "discord_name": "Discord Username(opt)",
+  "discount_price1": "USD $5,800",
+  "discount_price2": "USD $8,680",
+  "discount_price3": "USD $9,500",
+  "discount_price4": "USD $16,500",
   "email": "E-mail",
   "explore_now": "Explore Now",
   "featured_products": "Featured Products & Services",
   "for": "For more details about our progress and workflow be sure to follow",
   "free2play": "Free2Play عالم مفتوح",
   "frequent": "الأسئلة الشائعة",
+  "full_name": "Full Name",
+  "future": "The Future",
   "game": "Trending Games",
   "game_details": "تفاصيل اللعبة",
   "game_inside": "اللعبة داخل العوالم الافتراضية",
@@ -503,6 +517,8 @@
   "how_to_buy": "كيفية شراء $LUCID",
   "in_game": "أصول داخل اللعبة",
   "join": "انضم إلى المجتمع",
+  "join1": "Join community of",
+  "join2": "20k+",
   "join3": "Lucidians",
   "join_community": "انضم إلى مجتمع Lucidians بأكثر من 100 ألف عضو",
   "jurisdiction": "قد لا تنظم اختصاصك القانوني العملات المشفرة. قيمة العملات المشفرة قد ترتفع وتنخفض. قد تخضع الأرباح لضرائب الربح الرأسمالي أو ضرائب محلية أخرى.",
@@ -528,7 +544,7 @@
       ],
       "link": "https://www.linkedin.com/in/adel-khatib-b2b136180/",
       "name": "Adel Khatib",
-      "position": "CEO-COO"
+      "position": "COO"
     },
     {
       "desc": [
@@ -585,7 +601,7 @@
       ],
       "link": "https://www.linkedin.com/in/andrii-seliuk-ab6213284/",
       "name": "Andrii Seliuk",
-      "position": "Lead of web developers"
+      "position": "Lead Web Developer"
     },
     {
       "desc": ["Corporate & tech/IP law (20 yrs)", "Senior management Adviser", "Legal associations Member"],
@@ -626,6 +642,18 @@
       "link": "https://www.linkedin.com/in/chacaliyaa/",
       "name": "Sania Aliya",
       "position": "UI/UX Designer"
+    },
+    {
+      "desc": ["Front-end Developer (5 years)", "Back-end Developer (4 years)"],
+      "link": "https://www.linkedin.com/in/miroslav-pesic-b255a92a9/",
+      "name": "Miroslav Pesic",
+      "position": "Full Stack Developer"
+    },
+    {
+      "desc": ["Graphic Designer (3 years)", "Web Designer (1 years)"],
+      "link": "https://www.linkedin.com/in/ola-h-bb5a7b218?trk=contact-info",
+      "name": "Ola Hladka",
+      "position": "Graphic Designer"
     }
   ],
   "meta": {
@@ -875,7 +903,8 @@
     "title": "Welcome to Lucidia's <span class=\"primary\">Ecosystem</span>"
   },
   "overview": "Game Overview",
-  "partners": "Our Partners",
+  "partners": "<span class=\"primary\">OUR</span> PARTNERS",
+  "partners_desc": "LUCIDIA HAS ALREADY GARNERED SIGNFICANT INTEREST WITHIN THE GAMING AND BLOCKCHAIN COMMUNITIES, WITH STRATEGIC PARTNERSHIPS AS WELL GOVERMENT SUPPORT AND A GROWING BASE OF SUPPORTERS AND POTENTIAL USERS.",
   "posted_date1": "30 January 2024",
   "posted_date2": "30 January 2024",
   "posted_date3": "30 January 2024",
@@ -915,10 +944,10 @@
   "product_desc2": "Dive into a treasure trove of game development resources, from unique character models to sophisticated code snippets, all tailored for the Arabic-speaking gaming community.",
   "product_desc3": "Harness the power of blockchain with our comprehensive toolkit, designed to seamlessly blend NFTs into your gaming projects.",
   "product_desc4": "Participate in our scholarship program, enabling a new dimension of community support and shared gaming experiences.",
-  "product_owner1": "by Lucidian",
-  "product_owner2": "by Lucidian",
-  "product_owner3": "by Lucidian",
-  "product_owner4": "by Lucidian",
+  "product_owner1": "By Lucidian",
+  "product_owner2": "By Lucidian",
+  "product_owner3": "By Lucidian",
+  "product_owner4": "By Lucidian",
   "product_price1": "USD $4,800",
   "product_price2": "USD $7,680",
   "product_price3": "USD $7,500",
@@ -1112,6 +1141,7 @@
     ],
     "title": "صفحة الشروط"
   },
+  "the_future": "The Future",
   "to_be": "ستتم فتحها بواسطة المستخدمين",
   "token_allocation": "تخصيص الرموز",
   "token_sale": "شروط وأحكام بيع الرموز",

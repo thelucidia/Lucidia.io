@@ -28,7 +28,7 @@ const Battlefury = () => {
       <div className=" w-full min-h-[40vh] md:min-h-[60vh] pt-[8rem] lg:min-h-screen px-8 sm:px-auto p-5 font-primary relative text-secondary flex  justify-center bg-bg">
         <Nav />
         <img
-          src={'/games/battlefury/banner.png'}
+          src={'/games/battlefury/banner.jpg'}
           className="w-full h-full object-cover absolute top-0 left-0 object-top z-10	 "
         />
         <div className="  w-full h-full absolute top-0 left-0 bg-gradient-to-b from-transparent via-transparent to-black/80 z-10"></div>
@@ -150,7 +150,7 @@ const Battlefury = () => {
                 })}
               />
             ))} */}
-              <img src={`/games/battlefury/game_detail1.png`} alt={`Image1`} className={cn('w-1/2 md:w-auto')} />
+              <img src={`/games/battlefury/game_detail1.jpg`} alt={`Image1`} className={cn('w-1/2 md:w-auto')} />
             </div>
           </div>
         </div>

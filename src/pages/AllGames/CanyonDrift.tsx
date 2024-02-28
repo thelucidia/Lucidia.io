@@ -3,8 +3,7 @@ import Button from '../../components/Button';
 import Footer from '../../components/Footer';
 import Nav from '../../components/Nav';
 import OtherGames from '../../components/OtherGames';
-// import { cn } from "../../utils";
-
+import parse from 'html-react-parser';
 import { useTranslation } from 'react-i18next';
 import { IoIosArrowRoundDown } from 'react-icons/io';
 import Meta from '../../views/Meta';
@@ -24,7 +23,7 @@ const CanyonDrift = () => {
       <div className="w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 font-primary relative text-secondary flex  justify-center bg-bg">
         <Nav />
         <img
-          src={'/games/canyondrift/banner.png'}
+          src={'/games/canyondrift/banner.jpg'}
           className="w-full h-full object-cover absolute top-0 left-0 object-top"
         />
         <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-b from-transparent via-transparent to-black/80 z-10"></div>
@@ -67,7 +66,9 @@ const CanyonDrift = () => {
             transition={{ type: 'spring', stiffness: 100 }}
             className="w-full md:space-y-7 space-y-4 flex justify-center flex-col max-w-md	"
           >
-            <h1 className="text-xl md:text-6xl text-primary font-bold  ">{t('games.canyon.title')}</h1>
+            <h1 className="text-xl md:text-6xl text-primary font-bold  max-w-[60rem]">
+              {parse(t('games.canyon.title'))}
+            </h1>
             <p className="text-black text-base md:text-xl">{t('games.canyon.desc')}</p>
           </motion.div>
 
@@ -86,7 +87,7 @@ const CanyonDrift = () => {
             <h1 className="text-xl md:text-6xl text-primary font-bold  ">{t('game_details')} :</h1>
 
             <div className="text-black text-base md:text-xl">
-              {(t('games.canyon.details', { returnObjects: true }) as string[]).map((items, i) => (
+              {(t('games.canyon.gameFeaturesDetail', { returnObjects: true }) as string[]).map((items, i) => (
                 <p className="" key={i}>
                   {items}
                 </p>

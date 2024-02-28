@@ -28,7 +28,7 @@ const GamesContent = () => {
         </div>
         <div
           className="h-[644px] flex flex-row justify-center align-middle items-center"
-          style={{ backgroundImage: 'url("/games/benefit_bg.png")', backgroundSize: 'cover' }}
+          style={{ backgroundImage: 'url("/games/benefit_bg.jpg")', backgroundSize: 'cover' }}
         >
           <div className="container mx-auto grid grid-cols-12 justify-center gap-24">
             <div className="col-span-5 flex flex-col justify-center">

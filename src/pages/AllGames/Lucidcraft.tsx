@@ -66,7 +66,7 @@ const Lucidcraft = () => {
             </div>
             <div className="grid md:grid-cols-2 grid-cols-1 gap-16">
               <div className="flex flex-col md:space-y-7 space-y-4">
-                <img src={'/games/lucidcraft/game_overview.png'} className="w-full object-cover" />
+                <img src={'/games/lucidcraft/game_overview.jpg'} className="w-full object-cover" />
                 <div className="text-base md:text-xl">
                   <h3 className="text-2xl font-bold mb-8">{t('overview')}</h3>
                   <p className="leading-6">{parse(t('games.lucid.prop_title'))}</p>
@@ -92,7 +92,7 @@ const Lucidcraft = () => {
               </div>
 
               <div className="flex flex-col md:space-y-7 space-y-4">
-                <img src={'/games/lucidcraft/game_detail.png'} className="w-full object-cover" />
+                <img src={'/games/lucidcraft/game_detail.jpg'} className="w-full object-cover" />
                 <h3 className="text-2xl font-bold mb-8">{t('games.lucid.highlight_points')}</h3>
                 <ul className=" text-base md:text-xl">
                   {(
