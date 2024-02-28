@@ -604,12 +604,6 @@
       "position": "Lead Web Developer"
     },
     {
-      "desc": ["Corporate & tech/IP law (20 yrs)", "Senior management Adviser", "Legal associations Member"],
-      "link": "https://www.linkedin.com/in/rolamadi/",
-      "name": "Rula Madi",
-      "position": "HEAD OF LEGAL"
-    },
-    {
       "desc": [
         "Game Developer (6 years)",
         "Smart Contracts Developer (1 year)",
@@ -619,6 +613,12 @@
       "link": "https://www.linkedin.com/in/malek-sharabi-016862118/",
       "name": "Malek Sharabi",
       "position": "Head of Developers"
+    },
+    {
+      "desc": ["Corporate & tech/IP law (20 yrs)", "Senior management Adviser", "Legal associations Member"],
+      "link": "https://www.linkedin.com/in/rolamadi/",
+      "name": "Rula Madi",
+      "position": "HEAD OF LEGAL"
     },
     {
       "desc": [
