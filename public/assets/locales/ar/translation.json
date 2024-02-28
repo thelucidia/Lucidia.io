@@ -135,9 +135,17 @@
     "audio_landscapte": "<span class=\"primary bold\">Audio Landscape</span> Let the dynamic soundtrack, featuring a mix of traditional Middle Eastern tunes and modern beats, set the pace for your adventures, with sound effects that ground you in the game's mystical and chaotic world.",
     "characters_progression": "Characters and Progression",
     "cooperative_mission": "<span class=\"primary bold\"'>Cooperative Missions</span> Band together with allies to undertake quests that dive deep into the heart of the plagues, with dynamic scenarios that adapt based on your team's decisions and achievements.",
+    "DesertGameOverview": "گیم کا جائزہ",
+    "DesertGameOverviewTitle": "Desert Warriors ایک جدید ترین فرسٹ پرسن شوٹر ہے جو ایک وسیع صحرائی منظر نامے میں سیٹ کیا گیا ہے، جہاں ٹیکٹیکل گیم پلے Web3 اور NFTs کی اختراع کو پورا کرتا ہے۔ بلاک چین ٹکنالوجی کے ذریعہ فعال کھلاڑی پر چلنے والی معیشت کو نیویگیٹ کرتے ہوئے، شدید اسٹریٹجک لڑائی اور ٹیم پر مبنی چیلنجوں میں مشغول ہوں۔",
+    "desertW": "ڈیزرٹ ویریڈرز",
+    "details": "رؤية التفاصيل",
+    "diaries": "يوميات المطور",
     "dubai_reimagined": "<span class=\"primary bold\">Dubai Reimagined:</span> Traverse the sands of time in a Dubai overtaken by mythological forces, where every landmark tells a story of ancient power and modern resilience.",
     "dynamic_env": "<span class=\"primary bold\">Dynamic Environments:</span> Navigate through a world that reacts to your actions, with shifting terrains and interactive elements that make each journey through Dubai unique.",
     "enemies_ai": "Enemies and AI",
+    "ExploreDesert": "صحرائی جنگجوؤں کو دریافت کریں۔",
+    "ExploreDesertTitle": "ڈیزرٹ واریئرز میں خوش آمدید، جہاں فرسٹ پرسن شوٹرز کا سنسنی Web3 اور NFTs کے اہم امکانات کو پورا کرتا ہے۔ وسیع اور متنوع صحرائی مناظر کے پس منظر میں قائم، یہ گیم آپ کو اسٹریٹجک لڑائی، ٹیم پر مبنی چیلنجز، اور ایک متحرک کھلاڑی سے چلنے والی معیشت کی دنیا میں مدعو کرتا ہے۔ یہاں، ہر فیصلہ، ہر لڑائی، اور ہر اتحاد آپ کی میراث کا وزن رکھتا ہے۔",
+    "for": "لمزيد من التفاصيل حول تقدمنا وسير العمل، تأكد من متابعتنا",
     "gameplay_mechanics": "Gameplay Mechanics",
     "guardian": "<span class=\"primary bold\">Guardian of Horus, Scion of Set:</span> Choose your path with characters inspired by mythology, each with unique abilities that cater to different playstyles and strategies.",
     "join_battle": "Join The Battle",
@@ -146,14 +154,6 @@
     "mythological": "<span class=\"primary bold\">Mythological Warfare:</span> Engage in combat against legendary beasts and deities from Middle Eastern lore, utilizing a mix of futuristic firepower and ancient magic.",
     "mythological_adversaries": "<span class=\"primary bold\">Mythological Adversaries:</span> From the serpents of Apophis to the legions of Anubis, face off against creatures drawn from the depths of Middle Eastern mythology, requiring more than mere firepower to overcome.",
     "narrative": "<span class=\"primary bold\">Narrative Depth:</span> Delve into a story that weaves the rich cultural tapestry of the Middle East with thrilling mythological tales, setting the stage for an epic saga of heroism and betrayal.",
-    "DesertGameOverview": "گیم کا جائزہ",
-    "DesertGameOverviewTitle": "Desert Warriors ایک جدید ترین فرسٹ پرسن شوٹر ہے جو ایک وسیع صحرائی منظر نامے میں سیٹ کیا گیا ہے، جہاں ٹیکٹیکل گیم پلے Web3 اور NFTs کی اختراع کو پورا کرتا ہے۔ بلاک چین ٹکنالوجی کے ذریعہ فعال کھلاڑی پر چلنے والی معیشت کو نیویگیٹ کرتے ہوئے، شدید اسٹریٹجک لڑائی اور ٹیم پر مبنی چیلنجوں میں مشغول ہوں۔",
-    "desertW": "ڈیزرٹ ویریڈرز",
-    "details": "رؤية التفاصيل",
-    "diaries": "يوميات المطور",
-    "ExploreDesert": "صحرائی جنگجوؤں کو دریافت کریں۔",
-    "ExploreDesertTitle": "ڈیزرٹ واریئرز میں خوش آمدید، جہاں فرسٹ پرسن شوٹرز کا سنسنی Web3 اور NFTs کے اہم امکانات کو پورا کرتا ہے۔ وسیع اور متنوع صحرائی مناظر کے پس منظر میں قائم، یہ گیم آپ کو اسٹریٹجک لڑائی، ٹیم پر مبنی چیلنجز، اور ایک متحرک کھلاڑی سے چلنے والی معیشت کی دنیا میں مدعو کرتا ہے۔ یہاں، ہر فیصلہ، ہر لڑائی، اور ہر اتحاد آپ کی میراث کا وزن رکھتا ہے۔",
-    "for": "لمزيد من التفاصيل حول تقدمنا وسير العمل، تأكد من متابعتنا",
     "stroy_narrative_desc": "In a world where the past and future collide, you play a crucial role inunraveling the mysteries behind the relic that has bridged the gap betweenrealms, setting ancient gods and monsters loose upon Dubai.",
     "technical_framework": "Technical Framework",
     "technical_framework_content": "Powered by Unreal Engine 5, 'Pharaoh's Plague' brings themyth-infused world of Dubai to life with stunning visuals, complex AIbehaviors, and seamless multiplayer experiences, all underpinned by Ethereumblockchain technology for a new era of digital ownership and in-game economies.",
@@ -189,11 +189,11 @@
   "for": "For more details about our progress and workflow be sure to follow",
   "free2play": "Free2Play عالم مفتوح",
   "frequent": "الأسئلة الشائعة",
-  "game_details": "تفاصيل اللعبة",
-  "game_inside": "اللعبة داخل العوالم الافتراضية",
   "game": "Trending Games",
   "game_details": "Game details",
+  "game_details": "تفاصيل اللعبة",
   "game_inside": "Game Inside Metaverse",
+  "game_inside": "اللعبة داخل العوالم الافتراضية",
   "games": {
     "battle": {
       "desc": "باتلفيوري هي لعبة تؤكد على الاستراتيجية والتعاون والردود السريعة. يمكنك اختيار أحد أربع شخصيات والانضمام إلى لاعبين آخرين في معركة الموت ، اللعب الحر ، ووضع الاستيلاء على العلم.",
@@ -258,16 +258,16 @@
       "fpsGame": "A new era of fps<br/> gaming",
       "fpsGameTitle": "Welcome to \"Desert Warriors,\" where the thrill of first-person shootersmeets the groundbreaking possibilities of Web3 and NFTs. Set against the backdrop of vast and diverse desert landscapes, this game invites you into a world of strategic combat, team-based challenges, and a vibrant player-driveneconomy. Here, every decision, every battle, and every alliance holds theweight of your legacy.",
       "points": [
-        "<span class=\"primary bold\">Strategic Gameplay:</span> Every match in \"Desert Warriors\" is a testament to strategy, requiring keen planning, flawless team coordination, and adept skill execution.",
-        "<span class=\"primary bold\">Web3 Integration:</span> Propel your gaming experience into the future with blockchain technology, enabling true ownership, trading, and customization of NFT-based in-game assets.",
-        "<span class=\"primary bold\">Diverse Environments:</span> From the silent whispers of ancient deserts to the cold echoes of advanced military bases, each map offers unique tactical challenges.",
-        "<span class=\"primary bold\">Community-Centric Development:</span> \"Desert Warriors\" evolves with you. Your feedback and engagement shape the future, with continuous updates and new content driven by the community."
-      ],
-      "points": [
         "Strategic Gameplay: Every match in \"Desert Warriors\" is a testament to strategy, requiring keen planning, flawless team coordination, and adept skill execution.",
         "Web3 Integration: Propel your gaming experience into the future with blockchain technology, enabling true ownership, trading, and customization of NFT-based in-game assets.",
         "Diverse Environments: From the silent whispers of ancient deserts to the cold echoes of advanced military bases, each map offers unique tactical challenges.",
         "Community-Centric Development: \"Desert Warriors\" evolves with you. Your feedback and engagement shape the future, with continuous updates and new content driven by the community."
+      ],
+      "points": [
+        "<span class=\"primary bold\">Strategic Gameplay:</span> Every match in \"Desert Warriors\" is a testament to strategy, requiring keen planning, flawless team coordination, and adept skill execution.",
+        "<span class=\"primary bold\">Web3 Integration:</span> Propel your gaming experience into the future with blockchain technology, enabling true ownership, trading, and customization of NFT-based in-game assets.",
+        "<span class=\"primary bold\">Diverse Environments:</span> From the silent whispers of ancient deserts to the cold echoes of advanced military bases, each map offers unique tactical challenges.",
+        "<span class=\"primary bold\">Community-Centric Development:</span> \"Desert Warriors\" evolves with you. Your feedback and engagement shape the future, with continuous updates and new content driven by the community."
       ],
       "points_title": "Unique Selling Points",
       "prop_audience": "<span class=\"primary bold\">Target Audience:</span> Competitive and casual gamers, Web3 enthusiasts",
@@ -378,7 +378,6 @@
     "category_survival": "Survival",
     "category_trendings": "Trendings",
     "desktop": "Desktop",
-    "mobile": "Mobile",
     "email": "E-mail",
     "feature": "Featured Games",
     "game_description": "Game description",
@@ -477,6 +476,7 @@
       ]
     ],
     "join_us": "Developers, Join Us!",
+    "mobile": "Mobile",
     "section1_description": "Cross-Platform Compatibility: A Game Changer Introduces the Cross-Platform Compatibility feature, explaining how it allows for a unified gaming experience across multiple titles within the Lucidia ecosystem through a single Lucidia account. This system is integrated with popular social media platforms for ease of access, ensuring a seamless login process for users.",
     "section1_title": "Expand Your Game's Reach",
     "section2_description": [
@@ -511,11 +511,11 @@
   "how_to_buy": "كيفية شراء $LUCID",
   "in_game": "أصول داخل اللعبة",
   "join": "انضم إلى المجتمع",
-  "join_community": "انضم إلى مجتمع Lucidians بأكثر من 100 ألف عضو",
-  "jurisdiction": "قد لا تنظم اختصاصك القانوني العملات المشفرة. قيمة العملات المشفرة قد ترتفع وتنخفض. قد تخضع الأرباح لضرائب الربح الرأسمالي أو ضرائب محلية أخرى.",
   "join3": "Lucidians",
   "join_community": "Join community of 20k+ Lucidians",
+  "join_community": "انضم إلى مجتمع Lucidians بأكثر من 100 ألف عضو",
   "jurisdiction": "Your Jurisdiction May Not Regulate Cryptocurrencies. The Value Of Cryptocurrencies May Rise And Fall. Profits May Be Subject To Capital Gains Taxes Or Other Local Taxes.",
+  "jurisdiction": "قد لا تنظم اختصاصك القانوني العملات المشفرة. قيمة العملات المشفرة قد ترتفع وتنخفض. قد تخضع الأرباح لضرائب الربح الرأسمالي أو ضرائب محلية أخرى.",
   "latest_news": "Latest News",
   "login": {
     "enter_lucidia": "نظر الملف ",
@@ -728,9 +728,9 @@
       "title": "رؤيتنا - تشكيل مستقبل الألعاب باستخدام Web3 | Lucidia"
     }
   },
-  "more_games": "رؤية المزيد من الألعاب",
   "mission_statement": "To redefine the gaming landscape in the Middle East by harnessing the power of Web3 technologies, creating unparalleled experiences for developers and players alike.",
   "more_games": "See more games",
+  "more_games": "رؤية المزيد من الألعاب",
   "nav": {
     "audit": "التدقيق",
     "career": "السير المهنية",
@@ -1126,10 +1126,10 @@
   "to_be": "ستتم فتحها بواسطة المستخدمين",
   "token_allocation": "تخصيص الرموز",
   "token_sale": "شروط وأحكام بيع الرموز",
-  "zombie": "تفشي الزومبي",
   "vision": "Vision for",
   "vision_content": "Empowering a new era of gaming where community, creativity, and blockchain-driven economies converge to define the future of digital entertainment,  bringing unique, engaging experiences to the Middle Eastern community and beyond.",
   "vision_for": "Vision for",
   "zombie": "Curse of the Pharaoh",
+  "zombie": "تفشي الزومبي",
   "zombie_desc1": "is coming soon. Denend yourself "
 }
