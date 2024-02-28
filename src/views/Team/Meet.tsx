@@ -27,7 +27,8 @@ const Meet = () => {
                   <img src={`/members/profile_${i + 1}.png`} className="w-full h-full" />
                 </div>
               </div>
-              <div className="p-[20px_15px] relative">
+              {/* <div className="p-[20px_15px] relative"> */}
+              <div className="px-[10px] py-[15px] relative">
                 <h2 className="text-xl font-bold leading-5 mb-2">{items.name}</h2>
                 <h3 className="text-xl text-primary font-bold uppercase leading-5">{items.position}</h3>
                 <a
