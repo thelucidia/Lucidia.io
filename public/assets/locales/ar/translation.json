@@ -190,9 +190,7 @@
   "free2play": "Free2Play عالم مفتوح",
   "frequent": "الأسئلة الشائعة",
   "game": "Trending Games",
-  "game_details": "Game details",
   "game_details": "تفاصيل اللعبة",
-  "game_inside": "Game Inside Metaverse",
   "game_inside": "اللعبة داخل العوالم الافتراضية",
   "games": {
     "battle": {
@@ -257,12 +255,6 @@
       ],
       "fpsGame": "A new era of fps<br/> gaming",
       "fpsGameTitle": "Welcome to \"Desert Warriors,\" where the thrill of first-person shootersmeets the groundbreaking possibilities of Web3 and NFTs. Set against the backdrop of vast and diverse desert landscapes, this game invites you into a world of strategic combat, team-based challenges, and a vibrant player-driveneconomy. Here, every decision, every battle, and every alliance holds theweight of your legacy.",
-      "points": [
-        "Strategic Gameplay: Every match in \"Desert Warriors\" is a testament to strategy, requiring keen planning, flawless team coordination, and adept skill execution.",
-        "Web3 Integration: Propel your gaming experience into the future with blockchain technology, enabling true ownership, trading, and customization of NFT-based in-game assets.",
-        "Diverse Environments: From the silent whispers of ancient deserts to the cold echoes of advanced military bases, each map offers unique tactical challenges.",
-        "Community-Centric Development: \"Desert Warriors\" evolves with you. Your feedback and engagement shape the future, with continuous updates and new content driven by the community."
-      ],
       "points": [
         "<span class=\"primary bold\">Strategic Gameplay:</span> Every match in \"Desert Warriors\" is a testament to strategy, requiring keen planning, flawless team coordination, and adept skill execution.",
         "<span class=\"primary bold\">Web3 Integration:</span> Propel your gaming experience into the future with blockchain technology, enabling true ownership, trading, and customization of NFT-based in-game assets.",
@@ -512,9 +504,7 @@
   "in_game": "أصول داخل اللعبة",
   "join": "انضم إلى المجتمع",
   "join3": "Lucidians",
-  "join_community": "Join community of 20k+ Lucidians",
   "join_community": "انضم إلى مجتمع Lucidians بأكثر من 100 ألف عضو",
-  "jurisdiction": "Your Jurisdiction May Not Regulate Cryptocurrencies. The Value Of Cryptocurrencies May Rise And Fall. Profits May Be Subject To Capital Gains Taxes Or Other Local Taxes.",
   "jurisdiction": "قد لا تنظم اختصاصك القانوني العملات المشفرة. قيمة العملات المشفرة قد ترتفع وتنخفض. قد تخضع الأرباح لضرائب الربح الرأسمالي أو ضرائب محلية أخرى.",
   "latest_news": "Latest News",
   "login": {
@@ -729,7 +719,6 @@
     }
   },
   "mission_statement": "To redefine the gaming landscape in the Middle East by harnessing the power of Web3 technologies, creating unparalleled experiences for developers and players alike.",
-  "more_games": "See more games",
   "more_games": "رؤية المزيد من الألعاب",
   "nav": {
     "audit": "التدقيق",
@@ -1129,7 +1118,6 @@
   "vision": "Vision for",
   "vision_content": "Empowering a new era of gaming where community, creativity, and blockchain-driven economies converge to define the future of digital entertainment,  bringing unique, engaging experiences to the Middle Eastern community and beyond.",
   "vision_for": "Vision for",
-  "zombie": "Curse of the Pharaoh",
   "zombie": "تفشي الزومبي",
   "zombie_desc1": "is coming soon. Denend yourself "
 }
