@@ -22,7 +22,7 @@ const LangDropdown = ({ setActive, active }: { setActive: (value: boolean) => vo
 
   return (
     <button
-      className={cn('text-secondary font-primary items-center gap-1 text-xl md:flex hidden', {
+      className={cn('text-secondary font-primary items-center gap-1 text-xl xl:flex hidden', {
         'pointer-events-none': active,
       })}
       onClick={() => setActive(true)}
