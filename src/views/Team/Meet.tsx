@@ -27,21 +27,23 @@ const Meet = () => {
             >
               <div className="flex flex-1">
                 <div className="flex flex-1">
-                  <div className={`overflow-hidden w-full h-full flex items-center justify-center`}>
-                    <img
-                      src={`/members/profile_${i + 1}.png`}
-                      className="w-full h-full border-primary border-2 rounded-bl-2xl rounded-tr-2xl "
-                    />
-                  </div>
+                  <div
+                    className={`overflow-hidden border-primary border-2 rounded-bl-2xl rounded-tr-2xl w-full h-full flex items-center justify-center`}
+                    style={{
+                      backgroundImage: `url('/members/profile_${i + 1}.png')`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center center',
+                    }}
+                  ></div>
                 </div>
-                <div className="flex flex-1 p-[20px_15px] flex items-center justify-center flex-col">
-                  <h2 className="text-xl font-bold leading-5 mb-2 text-center">{items.name}</h2>
-                  <h3 className="text-xl text-primary font-bold uppercase leading-5 text-center">{items.position}</h3>
+                <div className="relative flex flex-1 p-[20px_15px] flex flex-col">
+                  <h2 className="text-xl font-bold leading-5 mb-2">{items.name}</h2>
+                  <h3 className="text-xl text-primary font-bold uppercase leading-5">{items.position}</h3>
                   <a
                     href={items.link}
                     target="_blank"
                     rel="noreferrer"
-                    className="w-[20px] h-[20px] rounded-full bg-white text-black text-xs flex flex-col aligns-center justify-center items-center mt-[10px]"
+                    className="w-[20px] h-[20px] rounded-full bg-white text-black text-xs flex flex-col aligns-center justify-center items-center absolute md:bottom-4 bottom-0"
                   >
                     <FaLinkedinIn />
                   </a>
@@ -49,7 +51,7 @@ const Meet = () => {
               </div>
 
               <div className="flex flex-1 p-[20px_15px]">
-                <ul className="list-disc text-sm border-l-2 border-l-white pl-10 h-full flex justify-center flex-col">
+                <ul className="list-disc text-sm border-l-2 border-l-white pl-10 h-full flex-col">
                   {items.desc.map((desc, i) => (
                     <li className="leading-5" key={i}>
                       {desc}
