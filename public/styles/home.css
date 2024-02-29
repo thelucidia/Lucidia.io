@@ -238,3 +238,8 @@
 .home .success-in-action > ul .character {
   position: absolute;
 }
+
+.home .community.section .community-item {
+  min-width: 350px;
+  margin-bottom: 20px;
+}
