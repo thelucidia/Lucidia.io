@@ -36,7 +36,7 @@ const Meet = () => {
                     }}
                   ></div>
                 </div>
-                <div className="relative flex flex-1 p-[20px_15px] flex flex-col">
+                <div className="relative flex flex-1 p-[20px_15px] flex-col">
                   <h2 className="text-xl font-bold leading-5 mb-2">{items.name}</h2>
                   <h3 className="text-xl text-primary font-bold uppercase leading-5">{items.position}</h3>
                   <a
