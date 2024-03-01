@@ -27,12 +27,18 @@ const Meet = () => {
             >
               <div>
                 <div
-                  className={`border-primary border-2 rounded-bl-2xl rounded-tr-2xl md:w-full sm:w-[150px] w-[150px] h-full overflow-hidden`}
+                  className={`border-primary border-2 rounded-bl-2xl rounded-tr-2xl md:w-full lg:bg-cover bg-contain sm:w-[150px] w-[150px] md:h-full sm:h-[150px] h-[150px] overflow-hidden`}
+                  style={{
+                    backgroundImage: `url('/members/profile_${i + 1}.png')`,
+                    backgroundRepeat: 'no-repeat',
+                    backgroundColor: 'white',
+                    backgroundPosition: 'center center',
+                  }}
                 >
-                  <img
+                  {/* <img
                     src={`/members/profile_${i + 1}.png`}
                     className="md:w-full md:h-full sm:w-[150px] sm:h-[150px]"
-                  />
+                  /> */}
                 </div>
               </div>
               {/* <div className="p-[20px_15px] relative"> */}
