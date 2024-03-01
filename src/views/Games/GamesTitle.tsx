@@ -18,92 +18,92 @@ const GamesTitle = () => {
     [
       {
         title: 'Curse of the Pharaos',
-        image: 'curse_of_the_pharaoh.png',
+        image: 'curse_of_the_pharaoh.jpg',
         path: '/CurseOfThe',
       },
       {
         title: 'Cryptocraft',
-        image: 'cryptocraft.png',
+        image: 'cryptocraft.jpg',
         path: '/games/lucidcraft',
       },
       {
         title: 'Desert Warriors',
-        image: 'desert_warriors.png',
+        image: 'desert_warriors.jpg',
         path: '/DesertWarior',
       },
       {
         title: 'Sandstorm Racers',
-        image: 'sandstorm_racers.png',
+        image: 'sandstorm_racers.jpg',
         path: '/CanyonDriftPage',
       },
     ],
     [
       {
         title: 'Desert Warriors',
-        image: 'desert_warriors.png',
+        image: 'desert_warriors.jpg',
         path: '/DesertWarior',
       },
       {
         title: 'Curse of the Pharaos',
-        image: 'curse_of_the_pharaoh.png',
+        image: 'curse_of_the_pharaoh.jpg',
         path: '/CurseOfThe',
       },
       {
         title: 'Sandstorm Racers',
-        image: 'sandstorm_racers.png',
+        image: 'sandstorm_racers.jpg',
         path: '/CanyonDriftPage',
       },
       {
         title: 'Cryptocraft',
-        image: 'cryptocraft.png',
+        image: 'cryptocraft.jpg',
         path: '/games/lucidcraft',
       },
     ],
     [
       {
         title: 'Sandstorm Racers',
-        image: 'sandstorm_racers.png',
+        image: 'sandstorm_racers.jpg',
         path: '/CanyonDriftPage',
       },
       {
         title: 'Desert Warriors',
-        image: 'desert_warriors.png',
+        image: 'desert_warriors.jpg',
         path: '/DesertWarior',
       },
       {
         title: 'Curse of the Pharaos',
-        image: 'curse_of_the_pharaoh.png',
+        image: 'curse_of_the_pharaoh.jpg',
         path: '/CurseOfThe',
       },
       {
         title: 'Cryptocraft',
-        image: 'cryptocraft.png',
+        image: 'cryptocraft.jpg',
         path: '/games/lucidcraft',
       },
     ],
     [
       {
         title: 'Curse of the Pharaos',
-        image: 'curse_of_the_pharaoh.png',
+        image: 'curse_of_the_pharaoh.jpg',
         path: '/CurseOfThe',
       },
       {
         title: 'Cryptocraft',
-        image: 'cryptocraft.png',
+        image: 'cryptocraft.jpg',
         path: '/games/lucidcraft',
       },
     ],
     [
       {
         title: 'Desert Warriors',
-        image: 'desert_warriors.png',
+        image: 'desert_warriors.jpg',
         path: '/DesertWarior',
       },
     ],
     [
       {
         title: 'Sandstorm Racers',
-        image: 'sandstorm_racers.png',
+        image: 'sandstorm_racers.jpg',
         path: '/CanyonDriftPage',
       },
     ],

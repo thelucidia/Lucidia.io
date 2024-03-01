@@ -233,7 +233,7 @@ const Nav = () => {
                   onClick={() => {
                     navigate(`/${items.slug}`);
                   }}
-                  className={`border-t-[1px] border-white/10 py-5 ${items.name === 'faq' ? 'border-b-[1px]' : ''} `}
+                  className={`cursor-pointer border-t-[1px] border-white/10 py-5 ${items.name === 'faq' ? 'border-b-[1px]' : ''} `}
                 >
                   {items.name}
                 </motion.li>
@@ -408,15 +408,14 @@ const Nav = () => {
               {t('nav.meet')}
             </a>
 
-            <button className="md:hidden flex" onClick={handleNav}>
-              <RiMenu3Fill className="text-secondary text-3xl" />
-            </button>
-
             <LangDropdown setActive={langSet} active={langActive} />
 
+            <button className="xl:hidden flex" onClick={handleNav}>
+              <RiMenu3Fill className="text-secondary text-3xl" />
+            </button>
             <button
               onClick={handleNavDesktop}
-              className={cn('md:block hidden', {
+              className={cn('xl:block hidden', {
                 'pointer-events-none': navDesktopActive,
               })}
               id="nav-desktop"
@@ -429,7 +428,7 @@ const Nav = () => {
 
       <div className="fixed container mx-auto w-full top-0 xl:top-7 z-20 left-0 right-0">
         <div
-          className={`w-[8rem] overflow-hidden md:block hidden backdrop-blur-md clipped bg-bl absolute z-20 top-16 transition-height ease-in-out duration-300 right-12 ${
+          className={`w-[8rem] overflow-hidden xl:block hidden backdrop-blur-md clipped bg-bl absolute z-20 top-16 transition-height ease-in-out duration-300 right-12 ${
             langActive ? 'max-h-52' : 'max-h-0'
           }`}
         >

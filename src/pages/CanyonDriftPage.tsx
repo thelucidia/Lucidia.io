@@ -23,7 +23,7 @@ const CanyonDriftPage = () => {
       <div className="w-full min-h-[40vh] md:min-h-[48vh] lg:min-h-[48vh] xl:min-h-screen px-8 sm:px-auto p-5 font-primary relative text-secondary flex  justify-center bg-bg">
         <Nav />
         <img
-          src={'/games/canyondrift/banner.png'}
+          src={'/games/canyondrift/banner.jpg'}
           className="w-full h-full object-cover absolute top-0 left-0 object-top"
         />
 
@@ -70,7 +70,7 @@ const CanyonDriftPage = () => {
             <p className="text-black text-xl mt-9">{t('games.canyon.desc')}</p>
           </motion.div>
           <div className="col-span-7 relative">
-            <img className="w-full h-auto" src={'/games/canyondrift/ExperienceCar.png'} />
+            <img className="w-full h-auto" src={'/games/canyondrift/ExperienceCar.jpg'} />
           </div>
         </div>
       </div>
@@ -96,7 +96,7 @@ const CanyonDriftPage = () => {
             </div>
           </motion.div>
           <div className="col-span-7 relative lg:order-first">
-            <img className="w-full h-auto" src={'/games/canyondrift/ExperienceCar.png'} />
+            <img className="w-full h-auto" src={'/games/canyondrift/ExperienceCar.jpg'} />
           </div>
         </div>
       </div>

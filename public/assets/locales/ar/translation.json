@@ -72,7 +72,7 @@
     "our_journey": "Be Part Of Our Journey",
     "raphael": "Andrii Seliuk",
     "raphael_content": "As the Lead of web developers, steering the ship of innovation, I've found unparalleled support working with Lucidia. Their commitment to excellence in both front-end and back-end development has allowed us to break through barriers and reach new heights. The synergy between our visions and their technical prowess is nothing short of extraordinary. Together, we're crafting the future of digital landscapes.",
-    "raphael_role": "Lead of web developers",
+    "raphael_role": "Lead Web Developer",
     "roles": [
       {
         "content": "The Community Manager at Lucidia will engage and nurture the community on platforms like Discord and Telegram, developing strategies to foster a supportive and active user base. They will be responsible for content creation, maintaining positive interactions, and organizing community events.",
@@ -129,15 +129,23 @@
   },
   "curse_game": {
     "adaptive_ai": "<span class=\"primary bold\">Adaptive AI:</span> Battle against foes that learn and evolve, ensuring that no two encounters are the same and every victory is hard-earned.",
-    "advanced_movement": "<span class=\"primary bold\"'>Advanced Movement:</span> Master the art of urban navigation with parkour mechanics, allowing for fluid movement across Dubai's transformed skyline.",
+    "advanced_movement": "<span class=\"primary bold\">Advanced Movement:</span> Master the art of urban navigation with parkour mechanics, allowing for fluid movement across Dubai's transformed skyline.",
     "art_design": "Art and Sound Design",
     "artifact": "<span class=\"primary bold\">Artifact Collection:</span> Discover and wield powerful artifacts, upgrading them through challenges to unlock their full potential and carve your legacy in the sands.",
     "audio_landscapte": "<span class=\"primary bold\">Audio Landscape</span> Let the dynamic soundtrack, featuring a mix of traditional Middle Eastern tunes and modern beats, set the pace for your adventures, with sound effects that ground you in the game's mystical and chaotic world.",
     "characters_progression": "Characters and Progression",
-    "cooperative_mission": "<span class=\"primary bold\"'>Cooperative Missions</span> Band together with allies to undertake quests that dive deep into the heart of the plagues, with dynamic scenarios that adapt based on your team's decisions and achievements.",
+    "cooperative_mission": "<span class=\"primary bold\">Cooperative Missions</span> Band together with allies to undertake quests that dive deep into the heart of the plagues, with dynamic scenarios that adapt based on your team's decisions and achievements.",
+    "DesertGameOverview": "گیم کا جائزہ",
+    "DesertGameOverviewTitle": "Desert Warriors ایک جدید ترین فرسٹ پرسن شوٹر ہے جو ایک وسیع صحرائی منظر نامے میں سیٹ کیا گیا ہے، جہاں ٹیکٹیکل گیم پلے Web3 اور NFTs کی اختراع کو پورا کرتا ہے۔ بلاک چین ٹکنالوجی کے ذریعہ فعال کھلاڑی پر چلنے والی معیشت کو نیویگیٹ کرتے ہوئے، شدید اسٹریٹجک لڑائی اور ٹیم پر مبنی چیلنجوں میں مشغول ہوں۔",
+    "desertW": "ڈیزرٹ ویریڈرز",
+    "details": "رؤية التفاصيل",
+    "diaries": "يوميات المطور",
     "dubai_reimagined": "<span class=\"primary bold\">Dubai Reimagined:</span> Traverse the sands of time in a Dubai overtaken by mythological forces, where every landmark tells a story of ancient power and modern resilience.",
     "dynamic_env": "<span class=\"primary bold\">Dynamic Environments:</span> Navigate through a world that reacts to your actions, with shifting terrains and interactive elements that make each journey through Dubai unique.",
     "enemies_ai": "Enemies and AI",
+    "ExploreDesert": "صحرائی جنگجوؤں کو دریافت کریں۔",
+    "ExploreDesertTitle": "ڈیزرٹ واریئرز میں خوش آمدید، جہاں فرسٹ پرسن شوٹرز کا سنسنی Web3 اور NFTs کے اہم امکانات کو پورا کرتا ہے۔ وسیع اور متنوع صحرائی مناظر کے پس منظر میں قائم، یہ گیم آپ کو اسٹریٹجک لڑائی، ٹیم پر مبنی چیلنجز، اور ایک متحرک کھلاڑی سے چلنے والی معیشت کی دنیا میں مدعو کرتا ہے۔ یہاں، ہر فیصلہ، ہر لڑائی، اور ہر اتحاد آپ کی میراث کا وزن رکھتا ہے۔",
+    "for": "لمزيد من التفاصيل حول تقدمنا وسير العمل، تأكد من متابعتنا",
     "gameplay_mechanics": "Gameplay Mechanics",
     "guardian": "<span class=\"primary bold\">Guardian of Horus, Scion of Set:</span> Choose your path with characters inspired by mythology, each with unique abilities that cater to different playstyles and strategies.",
     "join_battle": "Join The Battle",
@@ -146,14 +154,14 @@
     "mythological": "<span class=\"primary bold\">Mythological Warfare:</span> Engage in combat against legendary beasts and deities from Middle Eastern lore, utilizing a mix of futuristic firepower and ancient magic.",
     "mythological_adversaries": "<span class=\"primary bold\">Mythological Adversaries:</span> From the serpents of Apophis to the legions of Anubis, face off against creatures drawn from the depths of Middle Eastern mythology, requiring more than mere firepower to overcome.",
     "narrative": "<span class=\"primary bold\">Narrative Depth:</span> Delve into a story that weaves the rich cultural tapestry of the Middle East with thrilling mythological tales, setting the stage for an epic saga of heroism and betrayal.",
-    "DesertGameOverview": "گیم کا جائزہ",
-    "DesertGameOverviewTitle": "Desert Warriors ایک جدید ترین فرسٹ پرسن شوٹر ہے جو ایک وسیع صحرائی منظر نامے میں سیٹ کیا گیا ہے، جہاں ٹیکٹیکل گیم پلے Web3 اور NFTs کی اختراع کو پورا کرتا ہے۔ بلاک چین ٹکنالوجی کے ذریعہ فعال کھلاڑی پر چلنے والی معیشت کو نیویگیٹ کرتے ہوئے، شدید اسٹریٹجک لڑائی اور ٹیم پر مبنی چیلنجوں میں مشغول ہوں۔",
-    "desertW": "ڈیزرٹ ویریڈرز",
-    "details": "رؤية التفاصيل",
-    "diaries": "يوميات المطور",
-    "ExploreDesert": "صحرائی جنگجوؤں کو دریافت کریں۔",
-    "ExploreDesertTitle": "ڈیزرٹ واریئرز میں خوش آمدید، جہاں فرسٹ پرسن شوٹرز کا سنسنی Web3 اور NFTs کے اہم امکانات کو پورا کرتا ہے۔ وسیع اور متنوع صحرائی مناظر کے پس منظر میں قائم، یہ گیم آپ کو اسٹریٹجک لڑائی، ٹیم پر مبنی چیلنجز، اور ایک متحرک کھلاڑی سے چلنے والی معیشت کی دنیا میں مدعو کرتا ہے۔ یہاں، ہر فیصلہ، ہر لڑائی، اور ہر اتحاد آپ کی میراث کا وزن رکھتا ہے۔",
-    "for": "لمزيد من التفاصيل حول تقدمنا وسير العمل، تأكد من متابعتنا",
+    "overview": "Game Overview",
+    "points_title": "Unique Selling Points",
+    "prop_genre": "<span class=\"primary bold\">Genre:</span> Hybrid FPS with Co-op PvP, and PvE Elements",
+    "prop_setting": "<span class=\"primary bold\">Setting:</span> A post-apocalyptic Dubai, where ancient Middle Eastern mythshave taken root in the modern world.<br>Embark on a quest through a cityscape that marries the iconic skyline ofDubai with the haunting beauty of mythological chaos, where every corner turnedis a step deeper into a narrative that spans ages.",
+    "prop_title": "<span class=\"primary bold\">Title:</span> Curse Of The Pharaoh",
+    "reimagined_dubai": "<span class=\"primary bold\">spanReimagined Dubai:</span> Explore a city transformed by mythological plagues, where the familiar meets the fantastical, offering endless opportunities for exploration and combat.",
+    "strategic_combat": "<span class=\"primary bold\">Strategic Combat:</span> Balance your arsenal of high-tech weapons with enchanted artifacts, each offering unique advantages against the mythological menaces you'll face.",
+    "stroy_narrative": "Stroy and Narrative",
     "stroy_narrative_desc": "In a world where the past and future collide, you play a crucial role inunraveling the mysteries behind the relic that has bridged the gap betweenrealms, setting ancient gods and monsters loose upon Dubai.",
     "technical_framework": "Technical Framework",
     "technical_framework_content": "Powered by Unreal Engine 5, 'Pharaoh's Plague' brings themyth-infused world of Dubai to life with stunning visuals, complex AIbehaviors, and seamless multiplayer experiences, all underpinned by Ethereumblockchain technology for a new era of digital ownership and in-game economies.",
@@ -183,17 +191,21 @@
   "details": "See details",
   "diaries": "Developer Diaries",
   "discord_name": "Discord Username(opt)",
+  "discount_price1": "USD $5,800",
+  "discount_price2": "USD $8,680",
+  "discount_price3": "USD $9,500",
+  "discount_price4": "USD $16,500",
   "email": "E-mail",
   "explore_now": "Explore Now",
   "featured_products": "Featured Products & Services",
   "for": "For more details about our progress and workflow be sure to follow",
   "free2play": "Free2Play عالم مفتوح",
   "frequent": "الأسئلة الشائعة",
+  "full_name": "Full Name",
+  "future": "The Future",
+  "game": "Trending Games",
   "game_details": "تفاصيل اللعبة",
   "game_inside": "اللعبة داخل العوالم الافتراضية",
-  "game": "Trending Games",
-  "game_details": "Game details",
-  "game_inside": "Game Inside Metaverse",
   "games": {
     "battle": {
       "desc": "باتلفيوري هي لعبة تؤكد على الاستراتيجية والتعاون والردود السريعة. يمكنك اختيار أحد أربع شخصيات والانضمام إلى لاعبين آخرين في معركة الموت ، اللعب الحر ، ووضع الاستيلاء على العلم.",
@@ -262,12 +274,6 @@
         "<span class=\"primary bold\">Web3 Integration:</span> Propel your gaming experience into the future with blockchain technology, enabling true ownership, trading, and customization of NFT-based in-game assets.",
         "<span class=\"primary bold\">Diverse Environments:</span> From the silent whispers of ancient deserts to the cold echoes of advanced military bases, each map offers unique tactical challenges.",
         "<span class=\"primary bold\">Community-Centric Development:</span> \"Desert Warriors\" evolves with you. Your feedback and engagement shape the future, with continuous updates and new content driven by the community."
-      ],
-      "points": [
-        "Strategic Gameplay: Every match in \"Desert Warriors\" is a testament to strategy, requiring keen planning, flawless team coordination, and adept skill execution.",
-        "Web3 Integration: Propel your gaming experience into the future with blockchain technology, enabling true ownership, trading, and customization of NFT-based in-game assets.",
-        "Diverse Environments: From the silent whispers of ancient deserts to the cold echoes of advanced military bases, each map offers unique tactical challenges.",
-        "Community-Centric Development: \"Desert Warriors\" evolves with you. Your feedback and engagement shape the future, with continuous updates and new content driven by the community."
       ],
       "points_title": "Unique Selling Points",
       "prop_audience": "<span class=\"primary bold\">Target Audience:</span> Competitive and casual gamers, Web3 enthusiasts",
@@ -378,7 +384,6 @@
     "category_survival": "Survival",
     "category_trendings": "Trendings",
     "desktop": "Desktop",
-    "mobile": "Mobile",
     "email": "E-mail",
     "feature": "Featured Games",
     "game_description": "Game description",
@@ -477,6 +482,7 @@
       ]
     ],
     "join_us": "Developers, Join Us!",
+    "mobile": "Mobile",
     "section1_description": "Cross-Platform Compatibility: A Game Changer Introduces the Cross-Platform Compatibility feature, explaining how it allows for a unified gaming experience across multiple titles within the Lucidia ecosystem through a single Lucidia account. This system is integrated with popular social media platforms for ease of access, ensuring a seamless login process for users.",
     "section1_title": "Expand Your Game's Reach",
     "section2_description": [
@@ -511,11 +517,11 @@
   "how_to_buy": "كيفية شراء $LUCID",
   "in_game": "أصول داخل اللعبة",
   "join": "انضم إلى المجتمع",
+  "join1": "Join community of",
+  "join2": "20k+",
+  "join3": "Lucidians",
   "join_community": "انضم إلى مجتمع Lucidians بأكثر من 100 ألف عضو",
   "jurisdiction": "قد لا تنظم اختصاصك القانوني العملات المشفرة. قيمة العملات المشفرة قد ترتفع وتنخفض. قد تخضع الأرباح لضرائب الربح الرأسمالي أو ضرائب محلية أخرى.",
-  "join3": "Lucidians",
-  "join_community": "Join community of 20k+ Lucidians",
-  "jurisdiction": "Your Jurisdiction May Not Regulate Cryptocurrencies. The Value Of Cryptocurrencies May Rise And Fall. Profits May Be Subject To Capital Gains Taxes Or Other Local Taxes.",
   "latest_news": "Latest News",
   "login": {
     "enter_lucidia": "نظر الملف ",
@@ -538,7 +544,7 @@
       ],
       "link": "https://www.linkedin.com/in/adel-khatib-b2b136180/",
       "name": "Adel Khatib",
-      "position": "CEO-COO"
+      "position": "COO"
     },
     {
       "desc": [
@@ -595,13 +601,7 @@
       ],
       "link": "https://www.linkedin.com/in/andrii-seliuk-ab6213284/",
       "name": "Andrii Seliuk",
-      "position": "Lead of web developers"
-    },
-    {
-      "desc": ["Corporate & tech/IP law (20 yrs)", "Senior management Adviser", "Legal associations Member"],
-      "link": "https://www.linkedin.com/in/rolamadi/",
-      "name": "Rula Madi",
-      "position": "HEAD OF LEGAL"
+      "position": "Lead Web Developer"
     },
     {
       "desc": [
@@ -615,6 +615,12 @@
       "position": "Head of Developers"
     },
     {
+      "desc": ["Corporate & tech/IP law (20 yrs)", "Senior management Adviser", "Legal associations Member"],
+      "link": "https://www.linkedin.com/in/rolamadi/",
+      "name": "Rula Madi",
+      "position": "HEAD OF LEGAL"
+    },
+    {
       "desc": [
         "Community Management (3 years)",
         "Client Relations (5 years)",
@@ -622,7 +628,7 @@
         "E-Sports Project Manager (10+ years)"
       ],
       "link": "https://www.linkedin.com/in/aryanratulangie/",
-      "name": "Aryan Ratulangie",
+      "name": "Aryan Ratu Langie",
       "position": "Community Manager"
     },
     {
@@ -636,6 +642,35 @@
       "link": "https://www.linkedin.com/in/chacaliyaa/",
       "name": "Sania Aliya",
       "position": "UI/UX Designer"
+    },
+    {
+      "desc": ["Front-end Developer (5 years)", "Back-end Developer (4 years)"],
+      "link": "https://www.linkedin.com/in/miroslav-pesic-b255a92a9/",
+      "name": "Miroslav Pesic",
+      "position": "Full Stack Developer"
+    },
+    {
+      "desc": ["Graphic Designer (3 years)", "Web Designer (1 years)"],
+      "link": "https://www.linkedin.com/in/ola-h-bb5a7b218?trk=contact-info",
+      "name": "Ola Hladka",
+      "position": "Graphic Designer"
+    },
+    {
+      "desc": ["Sales & Marketing (5 years)", "Client Advisory (3 years)"],
+      "link": "https://www.linkedin.com/in/evdokia-bobrova/",
+      "name": "Evdokia Bobrova",
+      "position": "Social Media Manager"
+    },
+    {
+      "desc": [
+        "UI/UX Designer (5 years)",
+        "UX Research (3 years)",
+        "Marketing and Design (2 years)",
+        "Motion Graphics Designer (2 years)"
+      ],
+      "link": "https://www.linkedin.com/in/sara-g-44a723b6/",
+      "name": "Sara Gómez",
+      "position": "Lead UI/UX Designer"
     }
   ],
   "meta": {
@@ -728,9 +763,8 @@
       "title": "رؤيتنا - تشكيل مستقبل الألعاب باستخدام Web3 | Lucidia"
     }
   },
-  "more_games": "رؤية المزيد من الألعاب",
   "mission_statement": "To redefine the gaming landscape in the Middle East by harnessing the power of Web3 technologies, creating unparalleled experiences for developers and players alike.",
-  "more_games": "See more games",
+  "more_games": "رؤية المزيد من الألعاب",
   "nav": {
     "audit": "التدقيق",
     "career": "السير المهنية",
@@ -744,34 +778,10 @@
     "roadmap": "خريطة الطريق",
     "team": "فريقنا"
   },
-  "news_content1": [
-    "In an exciting development for the gaming and cryptocurrency sectors, Lucidia is set to unveil a groundbreaking ecosystem that seamlessly integrates the thrill of gaming with the innovative world of crypto. This new platform promises to offer users an unparalleled experience, combining the engaging elements of video games with the financial and technological advancements of blockchain technology. As a pioneer in this hybrid space, Lucidia aims to create a unique environment where gamers and crypto enthusiasts alike can explore, invest, and enjoy a rich tapestry of interactive content and financial opportunities.",
-    "\"The Lucidia ecosystem is designed to be both expansive and inclusive, catering to a wide range of interests and expertise levels,\" said Lucidia's CPO, Oskar Krzak.",
-    "From hardcore gamers seeking immersive experiences to casual players and crypto traders looking for new investment avenues, the platform is geared towards creating a vibrant community. Key features include blockchain-based games that reward players in cryptocurrency, NFTs that offer in-game advantages and collectability, and a secure marketplace for trading game assets. By leveraging the power of blockchain technology, Lucidia ensures transparency, security, and fairness across all transactions and interactions within its ecosystem.",
-    "Central to Lucidia's innovative approach is its commitment to user engagement and satisfaction. The platform plans to roll out various initiatives to foster a strong community, including tournaments, leaderboards, and social features that encourage interaction among users. Additionally, Lucidia is dedicated to providing educational resources to help users navigate the complexities of blockchain and cryptocurrency, making it accessible to novices and experts alike. This educational aspect is aimed at demystifying the technology and encouraging more people to explore the potential of crypto gaming.",
-    "As Lucidia prepares to launch its pioneering ecosystem, the excitement within the gaming and crypto communities is palpable. With its unique blend of gaming, technology, and finance, Lucidia is poised to redefine the landscape of digital entertainment and investment. This new ecosystem represents not just a platform for gaming and crypto transactions but a forward-thinking community where innovation, engagement, and growth can flourish. As the boundaries between gaming and cryptocurrency continue to blur, Lucidia stands at the forefront, ready to lead the charge into this dynamic and promising future."
-  ],
-  "news_content2": [
-    "In an exciting development for the gaming and crypto communities, Lucidia has announced the launch of its groundbreaking NFT marketplace tailored specifically for gamers. This revolutionary platform is designed to bridge the gap between virtual gaming worlds and real-world value, enabling players to buy, sell, and trade in-game items as non-fungible tokens (NFTs). By providing gamers with ownership of unique digital assets that carry tangible value outside of the gaming environment, Lucidia is setting a new standard for the integration of gaming and blockchain technology.",
-    "The Lucidia NFT marketplace promises to transform the way gamers interact with their favorite games, offering a new level of economic interaction and personal investment in virtual worlds. Unlike traditional gaming platforms where in-game purchases remain confined within the digital realm, Lucidia's approach allows for the creation, ownership, and exchange of assets that have real economic value. This innovative system not only enhances the gaming experience but also opens up new avenues for players to monetize their gaming achievements and collections.",
-    "Key features of Lucidia's NFT marketplace include a user-friendly interface, robust security measures, and seamless integration with popular gaming titles. The platform is designed to be accessible to both seasoned NFT collectors and gamers new to the world of cryptocurrency, ensuring a broad appeal. With a focus on community building, Lucidia also plans to host exclusive events, drops, and collaborations, further enriching the gaming experience and fostering a vibrant ecosystem around its marketplace.",
-    "The launch of Lucidia's NFT marketplace marks a significant milestone in the convergence of gaming and blockchain technology. As the platform goes live, it is poised to attract a diverse audience of gamers, collectors, and crypto enthusiasts, eager to explore the new possibilities it brings. With its innovative approach to bridging virtual worlds with real-world value, Lucidia is not just redefining the landscape of digital gaming but also paving the way for the future of entertainment and online commerce."
-  ],
-  "news_content3": [
-    "Lucidia is taking a significant leap forward in the gaming and cryptocurrency sectors with the introduction of its integrated crypto wallet, aimed at providing gamers with a seamless experience in gaming and trading. This innovative feature allows players to manage their digital assets, including cryptocurrencies and non-fungible tokens (NFTs), directly within the gaming environment. By streamlining the process of transactions and asset management, Lucidia is enhancing the user experience, making it easier than ever for gamers to engage with both the gaming and crypto ecosystems.",
-    "The integrated crypto wallet is designed to be both secure and user-friendly, ensuring that gamers can safely store their digital assets while enjoying a hassle-free gaming experience.",
-    "\"This initiative not only educates gamers about the value and utility of cryptocurrencies and NFTs within virtual worlds but also empowers them to take part in the digital economy with confidence,\" said Feras Al-Nimer, Lucidia’s CFO. ",
-    "The wallet supports a range of cryptocurrencies, providing flexibility and convenience for users to transact in their preferred digital currencies.",
-    "For those new to the concept, a crypto wallet is essentially a digital wallet that enables users to store and manage their cryptocurrencies and NFTs. Unlike traditional wallets that hold physical money, crypto wallets don't store currency in the conventional sense; instead, they provide the tools required to interact with a blockchain network. Lucidia's integration of such a wallet within its gaming platform demystifies the process of using digital currencies for the uninitiated, providing an educational bridge to the world of blockchain and digital assets.",
-    "The introduction of Lucidia's crypto wallet integration marks a pivotal development in the intersection of gaming, blockchain, and financial technology. It not only promises to enrich the gaming experience by adding a layer of economic interaction but also serves as an educational platform for gamers to learn about digital currencies and asset management in a practical, engaging environment. As Lucidia continues to innovate at the crossroads of gaming and cryptocurrency, its integrated crypto wallet stands as a testament to the potential of combining entertainment with financial technology for a more immersive and rewarding user experience."
-  ],
-  "news_content4": [
-    "The Lucidia gaming ecosystem is set to redefine the digital entertainment landscape, combining the immersive world of gaming with the innovative potential of blockchain technology. This comprehensive platform is designed to cater to gamers, developers, and crypto enthusiasts alike, offering a unique blend of interactive gaming experiences, digital asset ownership, and community engagement. With its state-of-the-art technology, Lucidia aims to create a fully integrated ecosystem where users can play, trade, and interact in ways previously unimagined in the gaming industry.",
-    "At the heart of Lucidia's ecosystem is its proprietary blockchain, which ensures secure and transparent transactions, including the trading of in-game assets and NFTs. This blockchain backbone allows for the true ownership of digital assets, enabling players to buy, sell, or trade their in-game items with peace of mind. Furthermore, Lucidia introduces a revolutionary tokenomics model that rewards players for their in-game achievements and participation, thereby enhancing the gaming experience with tangible value.",
-    "Lucidia's CMO, Al Rizqi, said \"In addition to its technological advancements, Lucidia places a strong emphasis on community building and user engagement.\"",
-    "The platform features social elements such as forums, chat rooms, and live events, fostering a vibrant community of gamers and developers. Lucidia also offers tools and resources for game developers, including SDKs and APIs, to encourage the creation of new games and content within the ecosystem. By supporting developers, Lucidia ensures a constant influx of fresh and exciting content for users to enjoy.",
-    "The launch of the Lucidia gaming ecosystem represents a significant milestone in the evolution of online gaming and digital economies. As the platform continues to grow and evolve, it promises to offer an ever-expanding universe of gaming experiences, bridging the gap between traditional gaming and the emerging world of blockchain. With its innovative features and commitment to user empowerment, Lucidia is poised to become a leading force in the future of gaming, offering a new realm of possibilities for players and creators alike."
-  ],
+  "news_desc1": "Lucidia is launching an innovative ecosystem that blends gaming with cryptocurrency, aiming to revolutionize both sectors by providing a unified platform for gamers and crypto enthusiasts. This all-encompassing environment features blockchain-based games with crypto rewards, NFTs that enhance gaming experiences, and a secure trading marketplace. Lucidia's Chief Product Officer, Oskar Krzak, emphasizes the platform's inclusivity and its initiatives to engage a diverse user base through educational resources, tournaments, and social features. With this launch, Lucidia is set to create a dynamic community at the intersection of digital entertainment and financial technology, signaling a new era in the convergence of gaming and crypto.",
+  "news_desc2": "Lucidia is stepping into the future with its NFT marketplace, a move that promises to revolutionize the gaming industry by allowing players to monetize in-game assets. The platform ensures that virtual items have tangible real-world value, offering a user-friendly interface and robust security. As it integrates with popular games, Lucidia offers gamers new ways to engage economically within their favorite virtual worlds. With the potential to attract a wide audience of gamers and crypto enthusiasts, Lucidia's marketplace could redefine digital ownership and online commerce in the gaming world.",
+  "news_desc3": "Lucidia is enhancing the gaming experience with its new integrated crypto wallet, providing a user-friendly and secure way for gamers to manage cryptocurrencies and NFTs within the game itself. This addition aims to educate users about digital assets while streamlining transactions, simplifying the shift between gaming and digital economy participation. Lucidia's CFO, Feras Al-Nimer, highlights the wallet's role in empowering gamers with the knowledge and tools to confidently engage with the digital economy. As a practical tool and an educational resource, the wallet is set to enrich gaming with financial technology, marking a significant stride in the convergence of gaming, blockchain, and fintech.",
+  "news_desc4": "Lucidia is revolutionizing the gaming world by blending immersive gameplay with blockchain's cutting-edge technology, creating a comprehensive ecosystem for gamers, developers, and crypto enthusiasts. With its proprietary blockchain ensuring secure transactions and a tokenomics model rewarding players, Lucidia fosters true digital asset ownership and community engagement. Al Rizqi, Lucidia's CMO, emphasizes the platform's focus on community through social features and developer support tools, promising a dynamic content stream. As Lucidia's ecosystem grows, it aims to redefine online gaming and digital economies, marking a pivotal step towards merging traditional gaming with blockchain innovations.",
   "news_title1": "A Whole New Ecosystem For Lucidia: A Complex One Where User Can Experience Gaming and Cryptocurrency",
   "news_title2": "Lucidia Unveils Revolutionary NFT Marketplace for Gamers: Bridging Virtual Worlds with Real-World Value",
   "news_title3": "Lucidia's Crypto Wallet Integration: A Seamless Gaming and Trading Experience",
@@ -910,7 +920,8 @@
     "title": "Welcome to Lucidia's <span class=\"primary\">Ecosystem</span>"
   },
   "overview": "Game Overview",
-  "partners": "Our Partners",
+  "partners": "<span class=\"primary\">OUR</span> PARTNERS",
+  "partners_desc": "LUCIDIA HAS ALREADY GARNERED SIGNFICANT INTEREST WITHIN THE GAMING AND BLOCKCHAIN COMMUNITIES, WITH STRATEGIC PARTNERSHIPS AS WELL GOVERMENT SUPPORT AND A GROWING BASE OF SUPPORTERS AND POTENTIAL USERS.",
   "posted_date1": "30 January 2024",
   "posted_date2": "30 January 2024",
   "posted_date3": "30 January 2024",
@@ -950,10 +961,10 @@
   "product_desc2": "Dive into a treasure trove of game development resources, from unique character models to sophisticated code snippets, all tailored for the Arabic-speaking gaming community.",
   "product_desc3": "Harness the power of blockchain with our comprehensive toolkit, designed to seamlessly blend NFTs into your gaming projects.",
   "product_desc4": "Participate in our scholarship program, enabling a new dimension of community support and shared gaming experiences.",
-  "product_owner1": "by Lucidian",
-  "product_owner2": "by Lucidian",
-  "product_owner3": "by Lucidian",
-  "product_owner4": "by Lucidian",
+  "product_owner1": "By Lucidian",
+  "product_owner2": "By Lucidian",
+  "product_owner3": "By Lucidian",
+  "product_owner4": "By Lucidian",
   "product_price1": "USD $4,800",
   "product_price2": "USD $7,680",
   "product_price3": "USD $7,500",
@@ -1147,13 +1158,13 @@
     ],
     "title": "صفحة الشروط"
   },
+  "the_future": "The Future",
   "to_be": "ستتم فتحها بواسطة المستخدمين",
   "token_allocation": "تخصيص الرموز",
   "token_sale": "شروط وأحكام بيع الرموز",
-  "zombie": "تفشي الزومبي",
   "vision": "Vision for",
   "vision_content": "Empowering a new era of gaming where community, creativity, and blockchain-driven economies converge to define the future of digital entertainment,  bringing unique, engaging experiences to the Middle Eastern community and beyond.",
   "vision_for": "Vision for",
-  "zombie": "Curse of the Pharaoh",
+  "zombie": "تفشي الزومبي",
   "zombie_desc1": "is coming soon. Denend yourself "
 }

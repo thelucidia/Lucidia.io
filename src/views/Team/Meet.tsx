@@ -21,15 +21,29 @@ const Meet = () => {
 
         <div className="grid lg:grid-cols-2 gap-[20px] text-white mt-5">
           {(t('members', { returnObjects: true }) as membersInterface[]).map((items, i) => (
-            <div className="bg-[#1e1e1e] grid grid-cols-4 rounded-bl-2xl min-h-[160px]" key={items.name}>
+            <div
+              className="bg-[#1e1e1e] grid md:grid-cols-4 sm:grid-cols-1 rounded-bl-2xl min-h-[160px]"
+              key={items.name}
+            >
               <div>
-                <div className={`border-primary border-2 rounded-bl-2xl rounded-tr-2xl w-full h-full overflow-hidden`}>
-                  <img src={`/members/profile_${i + 1}.png`} className="w-full h-full" />
+                <div
+                  className={`border-primary border-2 rounded-bl-2xl rounded-tr-2xl md:w-full lg:bg-cover bg-contain sm:w-[150px] w-[150px] md:h-full sm:h-[150px] h-[150px] overflow-hidden`}
+                  style={{
+                    backgroundImage: `url('/members/profile_${i + 1}.png')`,
+                    backgroundRepeat: 'no-repeat',
+                    backgroundColor: 'white',
+                    backgroundPosition: 'center center',
+                  }}
+                >
+                  {/* <img
+                    src={`/members/profile_${i + 1}.png`}
+                    className="md:w-full md:h-full sm:w-[150px] sm:h-[150px]"
+                  /> */}
                 </div>
               </div>
-              <div className="p-[20px_15px] relative">
+              <div className="px-[10px] py-[15px] relative sm:mt-4 mt-4">
                 <h2 className="text-xl font-bold leading-5 mb-2">{items.name}</h2>
-                <h3 className="text-xl text-primary font-bold uppercase leading-5">{items.position}</h3>
+                <h3 className="text-xl text-primary font-bold uppercase leading-5 sm:mb-8 mb-8">{items.position}</h3>
                 <a
                   href={items.link}
                   target="_blank"
@@ -39,7 +53,7 @@ const Meet = () => {
                   <FaLinkedinIn />
                 </a>
               </div>
-              <div className="col-span-2 p-[20px_15px]">
+              <div className="md:col-span-2 sm:col-span-1 p-[20px_15px]">
                 <ul className="list-disc text-sm border-l-2 border-l-white pl-10 h-full">
                   {items.desc.map((desc, i) => (
                     <li className="leading-5" key={i}>
