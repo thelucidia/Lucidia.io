@@ -95,12 +95,46 @@
               <div class="balance gray-blur"><img src="../../images/coin.png" alt="coin" /><span>0.00</span></div>
               <a href="#" class="add gray-blur">+</a>
             </li>
-            <li class="nav-item user">
-              <img class="avatar" src="../../images/avatar/user.jpg" alt="avatar" />
-              <div class="info">
-                <span class="name red-bullet d-flex">Sofia Turner</span>
-                <span class="wallet-address"></span>
-              </div>
+            <li class="nav-item dropdown">
+              <a
+                class="user"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img class="avatar" src="../../images/avatar/user.jpg" alt="avatar" />
+                <div class="info">
+                  <span class="name red-bullet d-flex">Sofia Turner</span>
+                  <span class="wallet-address"></span>
+                </div>
+              </a>
+              <ul class="log-out dropdown-menu gray-blur" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item locale" href="/logout"
+                    ><img
+                      src="../../images/icons/logout.svg"
+                      alt="logout"
+                      style="width: 25px; height: 25px; margin-right: 4px"
+                    />Log Out</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="navbar-social-links">
+            <li>
+              <a href="https://t.me/Lucidia_io"><img src="../../images/socials/telegram.svg" alt="telegram" /></a>
+            </li>
+            <li>
+              <a href="https://discord.gg/lucidia"><img src="../../images/socials/discord.svg" alt="discord" /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/lucidia_io"><img src="../../images/socials/twitter.svg" alt="twitter" /></a>
+            </li>
+            <li>
+              <a href="/"><img src="../../images/socials/website.svg" alt="website" /></a>
             </li>
           </ul>
         </div>
@@ -255,9 +289,6 @@
         <a href="/"><img src="../../images/socials/website.svg" alt="website" /></a>
       </li>
     </ul>
-    <div class="logout">
-      <a href="/logout"><img src="../../images/icons/logout.svg" alt="logout" /></a>
-    </div>
     <script src="../../plugins/jquery.min.js"></script>
     <script src="../../plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <script src="../../scripts/bg-image-animation.js"></script>

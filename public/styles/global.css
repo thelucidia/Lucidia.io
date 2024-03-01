@@ -117,10 +117,6 @@ body.curse::before {
   margin: 0 10px;
 }
 
-.navbar .navbar-nav .nav-item:first-child {
-  margin-left: 0;
-}
-
 .navbar .navbar-nav .nav-item .nav-link {
   color: #f0f0f0;
   text-align: center;
@@ -165,7 +161,10 @@ body.curse::before {
 .navbar .navbar-nav .nav-item .nav-link.locale i.fa-solid {
   margin-top: 4px;
 }
-
+.navbar .navbar-nav .user,
+.navbar .navbar-nav .user:hover {
+  color: transparent !important;
+}
 .absolute {
   position: absolute;
 }
@@ -325,6 +324,18 @@ body.curse::before {
 }
 
 .social-links li {
+  display: block;
+}
+
+.navbar-social-links {
+  display: none;
+  justify-content: space-around;
+  margin-top: 40px;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-social-links li {
   display: block;
 }
 
@@ -970,12 +981,12 @@ END: logged-in user information section in navigation
 @media only screen and (max-width: 600px) {
 }
 
-@media (min-width: 390px) {
-}
-
-@media (max-width: 650px) and (min-width: 390px) {
+@media (max-width: 650px) {
   .social-links {
     display: none;
+  }
+  .navbar-social-links {
+    display: flex;
   }
 }
 
@@ -983,13 +994,66 @@ END: logged-in user information section in navigation
   .social-links {
     display: none;
   }
+  .navbar-social-links {
+    display: flex;
+  }
 }
 
 @media (max-width: 991px) {
   .navbar-nav.me-auto .nav-item {
     flex-direction: column;
   }
+  .navbar-nav .dropdown-menu {
+    position: absolute !important;
+  }
   .navbar .container-fluid {
     align-items: flex-start;
   }
+  .navbar .container.navbar-collapse {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    z-index: 10;
+    padding-top: 50px;
+    max-width: 100%;
+  }
+  .navbar .navbar-toggler {
+    position: fixed;
+    top: 20px;
+    right: 45px;
+    z-index: 10;
+  }
+  .social-links {
+    display: none;
+  }
+  .navbar-social-links {
+    display: flex;
+  }
+}
+
+@media (min-width: 991px) {
+  .navbar .navbar-nav .nav-item:first-child {
+    margin-left: 0;
+  }
+}
+
+.log-out.dropdown-menu {
+  min-width: fit-content;
+}
+.log-out .dropdown-item:hover {
+  background-color: transparent !important;
+  color: #c63846 !important;
+}
+.log-out .dropdown-item {
+  color: #f0f0f0;
+  padding: 0;
+}
+.log-out {
+  margin-left: 40px;
+  width: fit-content;
+  height: 39px;
+  padding-top: 6px;
 }
