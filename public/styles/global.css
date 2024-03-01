@@ -165,7 +165,10 @@ body.curse::before {
 .navbar .navbar-nav .nav-item .nav-link.locale i.fa-solid {
   margin-top: 4px;
 }
-
+.navbar .navbar-nav .user,
+.navbar .navbar-nav .user:hover {
+  color: transparent !important;
+}
 .absolute {
   position: absolute;
 }
@@ -1016,6 +1019,7 @@ END: logged-in user information section in navigation
     background-color: #000000;
     z-index: 10;
     padding-top: 50px;
+    max-width: 100%;
   }
   .navbar .navbar-toggler {
     position: fixed;
@@ -1023,6 +1027,15 @@ END: logged-in user information section in navigation
     right: 45px;
     z-index: 10;
   }
+  .social-links {
+    display: none;
+  }
+  .navbar-social-links {
+    display: flex;
+  }
+}
+.log-out.dropdown-menu {
+  min-width: fit-content;
 }
 .log-out .dropdown-item:hover {
   background-color: transparent !important;
@@ -1034,7 +1047,7 @@ END: logged-in user information section in navigation
 }
 .log-out {
   margin-left: 40px;
-  width: 113px;
+  width: fit-content;
   height: 39px;
   padding-top: 6px;
 }
