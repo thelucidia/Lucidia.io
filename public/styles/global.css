@@ -1003,6 +1003,9 @@ END: logged-in user information section in navigation
   .navbar-nav.me-auto .nav-item {
     flex-direction: column;
   }
+  .navbar-nav .dropdown-menu {
+    position: absolute !important;
+  }
   .navbar .container-fluid {
     align-items: flex-start;
   }
