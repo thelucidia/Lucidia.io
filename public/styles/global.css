@@ -117,10 +117,6 @@ body.curse::before {
   margin: 0 10px;
 }
 
-.navbar .navbar-nav .nav-item:first-child {
-  margin-left: 0;
-}
-
 .navbar .navbar-nav .nav-item .nav-link {
   color: #f0f0f0;
   text-align: center;
@@ -1034,6 +1030,13 @@ END: logged-in user information section in navigation
     display: flex;
   }
 }
+
+@media (min-width: 991px) {
+  .navbar .navbar-nav .nav-item:first-child {
+    margin-left: 0;
+  }
+}
+
 .log-out.dropdown-menu {
   min-width: fit-content;
 }
