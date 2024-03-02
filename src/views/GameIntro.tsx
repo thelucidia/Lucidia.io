@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { Images } from '../components/Images';
 import { Link } from 'react-router-dom';
 const GameIntro = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  i18n.language;
   // const [isHover, setIsHover] = React.useState(false);
 
   // const handleHover = () => {
@@ -27,17 +28,37 @@ const GameIntro = () => {
             className="absolute w-[515px] h-[301px] -top-[94px] left-[632px]"
             style={{ backgroundColor: 'rgba(179, 133, 57, 0.08)', filter: 'blur(60px)' }}
           />
-          <Link to="/CurseOfThe">
-            <Images className="z-10" defaultSrc="/games/zombie_outbreak.png" hoverSrc="/games/zombie_outbreak2.png" />
+          <Link to="/CurseOfThe" className="relative">
+            <Images className="z-10" defaultSrc="/games/zombie/1.svg" hoverSrc="/games/zombie/2.svg" />
+            <Images
+              className="absolute max-w-[162px] max-h-[64px] top-[60px] left-[24px] hover:no-border hover:border-transparent"
+              defaultSrc={`/${i18n.language}/games/zombie/curseof.svg`}
+              hoverSrc={`/${i18n.language}/games/zombie/curseof.svg`}
+            />
           </Link>
-          <Link to="/Cryptocraft">
-            <Images className="z-10" defaultSrc="/games/lucidcraft.png" hoverSrc="/games/lucidcraft2.png" />
+          <Link to="/Cryptocraft" className="relative">
+            <Images className="z-10" defaultSrc="/games/lucidcraft/1.svg" hoverSrc="/games/lucidcraft/2.svg" />
+            <Images
+              className="absolute max-w-[162px] max-h-[64px] top-[60px] left-[24px] hover:no-border hover:border-transparent"
+              defaultSrc={`/${i18n.language}/games/lucidcraft/cryptocraft.svg`}
+              hoverSrc={`/${i18n.language}/games/lucidcraft/cryptocraft.svg`}
+            />
           </Link>
-          <Link to="/DesertWarior">
-            <Images className="z-10" defaultSrc="/games/battlefury.png" hoverSrc="/games/battlefury2.png" />
+          <Link to="/DesertWarior" className="relative">
+            <Images className="z-10" defaultSrc="/games/desertwarior/1.svg" hoverSrc="/games/desertwarior/2.svg" />
+            <Images
+              className="absolute max-w-[162px] max-h-[64px] top-[60px] left-[24px] hover:no-border hover:border-transparent"
+              defaultSrc={`/${i18n.language}/games/desertwarior/desert_warrior.svg`}
+              hoverSrc={`/${i18n.language}/games/desertwarior/desert_warrior.svg`}
+            />
           </Link>
-          <Link to="/CanyonDriftPage">
-            <Images className="z-10" defaultSrc="/games/canyon_drift.png" hoverSrc="/games/canyon_drift2.png" />
+          <Link to="/CanyonDriftPage" className="relative">
+            <Images className="z-10" defaultSrc="/games/canyondrift/1.svg" hoverSrc="/games/canyondrift/2.svg" />
+            <Images
+              className="absolute max-w-[162px] max-h-[64px] top-[60px] left-[24px] hover:no-border hover:border-transparent"
+              defaultSrc={`/${i18n.language}/games/canyondrift/Sand storm Racers.svg`}
+              hoverSrc={`/${i18n.language}/games/canyondrift/Sand storm Racers.svg`}
+            />
           </Link>
         </div>
       </div>

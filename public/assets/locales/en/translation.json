@@ -365,7 +365,7 @@
   "games_page": {
     "after_join": "Thank you for your interest!",
     "after_join_description": "Our team will be in contact with you as soon as possible.",
-    "all_play": "All Game You Can Play!",
+    "all_play": "All Games You Can Play!",
     "before_join": "How to join?",
     "before_join_description": "Create a form by submit your studio name, your email, your website or twitter (optional), and the description of your game.",
     "category": ["All Games", "Trendings", "New", "Survival", "FPS", "Racing"],
@@ -485,7 +485,7 @@
     ],
     "section2_title1": "Benefits For",
     "section2_title2": "Game",
-    "section2_title3": "Developer",
+    "section2_title3": "Developers",
     "studio_name": "Studio name",
     "submit": "Submit",
     "title_cryptocraft": "Cryptocraft",
@@ -786,7 +786,7 @@
     "get-started": "Get Started",
     "join": "Join Lucidia's Ecosystem",
     "join-content": "Ready to transform your gaming experience? <span class=\"primary\">Connect, Create,</span> and <span class=\"primary\">Trade</span> in the Middle East's premier gaming ecosystem.",
-    "our-product": "Our Product",
+    "our-product": "Our Products",
     "products": [
       {
         "desc": "A culturally tailored marketplace fostering collaboration among developers in the Middle East.",

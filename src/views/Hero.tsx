@@ -61,7 +61,10 @@ const Hero = () => {
 
       <div className="md:max-w-[82%] w-full h-auto mx-auto relative z-10 flex mt-[9rem] md:mt-[12rem] flex-col-reverse md:flex-row">
         <div className="w-full">
-          <h1 className="font-primary text-3xl md:text-4xl 2xl:text-5xl max-w-[50rem] 2xl:leading-[3.6rem] font-semibold md:block hidden">
+          <h1
+            className="font-primary text-3xl md:text-4xl 2xl:text-5xl max-w-[50rem] 2xl:leading-[3.6rem] font-semibold md:block hidden"
+            style={{ color: '#faad14' }}
+          >
             {t('hero_title0')}
           </h1>
           {/* <div className="flex">
@@ -97,7 +100,9 @@ const Hero = () => {
             {t("hero_title3")}
           </h1> */}
           <div className="max-w-[42rem] font-primary flex flex-col md:flex gap-y-4 md:gap-y-0 md:text-xl mt-12">
-            <p className="">{t('main_desc0')}</p>
+            <p className="" style={{ color: '#faad14' }}>
+              {t('main_desc0')}
+            </p>
 
             {/* <p className="">{t("hero_desc2")}</p> */}
           </div>
@@ -136,7 +141,9 @@ const Hero = () => {
 
           <div className="mt-14 flex sm:items-start gap-x-4 md:justify-normal justify-between flex-row">
             <div className="">
-              <h1 className="font-primary font-medium sm:text-xl text-sm pt-8">{t('join_community')}</h1>
+              <h1 className="font-primary font-medium sm:text-xl text-sm pt-8" style={{ color: '#faad14' }}>
+                {t('join_community')}
+              </h1>
               <ul className="flex items-center gap-x-5 sm:gap-x-11 text-3xl pt-8">
                 {community.map((items, i) => {
                   return (
@@ -185,7 +192,10 @@ const Hero = () => {
         </div>
 
         <div className="w-auto relative flex">
-          <h1 className="font-primary text-3xl md:text-5xl 2xl:text-[72px] max-w-[40rem] 2xl:leading-[5.5rem] font-semibold md:hidden block">
+          <h1
+            className="font-primary text-3xl md:text-5xl 2xl:text-[72px] max-w-[40rem] 2xl:leading-[5.5rem] font-semibold md:hidden block"
+            style={{ color: '#faad14' }}
+          >
             {t('hero_title0')}
           </h1>
           {/* <h1 className="font-primary text-3xl md:text-5xl 2xl:text-[72px] max-w-[40rem] 2xl:leading-[5.5rem] font-semibold md:hidden block">
