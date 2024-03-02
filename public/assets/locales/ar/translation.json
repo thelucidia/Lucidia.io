@@ -376,7 +376,7 @@
     "all_play": "All Games You Can Play!",
     "before_join": "How to join?",
     "before_join_description": "Create a form by submit your studio name, your email, your website or twitter (optional), and the description of your game.",
-    "category": ["All Games", "Trendings", "New", "Survival", "FPS", "Racing"],
+    "category": ["All Games", "Trending", "New", "Survival", "FPS", "Racing"],
     "category_all": "All Games",
     "category_fps": "FPS",
     "category_new": "New",
