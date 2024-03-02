@@ -25,7 +25,7 @@ const Lucidcraft = () => {
       <div className="w-full min-h-[40vh] md:min-h-[60vh] lg:min-h-screen px-8 sm:px-auto p-5 font-primary relative text-secondary flex flex-col  justify-center bg-bg">
         <Nav />
         <img
-          src={'/games/lucidcraft/banner.png'}
+          src={'/games/lucidcraft/banner.jpg'}
           className="w-full h-full object-cover absolute top-0 left-0 object-top"
         />
 
