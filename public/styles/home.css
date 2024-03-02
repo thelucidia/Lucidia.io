@@ -243,3 +243,21 @@
   min-width: 350px;
   margin-bottom: 20px;
 }
+
+@media (max-width: 991px) {
+  .home .success-in-action > ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 57px;
+  }
+}
+
+@media (max-width: 448px) {
+  .home .success-in-action > ul > li {
+    width: 100%;
+  }
+  .home .success-in-action > ul .background {
+    width: 100%;
+  }
+}
