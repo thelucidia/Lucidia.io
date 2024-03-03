@@ -64,8 +64,8 @@ const Cryptocraft = () => {
               {t('DISCOVER CAYPTOCRAFT')}
             </div>
             <p className="text-lg text-white text-center pt-4">
-              Lucidcraft is a sandbox adventure survival game set in a procedurally generated world. You can craft tools
-              like pickaxe, axe, and shovel. Create a block and gather all the recourses as much as you need.
+              Cryptocraft is a sandbox adventure survival game set in a procedurally generated world. You can craft
+              tools like pickaxe, axe, and shovel. Create a block and gather all the recourses as much as you need.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-5">
               <div className="pt-5 lg:pt-10">

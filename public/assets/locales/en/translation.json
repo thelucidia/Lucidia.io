@@ -111,15 +111,15 @@
   "contact_desc1": "If you have any questions about this Policy, please contact us at [Contact@lucidia.com].",
   "contact_desc2": "This is a sample of privacy policy, you should consult with a legal professional to ensure that your privacy policy complies with your jurisdiction laws and that it covers all aspects of your service.",
   "cryptocraft": {
-    "building_crafting": "<span class=\"primary bold\">Building Crafting: </span>From humble shelters to grandiose constructions, Lucidcraft's intuitive crafting system invites endless innovation.",
-    "community_governance": "<span class=\"primary bold\">Community Governance: </span>Have a say in thedevelopment and future of Lucidcraft through a decentralized autonomousorganization (DAO), empowering the community to steer the game's evolution.",
-    "customizable_gameplay": "<span class=\"primary bold\">Customizable Gameplay: </span>Tailor your Lucidcraft experience with extensive modding tools and in-game programming, creating unique game modes and personalizing your adventures.",
-    "dynamic_worlds": "<span class=\"primary bold\">Dynamic, User-Generated Worlds: </span>Step into infinite realms shaped by players. Your creations contribute to the ever-evolving tapestry of Lucidcraft's universe",
+    "building_crafting": "<span class=\"primary bold\">Building Crafting: </span>From humble shelters to grandiose constructions, Cryptocraft's intuitive crafting system invites endless innovation.",
+    "community_governance": "<span class=\"primary bold\">Community Governance: </span>Have a say in thedevelopment and future of Cryptocraft through a decentralized autonomousorganization (DAO), empowering the community to steer the game's evolution.",
+    "customizable_gameplay": "<span class=\"primary bold\">Customizable Gameplay: </span>Tailor your Cryptocraft experience with extensive modding tools and in-game programming, creating unique game modes and personalizing your adventures.",
+    "dynamic_worlds": "<span class=\"primary bold\">Dynamic, User-Generated Worlds: </span>Step into infinite realms shaped by players. Your creations contribute to the ever-evolving tapestry of Cryptocraft's universe",
     "evolving_ecosystems": "<span class=\"primary bold\">Evolving Ecosystems: </span>Interact with living environments where your actions influence the world. From altering landscapes to affecting local wildlife, your impact is tangible.",
     "exploration": "<span class=\"primary bold\">Exploration: </span>Traverse sprawling biomes, each brimming with unique resources and mysteries. Discover, adapt, and survive in a world that's as vast as your imagination.",
     "game_overview": "Game Overview",
     "gameplay": "<span style='font-weight: 700;>Gameplay Mechanics </span>",
-    "gameplay_content": "Lucidcraft is an amalgamation of creativity, survival, and exploration, setin a richly diverse and responsive world.",
+    "gameplay_content": "Cryptocraft is an amalgamation of creativity, survival, and exploration, setin a richly diverse and responsive world.",
     "genre": "<span class=\"primary bold\">Genre: </span>Sandbox, Open-World, Survival",
     "highlight": "<span style='font-weight: 700;>Highlighting Points </span>",
     "overview_content": "Embark on an adventure inever-expanding worlds, craft your destiny, and become part of a vibrantcommunity where collaboration and creativity reign supreme.",
@@ -277,19 +277,19 @@
     },
     "featured_games": "Featured Games",
     "lucid": {
-      "build": "<span class=\"primary bold\">Building and Crafting:</span> From humble shelters to grandiose constructions, Lucidcraft's intuitive crafting system invites endless innovation",
-      "desc": "Welcome to \"Cryptocraft,\" aboundless universe where your imagination is the only limit. Dive into anopen-world sandbox experience that combines the joy of building and survivalwith the innovative features of Web3 and NFTs. In Lucidcraft, every creation,every exploration, and every interaction enriches your journey and the worldaround you.",
+      "build": "<span class=\"primary bold\">Building and Crafting:</span> From humble shelters to grandiose constructions, Cryptocraft's intuitive crafting system invites endless innovation",
+      "desc": "Welcome to \"Cryptocraft,\" aboundless universe where your imagination is the only limit. Dive into anopen-world sandbox experience that combines the joy of building and survivalwith the innovative features of Web3 and NFTs. In Cryptocraft, every creation,every exploration, and every interaction enriches your journey and the worldaround you.",
       "exploration": "<span class=\"primary bold\">Exploration:</span> Traverse sprawling biomes, each brimming with unique resources and mysteries. Discover, adapt, and survive in a world that's as vast as your imagination",
       "highlight_points": "Highlighting Points",
       "mechanics": "Gameplay Mechanics",
       "overview": "Embark on an adventure in ever-expanding worlds, craft your destiny, and become part of a vibrant community where collaboration and creativity reign supreme.",
-      "overview2": "Lucidcraft is an amalgamation of creativity, survival, and exploration, set in a richly diverse and responsive world.",
+      "overview2": "Cryptocraft is an amalgamation of creativity, survival, and exploration, set in a richly diverse and responsive world.",
       "points": [
-        "<span class=\"primary bold\">Dynamic, User-Generated Worlds:</span> Step into infinite realms shaped by players. Your creations contribute to the ever-evolving tapestry of Lucidcraft's universe.",
+        "<span class=\"primary bold\">Dynamic, User-Generated Worlds:</span> Step into infinite realms shaped by players. Your creations contribute to the ever-evolving tapestry of Cryptocraft's universe.",
         "<span class=\"primary bold\">Web3 Integration:</span> Experience true ownership with blockchain-powered in-game assets. Trade, own, and monetize your creations and real estate as NFTs, adding a layer of investment to your gameplay.",
         "<span class=\"primary bold\">Evolving Ecosystems:</span> Interact with living environments where your actions influence the world. From altering landscapes to affecting local wildlife, your impact is tangible.",
-        "<span class=\"primary bold\">Customizable Gameplay:</span> Tailor your Lucidcraft experience with extensive modding tools and in-game programming, creating unique game modes and personalizing your adventures.",
-        "<span class=\"primary bold\">Community Governance:</span> Have a say in thedevelopment and future of Lucidcraft through a decentralized autonomousorganization (DAO), empowering the community to steer the game's evolution."
+        "<span class=\"primary bold\">Customizable Gameplay:</span> Tailor your Cryptocraft experience with extensive modding tools and in-game programming, creating unique game modes and personalizing your adventures.",
+        "<span class=\"primary bold\">Community Governance:</span> Have a say in thedevelopment and future of Cryptocraft through a decentralized autonomousorganization (DAO), empowering the community to steer the game's evolution."
       ],
       "prop_audience": "<span class=\"primary bold\">Target Audience:</span> Creative builders, explorers, Web3 enthusiasts, and community-driven players",
       "prop_genre": "<span class=\"primary bold\">Genre:</span> Sandbox, Open-World, Survival",
@@ -338,7 +338,7 @@
       "title": ""
     },
     {
-      "description": "Lucidcraft is a sandbox adventure survival game set in a procedurally generated world. You can craft tools like pickaxe, axe, and shovle. Create a block and gather all the recourses as much as you need.",
+      "description": "Cryptocraft is a sandbox adventure survival game set in a procedurally generated world. You can craft tools like pickaxe, axe, and shovle. Create a block and gather all the recourses as much as you need.",
       "image": "minecraft",
       "link": "",
       "slug": "lucidcraft",
@@ -683,8 +683,8 @@
       "title": "Desert Dominion - Strategic FPS Gaming with Web3 Integration"
     },
     "ecosystem_craft": {
-      "desc": "Enter 'Lucidcraft', a sandbox game where creativity knows no bounds. Build, explore, and trade in a dynamic world enhanced by Web3 technology. Shape your adventure and own your creations.",
-      "title": "Lucidcraft - Unleash Creativity in a Sandbox World with Web3"
+      "desc": "Enter 'Cryptocraft', a sandbox game where creativity knows no bounds. Build, explore, and trade in a dynamic world enhanced by Web3 technology. Shape your adventure and own your creations.",
+      "title": "Cryptocraft - Unleash Creativity in a Sandbox World with Web3"
     },
     "ecosystem_dao": {
       "desc": "Participate in shaping the future of gaming within the Lucidia ecosystem. Cast your vote on game decisions and be an integral part of the game development story through our DAO Voting platform.",
@@ -979,7 +979,7 @@
               "Release Alpha Limited Access To Games",
               "Seed Round",
               "Launch Ecosystem App (Beta)",
-              "Private Beta Testing of Games: Zombie Outbreak, Lucidcraft, NFT Racing, Lucidia FPS",
+              "Private Beta Testing of Games: Zombie Outbreak, Cryptocraft, NFT Racing, Lucidia FPS",
               "Listing on CoinMarketCap and CoinGecko",
               "Presale Using IDO Platforms",
               "User Education Portal for Web3 Gaming"
