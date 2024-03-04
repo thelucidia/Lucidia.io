@@ -23,7 +23,7 @@ export function Images({
       onMouseLeave={handleHover}
       src={isHovered ? hoverSrc : defaultSrc}
       alt="Hero"
-      className={`${className} w-full top-0 object-contain shrink-0 hover:cursor-pointer border border-transparent  hover:border hover:border-yellow-300 transition ease-in-out delay-150	duration-300`}
+      className={`${className} w-full top-0 object-contain shrink-0 hover:cursor-pointer border border-transparent  hover:border transition ease-in-out delay-150	duration-300`}
     />
   );
 }
