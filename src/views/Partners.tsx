@@ -5,6 +5,7 @@ const Partners = () => {
   const { t } = useTranslation();
   const partners = [
     'esports.webp',
+    'rzm.webp',
     'seman.png',
     'sdcons.webp',
     'sphereone.png',
@@ -35,7 +36,7 @@ const Partners = () => {
               </div>
               <div className="flex-1 flex flex-col gap-y-6">
                 <h1 className="relative sm:text-5xl text-2xl font-bold text-center">{parse(t('partners'))}</h1>
-                <div className="min-w-[350px] flex flex-wrap md:gap-x-8 sm:gap-x-4 gap-x-2  gap-y-[2.5rem] items-center justify-center">
+                <div className="min-w-[350px] px-4 flex flex-wrap md:gap-x-8 sm:gap-x-4 gap-x-2  gap-y-[2.5rem] items-center justify-center">
                   {partners.map((items, i) => {
                     return <img src={`/partners/${items}`} alt="Partners" className={`sm:w-[10rem] w-24`} key={i} />;
                   })}
