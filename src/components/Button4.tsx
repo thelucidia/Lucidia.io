@@ -20,7 +20,7 @@ export const Button4: FunctionComponent<ButtonProps> = ({
   return (
     <button
       className={cn(
-        'w-44 py-4 relative flex items-center justify-center font-primary text-center rounded-sm hover:bg-grn transition-all ease-in-out duration-300 text-secondary group',
+        'min-w-[10rem] py-4 relative flex items-center justify-center font-primary text-center rounded-sm hover:bg-grn transition-all ease-in-out duration-300 text-secondary group',
         className,
         align ? 'm-auto' : null,
       )}
