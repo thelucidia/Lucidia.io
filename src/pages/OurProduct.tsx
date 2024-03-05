@@ -40,16 +40,16 @@ const OurProduct = () => {
               }) as detail[]) ?? []
             ).map(({ image, title, desc }, i) => (
               <div key={`product-${i}`} className="flex flex-col gap-y-3 bg-[#1e1e1e85]">
-                <div
+                {/* <div
                   style={{
-                    backgroundColor: '#f0f0f0',
                     backgroundImage: `url(${image})`,
-                    backgroundSize: 'contain',
+                    backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center center',
                     minHeight: 168,
                   }}
-                ></div>
+                ></div> */}
+                <img src={image} alt="icon" />
                 <h3
                   className="line-clamp-2 font-primary font-bold text-xl mx-4 flex flex-col"
                   style={{
@@ -77,17 +77,22 @@ const OurProduct = () => {
           </div>
         </div>
       </section>
-      <section className="w-full h-full mb-4 px-8 px-auto p-5 relative text-secondary flex items-start justify-center">
+      <section className="w-full h-[22.7%] mb-4 px-8 sm:px-auto p-5 relative text-secondary flex items-start justify-center">
         <img className="w-full h-full object-cover absolute top-0 left-0" src="/our-product/ecosystem.jpg" />
         <div className="md:max-w-[70%] w-full h-auto m-auto relative z-10 flex mt-[2rem] md:mt-[3rem] flex-col-reverse md:flex-row">
           <div className="w-full">
             <div className="flex flex-row justify-center gap-x-4">
-              <h1 className="font-primary md:text-[36px] text-[18px] font-bold md:block ">{t('our_product.join')}</h1>
+              <h1 className="font-primary text-[36px] font-bold md:block hidden">{t('our_product.join')}</h1>
             </div>
-            <div className="font-primary mt-12 text-center tracking-wide font-[500] md:text-[36px] text-[18px]">
+            <div className="font-primary mt-12 text-center tracking-wide font-[500] text-[36px]">
               <p dangerouslySetInnerHTML={{ __html: t('our_product.join-content') }}></p>
             </div>
-            <a href="https://t.me/Lucidia_io" target="_blank" rel="noopener noreferrer" className="md:block mt-10">
+            <a
+              href="https://t.me/Lucidia_io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="md:block mt-10 hidden"
+            >
               <Button4 align={true} removeOnMobile>
                 {t('our_product.get-started')}
               </Button4>

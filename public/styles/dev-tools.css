@@ -70,18 +70,14 @@
   line-height: normal;
 }
 
-.DevTools .section a > .image {
-  background-color: lightgray;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  height: 168px;
+.DevTools .section .tools-image {
+  width: 100%;
   margin: 0 0 16px;
 }
 
 .DevTools .section a > h3 {
   font-size: 20px;
-  width: 240px;
+  width: fit-content;
   height: 48px;
   font-weight: 700;
   overflow: hidden;
