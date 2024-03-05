@@ -15,6 +15,7 @@ const FeaturedProducts = () => {
         <h1 className="font-bold text-2xl sm:text-2xl md:text-5xl">{t('featured_products')}</h1>
         <div className="pt-12 grid md:grid-cols-2 xl:grid-cols-4 grid-cols-1 gap-x-5 2 gap-y-8 justify-items-stretch">
           <ProductCard
+            logo={t('5-3.png')}
             title={t('product_title1')}
             desc={t('product_desc1')}
             owner={t('product_owner1')}
@@ -23,6 +24,7 @@ const FeaturedProducts = () => {
             image={t('/avatar1.svg')}
           />
           <ProductCard
+            logo={t('6-3.png')}
             title={t('product_title2')}
             desc={t('product_desc2')}
             owner={t('product_owner2')}
@@ -31,6 +33,7 @@ const FeaturedProducts = () => {
             image={t('/avatar1.svg')}
           />
           <ProductCard
+            logo={t('1-3.png')}
             title={t('product_title3')}
             desc={t('product_desc3')}
             owner={t('product_owner3')}
@@ -39,6 +42,7 @@ const FeaturedProducts = () => {
             image={t('/avatar1.svg')}
           />
           <ProductCard
+            logo={t('0-0.png')}
             title={t('product_title4')}
             desc={t('product_desc4')}
             owner={t('product_owner4')}

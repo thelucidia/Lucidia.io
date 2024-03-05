@@ -9,6 +9,7 @@ export interface ImageProps {
 }
 
 export interface ProductCardProps {
+  logo: string;
   title: string;
   desc: string;
   owner: string;
