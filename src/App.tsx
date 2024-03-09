@@ -22,6 +22,8 @@ import Zombie from './pages/AllGames/Zombie';
 
 import './styles/custom.css';
 import Logout from './pages/Logout';
+import GameIntro from './views/Home/GameIntro';
+import Featured from './views/Home/Featured';
 
 const App = () => {
   const sdkOptions = {
@@ -38,6 +40,8 @@ const App = () => {
       <MetaMaskProvider debug={false} sdkOptions={sdkOptions}>
         <Routes>
           <Route path="/" element={<MainPage />} key="main" />
+          <Route path="/gameintro" element={<GameIntro />} key="gameintro" />
+          <Route path="/Featured" element={<Featured />} key="featured" />
           <Route path="/team" element={<Team />} key="teampage" />
           <Route path="/how" element={<HowToBuy />} key="teampage" />
           <Route path="/CurseOfThe" element={<CurseOfThe />} key="teampage" />
