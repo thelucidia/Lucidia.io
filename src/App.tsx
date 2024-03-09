@@ -12,18 +12,16 @@ import Games from './pages/Games';
 import HowToBuy from './pages/HowToBuy';
 import Login from './pages/Login';
 import Lucidcraft from './pages/AllGames/Lucidcraft';
-import MainPage from './pages/MainPage';
+// import MainPage from './pages/MainPage';
+import HomePage from './pages/Home';
 import OurProduct from './pages/OurProduct';
 import Privacy from './pages/Privacy';
 import Roadmap from './pages/Roadmap';
 import Team from './pages/Team';
 import Terms from './pages/Terms';
 import Zombie from './pages/AllGames/Zombie';
-
 import './styles/custom.css';
 import Logout from './pages/Logout';
-import GameIntro from './views/Home/GameIntro';
-import Featured from './views/Home/Featured';
 
 const App = () => {
   const sdkOptions = {
@@ -39,9 +37,7 @@ const App = () => {
     <AnimatePresence mode="wait">
       <MetaMaskProvider debug={false} sdkOptions={sdkOptions}>
         <Routes>
-          <Route path="/" element={<MainPage />} key="main" />
-          <Route path="/gameintro" element={<GameIntro />} key="gameintro" />
-          <Route path="/Featured" element={<Featured />} key="featured" />
+          <Route path="/" element={<HomePage />} key="main" />
           <Route path="/team" element={<Team />} key="teampage" />
           <Route path="/how" element={<HowToBuy />} key="teampage" />
           <Route path="/CurseOfThe" element={<CurseOfThe />} key="teampage" />
