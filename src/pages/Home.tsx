@@ -60,7 +60,7 @@ const HomePage = () => {
         </div>
         <Navbar />
       </div>
-      <div className="bg-[url('/homepage/bg.png')] bg-no-repeat">
+      <div className="bg-[url('/homepage/bg.png')] bg-no-repeat bg-cover">
         <GameIntro />
         <Featured />
         <Ourpartner />
