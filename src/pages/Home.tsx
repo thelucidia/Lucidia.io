@@ -19,7 +19,7 @@ const HomePage = () => {
     >
       <Meta title={t('meta.home.title')} description={t('meta.home.desc')} />
       <div
-        className="w-full h-auto container m-auto bg-[url('homepage/1.png')] bg-no-repeat "
+        className="w-full h-auto container m-auto bg-[url('/homepage/1.png')] bg-no-repeat "
         style={{
           backgroundSize: 'contain',
           backgroundPosition: '74% 0%',
@@ -55,12 +55,12 @@ const HomePage = () => {
               <h3 className="text-[48px] font-semibold font-second">20</h3>
               <h4 className="text-[24px] font-second">Maps</h4>
             </div>
-            <img src="homepage/post.png" alt="post" width="350" className="ml-[-96px]" />
+            <img src="/homepage/post.png" alt="post" width="350" className="ml-[-96px]" />
           </div>
         </div>
         <Navbar />
       </div>
-      <div className="bg-[url('homepage/bg.png')] bg-no-repeat">
+      <div className="bg-[url('/homepage/bg.png')] bg-no-repeat">
         <GameIntro />
         <Featured />
         <Ourpartner />

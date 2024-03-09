@@ -8,7 +8,7 @@ const IntroCard = () => {
         backdropFilter: 'blur(24px)',
       }}
     >
-      <img src="/public/TrendingGames/item_1.png" className="" />
+      <img src="/TrendingGames/item_1.png" className="" />
       <div className="text-center font-second mt-[20px] text-zinc-100 text-3xl font-bold font-['Turret Road']">
         Desert Warriors Tournaments
       </div>
