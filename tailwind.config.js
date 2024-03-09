@@ -5,6 +5,8 @@ export default {
     extend: {
       fontFamily: {
         primary: ['Tajawal'],
+        second: ['Turret Road'],
+        third: ['SawahPersonalUse'],
       },
       colors: {
         primary: '#B28539',
