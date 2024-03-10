@@ -60,7 +60,14 @@ const HomePage = () => {
         </div>
         <Navbar />
       </div>
-      <div className="bg-[url('/homepage/bg.png')] bg-no-repeat bg-cover">
+      <div
+        className=""
+        style={{
+          background:
+            "linear-gradient(71deg, rgba(138, 54, 248, 1) 0%, rgba(1, 1, 11, 0) 25.74%), url('/homepage/bg.png') no-repeat",
+          backgroundSize: 'cover',
+        }}
+      >
         <GameIntro />
         <Featured />
         <Ourpartner />
